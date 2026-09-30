@@ -1,0 +1,777 @@
+{
+  "generatedAt": "2026-09-29T10:32:45.722Z",
+  "provenance": {
+    "type": "Full Chromium run plus targeted correction rerun",
+    "fullRun": "C:\\Users\\prashanta.behera\\Documents\\MCPManualTesting\\run-history\\2026-09-29T10-23-00-401Z",
+    "fullRunStart": "2026-09-29T06:05:58.972Z",
+    "rerunStart": "2026-09-29T10:25:25.417Z",
+    "replacedCases": [
+      "NAV-055 Department of Tourism, Government of Odisha",
+      "NAV-071 Book Now",
+      "NAV-072 Facebook",
+      "NAV-073 X",
+      "NAV-074 Instagram",
+      "NAV-075 YouTube"
+    ],
+    "note": "Original results retained for all unchanged tests. Selected cases use actual rerun results, including retry attempts. No outcomes synthesized."
+  },
+  "total": 99,
+  "passed": 71,
+  "failed": 28,
+  "skipped": 0,
+  "flaky": 0,
+  "failedTests": [
+    "HOME-003 Home image and network health",
+    "HDR-004 Plan Your Trip menu fits viewport",
+    "LANG-Hi Select Hindi",
+    "LANG-Od Select Odia",
+    "SEARCH-001 Open search overlay without runtime error",
+    "A11Y-001 Skip to Main Content focus transfer",
+    "NAV-001 Open Odisha At A Glance",
+    "NAV-003 Open Heritage & Architecture",
+    "NAV-018 Open Central Odisha",
+    "NAV-020 Open Western Odisha",
+    "NAV-029 Open Odisha Tourist Map",
+    "NAV-034 Open Heritage Properties",
+    "NAV-036 Open Tour Operators",
+    "NAV-044 Open Mahendragiri Eco-Adventure Fest 2026",
+    "NAV-046 Open Konark Festival 2026",
+    "NAV-047 Open National Chilika Bird Festival 2026",
+    "NAV-048 Open International Sand Art Festival 2026",
+    "NAV-049 Open Odisha Parab",
+    "NAV-050 Open Mahaprasad",
+    "NAV-051 Open Rasagola",
+    "NAV-052 Open Chhenapoda",
+    "NAV-053 Open Sarsatia",
+    "NAV-055 Department of Tourism, Government of Odisha",
+    "NAV-071 Book Now",
+    "NAV-072 Facebook",
+    "NAV-073 X",
+    "NAV-074 Instagram",
+    "NAV-075 YouTube"
+  ],
+  "reportLocation": "allure-report/index.html",
+  "tests": [
+    {
+      "name": "HOME-001 Home URL, title and visible sections",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HOME-002 Favicon asset",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HOME-003 Home image and network health",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "HDR-001 Logo image and navigation",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HDR-002 Discover menu reveal",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HDR-003 Experience menu reveal",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HDR-004 Plan Your Trip menu fits viewport",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "HDR-005 Hamburger opens and closes",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "LANG-Hi Select Hindi",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "LANG-Od Select Odia",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "LANG-En Select English",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "SEARCH-001 Open search overlay without runtime error",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "SEARCH-002 Search Puri",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "ACCOUNT-001 Login dialog display and close",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "ACCOUNT-ForgotPassword Forgot Password? opens",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "ACCOUNT-SignUp Sign Up opens",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "ACCOUNT-OfficialLogin Official Login opens",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "ACC-001 Accessibility panel opens and closes",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "TOP-001 Collapse and restore announcement bar",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "TOP-002 Events Of Odisha destination",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "A11Y-001 Skip to Main Content focus transfer",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "SEARCH-003 Close search overlay",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HDR-006 Cancel external navigation",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "HOTEL-DATA-001 Recheck confirmed workbook hotel names and phone numbers",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-001 Open Odisha At A Glance",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-002 Open Iconic Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-003 Open Heritage & Architecture",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-004 Open Spiritual & Sacred Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-005 Open Wildlife Sanctuaries of Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-006 Open Coastal Getaway",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-007 Open Tribal Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-008 Open Arts, Crafts & Handloom",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-009 Open Festival & Celebrations",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-010 Open Cuisine & Culinary Trails",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-011 Open Ecotourism",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-012 Open Tribal, Village & Rural Life",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-013 Open Adventure & Outdoors",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-014 Open Culture, Music & Dance",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-015 Open Odisha Walks",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-016 Open Sports Tourism",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-017 Open East Odisha (Coastal)",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-018 Open Central Odisha",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-019 Open Northern Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-020 Open Western Odisha",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-021 Open Southern Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-022 Open Tourist Destinations",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-023 Open Tourist Places",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-024 Open Best Time to Visit",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-025 Open Weather & Climate",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-026 Open How to Reach Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-027 Open Getting Around Odisha",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-028 Open Currency Converter",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-029 Open Odisha Tourist Map",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-030 Open OTDC Panthanivas",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-031 Open Eco Retreats",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-032 Open Nature Camps",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-033 Open Hotels",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-034 Open Heritage Properties",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-035 Open Tourist Offices",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-036 Open Tour Operators",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-037 Open Hospitals List",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-038 Open Feedback and Suggestions",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-039 Open Wayside Amenities",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-040 Open Do’s & Don’ts",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-041 Open Responsible Tourism Guidelines",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-042 Open Safety Advisories",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-043 Open Light & Sound Shows",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-044 Open Mahendragiri Eco-Adventure Fest 2026",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-045 Open Ratha Jatra 2026",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-046 Open Konark Festival 2026",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-047 Open National Chilika Bird Festival 2026",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-048 Open International Sand Art Festival 2026",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-049 Open Odisha Parab",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-050 Open Mahaprasad",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-051 Open Rasagola",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-052 Open Chhenapoda",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-053 Open Sarsatia",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-054 Open About Us",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-056 Open Vision, Mission & Objectives",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-057 Open Odisha Tourism Policy",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-058 Open Operational Guidelines",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-059 Open Tenders and Notices",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-060 Open Newsletter",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-061 Open Brochure",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-062 Open Photo Gallery",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-063 Open Video Gallery",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-064 Open Traveller Blogs",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-065 Open Festival & Events",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-066 Open Privacy Policy",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-067 Open Disclaimer",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-068 Open Contact Us",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-069 Open Site Map",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-070 Open FAQs",
+      "status": "expected",
+      "attempts": [
+        "passed"
+      ]
+    },
+    {
+      "name": "NAV-055 Department of Tourism, Government of Odisha",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-071 Book Now",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-072 Facebook",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-073 X",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-074 Instagram",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    },
+    {
+      "name": "NAV-075 YouTube",
+      "status": "unexpected",
+      "attempts": [
+        "failed",
+        "failed"
+      ]
+    }
+  ]
+}

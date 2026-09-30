@@ -1,0 +1,1458 @@
+- generic [ref=e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=e6]:
+    - generic:
+      - generic:
+        - banner:
+          - navigation [ref=e7]:
+            - generic [ref=e9]:
+              - link [ref=e11] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/web/guest/home
+                - img "Odisha Tourism" [ref=e12]
+              - generic [ref=e22]:
+                - generic [ref=e23]:
+                  - button "Discover " [active] [ref=e24] [cursor=pointer]:
+                    - generic [ref=e25]: Discover
+                    - generic [ref=e26]: 
+                  - generic [ref=e1369]:
+                    - link "Odisha At A Glance  Odisha At A Glance" [ref=e1372] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/odisha-at-a-glance
+                      - generic [ref=e1373]:
+                        - img "Odisha At A Glance" [ref=e1374]
+                        - generic [ref=e1375]: 
+                        - generic [ref=e1377]: Odisha At A Glance
+                    - link "Iconic Odisha  Iconic Odisha" [ref=e1381] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/iconic-odisha
+                      - generic [ref=e1382]:
+                        - img "Iconic Odisha" [ref=e1383]
+                        - generic [ref=e1384]: 
+                        - generic [ref=e1386]: Iconic Odisha
+                    - link "Heritage & Architecture  Heritage & Architecture" [ref=e1390] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/heritage-architecture
+                      - generic [ref=e1391]:
+                        - img "Heritage & Architecture" [ref=e1392]
+                        - generic [ref=e1393]: 
+                        - generic [ref=e1395]: Heritage & Architecture
+                    - link "Spiritual & Sacred Odisha  Spiritual & Sacred Odisha" [ref=e1399] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/spiritual-sacred-odisha
+                      - generic [ref=e1400]:
+                        - img "Spiritual & Sacred Odisha" [ref=e1401]
+                        - generic [ref=e1402]: 
+                        - generic [ref=e1404]: Spiritual & Sacred Odisha
+                    - link "Wildlife Sanctuaries of Odisha  Wildlife Sanctuaries of Odisha" [ref=e1408] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/wildlife-sanctuaries-of-odisha
+                      - generic [ref=e1409]:
+                        - img "Wildlife Sanctuaries of Odisha" [ref=e1410]
+                        - generic [ref=e1411]: 
+                        - generic [ref=e1413]: Wildlife Sanctuaries of Odisha
+                    - link "Coastal Getaway  Coastal Getaway" [ref=e1417] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/coastal-getaway
+                      - generic [ref=e1418]:
+                        - img "Coastal Getaway" [ref=e1419]
+                        - generic [ref=e1420]: 
+                        - generic [ref=e1422]: Coastal Getaway
+                    - link "Tribal Odisha  Tribal Odisha" [ref=e1426] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/tribal-odisha
+                      - generic [ref=e1427]:
+                        - img "Tribal Odisha" [ref=e1428]
+                        - generic [ref=e1429]: 
+                        - generic [ref=e1431]: Tribal Odisha
+                    - link "Arts, Crafts & Handloom  Arts, Crafts & Handloom" [ref=e1435] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/arts-crafts-handloom
+                      - generic [ref=e1436]:
+                        - img "Arts, Crafts & Handloom" [ref=e1437]
+                        - generic [ref=e1438]: 
+                        - generic [ref=e1440]: Arts, Crafts & Handloom
+                - button "Experience " [ref=e28] [cursor=pointer]:
+                  - generic [ref=e29]: Experience
+                  - generic [ref=e30]: 
+                - button "Plan Your Trip " [ref=e32] [cursor=pointer]:
+                  - generic [ref=e33]: Plan Your Trip
+                  - generic [ref=e34]: 
+                - link "Book Now" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.bookodisha.com/
+              - generic [ref=e39]:
+                - button "" [ref=e40] [cursor=pointer]
+                - generic [ref=e42]:
+                  - button "User" [ref=e43] [cursor=pointer]:
+                    - generic [ref=e44]: 
+                  - text:  
+                - generic [ref=e45]:
+                  - button "Language" [ref=e46] [cursor=pointer]:
+                    - generic [ref=e47]: 
+                    - generic [ref=e48]: EN
+                  - generic:
+                    - button "English ":
+                      - text: English
+                      - generic: 
+                    - button "Hindi ":
+                      - text: Hindi
+                      - generic: 
+                    - button "Odia ":
+                      - text: Odia
+                      - generic: 
+                - button "" [ref=e49] [cursor=pointer]
+        - text:           
+        - button "Accessibility Options" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+    - button "" [ref=e53] [cursor=pointer]
+    - main [ref=e55]:
+      - generic:
+        - generic:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: UPDATES
+              - generic [ref=e60]: Discover the rich heritage and festive spirit of Odisha!
+            - link "Events Of Odisha" [ref=e62] [cursor=pointer]:
+              - /url: /web/guest/events
+            - button "" [ref=e63] [cursor=pointer]
+          - text: 
+      - generic [ref=e68]:
+        - generic [ref=e69]: Your browser does not support the video tag.
+        - complementary [ref=e83]:
+          - link "" [ref=e84] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+          - link "" [ref=e86] [cursor=pointer]:
+            - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+          - link "" [ref=e88] [cursor=pointer]:
+            - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+          - link "" [ref=e90] [cursor=pointer]:
+            - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - button "Events" [ref=e1361] [cursor=pointer]
+        - link "Dive In " [ref=e1364] [cursor=pointer]:
+          - /url: "#why-travel-odisha-section"
+          - generic [ref=e1365]: Dive In
+          - generic [ref=e1366]: 
+        - generic [ref=e229]:
+          - button "" [ref=e230] [cursor=pointer]
+          - button "" [ref=e232] [cursor=pointer]
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - paragraph [ref=e242]: Culture, Nature and Heritage
+            - heading "Uniquely Odisha" [level=2] [ref=e243]
+            - paragraph [ref=e244]: Every Journey Tells a Different Story
+          - link "View all Places " [ref=e245] [cursor=pointer]:
+            - /url: /tourist-places
+            - text: View all Places
+            - generic [ref=e246]: 
+        - generic [ref=e256]:
+          - button " Sacred Odisha" [ref=e257] [cursor=pointer]:
+            - generic [ref=e258]: 
+            - generic [ref=e259]: Sacred Odisha
+          - button " Nature & Wildlife" [ref=e260] [cursor=pointer]:
+            - generic [ref=e261]: 
+            - generic [ref=e262]: Nature & Wildlife
+          - button " Beaches & Coastal Experiences" [ref=e263] [cursor=pointer]:
+            - generic [ref=e264]: 
+            - generic [ref=e265]: Beaches & Coastal Experiences
+          - button " Waterfalls & Scenic Landscapes" [ref=e266] [cursor=pointer]:
+            - generic [ref=e267]: 
+            - generic [ref=e268]: Waterfalls & Scenic Landscapes
+          - button " Art, Craft & Heritage" [ref=e269] [cursor=pointer]:
+            - generic [ref=e270]: 
+            - generic [ref=e271]: Art, Craft & Heritage
+          - button " Cuisines of Odisha" [ref=e272] [cursor=pointer]:
+            - generic [ref=e273]: 
+            - generic [ref=e274]: Cuisines of Odisha
+        - generic [ref=e275]:
+          - generic [ref=e285]:
+            - text:        
+            - group "9 / 29" [ref=e286]:
+              - link " Shree Jagannath Temple The Eternal Abode of the Lord." [ref=e288] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/shree-jagannath-temple
+                - generic [ref=e289]:
+                  - generic:
+                    - generic [ref=e291]:
+                      - generic [ref=e292]: 
+                      - heading "Shree Jagannath Temple" [level=3] [ref=e294]
+                    - paragraph [ref=e295]: The Eternal Abode of the Lord.
+            - group "10 / 29" [ref=e296]:
+              - link " Lingaraj Temple The Soul of Temple City" [ref=e298] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/lingaraj-temple
+                - generic [ref=e299]:
+                  - generic:
+                    - generic [ref=e301]:
+                      - generic [ref=e302]: 
+                      - heading "Lingaraj Temple" [level=3] [ref=e304]
+                    - paragraph [ref=e305]: The Soul of Temple City
+            - group "11 / 29" [ref=e306]:
+              - link " Maa Samaleswari Temple The Divine Guardian of Western Odisha" [ref=e308] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/samaleswari-temple
+                - generic [ref=e309]:
+                  - generic:
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: 
+                      - heading "Maa Samaleswari Temple" [level=3] [ref=e314]
+                    - paragraph [ref=e315]: The Divine Guardian of Western Odisha
+            - group "12 / 29" [ref=e316]:
+              - link " Tara Tarini Temple The Sacred Seat of Divine Power" [ref=e318] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/tara-tarini-temple
+                - generic [ref=e319]:
+                  - generic:
+                    - generic [ref=e321]:
+                      - generic [ref=e322]: 
+                      - heading "Tara Tarini Temple" [level=3] [ref=e324]
+                    - paragraph [ref=e325]: The Sacred Seat of Divine Power
+            - group "13 / 29" [ref=e326]:
+              - link " Padma Sambhava Maha Vihara Monastery, Jirango Peace in the Land of Prayer" [ref=e328] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/jirang-monastery
+                - generic [ref=e329]:
+                  - generic:
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: 
+                      - heading "Padma Sambhava Maha Vihara Monastery, Jirango" [level=3] [ref=e334]
+                    - paragraph [ref=e335]: Peace in the Land of Prayer
+            - group "14 / 29" [ref=e336]:
+              - link " Nrusinghanath Temple A Sacred Retreat Amidst Nature" [ref=e338] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/w/nrusinghanath-temple
+                - generic [ref=e339]:
+                  - generic:
+                    - generic [ref=e341]:
+                      - generic [ref=e342]: 
+                      - heading "Nrusinghanath Temple" [level=3] [ref=e344]
+                    - paragraph [ref=e345]: A Sacred Retreat Amidst Nature
+            - text:               
+          - button "Previous slide" [disabled]:
+            - generic: 
+          - button "Next slide" [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]: 
+      - text: 
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Step into the Stories of Odisha
+            - heading "Odisha Walks" [level=2] [ref=e354]
+            - paragraph [ref=e355]: Thoughtfully curated experiences for travellers
+          - generic [ref=e357] [cursor=pointer]:
+            - text: View All Walks
+            - generic [ref=e358]: 
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - group "40 / 40" [ref=e369]:
+              - link [ref=e371] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-food-trail-37?start=2026-07-27&eventType=Events
+                - article [ref=e372]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Food Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "1 / 40" [ref=e374]:
+              - link [ref=e376] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---daringbadi-evening-escapades-trail-61?start=2026-07-07&eventType=Events
+                - article [ref=e377]:
+                  - generic:
+                    - heading "Odisha Walk - Daringbadi Evening Escapades Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Daringbadi
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 20 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "2 / 40" [ref=e379]:
+              - link [ref=e381] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---daringbadi-waterfall-&-coffee-trail-60?start=2026-07-27&eventType=Events
+                - article [ref=e382]:
+                  - generic:
+                    - heading "Odisha Walk - Daringbadi Waterfall & Coffee Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Daringbadi
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 20 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "3 / 40" [ref=e384]:
+              - link [ref=e386] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---the-santhal-cultural-experience-54?start=2026-07-27&eventType=Events
+                - article [ref=e387]:
+                  - generic [ref=e389]:
+                    - heading "Odisha Walk - The Santhal Cultural Experience" [level=3] [ref=e390]
+                    - paragraph [ref=e391]:
+                      - generic [ref=e392]: 
+                      - text: Similipal
+                    - paragraph [ref=e393]:
+                      - generic [ref=e394]: 
+                      - text: Jun 4 - Sep 30
+                    - button "Book Now" [ref=e396]
+            - group "4 / 40" [ref=e397]:
+              - link [ref=e399] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---the-sitakund-experience-55?start=2026-07-27&eventType=Events
+                - article [ref=e400]:
+                  - generic:
+                    - heading "Odisha Walk - The Sitakund Experience" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Similipal
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 3 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "5 / 40" [ref=e402]:
+              - link [ref=e404] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-food-trail-59?start=2026-07-27&eventType=Events
+                - article [ref=e405]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Food Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "6 / 40" [ref=e407]:
+              - link [ref=e409] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-heritage-trail-56?start=2026-07-27&eventType=Events
+                - article [ref=e410]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Heritage Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "7 / 40" [ref=e412]:
+              - link [ref=e414] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-nature-trail-58?start=2026-07-27&eventType=Events
+                - article [ref=e415]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "8 / 40" [ref=e417]:
+              - link [ref=e419] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-temple-trail-57?start=2026-07-27&eventType=Events
+                - article [ref=e420]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Temple Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "9 / 40" [ref=e422]:
+              - link [ref=e424] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-cuttack-silver-filigree-32?start=2026-07-27&eventType=Events
+                - article [ref=e425]:
+                  - generic:
+                    - heading "Odisha Walks - Kataka Silver Filigree" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Kataka
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "10 / 40" [ref=e427]:
+              - link [ref=e429] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-craft-trail-35?start=2026-07-07&eventType=Events
+                - article [ref=e430]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Craft Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "11 / 40" [ref=e432]:
+              - link [ref=e434] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-architectural-heritage-and-temple-walk-50?start=2026-07-27&eventType=Events
+                - article [ref=e435]:
+                  - generic:
+                    - heading "Odisha Walks - Architectural Heritage and Temple Walk" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "12 / 40" [ref=e437]:
+              - link [ref=e439] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-debrigarh-nature-trail-42?start=2026-07-27&eventType=Events
+                - article [ref=e440]:
+                  - generic:
+                    - heading "Odisha Walks - Debrigarh Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "13 / 40" [ref=e442]:
+              - link [ref=e444] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-hirakud-craft-trail-43?start=2026-07-27&eventType=Events
+                - article [ref=e445]:
+                  - generic:
+                    - heading "Odisha Walks - Hirakud Craft Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "14 / 40" [ref=e447]:
+              - link [ref=e449] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-hirakud-nature-trail-41?start=2026-07-27&eventType=Events
+                - article [ref=e450]:
+                  - generic:
+                    - heading "Odisha Walks - Hirakud Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "15 / 40" [ref=e452]:
+              - link [ref=e454] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-cuttack-museum-trail-31?start=2026-07-27&eventType=Events
+                - article [ref=e455]:
+                  - generic:
+                    - heading "Odisha Walks - Kataka Museum Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Kataka
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "16 / 40" [ref=e457]:
+              - link [ref=e459] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-konark-heritage-trail-53?start=2026-07-27&eventType=Events
+                - article [ref=e460]:
+                  - generic:
+                    - heading "Odisha Walks - Konark Heritage Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Mar 16 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "17 / 40" [ref=e462]:
+              - link [ref=e464] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-museum-trail-%E2%80%93-bhubaneswar-45?start=2026-07-27&eventType=Events
+                - article [ref=e465]:
+                  - generic:
+                    - heading "Odisha Walks - Museum Trail - Bhubaneswar" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "18 / 40" [ref=e467]:
+              - link [ref=e469] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-path-of-compassion-trail-%E2%80%93-dhauli-48?start=2026-07-27&eventType=Events
+                - article [ref=e470]:
+                  - generic:
+                    - heading "Odisha Walks - Path of Compassion Trail - Dhauli" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "19 / 40" [ref=e472]:
+              - link [ref=e474] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-beach-trail-36?start=2026-07-27&eventType=Events
+                - article [ref=e475]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Beach Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "20 / 40" [ref=e477]:
+              - link [ref=e479] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-food-trail-37?start=2026-07-27&eventType=Events
+                - article [ref=e480]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Food Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "21 / 40" [ref=e482]:
+              - link [ref=e484] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---daringbadi-evening-escapades-trail-61?start=2026-07-07&eventType=Events
+                - article [ref=e485]:
+                  - generic:
+                    - heading "Odisha Walk - Daringbadi Evening Escapades Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Daringbadi
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 20 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "22 / 40" [ref=e487]:
+              - link [ref=e489] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---daringbadi-waterfall-&-coffee-trail-60?start=2026-07-27&eventType=Events
+                - article [ref=e490]:
+                  - generic:
+                    - heading "Odisha Walk - Daringbadi Waterfall & Coffee Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Daringbadi
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 20 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "23 / 40" [ref=e492]:
+              - link [ref=e494] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---the-santhal-cultural-experience-54?start=2026-07-27&eventType=Events
+                - article [ref=e495]:
+                  - generic:
+                    - heading "Odisha Walk - The Santhal Cultural Experience" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Similipal
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 4 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "24 / 40" [ref=e497]:
+              - link [ref=e499] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walk---the-sitakund-experience-55?start=2026-07-27&eventType=Events
+                - article [ref=e500]:
+                  - generic:
+                    - heading "Odisha Walk - The Sitakund Experience" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Similipal
+                    - paragraph:
+                      - generic: 
+                      - text: Jun 3 - Sep 30
+                    - generic:
+                      - button "Book Now"
+            - group "25 / 40" [ref=e502]:
+              - link [ref=e504] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-food-trail-59?start=2026-07-27&eventType=Events
+                - article [ref=e505]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Food Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "26 / 40" [ref=e507]:
+              - link [ref=e509] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-heritage-trail-56?start=2026-07-27&eventType=Events
+                - article [ref=e510]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Heritage Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "27 / 40" [ref=e512]:
+              - link [ref=e514] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-nature-trail-58?start=2026-07-27&eventType=Events
+                - article [ref=e515]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "28 / 40" [ref=e517]:
+              - link [ref=e519] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-%E2%80%93-baripada-temple-trail-57?start=2026-07-27&eventType=Events
+                - article [ref=e520]:
+                  - generic:
+                    - heading "Odisha Walks - Baripada Temple Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Baripada
+                    - paragraph:
+                      - generic: 
+                      - text: May 27 - Mar 31
+                    - generic:
+                      - button "Book Now"
+            - group "29 / 40" [ref=e522]:
+              - link [ref=e524] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-cuttack-silver-filigree-32?start=2026-07-27&eventType=Events
+                - article [ref=e525]:
+                  - generic:
+                    - heading "Odisha Walks - Kataka Silver Filigree" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Kataka
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "30 / 40" [ref=e527]:
+              - link [ref=e529] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-craft-trail-35?start=2026-07-07&eventType=Events
+                - article [ref=e530]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Craft Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "31 / 40" [ref=e532]:
+              - link [ref=e534] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-architectural-heritage-and-temple-walk-50?start=2026-07-27&eventType=Events
+                - article [ref=e535]:
+                  - generic:
+                    - heading "Odisha Walks - Architectural Heritage and Temple Walk" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "32 / 40" [ref=e537]:
+              - link [ref=e539] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-debrigarh-nature-trail-42?start=2026-07-27&eventType=Events
+                - article [ref=e540]:
+                  - generic:
+                    - heading "Odisha Walks - Debrigarh Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "33 / 40" [ref=e542]:
+              - link [ref=e544] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-hirakud-craft-trail-43?start=2026-07-27&eventType=Events
+                - article [ref=e545]:
+                  - generic:
+                    - heading "Odisha Walks - Hirakud Craft Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "34 / 40" [ref=e547]:
+              - link [ref=e549] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-hirakud-nature-trail-41?start=2026-07-27&eventType=Events
+                - article [ref=e550]:
+                  - generic:
+                    - heading "Odisha Walks - Hirakud Nature Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Sambalpur
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "35 / 40" [ref=e552]:
+              - link [ref=e554] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-cuttack-museum-trail-31?start=2026-07-27&eventType=Events
+                - article [ref=e555]:
+                  - generic:
+                    - heading "Odisha Walks - Kataka Museum Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Kataka
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "36 / 40" [ref=e557]:
+              - link [ref=e559] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-konark-heritage-trail-53?start=2026-07-27&eventType=Events
+                - article [ref=e560]:
+                  - generic:
+                    - heading "Odisha Walks - Konark Heritage Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Mar 16 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "37 / 40" [ref=e562]:
+              - link [ref=e564] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-museum-trail-%E2%80%93-bhubaneswar-45?start=2026-07-27&eventType=Events
+                - article [ref=e565]:
+                  - generic:
+                    - heading "Odisha Walks - Museum Trail - Bhubaneswar" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "38 / 40" [ref=e567]:
+              - link [ref=e569] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-path-of-compassion-trail-%E2%80%93-dhauli-48?start=2026-07-27&eventType=Events
+                - article [ref=e570]:
+                  - generic:
+                    - heading "Odisha Walks - Path of Compassion Trail - Dhauli" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Bhubaneswar
+                    - paragraph:
+                      - generic: 
+                      - text: Jan 19 - Dec 31
+                    - generic:
+                      - button "Book Now"
+            - group "39 / 40" [ref=e572]:
+              - link [ref=e574] [cursor=pointer]:
+                - /url: https://www.bookodisha.com/tourism/ticketing/odisha-walks-puri-beach-trail-36?start=2026-07-27&eventType=Events
+                - article [ref=e575]:
+                  - generic:
+                    - heading "Odisha Walks - Puri Beach Trail" [level=3]
+                    - paragraph:
+                      - generic: 
+                      - text: Puri
+                    - paragraph:
+                      - generic: 
+                      - text: Dec 10 - Dec 31
+                    - generic:
+                      - button "Book Now"
+          - button "Previous slide" [ref=e577] [cursor=pointer]:
+            - generic [ref=e578]: 
+          - button "Next slide" [ref=e579] [cursor=pointer]:
+            - generic [ref=e580]: 
+      - generic [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - paragraph [ref=e587]: Pick what you feel like right now
+            - heading "Choose your vibe" [level=2] [ref=e588]
+            - paragraph [ref=e589]: For Every Mood, there's an Odisha waiting for you!
+          - link "View all Places " [ref=e590] [cursor=pointer]:
+            - /url: /tourist-places
+            - text: View all Places
+            - generic [ref=e591]: 
+        - generic [ref=e603]:
+          - button " Insta Spots" [ref=e604] [cursor=pointer]:
+            - generic [ref=e605]: 
+            - generic [ref=e606]: Insta Spots
+          - button " Adventure Mode" [ref=e607] [cursor=pointer]:
+            - generic [ref=e608]: 
+            - generic [ref=e609]: Adventure Mode
+          - button " Coastal Escape" [ref=e610] [cursor=pointer]:
+            - generic [ref=e611]: 
+            - generic [ref=e612]: Coastal Escape
+          - button " Epic Road Trips" [ref=e613] [cursor=pointer]:
+            - generic [ref=e614]: 
+            - generic [ref=e615]: Epic Road Trips
+          - button " Into the Wild" [ref=e616] [cursor=pointer]:
+            - generic [ref=e617]: 
+            - generic [ref=e618]: Into the Wild
+          - button " Culture & Celebrations" [ref=e619] [cursor=pointer]:
+            - generic [ref=e620]: 
+            - generic [ref=e621]: Culture & Celebrations
+          - button " Offbeat Finds" [ref=e622] [cursor=pointer]:
+            - generic [ref=e623]: 
+            - generic [ref=e624]: Offbeat Finds
+        - generic [ref=e625]:
+          - generic [ref=e635]:
+            - group "1 / 5" [ref=e636]:
+              - article [ref=e638] [cursor=pointer]:
+                - generic [ref=e640]:
+                  - 'heading "Kanhakund: The Grand Canyon of Odisha" [level=3] [ref=e641]'
+                  - link "Explore More" [ref=e642]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/kanhakund-the-grand-canyon-of-odisha
+            - group "2 / 5" [ref=e643]:
+              - article [ref=e645] [cursor=pointer]:
+                - generic [ref=e647]:
+                  - heading "Raghurajpur Craft Village" [level=3] [ref=e648]
+                  - link "Explore More" [ref=e649]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/raghurajpur-heritage-village
+            - group "3 / 5" [ref=e650]:
+              - article [ref=e652] [cursor=pointer]:
+                - generic [ref=e654]:
+                  - heading "Niladri Beach" [level=3] [ref=e655]
+                  - link "Explore More" [ref=e656]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/niladri-beach
+            - group "4 / 5" [ref=e657]:
+              - article [ref=e659] [cursor=pointer]:
+                - generic [ref=e661]:
+                  - heading "Mukteswara Temple" [level=3] [ref=e662]
+                  - link "Explore More" [ref=e663]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/mukteswara-temple
+            - group "5 / 5" [ref=e664]:
+              - article [ref=e666] [cursor=pointer]:
+                - generic [ref=e668]:
+                  - heading "Konark Sun Temple" [level=3] [ref=e669]
+                  - link "Explore More" [ref=e670]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/konark-sun-temple
+          - button "Previous slide" [disabled]:
+            - generic: 
+          - button "Next slide" [ref=e671] [cursor=pointer]:
+            - generic [ref=e672]: 
+      - generic [ref=e676]:
+        - generic [ref=e677]:
+          - paragraph [ref=e678]: Map Your Odisha Story
+          - heading "Navigate Odisha" [level=2] [ref=e679]
+          - paragraph [ref=e680]: Your Journey Begins Here
+        - generic [ref=e681]:
+          - generic [ref=e691]:
+            - generic [ref=e692]:
+              - generic [ref=e693]:
+                - generic [ref=e694]: 
+                - heading "KHORDHA" [level=3] [ref=e695]
+              - generic [ref=e696]:
+                - generic [ref=e697]: 
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: 28°
+                  - generic [ref=e1360]: Thunderstorm & Hail
+            - paragraph [ref=e698]: Bhubaneswar is the capital and largest city of Odisha, known as the 'Temple City of India' for its numerous ancient temples and rich cultural heritage.
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - group "1 / 18" [ref=e701]:
+                  - link [ref=e702] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/odi-art-museum
+                    - paragraph [ref=e706]: Odi-Art Museum
+                - group "2 / 18" [ref=e707]:
+                  - link [ref=e708] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/chandaka-wildlife-sanctuary
+                    - paragraph [ref=e712]: Chandaka Wildlife Sanctuary
+                - group "3 / 18" [ref=e713]:
+                  - link [ref=e714] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/mangalajodi
+                    - paragraph [ref=e718]: Mangalajodi
+                - group "4 / 18" [ref=e719]:
+                  - link [ref=e720] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/maa-kalijai-temple
+                    - paragraph [ref=e724]: Maa Kalijai Temple
+                - group "5 / 18" [ref=e725]:
+                  - link [ref=e726] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/odisha-state-musuem
+                    - paragraph [ref=e730]: Odisha State Musuem
+                - group "6 / 18" [ref=e731]:
+                  - link [ref=e732] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/regional-museum-of-natural-history
+                    - paragraph [ref=e736]: Regional Museum of Natural History
+                - group "7 / 18" [ref=e737]:
+                  - link [ref=e738] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/tribal-musuem
+                    - paragraph [ref=e742]: Museum of Tribal Arts & Artifacts
+                - group "8 / 18" [ref=e743]:
+                  - link [ref=e744] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/kalabhoomi-odisha-craft-museum
+                    - paragraph [ref=e748]: Kalabhoomi, Odisha Craft Museum
+                - group "9 / 18" [ref=e749]:
+                  - link [ref=e750] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/chausathi-yogini-temple
+                    - paragraph [ref=e754]: Chausathi Yogini Temple
+                - group "10 / 18" [ref=e755]:
+                  - link [ref=e756] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/parasurameswar-temple
+                    - paragraph [ref=e760]: Parasurameswar Temple
+                - group "11 / 18" [ref=e761]:
+                  - link [ref=e762] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/ananta-basudeva-temple
+                    - paragraph [ref=e766]: Ananta Basudeva Temple
+                - group "12 / 18" [ref=e767]:
+                  - link [ref=e768] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/rajarani-temple
+                    - paragraph [ref=e772]: Rajarani Temple
+                - group "13 / 18" [ref=e773]:
+                  - link [ref=e774] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/nandankanan-zoological-park
+                    - paragraph [ref=e778]: Nandankanan Zoological Park
+                - group "14 / 18" [ref=e779]:
+                  - link [ref=e780] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/chilika-lake-barkul
+                    - paragraph [ref=e784]: Chilika Lake
+                - group "15 / 18" [ref=e785]:
+                  - link [ref=e786] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/mukteswara-temple
+                    - paragraph [ref=e790]: Mukteswara Temple
+                - group "16 / 18" [ref=e791]:
+                  - link [ref=e792] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/dhauli-shanti-stupa-dhauli-hills
+                    - paragraph [ref=e796]: Dhauli Shanti Stupa (Dhauli Hills)
+                - group "17 / 18" [ref=e797]:
+                  - link [ref=e798] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/udayagiri-khandagiri-caves
+                    - paragraph [ref=e802]: Udayagiri & Khandagiri Caves
+                - group "18 / 18" [ref=e803]:
+                  - link [ref=e804] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/w/lingaraj-temple
+                    - paragraph [ref=e808]: Lingaraj Temple
+              - button "Next slide" [ref=e809] [cursor=pointer]:
+                - generic [ref=e810]: 
+              - button "Previous slide" [disabled]:
+                - generic: 
+          - img [ref=e822]:
+            - generic [ref=e823] [cursor=pointer]
+            - generic [ref=e824] [cursor=pointer]
+            - generic [ref=e825] [cursor=pointer]
+            - generic [ref=e826] [cursor=pointer]
+            - generic [ref=e827] [cursor=pointer]
+            - generic [ref=e828] [cursor=pointer]
+            - generic [ref=e829] [cursor=pointer]
+            - generic [ref=e830] [cursor=pointer]
+            - generic [ref=e831] [cursor=pointer]
+            - generic [ref=e832] [cursor=pointer]
+            - generic [ref=e833] [cursor=pointer]
+            - generic [ref=e834] [cursor=pointer]
+            - generic [ref=e835] [cursor=pointer]
+            - generic [ref=e836] [cursor=pointer]
+            - generic [ref=e837] [cursor=pointer]
+            - generic [ref=e838] [cursor=pointer]
+            - generic [ref=e839] [cursor=pointer]
+            - generic [ref=e840] [cursor=pointer]
+            - generic [ref=e841] [cursor=pointer]
+            - generic [ref=e842] [cursor=pointer]
+            - generic [ref=e843] [cursor=pointer]
+            - generic: Anugola
+            - generic: Baleshwar
+            - generic: Baragada
+            - generic: Bhadrak
+            - generic: Balangir
+            - generic: Boudh
+            - generic: Kataka
+            - generic: Debagada
+            - generic: Dhenkanal
+            - generic: Gajapati
+            - generic: Ganjam
+            - generic: Jagatsinghpur
+            - generic: Jajpur
+            - generic: Jharsuguda
+            - generic: Kalahandi
+            - generic: Kandhamala
+            - generic: Kendrapada
+            - generic: Kendujhar
+            - generic: Khordha
+            - generic: Koraput
+            - generic: Malkangiri
+            - generic: Mayurbhanj
+            - generic: Nabarangpur
+            - generic: Nayagada
+            - generic: Nuapada
+            - generic: Puri
+            - generic: Rayagada
+            - generic: Sambalpur
+            - generic: Subaranpur
+            - generic: Sundaragada
+      - generic [ref=e848]:
+        - generic [ref=e849]:
+          - generic [ref=e850]:
+            - paragraph [ref=e851]: Cultural Calendar
+            - heading "Glimpses of Odisha" [level=2] [ref=e852]
+            - paragraph [ref=e853]: Moments shaped by Season and Celebration
+          - link "View all Events " [ref=e854] [cursor=pointer]:
+            - /url: /events
+            - text: View all Events
+            - generic [ref=e855]: 
+        - generic [ref=e865]:
+          - generic [ref=e867] [cursor=pointer]:
+            - generic [ref=e868]:
+              - generic [ref=e869]: "27"
+              - generic [ref=e870]: Sep
+            - img "Event-World-Tourism-Day.webp" [ref=e872]
+            - generic [ref=e873]:
+              - heading "World Tourism Day" [level=3] [ref=e874]
+              - generic [ref=e875]:
+                - generic [ref=e876]: 
+                - generic [ref=e877]: Celebrated across Odisha
+              - paragraph [ref=e878]: Celebrated annually on 27 September, World Tourism Day is observed by the Department of Tourism, Government of Odisha, to showcase the state's diverse tourism offerings while promoting sustainable, responsible, and inclusive tourism. Through engaging public events and outreach activities, the celebration highlights Odisha's rich heritage, vibrant culture, natural wonders, and warm hospitality. The Department of Tourism commemorates World Tourism Day by organising a range of activities across the state, including heritage walks, guided tours, cultural performances, photography competitions, cleanliness drives at tourist destinations, awareness campaigns, stakeholder interactions, and recognition of individuals and organisations contributing to tourism promotion. The celebrations encourage citizens, students, tourism professionals, and visitors to rediscover Odisha's remarkable destinations while fostering responsible travel practices and community participation in tourism development.
+          - generic [ref=e880]:
+            - generic [ref=e882] [cursor=pointer]:
+              - generic [ref=e883]:
+                - generic [ref=e884]: "17"
+                - generic [ref=e885]: Oct
+              - img "Event-Durga-Puja.webp" [ref=e887]
+              - generic [ref=e889]:
+                - heading "Durga Puja" [level=3] [ref=e890]
+                - generic [ref=e891]:
+                  - generic [ref=e892]: 
+                  - generic [ref=e893]: Kataka, Bhubaneswar & Across Odisha
+            - generic [ref=e895] [cursor=pointer]:
+              - generic [ref=e896]:
+                - generic [ref=e897]: "17"
+                - generic [ref=e898]: Oct
+              - img "Event-Gosani-Jatra.webp" [ref=e900]
+              - generic [ref=e902]:
+                - heading "Gosani Jatra" [level=3] [ref=e903]
+                - generic [ref=e904]:
+                  - generic [ref=e905]: 
+                  - generic [ref=e906]: Puri
+            - generic [ref=e908] [cursor=pointer]:
+              - generic [ref=e909]:
+                - generic [ref=e910]: "08"
+                - generic [ref=e911]: Nov
+              - img "Event-Kali-Puja.webp" [ref=e913]
+              - generic [ref=e916]:
+                - heading "Kali Puja" [level=3] [ref=e917]
+                - generic [ref=e918]:
+                  - generic [ref=e919]: 
+                  - generic [ref=e920]: Odisha
+      - link "Take a virtual expedition through our Video Gallery →" [ref=e925] [cursor=pointer]:
+        - /url: https://apptourlfr-stg.estpl.net/video-gallery
+        - generic [ref=e926]: Take a virtual expedition through our
+        - heading "Video Gallery →" [level=2] [ref=e927]:
+          - text: Video Gallery
+          - generic [ref=e928]: →
+      - generic [ref=e932]:
+        - generic [ref=e933]:
+          - paragraph [ref=e934]: "Tag Us With #VisitOdisha To Get Featured."
+          - heading "Postcards from Odisha" [level=2] [ref=e935]
+          - paragraph [ref=e936]: Relive the Memories
+        - generic [ref=e946]:
+          - group "10 / 10" [ref=e1001]:
+            - generic [ref=e1004] [cursor=pointer]:
+              - generic [ref=e1005]: 
+              - generic [ref=e1006]: "@dibyajyoti_photography"
+          - group "1 / 10" [ref=e947]:
+            - generic [ref=e950] [cursor=pointer]:
+              - generic [ref=e951]: 
+              - generic [ref=e952]: "@chalo_odisha"
+          - group "2 / 10" [ref=e953]:
+            - generic [ref=e956] [cursor=pointer]:
+              - generic [ref=e957]: 
+              - generic [ref=e958]: "@pramodbathija"
+          - group "3 / 10" [ref=e959]:
+            - generic [ref=e962] [cursor=pointer]:
+              - generic [ref=e963]: 
+              - generic [ref=e964]: "@i.satyam5"
+          - group "4 / 10" [ref=e965]:
+            - generic [ref=e968] [cursor=pointer]:
+              - generic [ref=e969]: 
+              - generic [ref=e970]: "@mihir_das_official"
+          - group "5 / 10" [ref=e971]:
+            - generic [ref=e974] [cursor=pointer]:
+              - generic [ref=e975]: 
+              - generic [ref=e976]: "@dibyajyoti_photography"
+          - group "6 / 10" [ref=e977]:
+            - generic [ref=e980] [cursor=pointer]:
+              - generic [ref=e981]: 
+              - generic [ref=e982]: "@chalo_odisha"
+          - group "7 / 10" [ref=e983]:
+            - generic [ref=e986] [cursor=pointer]:
+              - generic [ref=e987]: 
+              - generic [ref=e988]: "@pramodbathija"
+          - group "8 / 10" [ref=e989]:
+            - generic [ref=e992] [cursor=pointer]:
+              - generic [ref=e993]: 
+              - generic [ref=e994]: "@i.satyam5"
+          - group "9 / 10" [ref=e995]:
+            - generic [ref=e998] [cursor=pointer]:
+              - generic [ref=e999]: 
+              - generic [ref=e1000]: "@mihir_das_official"
+      - generic [ref=e1010]:
+        - generic [ref=e1011]:
+          - generic [ref=e1012]:
+            - paragraph [ref=e1013]: Real Journeys, Genuine Insights from Travelers
+            - heading "Odisha Travel Diaries" [level=2] [ref=e1014]
+            - paragraph [ref=e1015]: Travel Tales, straight from the Road
+          - link "View All Stories " [ref=e1016] [cursor=pointer]:
+            - /url: /blogs-stories
+            - text: View All Stories
+            - generic [ref=e1017]: 
+        - generic [ref=e1018]:
+          - generic [ref=e1029]:
+            - group "1 / 16" [ref=e1030]:
+              - article [ref=e1031]:
+                - img "Odisha Pre-Wedding Bliss" [ref=e1033]
+                - generic [ref=e1034]:
+                  - heading [level=3] [ref=e1035]:
+                    - link "Odisha Pre-Wedding Bliss" [ref=e1036] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-pre-wedding-bliss-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1037]: It was on our mind to showcase the Best Kept Secret to the world through our photoshoots. Odisha being our own state, it was always great to go...
+                  - generic [ref=e1039]:
+                    - generic [ref=e1040]: Arun Arun
+                    - link "Read story →" [ref=e1041] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-pre-wedding-bliss-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "2 / 16" [ref=e1042]:
+              - article [ref=e1043]:
+                - 'img "Chilika: Birdwatcher’s Haven" [ref=e1045]'
+                - generic [ref=e1046]:
+                  - heading [level=3] [ref=e1047]:
+                    - 'link "Chilika: Birdwatcher’s Haven" [ref=e1048] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chilika-birdwatcher-s-haven?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1049]: As a birding enthusiast, I felt compelled to explore the brackish waters of Chilika, eager to immerse myself in its natural beauty and avian...
+                  - generic [ref=e1051]:
+                    - generic [ref=e1052]: DISHA BHATTACHARYA
+                    - link "Read story →" [ref=e1053] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chilika-birdwatcher-s-haven?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "3 / 16" [ref=e1054]:
+              - article [ref=e1055]:
+                - 'img "Satkosia: Into the Wild" [ref=e1057]'
+                - generic [ref=e1058]:
+                  - heading [level=3] [ref=e1059]:
+                    - 'link "Satkosia: Into the Wild" [ref=e1060] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/satkosia-into-the-wild-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1061]: It is encompassing an area of 964 sq. km. and is situated on the banks of Mahanadi River. Another interesting fact about the Satkosia Tiger Reserve...
+                  - generic [ref=e1063]:
+                    - generic [ref=e1064]: Lokesh Kumar
+                    - link "Read story →" [ref=e1065] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/satkosia-into-the-wild-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "4 / 16" [ref=e1066]:
+              - article [ref=e1067]:
+                - img "Rabandhara Nature Escape" [ref=e1069]
+                - generic [ref=e1070]:
+                  - heading [level=3] [ref=e1071]:
+                    - link "Rabandhara Nature Escape" [ref=e1072] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/rabandhara-nature-escape-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1073]: This place will take you on a journey through dense forests, bubbling streams, and pristine waterfalls, showing you a side of...
+                  - generic [ref=e1075]:
+                    - generic [ref=e1076]: Rabandhara Rabandhara
+                    - link "Read story →" [ref=e1077] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/rabandhara-nature-escape-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "5 / 16" [ref=e1078]:
+              - article [ref=e1079]:
+                - 'img "Chhenapoda: Odisha’s Sweet Gem" [ref=e1081]'
+                - generic [ref=e1082]:
+                  - heading [level=3] [ref=e1083]:
+                    - 'link "Chhenapoda: Odisha’s Sweet Gem" [ref=e1084] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chhenapoda-odisha-s-sweet-gem-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1085]: The owner of a sweet shop, Sudarshana Sahoo decided to add sugar and seasonings to leftover cottage cheese (chhena) one night and left it in an...
+                  - generic [ref=e1087]:
+                    - generic [ref=e1088]: Chef Michael
+                    - link "Read story →" [ref=e1089] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chhenapoda-odisha-s-sweet-gem-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "6 / 16" [ref=e1090]:
+              - article [ref=e1091]:
+                - img "Bhubaneswar in Vibrant Hues" [ref=e1093]
+                - generic [ref=e1094]:
+                  - heading [level=3] [ref=e1095]:
+                    - link "Bhubaneswar in Vibrant Hues" [ref=e1096] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/bhubaneswar-in-vibrant-hues?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1097]: As a director, I always have this thirst for new and unseen visuals. Just in time, a proposal for filming a music video in India for Kpop group...
+                  - generic [ref=e1099]:
+                    - generic [ref=e1100]: Sagan Lee
+                    - link "Read story →" [ref=e1101] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/bhubaneswar-in-vibrant-hues?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "7 / 16" [ref=e1102]:
+              - article [ref=e1103]:
+                - 'img "Tourism Day: My Journey" [ref=e1105]'
+                - generic [ref=e1106]:
+                  - heading [level=3] [ref=e1107]:
+                    - 'link "Tourism Day: My Journey" [ref=e1108] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/tourism-day-my-journey-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1109]: As an international student from Ethiopia, I have been studying in Odisha since past few years and belong to Federation of...
+                  - generic [ref=e1111]:
+                    - generic [ref=e1112]: Tsegenet Mengistu Abebe
+                    - link "Read story →" [ref=e1113] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/tourism-day-my-journey-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "8 / 16" [ref=e1114]:
+              - article [ref=e1115]:
+                - img "Odisha’s Must-Try Soul Food" [ref=e1117]
+                - generic [ref=e1118]:
+                  - heading [level=3] [ref=e1119]:
+                    - link "Odisha’s Must-Try Soul Food" [ref=e1120] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-s-must-try-soul-food-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1121]: Pakhala is prepared by cooling cooked rice and then adding it to a bowl of water. It is usually served with baadi chura, roasted vegetable like...
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: Pritisha Das
+                    - link "Read story →" [ref=e1125] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-s-must-try-soul-food-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "9 / 16" [ref=e1126]:
+              - article [ref=e1127]:
+                - img "Odisha Pre-Wedding Bliss" [ref=e1129]
+                - generic [ref=e1130]:
+                  - heading [level=3] [ref=e1131]:
+                    - link "Odisha Pre-Wedding Bliss" [ref=e1132] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-pre-wedding-bliss-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1133]: It was on our mind to showcase the Best Kept Secret to the world through our photoshoots. Odisha being our own state, it was always great to go...
+                  - generic [ref=e1135]:
+                    - generic [ref=e1136]: Arun Arun
+                    - link "Read story →" [ref=e1137] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-pre-wedding-bliss-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "10 / 16" [ref=e1138]:
+              - article [ref=e1139]:
+                - 'img "Chilika: Birdwatcher’s Haven" [ref=e1141]'
+                - generic [ref=e1142]:
+                  - heading [level=3] [ref=e1143]:
+                    - 'link "Chilika: Birdwatcher’s Haven" [ref=e1144] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chilika-birdwatcher-s-haven?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1145]: As a birding enthusiast, I felt compelled to explore the brackish waters of Chilika, eager to immerse myself in its natural beauty and avian...
+                  - generic [ref=e1147]:
+                    - generic [ref=e1148]: DISHA BHATTACHARYA
+                    - link "Read story →" [ref=e1149] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chilika-birdwatcher-s-haven?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "11 / 16" [ref=e1150]:
+              - article [ref=e1151]:
+                - 'img "Satkosia: Into the Wild" [ref=e1153]'
+                - generic [ref=e1154]:
+                  - heading [level=3] [ref=e1155]:
+                    - 'link "Satkosia: Into the Wild" [ref=e1156] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/satkosia-into-the-wild-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1157]: It is encompassing an area of 964 sq. km. and is situated on the banks of Mahanadi River. Another interesting fact about the Satkosia Tiger Reserve...
+                  - generic [ref=e1159]:
+                    - generic [ref=e1160]: Lokesh Kumar
+                    - link "Read story →" [ref=e1161] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/satkosia-into-the-wild-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "12 / 16" [ref=e1162]:
+              - article [ref=e1163]:
+                - img "Rabandhara Nature Escape" [ref=e1165]
+                - generic [ref=e1166]:
+                  - heading [level=3] [ref=e1167]:
+                    - link "Rabandhara Nature Escape" [ref=e1168] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/rabandhara-nature-escape-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1169]: This place will take you on a journey through dense forests, bubbling streams, and pristine waterfalls, showing you a side of...
+                  - generic [ref=e1171]:
+                    - generic [ref=e1172]: Rabandhara Rabandhara
+                    - link "Read story →" [ref=e1173] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/rabandhara-nature-escape-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "13 / 16" [ref=e1174]:
+              - article [ref=e1175]:
+                - 'img "Chhenapoda: Odisha’s Sweet Gem" [ref=e1177]'
+                - generic [ref=e1178]:
+                  - heading [level=3] [ref=e1179]:
+                    - 'link "Chhenapoda: Odisha’s Sweet Gem" [ref=e1180] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chhenapoda-odisha-s-sweet-gem-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1181]: The owner of a sweet shop, Sudarshana Sahoo decided to add sugar and seasonings to leftover cottage cheese (chhena) one night and left it in an...
+                  - generic [ref=e1183]:
+                    - generic [ref=e1184]: Chef Michael
+                    - link "Read story →" [ref=e1185] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/chhenapoda-odisha-s-sweet-gem-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "14 / 16" [ref=e1186]:
+              - article [ref=e1187]:
+                - img "Bhubaneswar in Vibrant Hues" [ref=e1189]
+                - generic [ref=e1190]:
+                  - heading [level=3] [ref=e1191]:
+                    - link "Bhubaneswar in Vibrant Hues" [ref=e1192] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/bhubaneswar-in-vibrant-hues?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1193]: As a director, I always have this thirst for new and unseen visuals. Just in time, a proposal for filming a music video in India for Kpop group...
+                  - generic [ref=e1195]:
+                    - generic [ref=e1196]: Sagan Lee
+                    - link "Read story →" [ref=e1197] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/bhubaneswar-in-vibrant-hues?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "15 / 16" [ref=e1198]:
+              - article [ref=e1199]:
+                - 'img "Tourism Day: My Journey" [ref=e1201]'
+                - generic [ref=e1202]:
+                  - heading [level=3] [ref=e1203]:
+                    - 'link "Tourism Day: My Journey" [ref=e1204] [cursor=pointer]':
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/tourism-day-my-journey-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1205]: As an international student from Ethiopia, I have been studying in Odisha since past few years and belong to Federation of...
+                  - generic [ref=e1207]:
+                    - generic [ref=e1208]: Tsegenet Mengistu Abebe
+                    - link "Read story →" [ref=e1209] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/tourism-day-my-journey-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+            - group "16 / 16" [ref=e1210]:
+              - article [ref=e1211]:
+                - img "Odisha’s Must-Try Soul Food" [ref=e1213]
+                - generic [ref=e1214]:
+                  - heading [level=3] [ref=e1215]:
+                    - link "Odisha’s Must-Try Soul Food" [ref=e1216] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-s-must-try-soul-food-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+                  - paragraph [ref=e1217]: Pakhala is prepared by cooling cooked rice and then adding it to a bowl of water. It is usually served with baadi chura, roasted vegetable like...
+                  - generic [ref=e1219]:
+                    - generic [ref=e1220]: Pritisha Das
+                    - link "Read story →" [ref=e1221] [cursor=pointer]:
+                      - /url: https://apptourlfr-stg.estpl.net/home/-/blogs/odisha-s-must-try-soul-food-1?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview
+          - button "Previous slide" [ref=e1222] [cursor=pointer]:
+            - generic [ref=e1223]: 
+          - button "Next slide" [ref=e1224] [cursor=pointer]:
+            - generic [ref=e1225]: 
+    - generic [ref=e1226]:
+      - generic [ref=e1227]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=e1228]:
+        - button "I'm happy with this" [ref=e1229] [cursor=pointer]
+        - button "Close" [ref=e1230] [cursor=pointer]:
+          - generic [ref=e1231]: 
+    - generic:  
+    - contentinfo [ref=e1234]:
+      - generic [ref=e1235]:
+        - generic [ref=e1236]:
+          - img "Logo" [ref=e1238]
+          - generic [ref=e1248]:
+            - generic [ref=e1249]:
+              - generic [ref=e1250]: Important Links
+              - list [ref=e1251]:
+                - listitem [ref=e1252]:
+                  - link "Government of Odisha" [ref=e1253] [cursor=pointer]:
+                    - /url: https://odisha.gov.in/
+                - listitem [ref=e1254]:
+                  - link "Department of Tourism, Odisha" [ref=e1255] [cursor=pointer]:
+                    - /url: https://dot.odisha.gov.in/
+                - listitem [ref=e1256]:
+                  - link "Odisha Tourism Development Corporation (OTDC)" [ref=e1257] [cursor=pointer]:
+                    - /url: https://otdc.odisha.gov.in/
+                - listitem [ref=e1258]:
+                  - link "Book Odisha" [ref=e1259] [cursor=pointer]:
+                    - /url: https://www.bookodisha.com/
+                - listitem [ref=e1260]:
+                  - link "Eco Retreat Odisha" [ref=e1261] [cursor=pointer]:
+                    - /url: https://www.odishaecoretreats.com/
+            - generic [ref=e1262]:
+              - generic [ref=e1263]: Quick Links
+              - list [ref=e1264]:
+                - listitem [ref=e1265]:
+                  - link "Odisha At A Glance" [ref=e1266] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/odisha-at-a-glance
+                - listitem [ref=e1267]:
+                  - link "Iconic Odisha" [ref=e1268] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/iconic-odisha
+                - listitem [ref=e1269]:
+                  - link "Explore Coastal Odisha" [ref=e1270] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/east-odisha
+                - listitem [ref=e1271]:
+                  - link "Explore Northern Odisha" [ref=e1272] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/northern-odisha
+                - listitem [ref=e1273]:
+                  - link "Explore Central Odisha" [ref=e1274] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/center-odisha
+                - listitem [ref=e1275]:
+                  - link "Explore Western Odisha" [ref=e1276] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/western-odisha
+                - listitem [ref=e1277]:
+                  - link "Explore Southern Odisha" [ref=e1278] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/southern-odisha
+                - listitem [ref=e1279]:
+                  - link "Weather & Climate" [ref=e1280] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/weather-climate
+                - listitem [ref=e1281]:
+                  - link "Best Time to Visit" [ref=e1282] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/best-time-to-visit
+                - listitem [ref=e1283]:
+                  - link "How to Reach Odisha" [ref=e1284] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/how-to-reach-odisha
+          - generic [ref=e1285]:
+            - generic [ref=e1286]: Newsletter
+            - paragraph [ref=e1287]: Sign up for exciting news, learn more about our events and get great travel ideas.
+            - button "Subscribe Now" [ref=e1288] [cursor=pointer]
+            - generic [ref=e1289]:
+              - generic [ref=e1290]: Follow us
+              - generic [ref=e1291]:
+                - link "" [ref=e1292] [cursor=pointer]:
+                  - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+                - link "" [ref=e1294] [cursor=pointer]:
+                  - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+                - link "" [ref=e1296] [cursor=pointer]:
+                  - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+                - link "" [ref=e1298] [cursor=pointer]:
+                  - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=e1300]:
+          - generic [ref=e1309]:
+            - link "Privacy Policy" [ref=e1310] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/privacy-policy
+            - generic [ref=e1311]: "|"
+            - link "Disclaimer" [ref=e1312] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/disclaimer
+            - generic [ref=e1313]: "|"
+            - link "Site Map" [ref=e1314] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/site-map
+            - generic [ref=e1315]: "|"
+            - link "Contact Us" [ref=e1316] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/contact-us
+          - paragraph [ref=e1317]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=e1319]:
+    - generic [ref=e1320]:
+      - heading " Accessibility" [level=5] [ref=e1321]:
+        - generic [ref=e1322]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=e1323] [cursor=pointer]:
+        - generic [ref=e1324]: 
+    - generic [ref=e1325]:
+      - generic [ref=e1326]:
+        - button " Bigger Text" [ref=e1327] [cursor=pointer]:
+          - generic [ref=e1328]: 
+          - generic [ref=e1329]: BiggerText
+        - button " Smaller Text" [ref=e1330] [cursor=pointer]:
+          - generic [ref=e1331]: 
+          - generic [ref=e1332]: SmallerText
+        - button " Dark / Light" [ref=e1333] [cursor=pointer]:
+          - generic [ref=e1334]: 
+          - generic [ref=e1335]: Dark /Light
+        - button " Invert Colors" [ref=e1336] [cursor=pointer]:
+          - generic [ref=e1337]: 
+          - generic [ref=e1338]: InvertColors
+        - button " Letter Spacing" [ref=e1339] [cursor=pointer]:
+          - generic [ref=e1340]: 
+          - generic [ref=e1341]: LetterSpacing
+        - button " Line Height" [ref=e1342] [cursor=pointer]:
+          - generic [ref=e1343]: 
+          - generic [ref=e1344]: LineHeight
+        - button [ref=e1345] [cursor=pointer]:
+          - generic [ref=e1346]: HideImages
+        - button " Highlight Links" [ref=e1347] [cursor=pointer]:
+          - generic [ref=e1348]: 
+          - generic [ref=e1349]: HighlightLinks
+        - button " Big Cursor" [ref=e1350] [cursor=pointer]:
+          - generic [ref=e1351]: 
+          - generic [ref=e1352]: BigCursor
+        - button " Screen Reader" [ref=e1353] [cursor=pointer]:
+          - generic [ref=e1354]: 
+          - generic [ref=e1355]: ScreenReader
+      - button " Reset All" [ref=e1356] [cursor=pointer]:
+        - generic [ref=e1357]: 
+        - text: Reset All
+  - text:     

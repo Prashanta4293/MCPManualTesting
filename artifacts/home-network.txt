@@ -1,0 +1,4 @@
+222. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1 => [206] 
+268. [GET] https://api.open-meteo.com/v1/forecast?latitude=20.182&longitude=85.616&current=temperature_2m,weather_code&timezone=auto => [200] OK
+
+Note: 270 static requests not shown, run with "static" option to see them.

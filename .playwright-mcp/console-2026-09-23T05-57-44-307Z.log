@@ -1,0 +1,6 @@
+[    1900ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[    9066ms] ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38
+[    9319ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/international-sand-art-festival:0

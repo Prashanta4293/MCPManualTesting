@@ -1,0 +1,620 @@
+[
+  {
+    "name": "Weather & Climate",
+    "href": "https://apptourlfr-stg.estpl.net/weather-climate",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 25,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599335472&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fweather-climate&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Weather%2C%20Climate%20%26%20Seasonal%20Guide&en=page_view&_ee=1&tfd=250",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/weather-climate",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/weather-climate",
+      "title": "Odisha Tourism: Weather, Climate & Seasonal Guide",
+      "headings": [
+        "Weather & Climate",
+        "Climate of Odisha"
+      ],
+      "breadcrumbs": [
+        "/\nTravel Essentials\n/\nWeather & Climate",
+        "/\nTravel Essentials\n/\nWeather & Climate",
+        "/\nTravel Essentials\n/\nWeather & Climate"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nWeather & Climate\nPLAN YOUR JOURNEY WITH THE SEASONS IN MIND.\n/\nTravel Essentials\n/\nWeather & Climate\nClimate of Odisha\n\nUnderstand the seasonal rhythms to plan your perfect journey to the soul of India.\n\nCURRENT WEATHER\n27°C\nBhubaneswar\nMainly Clear\n5-DAY FORECAST\nTUE\n33°\nWED\n33°\nTHU\n32°\nFRI\n32°\nSAT\n33°\n\nLive weather data for Bhubaneswar, Odisha.\n\nSEASONAL OVERVIEW\nWinter\nOCT - FEB\n\nPleasant days and cool nights. Perfect for sightseeing and beach visits.\n\nSummer\nMAR - JUN\n\nWarm and sunny weather. Ideal for visiting hill stations like Daringbadi.\n\nMonsoon\nJUL - SEP\n\nRefreshing rains transform the landscape into a lush green paradise.\n\nBest Time to Visit\nOCT - MAR\nPlan My Trip\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-25.png"
+  },
+  {
+    "name": "How to Reach Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/how-to-reach-odisha",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 26,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599345773&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhow-to-reach-odisha&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20How%20to%20Reach%20Odisha%20by%20Air%2C%20Train%20%26%20Road&en=page_view&_ee=1&tfd=279",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/how-to-reach-odisha",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/how-to-reach-odisha",
+      "title": "Odisha Tourism: How to Reach Odisha by Air, Train & Road",
+      "headings": [
+        "How to Reach Odisha",
+        "How to Reach Odisha",
+        "By Air"
+      ],
+      "breadcrumbs": [
+        "/\nTravel Essentials\n/\nHow to Reach Odisha",
+        "/\nTravel Essentials\n/\nHow to Reach Odisha",
+        "/\nTravel Essentials\n/\nHow to Reach Odisha"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nHow to Reach Odisha\nSEAMLESS CONNECTIONS TO THE SOUL OF EASTERN INDIA.\n/\nTravel Essentials\n/\nHow to Reach Odisha\nTRAVEL GUIDE\nHow to Reach Odisha\n\nOdisha is well connected to major cities across India through an extensive network of air, rail, and road connectivity. The State is accessible through international and domestic airports, major railway routes, and National Highways connecting eastern, northern, western, and southern regions of the country. Travelers can conveniently reach Odisha from different parts of India and abroad for tourism, pilgrimage, business, and cultural exploration.\n\nBy Air\nBy Rail\nBy Road\nBy Air\n\nAir travel is one of the fastest and most convenient ways to reach Odisha. The State is served by multiple airports, with Biju Patnaik International Airport (BBI) being the primary gateway to Odisha. Located approximately 6 kilometers from the city center, the airport offers regular domestic and international connectivity to cities such as Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, and Raipur.\n\nOther operational airports in Odisha include:\n\nVeer Surendra Sai Airport (Domestic)\n\nMajor tourist destinations such as Puri are easily accessible from Bhubaneswar by road. Taxi, cab, and bus services are available from the airport for onward travel.\n\n Visitors are advised to book flight tickets in advance during peak tourism and festive seasons.\n\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-26.png"
+  },
+  {
+    "name": "Getting Around Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/getting-around-odisha",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 27,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599356287&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fgetting-around-odisha&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Getting%20Around%20Odisha%20%7C%20Local%20Travel%20Guide&en=page_view&_ee=1&tfd=281",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/getting-around-odisha",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/getting-around-odisha",
+      "title": "Odisha Tourism: Getting Around Odisha | Local Travel Guide",
+      "headings": [
+        "Getting Around Odisha",
+        "Getting Around Odisha",
+        "Buses",
+        "Trains",
+        "Cabs - Taxis",
+        "Auto Rickshaws - Bike Taxis",
+        "Guided Tours"
+      ],
+      "breadcrumbs": [
+        "/\nTravel Essentials\n/\nGetting Around Odisha",
+        "/\nTravel Essentials\n/\nGetting Around Odisha",
+        "/\nTravel Essentials\n/\nGetting Around Odisha"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nGetting Around Odisha\nEXPLORE EVERY CORNER, EFFORTLESSLY\n/\nTravel Essentials\n/\nGetting Around Odisha\nTRAVEL GUIDE\nGetting Around Odisha\n\nGetting around Odisha is convenient, comfortable, and well-connected through a modern network of public transport, intercity rail services, app-based mobility solutions, and guided tourism services.\n\nBuses\n\nPublic bus services provide affordable and efficient connectivity across major cities and tourist destinations in Odisha.\n\nMo Bus\n\nOperated by Capital Region Urban Transport, Mo Bus connects Bhubaneswar, Kataka, and Puri through modern, air-conditioned coaches equipped with digital ticketing and real-time tracking.\n\nOSRTC Services\n\nOdisha State Road Transport Corporation operates extensive intercity coaches connecting all major towns, cities, and popular pilgrimage sites across the State.\n\nTrains\n\nRail travel is one of the fastest and most convenient ways to travel between major destinations within Odisha.\n\n Key railway stations include:\nBhubaneswar Railway Station\nPuri Railway Station\nKataka Railway Station\nBrahmapur Railway Station\nBaleshwar Railway Station\n\nFrequent train services connect major tourism and business destinations across the State.\n\nCabs - Taxis\n\nApp-based cab services and private taxis are widely available in major urban centers including Bhubaneswar, Kataka, and Puri.\n\n Popular mobility platforms include:\nOdisha Yatri\nOla\nRapido\n\nPre-paid taxis, rental vehicles, and chauffeur-driven cars are also available for airport transfers, sightseeing, and intercity travel.\n\nAuto Rickshaws - Bike Taxis\n\nFor quick urban travel and navigating narrow streets, auto rickshaws and bike taxis offer highly efficient local transit.\n\nAuto Rickshaws\n\nAuto-rickshaws are easily available for short-distance travel within all cities and major towns across Odisha. Shared auto services operate on fixed local routes.\n\nBike Taxi\n\nApp-based bike taxi services provide a quick and economical option for solo travelers navigating busy city traffic routes.\n\nGuided Tours\n\nOrganized sightseeing and packages offer curated travel itineraries with local expert assistance.\n\nOTDC Sightseeing\n\nOrganized sightseeing and tourism packages are available through Odisha Tourism Development Corporation (OTDC) and authorized tour operators.\n\nTraveler Services\n\nThese services offer comfortable travel arrangements, curated itineraries, and local travel assistance for visitors exploring Odisha's sights.\n\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-27.png"
+  },
+  {
+    "name": "Currency Converter",
+    "href": "https://apptourlfr-stg.estpl.net/currency-converter",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 28,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599366614&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fcurrency-converter&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Currency%20Converter%20%26%20Travel%20Money%20Guide&en=page_view&_ee=1&tfd=283",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/currency-converter",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/currency-converter",
+      "title": "Odisha Tourism: Currency Converter & Travel Money Guide",
+      "headings": [
+        "Currency Converter",
+        "Currency Converter"
+      ],
+      "breadcrumbs": [
+        "/\nTravel Essentials\n/\nCurrency Converter",
+        "/\nTravel Essentials\n/\nCurrency Converter",
+        "/\nTravel Essentials\n/\nCurrency Converter"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nCurrency Converter\nPLAN YOUR TRIP WITH ACCURATE LIVE EXCHANGE RATES\n/\nTravel Essentials\n/\nCurrency Converter\nCurrency Converter\n\nReal-time exchange rates powered by live market data. Convert any currency before your journey.\n\nQUICK AMOUNT\n1\n10\n50\n100\n500\n1,000\n5,000\nAMOUNT\n$\nFROM\nUSD - US Dollar\nEUR - Euro\nGBP - British Pound\nINR - Indian Rupee\nAUD - Australian Dollar\nCAD - Canadian Dollar\nJPY - Japanese Yen\nSGD - Singapore Dollar\nAED - Emirati Dirham\nCHF - Swiss Franc\nHKD - Hong Kong Dollar\nMYR - Malaysian Ringgit\nTHB - Thai Baht\n1INCH - 1inch\nAAVE - Aave\nADA - Cardano\nAFN - Afghan Afghani\nAKT - Akash Network\nALGO - Algorand\nALL - Albanian Lek\nAMD - Armenian Dram\nAMP - Amp\nANG - Dutch Guilder\nAOA - Angolan Kwanza\nAPE - ApeCoin\nAPT - Aptos\nAR - Arweave\nARB - Arbitrum\nARS - Argentine Peso\nATOM - Cosmos\nATS - Austrian Schilling\nAVAX - Avalanche\nAWG - Aruban or Dutch Guilder\nAXS - Axie Infinity\nAZM - Azerbaijani Manat\nAZN - Azerbaijan Manat\nBAKE - BakeryToken\nBAM - Bosnian Convertible Mark\nBAT - Basic Attention Token\nBBD - Barbadian or Bajan Dollar\nBCH - Bitcoin Cash\nBDT - Bangladeshi Taka\nBEF - Belgian Franc\nBGN - Bulgarian Lev\nBHD - Bahraini Dinar\nBIF - Burundian Franc\nBMD - Bermudian Dollar\nBNB - Binance Coin\nBND - Bruneian Dollar\nBOB - Bolivian Bolíviano\nBRL - Brazilian Real\nBSD - Bahamian Dollar\nBSV - Bitcoin SV\nBSW - Biswap\nBTC - Bitcoin\nBTCB - Bitcoin BEP2\nBTG - Bitcoin Gold\nBTN - Bhutanese Ngultrum\nBTT - BitTorrent\nBUSD - Binance USD\nBWP - Botswana Pula\nBYN - Belarusian Ruble\nBYR - Belarusian Ruble\nBZD - Belizean Dollar\nCAKE - PancakeSwap\nCDF - Congolese Franc\nCELO - Celo\nCFX - Conflux\nCHZ - Chiliz\nCLP - Chilean Peso\nCNH - Chinese Yuan Renminbi Offshore\nCNY - Chinese Yuan Renminbi\nCOMP - Compound\nCOP - Colombian Peso\nCRC - Costa Rican Colon\nCRO - Crypto.com Chain\nCRV - Curve DAO Token\nCSPR - Casper\nCUC - Cuban Convertible Peso\nCUP - Cuban Peso\nCVE - Cape Verdean Escudo\nCVX - Convex Finance\nCYP - Cypriot Pound\nCZK - Czech Koruna\nDAI - DAI\nDASH - Digital Cash\nDCR - Decred\nDEM - German Deutsche Mark\nDFI - DfiStarter\nDJF - Djiboutian Franc\nDKK - Danish Krone\nDOGE - Dogecoin\nDOP - Dominican Peso\nDOT - Polkadot\nDYDX - dYdX\nDZD - Algerian Dinar\nEEK - Estonian Kroon\nEGLD - Elrond\nEGP - Egyptian Pound\nENJ - Enjin Coin\nEOS - EOS\nERN - Eritrean Nakfa\nESP - Spanish Peseta\nETB - Ethiopian Birr\nETC - Ethereum Classic\nETH - Ethereum\nEURC -\nFEI - Fei USD\nFIL - Filecoin\nFIM - Finnish Markka\nFJD - Fijian Dollar\nFKP - Falkland Island Pound\nFLOW - Flow\nFLR - FLARE\nFRAX - Frax\nFRF - French Franc\nFTT - FarmaTrust\nGALA - Gala\nGEL - Georgian Lari\nGGP - Guernsey Pound\nGHC - Ghanaian Cedi\nGHS - Ghanaian Cedi\nGIP - Gibraltar Pound\nGMD - Gambian Dalasi\nGMX - Goldmaxcoin\nGNF - Guinean Franc\nGNO - Gnosis\nGRD - Greek Drachma\nGRT - The Graph\nGT - GateToken\nGTQ - Guatemalan Quetzal\nGUSD - Gemini US Dollar\nGYD - Guyanese Dollar\nHBAR - Hedera\nHNL - Honduran Lempira\nHNT - Helium\nHOT - Hydro Protocol\nHRK - Croatian Kuna\nHT - Huobi Token\nHTG - Haitian Gourde\nHUF - Hungarian Forint\nICP - Internet Computer\nIDR - Indonesian Rupiah\nIEP - Irish Pound\nILS - Israeli Shekel\nIMP - Isle of Man Pound\nIMX - Immutable X\nINJ - Injective\nIQD - Iraqi Dinar\nIRR - Iranian Rial\nISK - Icelandic Krona\nITL - Italian Lira\nJEP - Jersey Pound\nJMD - Jamaican Dollar\nJOD - Jordanian Dinar\nKAS -\nKAVA - Kava\nKCS - Kucoin\nKDA - Kadena\nKES - Kenyan Shilling\nKGS - Kyrgyzstani Som\nKHR - Cambodian Riel\nKLAY - Klaytn\nKMF - Comorian Franc\nKNC - Kyber Network Crystals\nKPW - North Korean Won\nKRW - South Korean Won\nKSM - Kusama\nKWD - Kuwaiti Dinar\nKYD - Caymanian Dollar\nKZT - Kazakhstani Tenge\nLAK - Lao Kip\nLBP - Lebanese Pound\nLDO - Lido DAO Token\nLEO - LEOcoin\nLINK - Chainlink\nLKR - Sri Lankan Rupee\nLRC - Loopring\nLRD - Liberian Dollar\nLSL - Basotho Loti\nLTC - Litecoin\nLTL - Lithuanian Litas\nLUF - Luxembourg Franc\nLUNA - Terra\nLUNC -\nLVL - Latvian Lat\nLYD - Libyan Dinar\nMAD - Moroccan Dirham\nMANA - Mana Coin Decentraland\nMBX - MobieCoin\nMDL - Moldovan Leu\nMGA - Malagasy Ariary\nMGF - Malagasy Franc\nMINA - Mina\nMKD - Macedonian Denar\nMKR - Maker\nMMK - Burmese Kyat\nMNT - Mongolian Tughrik\nMOP - Macau Pataca\nMRO - Mauritanian Ouguiya\nMRU - Mauritanian Ouguiya\nMTL - Maltese Lira\nMUR - Mauritian Rupee\nMVR - Maldivian Rufiyaa\nMWK - Malawian Kwacha\nMXN - Mexican Peso\nMXV -\nMZM - Mozambican Metical\nMZN - Mozambican Metical\nNAD - Namibian Dollar\nNEAR - NEAR Protocol\nNEO - NEO\nNEXO - NEXO\nNFT - NFT\nNGN - Nigerian Naira\nNIO - Nicaraguan Cordoba\nNLG - Dutch Guilder\nNOK - Norwegian Krone\nNPR - Nepalese Rupee\nNZD - New Zealand Dollar\nOKB - Okex\nOMR - Omani Rial\nONE - Menlo One\nOP - Optimism\nORDI -\nPAB - Panamanian Balboa\nPAXG - PAX Gold\nPEN - Peruvian Sol\nPEPE -\nPGK - Papua New Guinean Kina\nPHP - Philippine Peso\nPI - Plian\nPKR - Pakistani Rupee\nPLN - Polish Zloty\nPOL - Proof Of Liquidity\nPTE - Portuguese Escudo\nPYG - Paraguayan Guarani\nQAR - Qatari Riyal\nQNT - Quant\nQTUM - QTUM\nROL - Romanian Leu\nRON - Romanian Leu\nRPL - Rocket Pool\nRSD - Serbian Dinar\nRUB - Russian Ruble\nRUNE - THORChain (ERC20)\nRVN - Ravencoin\nRWF - Rwandan Franc\nSAND - The Sandbox\nSAR - Saudi Arabian Riyal\nSBD - Solomon Islander Dollar\nSCR - Seychellois Rupee\nSDD - Sudanese Dinar\nSDG - Sudanese Pound\nSEK - Swedish Krona\nSHIB - Shiba Inu\nSHP - Saint Helenian Pound\nSIT - Slovenian Tolar\nSKK - Slovak Koruna\nSLE - Sierra Leonean Leone\nSLL - Sierra Leonean Leone\nSNX - Synthetix Network\nSOL - Solana\nSOS - Somali Shilling\nSPL - Seborgan Luigino\nSRD - Surinamese Dollar\nSRG - Surinamese Guilder\nSSP - South Sudanese Pound\nSTD - Sao Tomean Dobra\nSTN - Sao Tomean Dobra\nSTX - Stacks\nSUI - Sui\nSVC - Salvadoran Colon\nSYP - Syrian Pound\nSZL - Swazi Lilangeni\nTHETA - Theta\nTJS - Tajikistani Somoni\nTMM - Turkmenistani Manat\nTMT - Turkmenistani Manat\nTND - Tunisian Dinar\nTOP - Tongan Pa'anga\nTRL -\nTRX - TRON\nTRY - Turkish Lira\nTTD - Trinidadian Dollar\nTUSD - True USD\nTVD - Tuvaluan Dollar\nTWD - Taiwan New Dollar\nTWT - Trust Wallet Token\nTZS - Tanzanian Shilling\nUAH - Ukrainian Hryvnia\nUGX - Ugandan Shilling\nUNI - Uniswap\nUSDC - USDC\nUSDD -\nUSDP - USDP Stablecoin\nUSDT - Tether\nUYU - Uruguayan Peso\nUZS - Uzbekistani Som\nVAL - Vatican City Lira\nVEB - Venezuelan Bolívar\nVED -\nVEF - Venezuelan Bolívar\nVES - Venezuelan Bolívar\nVET - Vechain\nVND - Vietnamese Dong\nVUV - Ni-Vanuatu Vatu\nWAVES - Waves\nWEMIX - WEMIX\nWOO - WOO Network\nWST - Samoan Tala\nXAF - Central African CFA Franc BEAC\nXAG - Silver Ounce\nXAU - Gold Ounce\nXAUT - Tether",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-28.png"
+  },
+  {
+    "name": "Odisha Tourist Map",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-map",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 29,
+    "console": [
+      "Map elements not found"
+    ],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599386946&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Ftourist-map&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourist%20Map%3A%20Explore%20Top%20Destinations%20%26%20Attractions&en=page_view&_ee=1&tfd=209",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/tourist-map",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/tourist-map",
+      "title": "Odisha Tourist Map: Explore Top Destinations & Attractions",
+      "headings": [],
+      "breadcrumbs": [],
+      "content": "Skip to Main Content",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-29.png"
+  },
+  {
+    "name": "OTDC Panthanivas",
+    "href": "https://apptourlfr-stg.estpl.net/otdc-panthanivas",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 30,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599396994&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=15&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fotdc-panthanivas&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Book%20OTDC%20Panthanivas%20Hotels%20%26%20Resorts&en=page_view&_ee=1&tfd=595",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/otdc-panthanivas",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/otdc-panthanivas",
+      "title": "Odisha Tourism: Book OTDC Panthanivas Hotels & Resorts",
+      "headings": [
+        "OTDC Hotels",
+        "OTDC Panthanivas"
+      ],
+      "breadcrumbs": [
+        "/\nAccommodations\n/\nOTDC Panthanivas",
+        "/\nAccommodations\n/\nOTDC Panthanivas",
+        "/\nAccommodations\n/\nOTDC Panthanivas"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nOTDC Hotels\nSTAY THE ODIA WAY — COMFORTABLE, AND TRUSTED, EVERYWHERE.\n/\nAccommodations\n/\nOTDC Panthanivas\nODIA HOSPITALITY\nOTDC Panthanivas\n\nBlending comfort with authentic Odia hospitality, our Panthanivas properties are perfectly situated at the heart of Odisha's most iconic destinations.\n\nShowing 6 of 11 Hotels\nPanthanivas Rambha\nChilika Lake, GANJAM\nROOM TYPES\n Cottage\n Restaurant | Boating\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nBrahmapur\nGANJAM District\nPanthanivas Chandipur\nChandipur Beach, BALESHWAR\nROOM TYPES\n Deluxe\n Restaurant\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nBaleshwar\nBALESHWAR District\nPanthanivas Raurkela\nSector Area , Raurkela, SUNDARAGADA\nROOM TYPES\n RESORT\n Restaurant | AC\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nRaurkela\nSUNDARAGADA District\nPanthanivas Baleshwar\nTown Center, BALESHWAR\nROOM TYPES\n Standard\n Parking Facilities Available | Restaurant | AC\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nBaleshwar\nBALESHWAR District\nPanthanivas Kendujhar\nTown Area, KENDUJHAR\nROOM TYPES\n Standard\n Parking Facilities Available | AC\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nKendujhar\nKENDUJHAR District\nPanthanivas Gopalpur\nGopalpur Beach, GANJAM\nROOM TYPES\n Standard\n Parking Facilities Available | Restaurant\nFor more details and bookings, please visit the link below\nwww.bookodisha.com\nLOCATION\nGopalpur\nGANJAM District\nLoad More Results \nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-30.png"
+  },
+  {
+    "name": "Eco Retreats",
+    "href": "https://apptourlfr-stg.estpl.net/eco-retreats",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 31,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za208zd898099681xf1&_p=1790599407594&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121280971&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Feco-retreats&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Eco%20Retreats%2C%20Luxury%20Glamping%20%26%20Getaways&en=page_view&_ee=1&tfd=276",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/eco-retreats",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/eco-retreats",
+      "title": "Odisha Tourism: Eco Retreats, Luxury Glamping & Getaways",
+      "headings": [
+        "Eco Retreats",
+        "Eco Retreat Locations"
+      ],
+      "breadcrumbs": [
+        "/\nAccommodations\n/\nEco Retreats",
+        "/\nAccommodations\n/\nEco Retreats",
+        "/\nAccommodations\n/\nEco Retreats"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nEco Retreats\nLUXURY SWISS COTTAGES IN THE HEART OF NATURE\n/\nAccommodations\n/\nEco Retreats\nLUXURY STAYS\nEco Retreat Locations\n\nImmerse yourself in sustainable luxury across Odisha's most breathtaking landscapes, from pristine beaches to misty highlands.\n\nShowing 6 of 7 Hotels\nEco Retreat Daringbadi\nHill Station, KANDHAMALA\nACCOMMODATION & AMENITIES\nAttraction:\nValleys, Coffee Gardens\nAmenities:\nAC, Trekking\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nValleys, Coffee Gardens\nKANDHAMALA District\nEco Retreat Bhitarkanika\nPentha Beach, KENDRAPADA\nACCOMMODATION & AMENITIES\nAttraction:\nMangrove Forest\nAmenities:\nAC, Boating\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nMangrove Forest\nKENDRAPADA District\nEco Retreat Satkosia\nSatkosia Gorge, ANUGOLA\nACCOMMODATION & AMENITIES\nAttraction:\nRiver + Wildlife\nAmenities:\nAC, Boating\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nRiver + Wildlife\nANUGOLA District\nEco Retreat Hirakud\nHirakud Dam, SAMBALPUR\nACCOMMODATION & AMENITIES\nAttraction:\nReservoir View\nAmenities:\nAC, Water Sports\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nReservoir View\nSAMBALPUR District\nEco Retreat Konark\nRamchandi Beach, PURI\nACCOMMODATION & AMENITIES\nAttraction:\nBeach + Sun Temple\nAmenities:\nRestaurant, AC, Water Sports\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nBeach + Sun Temple\nPURI District\nEco Retreat Sonapur\nSonapur Beach, GANJAM\nACCOMMODATION & AMENITIES\nAttraction:\nVirgin Beach\nAmenities:\nAC, Water Sports\nFor more details and bookings, please visit the link below\nwww.odishaecoretreats.com\nHIGHLIGHTS\nVirgin Beach\nGANJAM District\nLoad More Results \nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-31.png"
+  },
+  {
+    "name": "Nature Camps",
+    "href": "https://apptourlfr-stg.estpl.net/nature-camps",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 32,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599418383&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=5&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fnature-camps&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Nature%20Camps%2C%20Ecotourism%20%26%20Forest%20Resorts&en=page_view&_ee=1&tfd=257",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/nature-camps",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/nature-camps",
+      "title": "Odisha Tourism: Nature Camps, Ecotourism & Forest Resorts",
+      "headings": [
+        "Nature Camps",
+        "Nature Camps"
+      ],
+      "breadcrumbs": [
+        "/\nAccommodations\n/\nNature Camps",
+        "/\nAccommodations\n/\nNature Camps",
+        "/\nAccommodations\n/\nNature Camps"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nNature Camps\nEXPERIENCE THE WILD HEART OF ODISHA\n/\nAccommodations\n/\nNature Camps\nWILDERNESS ESCAPES\nNature Camps\n\nDiscover the raw beauty of Odisha through our curated nature camps and eco-retreats, where luxury meets the wilderness.\n\nShowing 6 of 33 Hotels\nBerbera Nature Camp\nBerbera, KHORDHA\nCAMP DETAILS\nAttraction:\nForest Habitat\nRegion:\nEast Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nForest Habitat\nKHORDHA District\nRabandhara Nature Camp\nRabandhara Falls, KALAHANDI\nCAMP DETAILS\nAttraction:\nScenic Waterfall\nRegion:\nWest Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nScenic Waterfall\nKALAHANDI District\nDambargarh Nature Camp\nDambargarh Hills, BOUDH\nCAMP DETAILS\nAttraction:\nScenic Hills\nRegion:\nCentral Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nScenic Hills\nBOUDH District\nChandipur Nature Camp\nChandipur Beach, BALESHWAR\nCAMP DETAILS\nAttraction:\nReceding Sea Beach\nRegion:\nNorth Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nReceding Sea Beach\nBALESHWAR District\nNrusinghnath Nature Camp\nNrusinghnath, BARAGADA\nCAMP DETAILS\nAttraction:\nGandhamardan Hills\nRegion:\nWest Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nGandhamardan Hills\nBARAGADA District\nOlasuni Nature Camp\nOlasuni Hills, JAJPUR\nCAMP DETAILS\nAttraction:\nBuddhist Site\nRegion:\nEast Odisha\nFor more details and bookings, please visit the link below\nwww.ecotourodisha.com\nHIGHLIGHTS\nBuddhist Site\nJAJPUR District\nLoad More Results \nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-32.png"
+  },
+  {
+    "name": "Hotels",
+    "href": "https://apptourlfr-stg.estpl.net/hotels",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 33,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za208zd898099681xf1&_p=1790599442108&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=15&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121280971&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhotels&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Book%20Top%20Hotels%2C%20Resorts%20%26%20Stays&en=page_view&_ee=1&tfd=261",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/hotels",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/hotels",
+      "title": "Odisha Tourism: Book Top Hotels, Resorts & Stays",
+      "headings": [
+        "Hotels",
+        "Hotels"
+      ],
+      "breadcrumbs": [
+        "/\nAccommodations\n/\nHotels",
+        "/\nAccommodations\n/\nHotels",
+        "/\nAccommodations\n/\nHotels"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nHotels\nPREMIUM HOTELS & COMFORTABLE STAYS ACROSS ODISHA\n/\nAccommodations\n/\nHotels\nLUXURY & COMFORT\nHotels\n\nWe’ve a stays/accommodations that suits your taste & budget\n\nShowing 6 of 36 Hotels\nKrishna's Courtyard Hotel & Convention\nPlot 895, 896, Balikuda–Trishulia Road, KATAKA, 753011\n7064000111\nhttps://krishnascourtyard.com/\nAMENITIES\nPROXIMITY\n26.7 Km. from Airport\n7.2 Km. from Railway\n7.5 Km. from Bus Stop\nWelcomhotel by ITC Hotels, Bhubaneswar\nD/1, Dumuduma, Bhubaneswar, KHORDHA, 751019\n06747147140 , 06747147141\nhttps://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar\nAMENITIES\nPROXIMITY\n7 Km. from Airport\n9 Km. from Railway\n3 Km. from Bus Stop\nSwosti Premium Beach Resorts, Puri\nSipasarubali, Baliapanda, New Marine Drive Road, Baliapanda Housing Board Colony, PURI, 752001\n06752353000 , 9124752990\nhttps://www.swostihotels.com/swosti-premium-beach-resorts-puri/\nAMENITIES\nPROXIMITY\n62 Km. from Airport\n5 Km. from Railway\n4 Km. from Bus Stop\nVivanta Bhubaneswar, DN Square\nNear DN Regalia Mall, Kalinga Vihar, Patrapada, Bhubaneswar, KHORDHA, 751019\n06746888888\nhttps://www.vivantahotels.com/en-in/hotels/vivanta-bhubaneswar\nAMENITIES\nPROXIMITY\n12 Km. from Airport\n14 Km. from Railway\n6 Km. from Bus Stop\nLYFE Hotels\nC-5, Road No. 8, Janpath Road, Opposite Kali Temple, Bhoinagar, Bhubaneswar, KHORDHA, 751022\n06746484848\nhttps://www.lyfehotels.com/\nAMENITIES\nPROXIMITY\n12 Km. from Airport\n10 Km. from Railway\n0.3 Km. from Bus Stop\nGaruda – Luxury Houseboat (Vikash Eco Resorts)\nChilika Wetland Research Centre, Near OTDC Panthanivas, Barkul, KHORDHA, 752030\n7008988690\nhttps://vikashecoresorts.com/\nAMENITIES\nPROXIMITY\n120 Km. from Airport\n6 Km. from Railway\n1 Km. from Bus Stop\nLoad More Results \nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-33.png"
+  },
+  {
+    "name": "Heritage Properties",
+    "href": "https://apptourlfr-stg.estpl.net/heritage-properties",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 34,
+    "console": [
+      "Swiper is not defined",
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599453087&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=11&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121280969&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fheritage-properties&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Heritage%20Properties%2C%20Royal%20Palaces%20%26%20Stays&en=page_view&_ee=1&tfd=402",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://img.youtube.com/vi/-aPINUood2M/maxresdefault.jpg",
+        "status": 404
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/heritage-properties",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/heritage-properties",
+      "title": "Odisha Tourism: Heritage Properties, Royal Palaces & Stays",
+      "headings": [
+        "Heritage Properties",
+        "Where Every Palace Tells a Story",
+        "Signature Experiences",
+        "Royal Heritage",
+        "Culture & Traditions",
+        "Nature & Wildlife",
+        "Craft & Handloom",
+        "Slow Travel",
+        "Our Royal Properties",
+        "Explore Heritage Stories",
+        "Mahodadhi Palace - The Best Beach View Heritage Hotel in Puri",
+        "The Belgadia Palace, Mayurbhanj Odisha",
+        "THE JOURNEY CONTINUES"
+      ],
+      "breadcrumbs": [
+        "/\nAccommodations\n/\nHeritage Properties",
+        "/\nAccommodations\n/\nHeritage Properties",
+        "/\nAccommodations\n/\nHeritage Properties"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nHeritage Properties\nLUXURY HERITAGE STAYS ACROSS ODISHA\n/\nAccommodations\n/\nHeritage Properties\nOverview\nExperiences\nHeritage Stays\nVideos\nJourney Continues\nLUXURY & HERITAGE STAYS\nWhere Every Palace Tells a Story\n\nOdisha's heritage stays invite travelers to experience a side of the state that few destinations can offer. These historic palaces, forts and royal residences, many of which continue to be home to the erstwhile royal families, open a window into centuries of history, architecture and tradition.\n\nEach property reflects the character of its region. Nestled beside rivers, amidst forests or overlooking rolling hills, these heritage homes have been thoughtfully restored to preserve their original charm while offering the comforts of a memorable stay. From elegant Victorian mansions and riverside palaces to secluded hunting lodges and historic fort residences, every destination has a story waiting to be discovered.\n\nA stay at these heritage properties is about more than beautiful architecture. It is an opportunity to walk through grand courtyards and Durbar Halls, admire antique collections and family heirlooms, savor recipes rooted in royal kitchens, and engage with traditions that continue to thrive through the generations. Conversations with the host families, who remain custodians of these remarkable residences, add a personal dimension to every visit.\n\nBeyond the palace gates lies another journey. Many heritage stays are located close to wildlife sanctuaries, mangrove forests, rivers, waterfalls, ancient temples, Buddhist sites, weaving villages and traditional craft clusters, making them ideal starting points for exploring the diverse landscapes and living heritage of Odisha.\n\nWhether you are drawn by history, architecture, nature or culture, Odisha's heritage properties offer experiences that are intimate, authentic and deeply connected to the places they call home.\n\nMUST EXPERIENCE\nSignature Experiences\nRoyal Heritage\n\nExplore palaces that have preserved centuries of architectural splendor, royal traditions and family legacies.\n\nCulture & Traditions\n\nExperience Odisha through its classical dance, regional cuisine, festivals, crafts and local customs.\n\nNature & Wildlife\n\nVenture into nearby forests, rivers, wetlands and wildlife habitats that surround many of the heritage properties.\n\nCraft & Handloom\n\nMeet skilled artisans, visit traditional weaving centers and discover the timeless craftsmanship that defines Odisha's rich cultural identity.\n\nSlow Travel\n\nEnjoy peaceful walks through palace gardens, riverside landscapes, village trails and quiet countryside, where every experience unfolds at an unhurried pace.\n\nHERITAGE STAYS\nOur Royal Properties\nShowing 5 of 5 Heritage\nGajlaxmi Palace\nBorapada, Dhenkanal, Odisha\n9861011221\nhttps://www.gajlaxmipalace.com\nAMENITIES\nView Details\nPROXIMITY\nBhubaneswar (87 km)\nDhenkanal (24 km)\nDhenkanal (24 km)\nView On Map\nKila Dalijoda Palace\nAt Jyoti Niketan ( Rajbati) PO & Village Mangarajpur, via Choudwar Dist - Kataka 754028, Odisha.\n9438667086\nAMENITIES\nView Details\nPROXIMITY\nBhubaneswar (45 km)\nKataka (21.5 km)\nKataka (22 km)\nView On Map\nDhenkanal Palace\nDhenkanal, Odisha-759001\n9437292448\nhttps://www.dhenkanalpalace.com\nAMENITIES\nView Details\nPROXIMITY\nBhubaneswar (73 km)\nDhenkanal (4 km)\nDhenkanal (1 km)\nView On Map\nAali Palace\nKendrapada, Odisha 754219\n9437690565\nhttps://www.killaaulpalace.com\nAMENITIES\nView Details\nPROXIMITY\nBhubaneswar (120 km)\nKataka (91 km)\nAali (1 km)\nView On Map\nThe Belgadia Palace\nThe Belgadia Palace,Ward 02, Mayurbhanj, Odisha -757002\n9830290530\nhttps://www.thebelgadiapalace.com\nAMENITIES\nView Details\nPROXIMITY\nBhubaneswar (258 km)\nBaripada (4 km)\nBaripada (1 km)\nView On Map\nVISUAL TOUR\nExplore Heritage Stories\nMahodadhi Palace - The Best Beach View Heritage Hotel in Puri\n\nMahodadhi Palace\n\nWatch on\nYouTube\nThe Belgadia Palace, Mayurbhanj Odisha\n\nOdisha Tourism\n\nWatch on\nYouTube\nTHE JOURNEY CONTINUES\n\n Each heritage property offers a distinctive journey through Odisha's royal past while providing a welcoming and immersive experience for today's traveller. Together, they celebrate a legacy that continues to live on not as monuments of history, but as homes that continue to share their stories with the world. \n\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-34.png"
+  },
+  {
+    "name": "Tourist Offices",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-offices",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 35,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599463868&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Ftourist-offices&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Find%20official%20Odisha%20Tourism%20offices%20and%20Tourist%20Information%20Centres%20across%20key%20locations%20like%20Bhubaneswar%2C%20Puri%2C%20Cuttack%2C%20and%20Konark%20for%20travel%20help%20and%20guides.&en=page_view&_ee=1&tfd=330",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/tourist-offices",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/tourist-offices",
+      "title": "Find official Odisha Tourism offices and Tourist Information Centres across key locations like Bhubaneswar, Puri, Cuttack, and Konark for travel help and guides.",
+      "headings": [
+        "Tourist Offices",
+        "Government of Odisha Tourist Offices",
+        "Central Information Office",
+        "Government of India Tourist Office",
+        "Tourist Information Counters"
+      ],
+      "breadcrumbs": [
+        "/\nTourist Services & Safety\n/\nTourist Offices",
+        "/\nTourist Services & Safety\n/\nTourist Offices",
+        "/\nTourist Services & Safety\n/\nTourist Offices"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nTourist Offices\nOFFICIAL GOVERNMENT OF ODISHA TOURISM OFFICE NETWORK\n/\nTourist Services & Safety\n/\nTourist Offices\nGovernment of Odisha Tourist Offices\n\nFind official information and travel assistance across our network of regional and national tourist offices.\n\nOFFICE NAME\tADDRESS\tDESIGNATED OFFICER & MOBILE NO.\tTEL/FAX NO. & EMAIL ID\tACTION\n\nAnugola\n\t\n1st Floor, Old Building of Commercial Tax office PO/Dist : Anugola, PIN-759122\n\t\nTourism Development Officer\nMobile No.: 9990452449\n\t\nTel/Fax: 06764-233927\noritourangul@gmail.com\n\t\nGoto Map\n\nBalangir\n\t\nNear RTO Chowk, Titilagarh Road, Balangir, PIN-767001\n\t\nTourism Development Officer\nMobile No.: 7504855504\n\t\noritourbalangir@gmail.com\n\t\nGoto Map\n\nBaleshwar\n\t\nCircuit House Campus Police Line, Baleshwar, PIN-756001\n\t\nTourism Development Officer\nMobile No.: 8249485883\n\t\nTel: 06782-262048\noritourbalasore@gmail.com\n\t\nGoto Map\n\nBaragada\n\t\nAt : Sanskruti Bhawan , PO/Dist : Baragada, PIN-768028\n\t\nTourism Development Officer\nMobile No.: 9437917426\n\t\noritourbaragarh@gmail.com\n\t\nGoto Map\n\nBaripada\n\t\nBaghra Road, Near Pvt.Bus Stand, Baripada Dist- Mayurbhanj, PIN-757001\n\t\nTourism Development Officer\nMobile No.: 8637203687\n\t\nTel: 06792-252710\noritourbaripada@gmail.com\n\t\nGoto Map\n\nBrahmapur\n\t\nAt/PO-Hill Patna, Inside premises of Biju Patnaik Sanskruti Bhawan Dist : Ganjam, PIN-764005\n\t\nTourism Development Officer\nMobile No.: 7715007434\n\t\nTel/Fax: 0680-2950657\noritourganjam@gmail.com\n\t\nGoto Map\n\nBhadrak\n\t\nMotel Chhak, Mathasahi, Bhadrak, PIN-756100\n\t\nTourism Development Officer\nMobile No.: 9937411556\n\t\noritourbhadrak@gmail.com\n\t\nGoto Map\n\nBhubaneswar\n\t\nGround floor, Paryatana Bhawan, Lewis Road, Bhubaneswar\n\t\nAssistant Director\nMobile No.: 9989165973\n\t\nTel: 0674-2431299\noritourbhubaneswar@gmail.com\n\t\nGoto Map\n\nBoudh\n\t\nCollectorate New Building, PO/Dist : Boudh\n\t\nTourism Development Officer\nMobile No.: 8280001975\n\t\noritourboudh@gmail.com\n\t\nGoto Map\n\nChennai\n\t\nTamilnadu Tourism Complex, Near Kalaivanar Arangam, No-2-Wallajah Road, Chennai, PIN-600002\n\t\nNot Available\n\t\nTel/Fax: 044-25360891/25360952\nodishatourismchennai@gmail.com\n\t\nGoto Map\nShow More \nCentral Information Office\n\nFor nationwide inquiries, visit our central portal.\n\ntourism.gov.in\nincredibleindia.org\nPRIMARY HUB\nGovernment of India Tourist Office\n\nThe central administrative hub for national tourism coordination within the capital of Odisha.\n\nLOCATION\nGround Floor, Paryatan Bhawan,\n\nBhubaneswar, PIN - 751014\n\nWORKING HOURS\n\n10:00 AM - 05:30 PM\n\nCONTACT\n itobbs@nic.in , itobbsr@gmail.com\n 0674-2435487\nWEBSITE\ntourism.gov.in, www.incredibleindia.org\nTourist Information Counters\nAIRPORT COUNTER\nBHUBANESWAR\n\nBiju Patnaik International Airport\n\nPHONE\n\n0674-2595659\n\nHEADQUARTERS\nTOURISM DEVELOPMENT OFFICER\n\nHeadquarters Counter\n\nPHONE\n\n7008166755\n\n Open 24/7 for flight schedules and immediate local assistance.\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-35.png"
+  },
+  {
+    "name": "Tour Operators",
+    "href": "https://apptourlfr-stg.estpl.net/tour-operators",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 36,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599474125&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121280969&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Ftour-operators&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Registered%20Tour%20Operators%20%26%20Travel%20Agencies&en=page_view&_ee=1&tfd=255",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/tour-operators",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/tour-operators",
+      "title": "Odisha Tourism: Registered Tour Operators & Travel Agencies",
+      "headings": [
+        "Tour Operators",
+        "Government Approved Tour Guides"
+      ],
+      "breadcrumbs": [
+        "/\nTourist Services & Safety\n/\nTour Operators",
+        "/\nTourist Services & Safety\n/\nTour Operators",
+        "/\nTourist Services & Safety\n/\nTour Operators"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nTour Operators\nDISCOVER RELIABLE TOUR OPERATORS FOR COMPREHENSIVE TRAVEL PACKAGES\n/\nTourist Services & Safety\n/\nTour Operators\nGovernment Approved Tour Guides\n\nOfficial list of certified local experts and regional tour guides in Odisha.\n\nSearch Directory\n Search\n Reset\nShowing 1–20 of 52 Travel Agents\n#\tTour Operator\tAddress\tMobile\tEmail\tGovt. Approval No. & Date\n1\tM/s Wingz Vacations (Wingz Holidays)\tN2-102 A, Block N2, IRC Village, Nayapalli, Bhubaneswar - 751015\t-\twingzvacations@gmail.com\t12056/TSM, dtd 02.09.2026\n2\tM/s. ODRA Holidays Pvt Ltd\tPlot No-MIG-108, Ground Floor, Ruchika Market, In front of Durga Mandap,Bhubaneswar-751003\t-\tmanoranjan@odraholidays.com\t12056/TSM, dtd 02.09.2026\n3\tM/s. Ashmita Holidays Pvt. Ltd.\tPlot No. 515/E, Mahaveer Bazar, Backside of Hanuman Mandir, Samantrapur, Bhubaneswar\t-\tPankaj@asmitaholidays.com\t4292/TSM, dtd. 26.02.2026\n4\tM/s. Zaffiro Travels Pvt. Ltd.\tA/19, Kataka–Puri Road, Laxmi Sagar, Bhubaneswar\t-\tresv.odisha@zaffiro.world\t4292/TSM, dtd. 26.02.2026\n5\tM/s New Konark Touring Centre\tAt-Gopal Ballav Road, Puri Town, Puri\t8338892469\tratnakar6678@gmail.com\t8760/TSM, dtd. 09.06.2026\n6\tM/s. Rajashree Hospitality\tPlot No. 1284/3979, Near JD Residency, Jaidurga Nagar, Khordha, Bhubaneswar\t9861349202\trajashreehospitality2024@gmail.com\t8760/TSM, dtd. 09.06.2026\n7\tM/s. Geo Hospitality & Tours Pvt. Ltd.\tGround Floor, Shop No. 2, Kailash Vihar, Saileshree Vihar Road, Chandrasekharpur, Bhubaneswar\t8763303030\tinfo@geotourismindia.com\t8760/TSM, dtd. 09.06.2026\n8\tM/s Alternative Tours Pvt. Ltd.\tRoom No. 4 & 5, BDA Market Complex, Pallaspalli, Bhubaneswar\t9861576132\tinfo@alternativetoursindia.com\t8760/TSM, dtd. 09.06.2026\n9\tM/s. Angel Eyes\tNatures Alley (A Unit of Angel Eyes), 1st Floor, Mohini Mohan Complex, Girang Chowk, Nalco Nagar, Anugola, Odisha\t9777942587\tinfo@naturesalley.org\t1731/TSM, dtd. 25.02.2022\n10\tM/s. Annapurna Ventures Private Limited\tN5/525, Annapurna Complex, IRC Village, Bhubaneswar, Khordha - 751015, Odisha\t9861010589\tpulakesh.exploreodisha@gmail.com\t1735/TSM, dtd. 25.02.2022\n11\tM/s. MISHRA TOURS & TRAVELS\tOG-253, Unit-4 Market, Bhubaneswar - 751001, Odisha\t9583407472\tmishratourstravels12@gmail.com\t1733/TSM, dtd. 25.02.2022\n12\tM/s. Indus Journey\tPlot No. 598/599, Rajarani, Samantarapur, Bhubaneswar - 751002\t9937346030, 9438792570\tindusjourney@gmail.com, odishatapan@yahoo.co.in\t1729/TSM, dtd. 25.02.2022\n13\tM/s. Swosti Travels\tSwosti Travels (A Division of Swosti Travels & Exports Pvt. Ltd.), 103, Janpath, Unit-3, Bhubaneswar - 751001, Odisha\t9338091727\tdgmst@swosti.com, gmst@swosti.com\t7605/TSM, dtd. 27.09.2022\n14\tOD Tours and Travels Pvt. Ltd.\tFlat No. 4/D, Crystal Plaza, Santoshi Bihar, Canal Road, Bhubaneswar, Odisha\t9583620350\thello@odtravels.in\t7609/TSM, dtd. 27.09.2022\n15\tM/s. Travelz O Trip\t1st Floor, Plot No. 164, Nigamananda Nagar, Bomikhal, Bhubaneswar - 751010\t9437184849\tlaxmikantaswain.07@gmail.com\t7607/TSM, dtd. 27.09.2022\n16\tM/s. Heritage Tours\tMayfair Beach Resort, C.T. Road, Puri - 752002, Odisha\t9437023656\tbubu@heritagetoursorissa.com, yugabrat@gmail.com\t7603/TSM, dtd. 27.09.2022\n17\tM/s. Odisha Vacations Services Pvt. Ltd.\tPlot No. L/62, Ground Floor, Kalarahanga, Nandan Vihar, Patia, Bhubaneswar\t9338382999\tshakti@odishavacations.com\t7601/TSM, dtd. 27.09.2022\n18\tM/s. Czarita India Pvt. Ltd.\tPlot No. 501, Maruti Residency, Patia, Raghunathpur - 751024, Odisha\t9853035385\tsubhashree26.sahoo@gmail.com\t7599/TSM, dtd. 27.09.2022\n19\tM/s. Greenline Tours & Travels\t1st & 2nd Floor, C/42, Saheed Nagar Market Building, Bhubaneswar - 751007\t9937232253\tgreenlineunit@rediffmail.com\t516/TSM, dtd. 12.01.2023\n20\tM/s. Dev Tour & Travels\tNear Bhanjpur Railway Ticket Booking Counter, PO-Bhanjpur, Baripada, Dist. Mayurbhanj - 757002, Odisha\t9938172292\ttourtraveldev@gmail.com\t516/TSM, dtd. 12.01.2023\nShowing 1 to 20 of 52 entries\n« Prev\n1\n2\n3\nNext »\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-36.png"
+  },
+  {
+    "name": "Hospitals List",
+    "href": "https://apptourlfr-stg.estpl.net/hospitals-list",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 37,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599497389&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=11&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120412527~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhospitals-list&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Hospitals%20List%20%26%20Emergency%20Medical%20Care&en=page_view&_ee=1&tfd=305",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/hospitals-list",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/hospitals-list",
+      "title": "Odisha Tourism: Hospitals List & Emergency Medical Care",
+      "headings": [
+        "Hospitals List",
+        "Hospital Facilities by District"
+      ],
+      "breadcrumbs": [
+        "/\nTourist Services & Safety\n/\nHospitals List",
+        "/\nTourist Services & Safety\n/\nHospitals List",
+        "/\nTourist Services & Safety\n/\nHospitals List"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nHospitals List\nHEALTHCARE FACILITIES ACROSS ODISHA'S DISTRICTS\n/\nTourist Services & Safety\n/\nHospitals List\nHospital Facilities by District\n\nFind emergency and general healthcare facilities across major locations in Odisha.\n\n LOCATION\t HOSPITAL NAME\n\nAnugola\n\t\nDistrict Headquarters Hospital(DHH), Anugola\n\n\nBalangir\n\t\nDistrict Headquarters Hospital(DHH), Balangir\n\n\nBaleshwar\n\t\nFakir Mohan Medical College and Hospital\n\n\nBaragada\n\t\nBaragada District Headquarters Hospital\n\n\nKataka\n\t\nSCB Medical College\n\n\nDhenkanal\n\t\nDhenkanal District Headquarters Hospital\n\n\nGanjam\n\t\nMaharaja Krushna Chandra Gajapati Medical College & Hospital\n\n\nJagatsinghpur\n\t\nDistrict Headquarters Hospital(DHH), Jagatsinghpur\n\n\nJajpur\n\t\nDistrict Headquarters Hospital(DHH), Jajpur\n\n\nKalahandi\n\t\nSaheed Rendo Majhi Medical College & Hospital, Bhabanipatana\n\n\nKendrapada\n\t\nKendrapada District Headquarter Hospital\n\n\nKendujhar\n\t\nDistrict Headquarters Hospital, Kendujhar\n\n\nKhordha\n\t\nAIIMS Bhubaneswar\nPGIMER & Capital Hospital Bhubaneswar\n\n\nKoraput\n\t\nSaheed Laxman Nayak Medical College and Hospital, Koraput\n\n\nMalkangiri\n\t\nDistrict Headquarters Hospital(DHH), Malkangiri\n\n\nMayurbhanj\n\t\nPandit Raghunath Murmu Medical College\n\n\nNabarangpur\n\t\nGovt Hospital, Nabarangpur\n\n\nNayagada\n\t\nDistrict Headquarters Hospital(DHH), Nayagada\n\n\nPuri\n\t\nSri Jagannath Medical College & Hospital, Puri\n\n\nRayagada\n\t\nDistrict Headquarters Hospital(DHH), Rayagada\n\n\nSambalpur\n\t\nGovt Hospital Sambalpur\nBurla Medical College\n\n\nSonpur\n\t\nDistrict Headquarter Hospital (DHH) Sonpur\n\n\nSundaragada\n\t\nGovernment Medical College and Hospital, Sundaragada\nHealth Emergency\n\nFor medical emergencies, dial 108 (Ambulance) or contact the nearest hospital listed above. You can also reach the Tourist Helpline at 1800-11-1363  for assistance.\n\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-37.png"
+  },
+  {
+    "name": "Feedback and Suggestions",
+    "href": "https://apptourlfr-stg.estpl.net/feedbackandsuggestions",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 38,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za208zd898099681xf1&_p=1790599508548&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=18&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121280971&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Ffeedbackandsuggestions&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Share%20Your%20Travel%20Feedback%20%26%20Suggestions&en=page_view&_ee=1&tfd=318",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/feedbackandsuggestions",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/feedbackandsuggestions",
+      "title": "Odisha Tourism: Share Your Travel Feedback & Suggestions",
+      "headings": [
+        "Feedback & Suggestions",
+        "Feedback & Suggestions",
+        "Submit Your Feedback",
+        "Submission Guidelines"
+      ],
+      "breadcrumbs": [
+        "/\nTourist Services & Safety\n/\nFeedback and Suggestions",
+        "/\nTourist Services & Safety\n/\nFeedback and Suggestions",
+        "/\nTourist Services & Safety\n/\nFeedback and Suggestions"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nFeedback & Suggestions\nWE VALUE YOUR VOICE\n/\nTourist Services & Safety\n/\nFeedback and Suggestions\nFeedback & Suggestions\n\nThe Department of Tourism, Government of Odisha welcomes your valuable feedback and suggestions to improve the Odisha Tourism Portal and tourism-related services.\n\nSubmit Your Feedback\n\nUsers may submit feedback, suggestions, complaints, or report issues related to portal content, destination information, and visitor experience. Provide accurate details for a prompt response.\n\nFull Name *\nMobile Number\n+91\nEmail Address *\nSend OTP\nVerify OTP\nFeedback Category *\nSuggestion\nComplaint\nTechnical Issue\nContent Correction\nAppreciation\nFeedback / Comments *\n0 / 1000\n Reset\n SUBMIT\nSubmission Guidelines\nOTP verification through both registered mobile number and email address is mandatory before submission.\nProvide valid contact details for authentication and communication purposes.\nFeedback will be reviewed by concerned officials for necessary action, wherever applicable.\nDo not share confidential, financial, or sensitive personal information.\nInappropriate, incomplete, or misleading submissions may not be considered.\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-38.png"
+  },
+  {
+    "name": "Wayside Amenities",
+    "href": "https://apptourlfr-stg.estpl.net/way-side-amenities",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 39,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599519838&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121280969&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fway-side-amenities&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Wayside%20Amenities%20%26%20Highway%20Rest%20Stops&en=page_view&_ee=1&tfd=303",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/way-side-amenities",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/way-side-amenities",
+      "title": "Odisha Tourism: Wayside Amenities & Highway Rest Stops",
+      "headings": [
+        "Way Side Amenities",
+        "Way Side Amenities Along Odisha Highways"
+      ],
+      "breadcrumbs": [
+        "/\nTourist Services & Safety\n/\nWayside Amenities",
+        "/\nTourist Services & Safety\n/\nWayside Amenities",
+        "/\nTourist Services & Safety\n/\nWayside Amenities"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nWay Side Amenities\nCOMFORTABLE STOPS ALONG ODISHA'S SCENIC HIGHWAYS\n/\nTourist Services & Safety\n/\nWayside Amenities\nWay Side Amenities Along Odisha Highways\n\nHygienic wayside amenities dot Odisha's highways to make your road trips comfortable.\n\nAnugola\nBaleshwar\nBaragada\nBhadrak\nBalangir\nBoudh\nKataka\nDebagada\nDhenkanal\nGajapati\nGanjam\nJagatsinghpur\nJajpur\nJharsuguda\nKalahandi\nKandhamala\nKendrapada\nKendujhar\nKhordha\nKoraput\nMalkangiri\nMayurbhanj\nNabarangpur\nNayagada\nNuapada\nPuri\nRayagada\nSambalpur\nSubarnapur\nSundaragada\nShowing 50 of 50 Amenities\n#\tWay Side Amenity Centre (WAC)\tAddress\tDistrict\tView on Map\n1\tWAC at Nakchi\tNH-55, Nakchi, Kishorenagar, Anugola, Odisha 759125, India\tAnugola\t View\n2\tWAC at Jadupur\tJadupur, Anugola Block, Anugola, Odisha 759122, India\tAnugola\t View\n3\tWAC at Durgagali\tDurgagali, Balangir Town, Balangir, Odisha 767001, India\tBalangir\t View\n4\tWAC at Ghandra Bandha\tGhandra Bandha, Patnagarh, Balangir, Odisha 767025, India\tBalangir\t View\n5\tWAC at Samardhara\tSamardhara, Padampur, Baragada, Odisha 768036, India\tBaragada\t View\n6\tWAC at Barapali\tNH-53, Barapali, Barapali, Baragada, Odisha 768029, India\tBaragada\t View\n7\tWAC at Boudh\tNH-57, Boudh, Boudh Block, Boudh, Odisha 762014, India\tBoudh\t View\n8\tWAC at Abhimanpur\tAbhimanpur, Badamba, Kataka, Odisha 754031, India\tKataka\t View\n9\tWAC at Lalitagiri\tLalitagiri, Mahanga, Kataka, Odisha 754206, India\tKataka\t View\n10\tWAC at Jatmundia Square\tJatmundia Square, Banki, Kataka, Odisha 754008, India\tKataka\t View\n1\n2\n3\n4\n5\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-39.png"
+  },
+  {
+    "name": "Do’s & Don’ts",
+    "href": "https://apptourlfr-stg.estpl.net/dos-donts",
+    "group": "Travel Tips & Guidelines",
+    "menu": "Plan Your Trip",
+    "index": 40,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599532574&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412527~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fdos-donts&dr=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Travel%20Do%27s%20%26%20Don%27ts%20%26%20Tourist%20Guidelines&en=page_view&_ee=1&tfd=301",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/dos-donts",
+        "status": 200
+      }
+    ],
+    "state": {
+      "url": "https://apptourlfr-stg.estpl.net/dos-donts",
+      "title": "Odisha Tourism: Travel Do's & Don'ts & Tourist Guidelines",
+      "headings": [
+        "Do's & Don'ts",
+        "Do's & Don'ts",
+        "Do's",
+        "Don'ts"
+      ],
+      "breadcrumbs": [
+        "/\nTravel Tips & Guidelines\n/\nDo’s & Don’ts",
+        "/\nTravel Tips & Guidelines\n/\nDo’s & Don’ts",
+        "/\nTravel Tips & Guidelines\n/\nDo’s & Don’ts"
+      ],
+      "content": "Skip to Main Content\nDISCOVER\nEXPERIENCE\nPLAN YOUR TRIP\nBOOK NOW\nEN\nEnglish\nHindi\nOdia\nDo's & Don'ts\nGUIDELINES FOR RESPONSIBLE & SAFE TRAVEL\n/\nTravel Tips & Guidelines\n/\nDo’s & Don’ts\nDo's & Don'ts\n\nGuidelines for a respectful and safe journey through the beautiful land of Odisha.\n\nResponsible Tourism\nTourist Guide\nDo's\nDress Modestly: While visiting temples and religious sites, ensure your shoulders and knees are covered as a mark of respect.\nRemove Footwear: Always take off your shoes before entering temples, shrines, and local homes.\nRespect Local Customs: Ask for permission before taking photos of people, especially in tribal areas.\nUse Dustbins: Help keep Odisha clean by disposing of waste in designated bins, especially at beaches and heritage sites.\nStay Hydrated: The climate can be humid; carry water and stay hydrated, especially during summer visits.\nTry Local Cuisine: Experience authentic Odia dishes like Pakhala, Dalma, and Chhena Poda from hygienic eateries.\nCarry Identification: Always keep a copy of your ID proof handy, especially when checking into hotels or booking travel.\nFollow Safety Instructions: Adhere to lifeguard instructions at beaches and safety guidelines during boating or adventure activities.\nDon'ts\nDon't Enter Restricted Areas: Some temples, including the Jagannath Temple in Puri, restrict entry to non-Hindus. Please respect these traditions.\nDon't Use Plastic: Avoid using single-use plastics at eco-sensitive zones like Chilika Lake and Similipal National Park.\nDon't Touch Deities/Idols: Unless explicitly allowed, avoid touching statues and idols at religious places.\nDon't Smoke/Drink Publicly: Smoking and drinking alcohol in public places, especially near religious sites, is discouraged and often prohibited.\nDon't Feed Wildlife: Feeding monkeys or other wildlife at tourist spots can be dangerous and disrupt their natural diet.\nDon't Engage Touts: Avoid unofficial guides and touts. Use only authorized tourist guides or services approved by Odisha Tourism.\nDon't Sunbathe Nude: Public nudity is strictly prohibited on beaches and public places.\nDon't Buy Endangered Souvenirs: Avoid purchasing products made from endangered species or protected wildlife.\nThis website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.\nI'm happy with this\nImportant Links\nGovernment of Odisha\nDepartment of Tourism, Odisha\nOdisha Tourism Development Corporation (OTDC)\nBook Odisha\nEco Retreat Odisha\nQuick Links\nOdisha At A Glance\nIconic Odisha\nExplore Coastal Odisha\nExplore Northern Odisha\nExplore Central Odisha\nExplore Western Odisha\nExplore Southern Odisha\nWeather & Climate\nBest Time to Visit\nHow to Reach Odisha\nNewsletter\n\nSign up for exciting news, learn more about our events and get great travel ideas.\n\nSubscribe Now\nFOLLOW US\nPrivacy Policy\n|\nDisclaimer\n|\nSite Map\n|\nContact Us\n\n© Department of Odisha Tourism. All Rights Reserved.\n\nAccessibility\nBigger\nText\nSmaller\nText\nDark /\nLight\nInvert\nColors\nLetter\nSpacing\nLine\nHeight\nHide\nImages\nHighlight\nLinks\nBig\nCursor\nScreen\nReader\n Reset All",
+      "broken": [],
+      "pendingImages": []
+    },
+    "screenshot": "manual_test_cases/odisha_evidence/nav-40.png"
+  }
+]

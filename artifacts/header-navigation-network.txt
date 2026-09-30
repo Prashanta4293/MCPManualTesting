@@ -1,0 +1,6 @@
+228. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1 => [206] 
+235. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/video-gallery => [206] 
+236. [GET] https://loremflickr.com/600/400/travel,nature?random=0.5639842492332249
+273. [GET] https://api.open-meteo.com/v1/forecast?latitude=20.182&longitude=85.616&current=temperature_2m,weather_code&timezone=auto => [200] OK
+
+Note: 272 static requests not shown, run with "static" option to see them.

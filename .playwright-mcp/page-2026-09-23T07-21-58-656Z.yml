@@ -1,0 +1,414 @@
+- generic [active] [ref=f106e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=f106e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=f106e6]:
+    - generic:
+      - generic:
+        - banner:
+          - navigation [ref=f106e7]:
+            - generic [ref=f106e9]:
+              - link [ref=f106e11] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/web/guest/home
+                - img "Odisha Tourism" [ref=f106e12]
+              - generic [ref=f106e22]:
+                - button "Discover " [ref=f106e24] [cursor=pointer]:
+                  - generic [ref=f106e25]: Discover
+                  - generic [ref=f106e26]: 
+                - button "Experience " [ref=f106e28] [cursor=pointer]:
+                  - generic [ref=f106e29]: Experience
+                  - generic [ref=f106e30]: 
+                - button "Plan Your Trip " [ref=f106e32] [cursor=pointer]:
+                  - generic [ref=f106e33]: Plan Your Trip
+                  - generic [ref=f106e34]: 
+                - link "Book Now" [ref=f106e36] [cursor=pointer]:
+                  - /url: https://www.bookodisha.com/
+              - generic [ref=f106e39]:
+                - button "" [ref=f106e40] [cursor=pointer]
+                - generic [ref=f106e42]:
+                  - button "User" [ref=f106e43] [cursor=pointer]:
+                    - generic [ref=f106e44]: 
+                  - text:  
+                - generic [ref=f106e45]:
+                  - button "Language" [ref=f106e46] [cursor=pointer]:
+                    - generic [ref=f106e47]: 
+                    - generic [ref=f106e48]: EN
+                  - generic:
+                    - button "English ":
+                      - text: English
+                      - generic: 
+                    - button "Hindi ":
+                      - text: Hindi
+                      - generic: 
+                    - button "Odia ":
+                      - text: Odia
+                      - generic: 
+                - button "" [ref=f106e49] [cursor=pointer]
+        - text:           
+        - button "Accessibility Options" [ref=f106e51] [cursor=pointer]:
+          - generic [ref=f106e52]: 
+    - button "" [ref=f106e53] [cursor=pointer]
+    - main [ref=f106e55]:
+      - generic [ref=f106e58]:
+        - img "Odisha at a Glance" [ref=f106e60]
+        - generic [ref=f106e62]:
+          - heading "Hotels" [level=1] [ref=f106e63]
+          - generic [ref=f106e64]: Premium Hotels & Comfortable Stays Across Odisha
+        - navigation "Breadcrumb" [ref=f106e74]:
+          - navigation [ref=f106e75]:
+            - link "" [ref=f106e76] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/home
+            - generic [ref=f106e78]: /
+            - generic [ref=f106e79]: Accommodations
+            - generic [ref=f106e80]: /
+            - generic [ref=f106e81]: Hotels
+      - generic [ref=f106e85]:
+        - generic [ref=f106e86]:
+          - generic [ref=f106e87]: Luxury & Comfort
+          - heading "Hotels" [level=2] [ref=f106e88]
+          - paragraph [ref=f106e89]: We’ve a stays/accommodations that suits your taste & budget
+        - generic [ref=f106e93]:
+          - generic [ref=f106e94]:
+            - generic [ref=f106e95]:
+              - text: Showing
+              - strong [ref=f106e96]: "6"
+              - text: of
+              - strong [ref=f106e97]: "36"
+              - text: Hotels
+            - generic [ref=f106e99]:
+              - textbox "Search by name, city, or district..." [ref=f106e100]
+              - text: 
+          - generic [ref=f106e101]:
+            - generic [ref=f106e102]:
+              - img "Krishna's Courtyard Hotel & Convention" [ref=f106e104]
+              - generic [ref=f106e105]:
+                - generic [ref=f106e106]: Krishna's Courtyard Hotel & Convention
+                - generic [ref=f106e107]:
+                  - generic [ref=f106e108]: 
+                  - text: Plot 895, 896, Balikuda–Trishulia Road, KATAKA, 753011
+                - generic [ref=f106e109]:
+                  - generic [ref=f106e110]: 
+                  - text: "7064000111"
+                - link "https://krishnascourtyard.com/" [ref=f106e112] [cursor=pointer]:
+                  - /url: https://krishnascourtyard.com/
+                - generic [ref=f106e113]: AMENITIES
+                - generic [ref=f106e114]:
+                  - generic "Free Wi-Fi" [ref=f106e115]: 
+                  - generic "Parking" [ref=f106e117]: 
+                  - generic "Restaurant" [ref=f106e119]: 
+                  - generic "Fireplace" [ref=f106e121]: 
+              - generic [ref=f106e123]:
+                - generic [ref=f106e124]: Proximity
+                - generic [ref=f106e125]:
+                  - generic [ref=f106e126]:
+                    - generic [ref=f106e127]: 
+                    - text: 26.7 Km. from Airport
+                  - generic [ref=f106e128]:
+                    - generic [ref=f106e129]: 
+                    - text: 7.2 Km. from Railway
+                  - generic [ref=f106e130]:
+                    - generic [ref=f106e131]: 
+                    - text: 7.5 Km. from Bus Stop
+            - generic [ref=f106e132]:
+              - img "Welcomhotel by ITC Hotels, Bhubaneswar" [ref=f106e134]
+              - generic [ref=f106e135]:
+                - generic [ref=f106e136]: Welcomhotel by ITC Hotels, Bhubaneswar
+                - generic [ref=f106e137]:
+                  - generic [ref=f106e138]: 
+                  - text: D/1, Dumuduma, Bhubaneswar, KHORDHA, 751019
+                - generic [ref=f106e139]:
+                  - generic [ref=f106e140]: 
+                  - text: 06747147140 , 06747147141
+                - link "https://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar" [ref=f106e142] [cursor=pointer]:
+                  - /url: https://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar
+                - generic [ref=f106e143]: AMENITIES
+                - generic [ref=f106e144]:
+                  - generic "Business Center" [ref=f106e145]: 
+                  - generic "Conference Facilities" [ref=f106e147]: 
+                  - generic "Fitness & Wellness Centre" [ref=f106e149]: 
+                  - generic "Free Wi-Fi" [ref=f106e151]: 
+                  - generic "Parking" [ref=f106e153]: 
+                  - generic "Restaurant" [ref=f106e155]: 
+                  - generic "Spa" [ref=f106e157]: 
+                  - generic "Swimming Pool" [ref=f106e159]: 
+                  - generic "Fireplace" [ref=f106e161]: 
+              - generic [ref=f106e163]:
+                - generic [ref=f106e164]: Proximity
+                - generic [ref=f106e165]:
+                  - generic [ref=f106e166]:
+                    - generic [ref=f106e167]: 
+                    - text: 7 Km. from Airport
+                  - generic [ref=f106e168]:
+                    - generic [ref=f106e169]: 
+                    - text: 9 Km. from Railway
+                  - generic [ref=f106e170]:
+                    - generic [ref=f106e171]: 
+                    - text: 3 Km. from Bus Stop
+            - generic [ref=f106e172]:
+              - img "Swosti Premium Beach Resorts, Puri" [ref=f106e174]
+              - generic [ref=f106e175]:
+                - generic [ref=f106e176]: Swosti Premium Beach Resorts, Puri
+                - generic [ref=f106e177]:
+                  - generic [ref=f106e178]: 
+                  - text: Sipasarubali, Baliapanda, New Marine Drive Road, Baliapanda Housing Board Colony, PURI, 752001
+                - generic [ref=f106e179]:
+                  - generic [ref=f106e180]: 
+                  - text: 06752353000 , 9124752990
+                - link "https://www.swostihotels.com/swosti-premium-beach-resorts-puri/" [ref=f106e182] [cursor=pointer]:
+                  - /url: https://www.swostihotels.com/swosti-premium-beach-resorts-puri/
+                - generic [ref=f106e183]: AMENITIES
+                - generic [ref=f106e184]:
+                  - generic "Business Center" [ref=f106e185]: 
+                  - generic "Conference Facilities" [ref=f106e187]: 
+                  - generic "Fitness & Wellness Centre" [ref=f106e189]: 
+                  - generic "Free Wi-Fi" [ref=f106e191]: 
+                  - generic "Parking" [ref=f106e193]: 
+                  - generic "Restaurant" [ref=f106e195]: 
+                  - generic "Spa" [ref=f106e197]: 
+                  - generic "Swimming Pool" [ref=f106e199]: 
+                  - generic "Fireplace" [ref=f106e201]: 
+              - generic [ref=f106e203]:
+                - generic [ref=f106e204]: Proximity
+                - generic [ref=f106e205]:
+                  - generic [ref=f106e206]:
+                    - generic [ref=f106e207]: 
+                    - text: 62 Km. from Airport
+                  - generic [ref=f106e208]:
+                    - generic [ref=f106e209]: 
+                    - text: 5 Km. from Railway
+                  - generic [ref=f106e210]:
+                    - generic [ref=f106e211]: 
+                    - text: 4 Km. from Bus Stop
+            - generic [ref=f106e212]:
+              - img "Vivanta Bhubaneswar, DN Square" [ref=f106e214]
+              - generic [ref=f106e215]:
+                - generic [ref=f106e216]: Vivanta Bhubaneswar, DN Square
+                - generic [ref=f106e217]:
+                  - generic [ref=f106e218]: 
+                  - text: Near DN Regalia Mall, Kalinga Vihar, Patrapada, Bhubaneswar, KHORDHA, 751019
+                - generic [ref=f106e219]:
+                  - generic [ref=f106e220]: 
+                  - text: "06746888888"
+                - link "https://www.vivantahotels.com/en-in/hotels/vivanta-bhubaneswar" [ref=f106e222] [cursor=pointer]:
+                  - /url: https://www.vivantahotels.com/en-in/hotels/vivanta-bhubaneswar
+                - generic [ref=f106e223]: AMENITIES
+                - generic [ref=f106e224]:
+                  - generic "Business Center" [ref=f106e225]: 
+                  - generic "Conference Facilities" [ref=f106e227]: 
+                  - generic "Fitness & Wellness Centre" [ref=f106e229]: 
+                  - generic "Free Wi-Fi" [ref=f106e231]: 
+                  - generic "Parking" [ref=f106e233]: 
+                  - generic "Restaurant" [ref=f106e235]: 
+                  - generic "Spa" [ref=f106e237]: 
+                  - generic "Swimming Pool" [ref=f106e239]: 
+                  - generic "Fireplace" [ref=f106e241]: 
+              - generic [ref=f106e243]:
+                - generic [ref=f106e244]: Proximity
+                - generic [ref=f106e245]:
+                  - generic [ref=f106e246]:
+                    - generic [ref=f106e247]: 
+                    - text: 12 Km. from Airport
+                  - generic [ref=f106e248]:
+                    - generic [ref=f106e249]: 
+                    - text: 14 Km. from Railway
+                  - generic [ref=f106e250]:
+                    - generic [ref=f106e251]: 
+                    - text: 6 Km. from Bus Stop
+            - generic [ref=f106e252]:
+              - img "LYFE Hotels" [ref=f106e254]
+              - generic [ref=f106e255]:
+                - generic [ref=f106e256]: LYFE Hotels
+                - generic [ref=f106e257]:
+                  - generic [ref=f106e258]: 
+                  - text: C-5, Road No. 8, Janpath Road, Opposite Kali Temple, Bhoinagar, Bhubaneswar, KHORDHA, 751022
+                - generic [ref=f106e259]:
+                  - generic [ref=f106e260]: 
+                  - text: "06746484848"
+                - link "https://www.lyfehotels.com/" [ref=f106e262] [cursor=pointer]:
+                  - /url: https://www.lyfehotels.com/
+                - generic [ref=f106e263]: AMENITIES
+                - generic [ref=f106e264]:
+                  - generic "Business Center" [ref=f106e265]: 
+                  - generic "Free Wi-Fi" [ref=f106e267]: 
+                  - generic "Parking" [ref=f106e269]: 
+                  - generic "Restaurant" [ref=f106e271]: 
+                  - generic "Fireplace" [ref=f106e273]: 
+              - generic [ref=f106e275]:
+                - generic [ref=f106e276]: Proximity
+                - generic [ref=f106e277]:
+                  - generic [ref=f106e278]:
+                    - generic [ref=f106e279]: 
+                    - text: 12 Km. from Airport
+                  - generic [ref=f106e280]:
+                    - generic [ref=f106e281]: 
+                    - text: 10 Km. from Railway
+                  - generic [ref=f106e282]:
+                    - generic [ref=f106e283]: 
+                    - text: 0.3 Km. from Bus Stop
+            - generic [ref=f106e284]:
+              - img "Garuda – Luxury Houseboat (Vikash Eco Resorts)" [ref=f106e286]
+              - generic [ref=f106e287]:
+                - generic [ref=f106e288]: Garuda – Luxury Houseboat (Vikash Eco Resorts)
+                - generic [ref=f106e289]:
+                  - generic [ref=f106e290]: 
+                  - text: Chilika Wetland Research Centre, Near OTDC Panthanivas, Barkul, KHORDHA, 752030
+                - generic [ref=f106e291]:
+                  - generic [ref=f106e292]: 
+                  - text: "7008988690"
+                - link "https://vikashecoresorts.com/" [ref=f106e294] [cursor=pointer]:
+                  - /url: https://vikashecoresorts.com/
+                - generic [ref=f106e295]: AMENITIES
+                - generic [ref=f106e296]:
+                  - generic "Free Wi-Fi" [ref=f106e297]: 
+                  - generic "Parking" [ref=f106e299]: 
+                  - generic "Restaurant" [ref=f106e301]: 
+                  - generic "Fireplace" [ref=f106e303]: 
+              - generic [ref=f106e305]:
+                - generic [ref=f106e306]: Proximity
+                - generic [ref=f106e307]:
+                  - generic [ref=f106e308]:
+                    - generic [ref=f106e309]: 
+                    - text: 120 Km. from Airport
+                  - generic [ref=f106e310]:
+                    - generic [ref=f106e311]: 
+                    - text: 6 Km. from Railway
+                  - generic [ref=f106e312]:
+                    - generic [ref=f106e313]: 
+                    - text: 1 Km. from Bus Stop
+          - button "Load More Results " [ref=f106e315] [cursor=pointer]:
+            - text: Load More Results
+            - generic [ref=f106e316]: 
+          - text:  
+    - generic [ref=f106e317]:
+      - generic [ref=f106e318]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f106e319]:
+        - button "I'm happy with this" [ref=f106e320] [cursor=pointer]
+        - button "Close" [ref=f106e321] [cursor=pointer]:
+          - generic [ref=f106e322]: 
+    - generic:  
+    - contentinfo [ref=f106e325]:
+      - generic [ref=f106e326]:
+        - generic [ref=f106e327]:
+          - img "Logo" [ref=f106e329]
+          - generic [ref=f106e339]:
+            - generic [ref=f106e340]:
+              - generic [ref=f106e341]: Important Links
+              - list [ref=f106e342]:
+                - listitem [ref=f106e343]:
+                  - link "Government of Odisha" [ref=f106e344] [cursor=pointer]:
+                    - /url: https://odisha.gov.in/
+                - listitem [ref=f106e345]:
+                  - link "Department of Tourism, Odisha" [ref=f106e346] [cursor=pointer]:
+                    - /url: https://dot.odisha.gov.in/
+                - listitem [ref=f106e347]:
+                  - link "Odisha Tourism Development Corporation (OTDC)" [ref=f106e348] [cursor=pointer]:
+                    - /url: https://otdc.odisha.gov.in/
+                - listitem [ref=f106e349]:
+                  - link "Book Odisha" [ref=f106e350] [cursor=pointer]:
+                    - /url: https://www.bookodisha.com/
+                - listitem [ref=f106e351]:
+                  - link "Eco Retreat Odisha" [ref=f106e352] [cursor=pointer]:
+                    - /url: https://www.odishaecoretreats.com/
+            - generic [ref=f106e353]:
+              - generic [ref=f106e354]: Quick Links
+              - list [ref=f106e355]:
+                - listitem [ref=f106e356]:
+                  - link "Odisha At A Glance" [ref=f106e357] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/odisha-at-a-glance
+                - listitem [ref=f106e358]:
+                  - link "Iconic Odisha" [ref=f106e359] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/iconic-odisha
+                - listitem [ref=f106e360]:
+                  - link "Explore Coastal Odisha" [ref=f106e361] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/east-odisha
+                - listitem [ref=f106e362]:
+                  - link "Explore Northern Odisha" [ref=f106e363] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/northern-odisha
+                - listitem [ref=f106e364]:
+                  - link "Explore Central Odisha" [ref=f106e365] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/center-odisha
+                - listitem [ref=f106e366]:
+                  - link "Explore Western Odisha" [ref=f106e367] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/western-odisha
+                - listitem [ref=f106e368]:
+                  - link "Explore Southern Odisha" [ref=f106e369] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/southern-odisha
+                - listitem [ref=f106e370]:
+                  - link "Weather & Climate" [ref=f106e371] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/weather-climate
+                - listitem [ref=f106e372]:
+                  - link "Best Time to Visit" [ref=f106e373] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/best-time-to-visit
+                - listitem [ref=f106e374]:
+                  - link "How to Reach Odisha" [ref=f106e375] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/how-to-reach-odisha
+          - generic [ref=f106e376]:
+            - generic [ref=f106e377]: Newsletter
+            - paragraph [ref=f106e378]: Sign up for exciting news, learn more about our events and get great travel ideas.
+            - button "Subscribe Now" [ref=f106e379] [cursor=pointer]
+            - generic [ref=f106e380]:
+              - generic [ref=f106e381]: Follow us
+              - generic [ref=f106e382]:
+                - link "" [ref=f106e383] [cursor=pointer]:
+                  - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+                - link "" [ref=f106e385] [cursor=pointer]:
+                  - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+                - link "" [ref=f106e387] [cursor=pointer]:
+                  - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+                - link "" [ref=f106e389] [cursor=pointer]:
+                  - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=f106e391]:
+          - generic [ref=f106e400]:
+            - link "Privacy Policy" [ref=f106e401] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/privacy-policy
+            - generic [ref=f106e402]: "|"
+            - link "Disclaimer" [ref=f106e403] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/disclaimer
+            - generic [ref=f106e404]: "|"
+            - link "Site Map" [ref=f106e405] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/site-map
+            - generic [ref=f106e406]: "|"
+            - link "Contact Us" [ref=f106e407] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/contact-us
+          - paragraph [ref=f106e408]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=f106e410]:
+    - generic [ref=f106e411]:
+      - heading " Accessibility" [level=5] [ref=f106e412]:
+        - generic [ref=f106e413]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=f106e414] [cursor=pointer]:
+        - generic [ref=f106e415]: 
+    - generic [ref=f106e416]:
+      - generic [ref=f106e417]:
+        - button " Bigger Text" [ref=f106e418] [cursor=pointer]:
+          - generic [ref=f106e419]: 
+          - generic [ref=f106e420]: BiggerText
+        - button " Smaller Text" [ref=f106e421] [cursor=pointer]:
+          - generic [ref=f106e422]: 
+          - generic [ref=f106e423]: SmallerText
+        - button " Dark / Light" [ref=f106e424] [cursor=pointer]:
+          - generic [ref=f106e425]: 
+          - generic [ref=f106e426]: Dark /Light
+        - button " Invert Colors" [ref=f106e427] [cursor=pointer]:
+          - generic [ref=f106e428]: 
+          - generic [ref=f106e429]: InvertColors
+        - button " Letter Spacing" [ref=f106e430] [cursor=pointer]:
+          - generic [ref=f106e431]: 
+          - generic [ref=f106e432]: LetterSpacing
+        - button " Line Height" [ref=f106e433] [cursor=pointer]:
+          - generic [ref=f106e434]: 
+          - generic [ref=f106e435]: LineHeight
+        - button [ref=f106e436] [cursor=pointer]:
+          - generic [ref=f106e437]: HideImages
+        - button " Highlight Links" [ref=f106e438] [cursor=pointer]:
+          - generic [ref=f106e439]: 
+          - generic [ref=f106e440]: HighlightLinks
+        - button " Big Cursor" [ref=f106e441] [cursor=pointer]:
+          - generic [ref=f106e442]: 
+          - generic [ref=f106e443]: BigCursor
+        - button " Screen Reader" [ref=f106e444] [cursor=pointer]:
+          - generic [ref=f106e445]: 
+          - generic [ref=f106e446]: ScreenReader
+      - button " Reset All" [ref=f106e447] [cursor=pointer]:
+        - generic [ref=f106e448]: 
+        - text: Reset All

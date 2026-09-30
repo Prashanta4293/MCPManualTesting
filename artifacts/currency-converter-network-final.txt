@@ -1,0 +1,23 @@
+228. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1 => [206] 
+236. [GET] https://loremflickr.com/600/400/travel,nature?random=0.5958062316803937
+273. [GET] https://api.open-meteo.com/v1/forecast?latitude=20.182&longitude=85.616&current=temperature_2m,weather_code&timezone=auto => [200] OK
+374. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.min.json => [200] 
+376. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.min.json => [200] 
+379. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+380. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+381. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+382. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.min.json => [200] 
+383. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.min.json => [200] 
+384. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/gbp.min.json => [200] 
+385. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/jpy.min.json => [200] 
+386. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/cad.min.json => [200] 
+387. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+388. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.min.json => [200] 
+389. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+390. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.min.json => [200] 
+391. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.min.json => [200] 
+392. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json => [200] 
+393. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.min.json => [200] 
+394. [GET] https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.min.json => [200] 
+
+Note: 373 static requests not shown, run with "static" option to see them.

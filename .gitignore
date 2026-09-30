@@ -1,0 +1,10 @@
+node_modules/
+venv/
+allure-results/
+allure-report/
+test-results/
+run-history/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc

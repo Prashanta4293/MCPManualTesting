@@ -1,0 +1,26 @@
+Total messages: 1 (Errors: 0, Warnings: 0)
+Returning 8 messages for level "error"
+
+[ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://loremflickr.com/cache/resized/65535_53827051522_6a36f90092_c_600_400_nofilter.jpg:0
+[ERROR] Map elements not found @ https://apptourlfr-stg.estpl.net/tourist-map:2020
+[ERROR] Failed to load resource: the server responded with a status of 404 () @ https://img.youtube.com/vi/-aPINUood2M/maxresdefault.jpg:0
+ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38
+ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38
+ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38
+ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38
+ReferenceError: Swiper is not defined
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:996:5
+    at NodeList.forEach (<anonymous>)
+    at https://apptourlfr-stg.estpl.net/o/odisha-tourism-global-js/global.js:953:38

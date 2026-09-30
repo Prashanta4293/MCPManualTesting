@@ -1,0 +1,362 @@
+[
+  {
+    "position": 1,
+    "name": "Krishna's Courtyard Hotel & Convention",
+    "address": "Plot 895, 896, Balikuda–Trishulia Road, KATAKA, 753011",
+    "phone": "7064000111",
+    "website": "https://krishnascourtyard.com/",
+    "text": "Krishna's Courtyard Hotel & Convention Plot 895, 896, Balikuda–Trishulia Road, KATAKA, 753011 7064000111 https://krishnascourtyard.com/ AMENITIES PROXIMITY 26.7 Km. from Airport 7.2 Km. from Railway 7.5 Km. from Bus Stop",
+    "imageAlt": "Krishna's Courtyard Hotel & Convention",
+    "missingFields": 0
+  },
+  {
+    "position": 2,
+    "name": "Welcomhotel by ITC Hotels, Bhubaneswar",
+    "address": "D/1, Dumuduma, Bhubaneswar, KHORDHA, 751019",
+    "phone": "06747147140 , 06747147141",
+    "website": "https://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar",
+    "text": "Welcomhotel by ITC Hotels, Bhubaneswar D/1, Dumuduma, Bhubaneswar, KHORDHA, 751019 06747147140 , 06747147141 https://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar AMENITIES PROXIMITY 7 Km. from Airport 9 Km. from Railway 3 Km. from Bus Stop",
+    "imageAlt": "Welcomhotel by ITC Hotels, Bhubaneswar",
+    "missingFields": 0
+  },
+  {
+    "position": 3,
+    "name": "Swosti Premium Beach Resorts, Puri",
+    "address": "Sipasarubali, Baliapanda, New Marine Drive Road, Baliapanda Housing Board Colony, PURI, 752001",
+    "phone": "06752353000 , 9124752990",
+    "website": "https://www.swostihotels.com/swosti-premium-beach-resorts-puri/",
+    "text": "Swosti Premium Beach Resorts, Puri Sipasarubali, Baliapanda, New Marine Drive Road, Baliapanda Housing Board Colony, PURI, 752001 06752353000 , 9124752990 https://www.swostihotels.com/swosti-premium-beach-resorts-puri/ AMENITIES PROXIMITY 62 Km. from Airport 5 Km. from Railway 4 Km. from Bus Stop",
+    "imageAlt": "Swosti Premium Beach Resorts, Puri",
+    "missingFields": 0
+  },
+  {
+    "position": 4,
+    "name": "Vivanta Bhubaneswar, DN Square",
+    "address": "Near DN Regalia Mall, Kalinga Vihar, Patrapada, Bhubaneswar, KHORDHA, 751019",
+    "phone": "06746888888",
+    "website": "https://www.vivantahotels.com/en-in/hotels/vivanta-bhubaneswar",
+    "text": "Vivanta Bhubaneswar, DN Square Near DN Regalia Mall, Kalinga Vihar, Patrapada, Bhubaneswar, KHORDHA, 751019 06746888888 https://www.vivantahotels.com/en-in/hotels/vivanta-bhubaneswar AMENITIES PROXIMITY 12 Km. from Airport 14 Km. from Railway 6 Km. from Bus Stop",
+    "imageAlt": "Vivanta Bhubaneswar, DN Square",
+    "missingFields": 0
+  },
+  {
+    "position": 5,
+    "name": "LYFE Hotels",
+    "address": "C-5, Road No. 8, Janpath Road, Opposite Kali Temple, Bhoinagar, Bhubaneswar, KHORDHA, 751022",
+    "phone": "06746484848",
+    "website": "https://www.lyfehotels.com/",
+    "text": "LYFE Hotels C-5, Road No. 8, Janpath Road, Opposite Kali Temple, Bhoinagar, Bhubaneswar, KHORDHA, 751022 06746484848 https://www.lyfehotels.com/ AMENITIES PROXIMITY 12 Km. from Airport 10 Km. from Railway 0.3 Km. from Bus Stop",
+    "imageAlt": "LYFE Hotels",
+    "missingFields": 0
+  },
+  {
+    "position": 6,
+    "name": "Garuda – Luxury Houseboat (Vikash Eco Resorts)",
+    "address": "Chilika Wetland Research Centre, Near OTDC Panthanivas, Barkul, KHORDHA, 752030",
+    "phone": "7008988690",
+    "website": "https://vikashecoresorts.com/",
+    "text": "Garuda – Luxury Houseboat (Vikash Eco Resorts) Chilika Wetland Research Centre, Near OTDC Panthanivas, Barkul, KHORDHA, 752030 7008988690 https://vikashecoresorts.com/ AMENITIES PROXIMITY 120 Km. from Airport 6 Km. from Railway 1 Km. from Bus Stop",
+    "imageAlt": "Garuda – Luxury Houseboat (Vikash Eco Resorts)",
+    "missingFields": 0
+  },
+  {
+    "position": 7,
+    "name": "MAYFAIR Bay Resort, Paradeep",
+    "address": "Near Gate No. 5, Paradeep Port, Paradip, JAGATSINGHPUR, 754142",
+    "phone": "9237500101 , 06722259101",
+    "website": "https://www.mayfairhotels.com/bay-resort-paradeep/",
+    "text": "MAYFAIR Bay Resort, Paradeep Near Gate No. 5, Paradeep Port, Paradip, JAGATSINGHPUR, 754142 9237500101 , 06722259101 https://www.mayfairhotels.com/bay-resort-paradeep/ AMENITIES PROXIMITY 119 Km. from Airport 8 Km. from Railway 6 Km. from Bus Stop",
+    "imageAlt": "MAYFAIR Bay Resort, Paradeep",
+    "missingFields": 0
+  },
+  {
+    "position": 8,
+    "name": "Prachi Sarovar Premiere Bhubaneswar",
+    "address": "Plot No. 1-5, NH-16, Khandagiri, Bhubaneswar, KHORDHA, 751030",
+    "phone": "9668902004 , 9668902002",
+    "website": "https://www.sarovarhotels.com/prachi-sarovar-premiere-bhubaneswar/",
+    "text": "Prachi Sarovar Premiere Bhubaneswar Plot No. 1-5, NH-16, Khandagiri, Bhubaneswar, KHORDHA, 751030 9668902004 , 9668902002 https://www.sarovarhotels.com/prachi-sarovar-premiere-bhubaneswar/ AMENITIES PROXIMITY 6 Km. from Airport 7 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "Prachi Sarovar Premiere Bhubaneswar",
+    "missingFields": 0
+  },
+  {
+    "position": 9,
+    "name": "Park Inn & Suites by Radisson Puri",
+    "address": "Plot No. 210/309, VIP Road, Bankimuhan, PURI, 752001",
+    "phone": "06752456624",
+    "website": "https://www.radissonhotels.com/en-us/hotels/park-inn-suites-puri",
+    "text": "Park Inn & Suites by Radisson Puri Plot No. 210/309, VIP Road, Bankimuhan, PURI, 752001 06752456624 https://www.radissonhotels.com/en-us/hotels/park-inn-suites-puri AMENITIES PROXIMITY 60 Km. from Airport 4 Km. from Railway 3 Km. from Bus Stop",
+    "imageAlt": "Park Inn & Suites by Radisson Puri",
+    "missingFields": 0
+  },
+  {
+    "position": 10,
+    "name": "Seven Eleven India Hotels & Banquets",
+    "address": "Plot No. 31, Old Industrial Estate, Nimpur, Jagatpur, KATAKA, 754021",
+    "phone": "9937417050 , 06712490711",
+    "website": "https://sevenelevenindiahotels.com/",
+    "text": "Seven Eleven India Hotels & Banquets Plot No. 31, Old Industrial Estate, Nimpur, Jagatpur, KATAKA, 754021 9937417050 , 06712490711 https://sevenelevenindiahotels.com/ AMENITIES PROXIMITY 35 Km. from Airport 10 Km. from Railway 9 Km. from Bus Stop",
+    "imageAlt": "Seven Eleven India Hotels & Banquets",
+    "missingFields": 0
+  },
+  {
+    "position": 11,
+    "name": "Taj Puri Resort & Spa, Odisha",
+    "address": "Plot No. 545/1546, Sipasurubali, PURI, 752001",
+    "phone": "06752667788 , 06752310400",
+    "website": "https://www.tajhotels.com/en-in/hotels/taj-puri-odisha",
+    "text": "Taj Puri Resort & Spa, Odisha Plot No. 545/1546, Sipasurubali, PURI, 752001 06752667788 , 06752310400 https://www.tajhotels.com/en-in/hotels/taj-puri-odisha AMENITIES PROXIMITY 62 Km. from Airport 8 Km. from Railway 7 Km. from Bus Stop",
+    "imageAlt": "Taj Puri Resort & Spa, Odisha",
+    "missingFields": 0
+  },
+  {
+    "position": 12,
+    "name": "Vbrance – Luxury Boutique Hotel & Food Court",
+    "address": "(A Unit of SS Consortium), Plot No. 172, Bankimuhana, Chakra Tirtha Road, Near Youth Hostel, PURI, 752002",
+    "phone": "9124255155 , 9124255156",
+    "website": "https://www.vbrance.com/",
+    "text": "Vbrance – Luxury Boutique Hotel & Food Court (A Unit of SS Consortium), Plot No. 172, Bankimuhana, Chakra Tirtha Road, Near Youth Hostel, PURI, 752002 9124255155 , 9124255156 https://www.vbrance.com/ AMENITIES PROXIMITY 50.12 Km. from Airport 0.75 Km. from Railway 2.8 Km. from Bus Stop",
+    "imageAlt": "Vbrance – Luxury Boutique Hotel & Food Court",
+    "missingFields": 0
+  },
+  {
+    "position": 13,
+    "name": "Deomali Desia Eco Stays",
+    "address": "Near Village Taupadar, Via Kunduli, Block Patangi, Borabandha, KORAPUT, 764039",
+    "phone": "6263563221",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Deomali Desia Eco Stays Near Village Taupadar, Via Kunduli, Block Patangi, Borabandha, KORAPUT, 764039 6263563221 AMENITIES PROXIMITY 90 Km. from Airport 65 Km. from Railway 20 Km. from Bus Stop",
+    "imageAlt": "Deomali Desia Eco Stays",
+    "missingFields": 0
+  },
+  {
+    "position": 14,
+    "name": "La Franklin Hotel",
+    "address": "Plot No. 328/1110, NH-16, Rasulgarh, Bhubaneswar, KHORDHA, 751010",
+    "phone": "06747177777 , 8093088107",
+    "website": "https://lafranklin.com/",
+    "text": "La Franklin Hotel Plot No. 328/1110, NH-16, Rasulgarh, Bhubaneswar, KHORDHA, 751010 06747177777 , 8093088107 https://lafranklin.com/ AMENITIES PROXIMITY 5 Km. from Airport 2 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "La Franklin Hotel",
+    "missingFields": 0
+  },
+  {
+    "position": 15,
+    "name": "Lemon Tree Premier, Bhubaneswar",
+    "address": "Plot No. B/1334, Maitree Vihar Road, Chandrasekharpur, Bhubaneswar, KHORDHA, 751023",
+    "phone": "06746686666",
+    "website": "https://www.lemontreehotels.com/",
+    "text": "Lemon Tree Premier, Bhubaneswar Plot No. B/1334, Maitree Vihar Road, Chandrasekharpur, Bhubaneswar, KHORDHA, 751023 06746686666 https://www.lemontreehotels.com/ AMENITIES PROXIMITY 10 Km. from Airport 8 Km. from Railway 0.3 Km. from Bus Stop",
+    "imageAlt": "Lemon Tree Premier, Bhubaneswar",
+    "missingFields": 0
+  },
+  {
+    "position": 16,
+    "name": "MAYFAIR Oasis Resort & Convention",
+    "address": "Circuit House Road, Durlaga, JHARSUGUDA, 768204",
+    "phone": "9237500101 , 06645660101",
+    "website": "https://www.mayfairhotels.com/oasis-resort-convention-jharsuguda/",
+    "text": "MAYFAIR Oasis Resort & Convention Circuit House Road, Durlaga, JHARSUGUDA, 768204 9237500101 , 06645660101 https://www.mayfairhotels.com/oasis-resort-convention-jharsuguda/ AMENITIES PROXIMITY 8 Km. from Airport 6 Km. from Railway 5 Km. from Bus Stop",
+    "imageAlt": "MAYFAIR Oasis Resort & Convention",
+    "missingFields": 0
+  },
+  {
+    "position": 17,
+    "name": "Ginger Bhubaneshwar",
+    "address": "Nandankanan Road, Opposite NALCO Bhawan, Gajapati Nagar, Bhubaneswar, KHORDHA, 751013",
+    "phone": "06746663333",
+    "website": "https://www.gingerhotels.com/",
+    "text": "Ginger Bhubaneshwar Nandankanan Road, Opposite NALCO Bhawan, Gajapati Nagar, Bhubaneswar, KHORDHA, 751013 06746663333 https://www.gingerhotels.com/ AMENITIES PROXIMITY 9 Km. from Airport 8 Km. from Railway 0.2 Km. from Bus Stop",
+    "imageAlt": "Ginger Bhubaneshwar",
+    "missingFields": 0
+  },
+  {
+    "position": 18,
+    "name": "MAYFAIR Hotels & Resorts Ltd. (Corporate)",
+    "address": "8-B, Jaydev Vihar, Bhubaneswar, KHORDHA, 751013",
+    "phone": "06742660101 , 9237500101",
+    "website": "https://www.mayfairhotels.com/contact-us.html",
+    "text": "MAYFAIR Hotels & Resorts Ltd. (Corporate) 8-B, Jaydev Vihar, Bhubaneswar, KHORDHA, 751013 06742660101 , 9237500101 https://www.mayfairhotels.com/contact-us.html AMENITIES PROXIMITY 8 Km. from Airport 9 Km. from Railway 0.3 Km. from Bus Stop",
+    "imageAlt": "MAYFAIR Hotels & Resorts Ltd. (Corporate)",
+    "missingFields": 0
+  },
+  {
+    "position": 19,
+    "name": "Regenta Inn Sambalpur",
+    "address": "Railway Station, Farm Road, Near Khetrajpur, Khetrajpur, SAMBALPUR, 768003",
+    "phone": "9692383737",
+    "website": "https://www.royalorchidhotels.com/",
+    "text": "Regenta Inn Sambalpur Railway Station, Farm Road, Near Khetrajpur, Khetrajpur, SAMBALPUR, 768003 9692383737 https://www.royalorchidhotels.com/ AMENITIES PROXIMITY 60 Km. from Airport 5 Km. from Railway 3 Km. from Bus Stop",
+    "imageAlt": "Regenta Inn Sambalpur",
+    "missingFields": 0
+  },
+  {
+    "position": 20,
+    "name": "Zone by The Park",
+    "address": "Palm Regal, 1 Palm Avenue, Gopalpur, GANJAM, 761002",
+    "phone": "6802221222",
+    "website": "https://www.zonebythepark.com/",
+    "text": "Zone by The Park Palm Regal, 1 Palm Avenue, Gopalpur, GANJAM, 761002 6802221222 https://www.zonebythepark.com/ AMENITIES PROXIMITY 180 Km. from Airport 16 Km. from Railway 16 Km. from Bus Stop",
+    "imageAlt": "Zone by The Park",
+    "missingFields": 0
+  },
+  {
+    "position": 21,
+    "name": "Svanir Wilderness Ecostay",
+    "address": "Plot 257/407, Khurdha–Chandaka Road, Dalua, Chandaka, KHORDHA, 754012",
+    "phone": "9818480486 , 9678076450",
+    "website": "https://svanir.com/",
+    "text": "Svanir Wilderness Ecostay Plot 257/407, Khurdha–Chandaka Road, Dalua, Chandaka, KHORDHA, 754012 9818480486 , 9678076450 https://svanir.com/ AMENITIES PROXIMITY 20 Km. from Airport 18 Km. from Railway 2 Km. from Bus Stop",
+    "imageAlt": "Svanir Wilderness Ecostay",
+    "missingFields": 0
+  },
+  {
+    "position": 22,
+    "name": "Hotel Welcome Spa & Resort",
+    "address": "At/P.O. Majhilali, P.S. Sasan, SAMBALPUR, 768200",
+    "phone": "9937000050",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Hotel Welcome Spa & Resort At/P.O. Majhilali, P.S. Sasan, SAMBALPUR, 768200 9937000050 AMENITIES PROXIMITY 60 Km. from Airport 12 Km. from Railway 10 Km. from Bus Stop",
+    "imageAlt": "Hotel Welcome Spa & Resort",
+    "missingFields": 0
+  },
+  {
+    "position": 23,
+    "name": "Lunch Land Hotel & Restaurant Athagad",
+    "address": "Badakera–Cuttack Road, Somanathpur, KATAKA, 754295",
+    "phone": "6372079633",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Lunch Land Hotel & Restaurant Athagad Badakera–Cuttack Road, Somanathpur, KATAKA, 754295 6372079633 AMENITIES PROXIMITY 70 Km. from Airport 35 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "Lunch Land Hotel & Restaurant Athagad",
+    "missingFields": 0
+  },
+  {
+    "position": 24,
+    "name": "Ashiana Hill View Hotel",
+    "address": "NH-55, Near RTO, Panchamahala, ANUGOLA, 759132",
+    "phone": "9937454870 , 8658035054",
+    "website": "https://www.ashianahillview.com/",
+    "text": "Ashiana Hill View Hotel NH-55, Near RTO, Panchamahala, ANUGOLA, 759132 9937454870 , 8658035054 https://www.ashianahillview.com/ AMENITIES PROXIMITY 150 Km. from Airport 5 Km. from Railway 3 Km. from Bus Stop",
+    "imageAlt": "Ashiana Hill View Hotel",
+    "missingFields": 0
+  },
+  {
+    "position": 25,
+    "name": "Hotel Surya Garden, Talacher",
+    "address": "Netaji Subash Bose Marg, Main Road, Talacher, ANUGOLA, 759107",
+    "phone": "8280227777 , 06760 242222",
+    "website": "https://suryagarden.com/",
+    "text": "Hotel Surya Garden, Talacher Netaji Subash Bose Marg, Main Road, Talacher, ANUGOLA, 759107 8280227777 , 06760 242222 https://suryagarden.com/ AMENITIES PROXIMITY 150 Km. from Airport 4 Km. from Railway 1 Km. from Bus Stop",
+    "imageAlt": "Hotel Surya Garden, Talacher",
+    "missingFields": 0
+  },
+  {
+    "position": 26,
+    "name": "Arpita Beach Resort",
+    "address": "Sonapur, Chandipur, BALESHWAR, 756025",
+    "phone": "7504838884 , 8594916474",
+    "website": "https://arpitabeachresort.in/",
+    "text": "Arpita Beach Resort Sonapur, Chandipur, BALESHWAR, 756025 7504838884 , 8594916474 https://arpitabeachresort.in AMENITIES PROXIMITY 255 Km. from Airport 18 Km. from Railway 1 Km. from Bus Stop",
+    "imageAlt": "Arpita Beach Resort",
+    "missingFields": 0
+  },
+  {
+    "position": 27,
+    "name": "Hotel Naren Palace",
+    "address": "C.T. Road, Near Sonar Gouranga Temple, Panthakata, PURI, 752002",
+    "phone": "9853155100 , 9437002247",
+    "website": "https://www.hotelnarenpalace.in/",
+    "text": "Hotel Naren Palace C.T. Road, Near Sonar Gouranga Temple, Panthakata, PURI, 752002 9853155100 , 9437002247 https://www.hotelnarenpalace.in/ AMENITIES PROXIMITY 60 Km. from Airport 3 Km. from Railway 2 Km. from Bus Stop",
+    "imageAlt": "Hotel Naren Palace",
+    "missingFields": 0
+  },
+  {
+    "position": 28,
+    "name": "Pipul Padmaja Premium Hotel & Convention",
+    "address": "Plot No. 324, 326, Behind Bharat Petrol Pump, District Centre, Chandrasekharpur, Bhubaneswar, KHORDHA, 751016",
+    "phone": "7440002500 , 7440002501",
+    "website": "https://www.pipulhotelsandresorts.com/padmaja-premium-hotel-convention-bhubaneswar/",
+    "text": "Pipul Padmaja Premium Hotel & Convention Plot No. 324, 326, Behind Bharat Petrol Pump, District Centre, Chandrasekharpur, Bhubaneswar, KHORDHA, 751016 7440002500 , 7440002501 https://www.pipulhotelsandresorts.com/padmaja-premium-hotel-convention-bhubaneswar/ AMENITIES PROXIMITY 10 Km. from Airport 11 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "Pipul Padmaja Premium Hotel & Convention",
+    "missingFields": 0
+  },
+  {
+    "position": 29,
+    "name": "180 Degree Hotel",
+    "address": "Bell Road, Bharat Nagar, Mill Street, Jayapur, KORAPUT, 764001",
+    "phone": "9124074180",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "180 Degree Hotel Bell Road, Bharat Nagar, Mill Street, Jayapur, KORAPUT, 764001 9124074180 AMENITIES PROXIMITY 7 Km. from Airport 5 Km. from Railway 1 Km. from Bus Stop",
+    "imageAlt": "180 Degree Hotel",
+    "missingFields": 0
+  },
+  {
+    "position": 30,
+    "name": "Bhagirathi Inn",
+    "address": "Ghodaghat Chowk, Mahabir Pada, Mandar Bagicha Para, Bhabanipatana, KALAHANDI, 766001",
+    "phone": "7204076823",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Bhagirathi Inn Ghodaghat Chowk, Mahabir Pada, Mandar Bagicha Para, Bhabanipatana, KALAHANDI, 766001 7204076823 AMENITIES PROXIMITY 210 Km. from Airport 4 Km. from Railway 1 Km. from Bus Stop",
+    "imageAlt": "Bhagirathi Inn",
+    "missingFields": 0
+  },
+  {
+    "position": 31,
+    "name": "Guru Shakti Hotel",
+    "address": "Panchalingeshwar Road, Dwarika, BALESHWAR, 756041",
+    "phone": "8457041721",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Guru Shakti Hotel Panchalingeshwar Road, Dwarika, BALESHWAR, 756041 8457041721 AMENITIES PROXIMITY 270 Km. from Airport 32 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "Guru Shakti Hotel",
+    "missingFields": 0
+  },
+  {
+    "position": 32,
+    "name": "Hotel Chandrabhaga",
+    "address": "Ring Road, Konark, PURI, 752111",
+    "phone": "9337438047",
+    "website": "https://konarkchandrabhaga.com/",
+    "text": "Hotel Chandrabhaga Ring Road, Konark, PURI, 752111 9337438047 https://konarkchandrabhaga.com/ AMENITIES PROXIMITY 65 Km. from Airport 35 Km. from Railway 2 Km. from Bus Stop",
+    "imageAlt": "Hotel Chandrabhaga",
+    "missingFields": 0
+  },
+  {
+    "position": 33,
+    "name": "Desia Koraput",
+    "address": "Bantalabiri Village, Lamptaput, KORAPUT, 764081",
+    "phone": "9437281436 , 8018450387",
+    "website": "https://www.desiakoraput.com/",
+    "text": "Desia Koraput Bantalabiri Village, Lamptaput, KORAPUT, 764081 9437281436 , 8018450387 https://www.desiakoraput.com/ AMENITIES PROXIMITY 45 Km. from Airport 95 Km. from Railway 13 Km. from Bus Stop",
+    "imageAlt": "Desia Koraput",
+    "missingFields": 0
+  },
+  {
+    "position": 34,
+    "name": "Hotel Sai International",
+    "address": "259, Opposite Care Hospital Road, Prachi Enclave, District Center, Chandrasekharpur, Bhubaneswar, KHORDHA, 751016",
+    "phone": "9338846545",
+    "website": "https://apptourlfr-stg.estpl.net/hotels",
+    "text": "Hotel Sai International 259, Opposite Care Hospital Road, Prachi Enclave, District Center, Chandrasekharpur, Bhubaneswar, KHORDHA, 751016 9338846545 AMENITIES PROXIMITY 10 Km. from Airport 8 Km. from Railway 3 Km. from Bus Stop",
+    "imageAlt": "Hotel Sai International",
+    "missingFields": 0
+  },
+  {
+    "position": 35,
+    "name": "Hotel Golden Anchor",
+    "address": "Officers Club Road, Madhuban, Paradip, JAGATSINGHPUR, 754142",
+    "phone": "6722222647",
+    "website": "https://hotelgoldenanchor.com/",
+    "text": "Hotel Golden Anchor Officers Club Road, Madhuban, Paradip, JAGATSINGHPUR, 754142 6722222647 https://hotelgoldenanchor.com AMENITIES PROXIMITY 125 Km. from Airport 3 Km. from Railway 2 Km. from Bus Stop",
+    "imageAlt": "Hotel Golden Anchor",
+    "missingFields": 0
+  },
+  {
+    "position": 36,
+    "name": "Hotel Shakti Continental",
+    "address": "6th Lane, NH-55, Amalapada, ANUGOLA, 759122",
+    "phone": "8093099803 , 8093088880",
+    "website": "https://hotelshakticontinental.com/",
+    "text": "Hotel Shakti Continental 6th Lane, NH-55, Amalapada, ANUGOLA, 759122 8093099803 , 8093088880 https://hotelshakticontinental.com AMENITIES PROXIMITY 125 Km. from Airport 3 Km. from Railway 0.5 Km. from Bus Stop",
+    "imageAlt": "Hotel Shakti Continental",
+    "missingFields": 0
+  }
+]

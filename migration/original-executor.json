@@ -1,0 +1,9 @@
+{
+  "name": "Prashanta Behera - Local Machine",
+  "type": "Playwright MCP",
+  "buildOrder": 1,
+  "buildName": "Odisha Tourism MCP Test Execution",
+  "buildUrl": "https://apptourlfr-stg.estpl.net/home",
+  "reportName": "Odisha Tourism Allure Test Report",
+  "reportUrl": ""
+}

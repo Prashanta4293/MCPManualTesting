@@ -1,0 +1,60 @@
+- generic [active] [ref=f3e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=f3e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=f3e6]:
+    - generic:
+      - generic:
+        - banner
+        - text:           
+        - button "Accessibility Options" [ref=f3e51] [cursor=pointer]
+    - button "" [ref=f3e53] [cursor=pointer]
+    - main [ref=f3e55]:
+      - generic [ref=f3e58]:
+        - img "Odisha at a Glance" [ref=f3e60]
+        - generic [ref=f3e62]
+        - navigation "Breadcrumb" [ref=f3e74]
+      - generic [ref=f3e94]:
+        - generic [ref=f3e95]
+        - generic [ref=f3e136]
+        - generic [ref=f3e183]
+        - generic [ref=f3e223]
+        - generic [ref=f3e277]
+        - generic [ref=f3e318]
+        - generic [ref=f3e353]
+        - generic [ref=f3e402]
+        - generic [ref=f3e449]
+        - generic [ref=f3e496]
+        - generic [ref=f3e525]
+    - generic [ref=f3e554]:
+      - generic [ref=f3e555]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f3e556]:
+        - button "I'm happy with this" [ref=f3e557] [cursor=pointer]
+        - button "Close" [ref=f3e558] [cursor=pointer]
+    - generic:  
+    - contentinfo [ref=f3e562]:
+      - generic [ref=f3e563]:
+        - generic [ref=f3e564]
+        - generic [ref=f3e628]
+  - dialog "Accessibility Options" [ref=f3e647]:
+    - generic [ref=f3e648]:
+      - heading " Accessibility" [level=5] [ref=f3e649]:
+        - generic [ref=f3e650]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=f3e651] [cursor=pointer]:
+        - generic [ref=f3e652]: 
+    - generic [ref=f3e653]:
+      - generic [ref=f3e654]:
+        - button " Bigger Text" [ref=f3e655] [cursor=pointer]
+        - button " Smaller Text" [ref=f3e658] [cursor=pointer]
+        - button " Dark / Light" [ref=f3e661] [cursor=pointer]
+        - button " Invert Colors" [ref=f3e664] [cursor=pointer]
+        - button " Letter Spacing" [ref=f3e667] [cursor=pointer]
+        - button " Line Height" [ref=f3e670] [cursor=pointer]
+        - button "Hide Images" [ref=f3e673] [cursor=pointer]
+        - button " Highlight Links" [ref=f3e675] [cursor=pointer]
+        - button " Big Cursor" [ref=f3e678] [cursor=pointer]
+        - button " Screen Reader" [ref=f3e681] [cursor=pointer]
+      - button " Reset All" [ref=f3e684] [cursor=pointer]:
+        - generic [ref=f3e685]: 
+        - text: Reset All

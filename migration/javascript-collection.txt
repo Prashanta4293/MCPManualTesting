@@ -1,0 +1,101 @@
+Listing tests:
+  [chromium] › header.spec.js:6:3 › HOME-001 Home URL, title and visible sections
+  [chromium] › header.spec.js:6:3 › HOME-002 Favicon asset
+  [chromium] › header.spec.js:6:3 › HOME-003 Home image and network health
+  [chromium] › header.spec.js:6:3 › HDR-001 Logo image and navigation
+  [chromium] › header.spec.js:6:3 › HDR-002 Discover menu reveal
+  [chromium] › header.spec.js:6:3 › HDR-003 Experience menu reveal
+  [chromium] › header.spec.js:6:3 › HDR-004 Plan Your Trip menu fits viewport
+  [chromium] › header.spec.js:6:3 › HDR-005 Hamburger opens and closes
+  [chromium] › header.spec.js:6:3 › LANG-Hi Select Hindi
+  [chromium] › header.spec.js:6:3 › LANG-Od Select Odia
+  [chromium] › header.spec.js:6:3 › LANG-En Select English
+  [chromium] › header.spec.js:6:3 › SEARCH-001 Open search overlay without runtime error
+  [chromium] › header.spec.js:6:3 › SEARCH-002 Search Puri
+  [chromium] › header.spec.js:6:3 › ACCOUNT-001 Login dialog display and close
+  [chromium] › header.spec.js:6:3 › ACCOUNT-ForgotPassword Forgot Password? opens
+  [chromium] › header.spec.js:6:3 › ACCOUNT-SignUp Sign Up opens
+  [chromium] › header.spec.js:6:3 › ACCOUNT-OfficialLogin Official Login opens
+  [chromium] › header.spec.js:6:3 › ACC-001 Accessibility panel opens and closes
+  [chromium] › header.spec.js:6:3 › TOP-001 Collapse and restore announcement bar
+  [chromium] › header.spec.js:6:3 › TOP-002 Events Of Odisha destination
+  [chromium] › header.spec.js:6:3 › A11Y-001 Skip to Main Content focus transfer
+  [chromium] › header.spec.js:6:3 › SEARCH-003 Close search overlay
+  [chromium] › header.spec.js:6:3 › HDR-006 Cancel external navigation
+  [chromium] › hotels.spec.js:4:1 › HOTEL-DATA-001 Recheck confirmed workbook hotel names and phone numbers
+  [chromium] › navigation.spec.js:10:3 › NAV-001 Open Odisha At A Glance
+  [chromium] › navigation.spec.js:10:3 › NAV-002 Open Iconic Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-003 Open Heritage & Architecture
+  [chromium] › navigation.spec.js:10:3 › NAV-004 Open Spiritual & Sacred Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-005 Open Wildlife Sanctuaries of Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-006 Open Coastal Getaway
+  [chromium] › navigation.spec.js:10:3 › NAV-007 Open Tribal Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-008 Open Arts, Crafts & Handloom
+  [chromium] › navigation.spec.js:10:3 › NAV-009 Open Festival & Celebrations
+  [chromium] › navigation.spec.js:10:3 › NAV-010 Open Cuisine & Culinary Trails
+  [chromium] › navigation.spec.js:10:3 › NAV-011 Open Ecotourism
+  [chromium] › navigation.spec.js:10:3 › NAV-012 Open Tribal, Village & Rural Life
+  [chromium] › navigation.spec.js:10:3 › NAV-013 Open Adventure & Outdoors
+  [chromium] › navigation.spec.js:10:3 › NAV-014 Open Culture, Music & Dance
+  [chromium] › navigation.spec.js:10:3 › NAV-015 Open Odisha Walks
+  [chromium] › navigation.spec.js:10:3 › NAV-016 Open Sports Tourism
+  [chromium] › navigation.spec.js:10:3 › NAV-017 Open East Odisha (Coastal)
+  [chromium] › navigation.spec.js:10:3 › NAV-018 Open Central Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-019 Open Northern Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-020 Open Western Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-021 Open Southern Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-022 Open Tourist Destinations
+  [chromium] › navigation.spec.js:10:3 › NAV-023 Open Tourist Places
+  [chromium] › navigation.spec.js:10:3 › NAV-024 Open Best Time to Visit
+  [chromium] › navigation.spec.js:10:3 › NAV-025 Open Weather & Climate
+  [chromium] › navigation.spec.js:10:3 › NAV-026 Open How to Reach Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-027 Open Getting Around Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-028 Open Currency Converter
+  [chromium] › navigation.spec.js:10:3 › NAV-029 Open Odisha Tourist Map
+  [chromium] › navigation.spec.js:10:3 › NAV-030 Open OTDC Panthanivas
+  [chromium] › navigation.spec.js:10:3 › NAV-031 Open Eco Retreats
+  [chromium] › navigation.spec.js:10:3 › NAV-032 Open Nature Camps
+  [chromium] › navigation.spec.js:10:3 › NAV-033 Open Hotels
+  [chromium] › navigation.spec.js:10:3 › NAV-034 Open Heritage Properties
+  [chromium] › navigation.spec.js:10:3 › NAV-035 Open Tourist Offices
+  [chromium] › navigation.spec.js:10:3 › NAV-036 Open Tour Operators
+  [chromium] › navigation.spec.js:10:3 › NAV-037 Open Hospitals List
+  [chromium] › navigation.spec.js:10:3 › NAV-038 Open Feedback and Suggestions
+  [chromium] › navigation.spec.js:10:3 › NAV-039 Open Wayside Amenities
+  [chromium] › navigation.spec.js:10:3 › NAV-040 Open Do’s & Don’ts
+  [chromium] › navigation.spec.js:10:3 › NAV-041 Open Responsible Tourism Guidelines
+  [chromium] › navigation.spec.js:10:3 › NAV-042 Open Safety Advisories
+  [chromium] › navigation.spec.js:10:3 › NAV-043 Open Light & Sound Shows
+  [chromium] › navigation.spec.js:10:3 › NAV-044 Open Mahendragiri Eco-Adventure Fest 2026
+  [chromium] › navigation.spec.js:10:3 › NAV-045 Open Ratha Jatra 2026
+  [chromium] › navigation.spec.js:10:3 › NAV-046 Open Konark Festival 2026
+  [chromium] › navigation.spec.js:10:3 › NAV-047 Open National Chilika Bird Festival 2026
+  [chromium] › navigation.spec.js:10:3 › NAV-048 Open International Sand Art Festival 2026
+  [chromium] › navigation.spec.js:10:3 › NAV-049 Open Odisha Parab
+  [chromium] › navigation.spec.js:10:3 › NAV-050 Open Mahaprasad
+  [chromium] › navigation.spec.js:10:3 › NAV-051 Open Rasagola
+  [chromium] › navigation.spec.js:10:3 › NAV-052 Open Chhenapoda
+  [chromium] › navigation.spec.js:10:3 › NAV-053 Open Sarsatia
+  [chromium] › navigation.spec.js:10:3 › NAV-054 Open About Us
+  [chromium] › navigation.spec.js:10:3 › NAV-056 Open Vision, Mission & Objectives
+  [chromium] › navigation.spec.js:10:3 › NAV-057 Open Odisha Tourism Policy
+  [chromium] › navigation.spec.js:10:3 › NAV-058 Open Operational Guidelines
+  [chromium] › navigation.spec.js:10:3 › NAV-059 Open Tenders and Notices
+  [chromium] › navigation.spec.js:10:3 › NAV-060 Open Newsletter
+  [chromium] › navigation.spec.js:10:3 › NAV-061 Open Brochure
+  [chromium] › navigation.spec.js:10:3 › NAV-062 Open Photo Gallery
+  [chromium] › navigation.spec.js:10:3 › NAV-063 Open Video Gallery
+  [chromium] › navigation.spec.js:10:3 › NAV-064 Open Traveller Blogs
+  [chromium] › navigation.spec.js:10:3 › NAV-065 Open Festival & Events
+  [chromium] › navigation.spec.js:10:3 › NAV-066 Open Privacy Policy
+  [chromium] › navigation.spec.js:10:3 › NAV-067 Open Disclaimer
+  [chromium] › navigation.spec.js:10:3 › NAV-068 Open Contact Us
+  [chromium] › navigation.spec.js:10:3 › NAV-069 Open Site Map
+  [chromium] › navigation.spec.js:10:3 › NAV-070 Open FAQs
+  [chromium] › navigation.spec.js:10:3 › NAV-055 Department of Tourism, Government of Odisha
+  [chromium] › navigation.spec.js:10:3 › NAV-071 Book Now
+  [chromium] › navigation.spec.js:10:3 › NAV-072 Facebook
+  [chromium] › navigation.spec.js:10:3 › NAV-073 X
+  [chromium] › navigation.spec.js:10:3 › NAV-074 Instagram
+  [chromium] › navigation.spec.js:10:3 › NAV-075 YouTube
+Total: 99 tests in 3 files

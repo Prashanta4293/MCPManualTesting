@@ -1,0 +1,357 @@
+[
+  {
+    "name": "Odisha At A Glance",
+    "href": "https://apptourlfr-stg.estpl.net/odisha-at-a-glance",
+    "menu": "Discover",
+    "index": 1
+  },
+  {
+    "name": "Iconic Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/iconic-odisha",
+    "menu": "Discover",
+    "index": 2
+  },
+  {
+    "name": "Heritage & Architecture",
+    "href": "https://apptourlfr-stg.estpl.net/heritage-architecture",
+    "menu": "Discover",
+    "index": 3
+  },
+  {
+    "name": "Spiritual & Sacred Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/spiritual-sacred-odisha",
+    "menu": "Discover",
+    "index": 4
+  },
+  {
+    "name": "Wildlife Sanctuaries of Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/wildlife-sanctuaries-of-odisha",
+    "menu": "Discover",
+    "index": 5
+  },
+  {
+    "name": "Coastal Getaway",
+    "href": "https://apptourlfr-stg.estpl.net/coastal-getaway",
+    "menu": "Discover",
+    "index": 6
+  },
+  {
+    "name": "Tribal Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/tribal-odisha",
+    "menu": "Discover",
+    "index": 7
+  },
+  {
+    "name": "Arts, Crafts & Handloom",
+    "href": "https://apptourlfr-stg.estpl.net/arts-crafts-handloom",
+    "menu": "Discover",
+    "index": 8
+  },
+  {
+    "name": "Festival & Celebrations",
+    "href": "https://apptourlfr-stg.estpl.net/festival-celebrations",
+    "menu": "Experience",
+    "index": 9
+  },
+  {
+    "name": "Cuisine & Culinary Trails",
+    "href": "https://apptourlfr-stg.estpl.net/cuisine-culinary-trails",
+    "menu": "Experience",
+    "index": 10
+  },
+  {
+    "name": "Ecotourism",
+    "href": "https://apptourlfr-stg.estpl.net/eco-tourism",
+    "menu": "Experience",
+    "index": 11
+  },
+  {
+    "name": "Tribal, Village & Rural Life",
+    "href": "https://apptourlfr-stg.estpl.net/tribal-rural-village-life",
+    "menu": "Experience",
+    "index": 12
+  },
+  {
+    "name": "Adventure & Outdoors",
+    "href": "https://apptourlfr-stg.estpl.net/adventure-outdoor",
+    "menu": "Experience",
+    "index": 13
+  },
+  {
+    "name": "Culture, Music & Dance",
+    "href": "https://apptourlfr-stg.estpl.net/culture-music-dance",
+    "menu": "Experience",
+    "index": 14
+  },
+  {
+    "name": "Odisha Walks",
+    "href": "https://apptourlfr-stg.estpl.net/odisha-walks",
+    "menu": "Experience",
+    "index": 15
+  },
+  {
+    "name": "Sports Tourism",
+    "href": "https://apptourlfr-stg.estpl.net/sports-tourism",
+    "menu": "Experience",
+    "index": 16
+  },
+  {
+    "name": "East Odisha (Coastal)",
+    "href": "https://apptourlfr-stg.estpl.net/east-odisha",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 17
+  },
+  {
+    "name": "Central Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/center-odisha",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 18
+  },
+  {
+    "name": "Northern Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/northern-odisha",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 19
+  },
+  {
+    "name": "Western Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/western-odisha",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 20
+  },
+  {
+    "name": "Southern Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/southern-odisha",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 21
+  },
+  {
+    "name": "Tourist Destinations",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-destinations",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 22
+  },
+  {
+    "name": "Tourist Places",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-places",
+    "group": "Where to go",
+    "menu": "Plan Your Trip",
+    "index": 23
+  },
+  {
+    "name": "Best Time to Visit",
+    "href": "https://apptourlfr-stg.estpl.net/best-time-to-visit",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 24
+  },
+  {
+    "name": "Weather & Climate",
+    "href": "https://apptourlfr-stg.estpl.net/weather-climate",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 25
+  },
+  {
+    "name": "How to Reach Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/how-to-reach-odisha",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 26
+  },
+  {
+    "name": "Getting Around Odisha",
+    "href": "https://apptourlfr-stg.estpl.net/getting-around-odisha",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 27
+  },
+  {
+    "name": "Currency Converter",
+    "href": "https://apptourlfr-stg.estpl.net/currency-converter",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 28
+  },
+  {
+    "name": "Odisha Tourist Map",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-map",
+    "group": "Travel Essentials",
+    "menu": "Plan Your Trip",
+    "index": 29
+  },
+  {
+    "name": "OTDC Panthanivas",
+    "href": "https://apptourlfr-stg.estpl.net/otdc-panthanivas",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 30
+  },
+  {
+    "name": "Eco Retreats",
+    "href": "https://apptourlfr-stg.estpl.net/eco-retreats",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 31
+  },
+  {
+    "name": "Nature Camps",
+    "href": "https://apptourlfr-stg.estpl.net/nature-camps",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 32
+  },
+  {
+    "name": "Hotels",
+    "href": "https://apptourlfr-stg.estpl.net/hotels",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 33
+  },
+  {
+    "name": "Heritage Properties",
+    "href": "https://apptourlfr-stg.estpl.net/heritage-properties",
+    "group": "Accommodations",
+    "menu": "Plan Your Trip",
+    "index": 34
+  },
+  {
+    "name": "Tourist Offices",
+    "href": "https://apptourlfr-stg.estpl.net/tourist-offices",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 35
+  },
+  {
+    "name": "Tour Operators",
+    "href": "https://apptourlfr-stg.estpl.net/tour-operators",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 36
+  },
+  {
+    "name": "Hospitals List",
+    "href": "https://apptourlfr-stg.estpl.net/hospitals-list",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 37
+  },
+  {
+    "name": "Feedback and Suggestions",
+    "href": "https://apptourlfr-stg.estpl.net/feedbackandsuggestions",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 38
+  },
+  {
+    "name": "Wayside Amenities",
+    "href": "https://apptourlfr-stg.estpl.net/way-side-amenities",
+    "group": "Tourist Services & Safety",
+    "menu": "Plan Your Trip",
+    "index": 39
+  },
+  {
+    "name": "Do’s & Don’ts",
+    "href": "https://apptourlfr-stg.estpl.net/dos-donts",
+    "group": "Travel Tips & Guidelines",
+    "menu": "Plan Your Trip",
+    "index": 40
+  },
+  {
+    "name": "Responsible Tourism Guidelines",
+    "href": "https://apptourlfr-stg.estpl.net/responsible-tourism-guidelines",
+    "group": "Travel Tips & Guidelines",
+    "menu": "Plan Your Trip",
+    "index": 41
+  },
+  {
+    "name": "Safety Advisories",
+    "href": "https://apptourlfr-stg.estpl.net/safety-advisories",
+    "group": "Travel Tips & Guidelines",
+    "menu": "Plan Your Trip",
+    "index": 42
+  },
+  {
+    "name": "Light & Sound Shows",
+    "href": "https://apptourlfr-stg.estpl.net/light-sound-shows",
+    "group": "Unique Experiences",
+    "menu": "Plan Your Trip",
+    "index": 43
+  },
+  {
+    "name": "Mahendragiri Eco-Adventure Fest 2026",
+    "href": "https://apptourlfr-stg.estpl.net/mahendragiri",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 44
+  },
+  {
+    "name": "Ratha Jatra 2026",
+    "href": "https://apptourlfr-stg.estpl.net/ratha-jatra-2026",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 45
+  },
+  {
+    "name": "Konark Festival 2026",
+    "href": "https://apptourlfr-stg.estpl.net/konark-festival",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 46
+  },
+  {
+    "name": "National Chilika Bird Festival 2026",
+    "href": "https://apptourlfr-stg.estpl.net/national-chilika-bird-festival",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 47
+  },
+  {
+    "name": "International Sand Art Festival 2026",
+    "href": "https://apptourlfr-stg.estpl.net/international-sand-art-festival",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 48
+  },
+  {
+    "name": "Odisha Parab",
+    "href": "https://apptourlfr-stg.estpl.net/odisha-parab",
+    "group": "Highlighted Events",
+    "menu": "Plan Your Trip",
+    "index": 49
+  },
+  {
+    "name": "Mahaprasad",
+    "href": "https://apptourlfr-stg.estpl.net/mahaprasad",
+    "group": "Cuisines of Odisha",
+    "menu": "Plan Your Trip",
+    "index": 50
+  },
+  {
+    "name": "Rasagola",
+    "href": "https://apptourlfr-stg.estpl.net/rasagola",
+    "group": "Cuisines of Odisha",
+    "menu": "Plan Your Trip",
+    "index": 51
+  },
+  {
+    "name": "Chhenapoda",
+    "href": "https://apptourlfr-stg.estpl.net/chhenapoda",
+    "group": "Cuisines of Odisha",
+    "menu": "Plan Your Trip",
+    "index": 52
+  },
+  {
+    "name": "Sarsatia",
+    "href": "https://apptourlfr-stg.estpl.net/sarsatia",
+    "group": "Cuisines of Odisha",
+    "menu": "Plan Your Trip",
+    "index": 53
+  }
+]

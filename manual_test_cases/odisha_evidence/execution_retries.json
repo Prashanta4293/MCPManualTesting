@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Adventure & Outdoors",
+    "href": "https://apptourlfr-stg.estpl.net/adventure-outdoor",
+    "menu": "Experience",
+    "index": 13,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599091597&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Official%20Website%20to%20Plan%20Your%20Travel%20%26%20Holiday&en=scroll&epn.percent_scrolled=90&_et=2&tfd=6832",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [],
+    "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.main-nav-fixed .mega-menu-container a').filter({ hasText: 'Adventure & Outdoors' }).visible().first()\u001b[22m\n\u001b[2m    - locator resolved to <a target=\"_self\" class=\"text-decoration-none \" href=\"https://apptourlfr-stg.estpl.net/adventure-outdoor\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+    "screenshot": "manual_test_cases/odisha_evidence/nav-13-error.png"
+  },
+  {
+    "name": "Culture, Music & Dance",
+    "href": "https://apptourlfr-stg.estpl.net/culture-music-dance",
+    "menu": "Experience",
+    "index": 14,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599112183&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Official%20Website%20to%20Plan%20Your%20Travel%20%26%20Holiday&en=scroll&epn.percent_scrolled=90&_et=2&tfd=6844",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [],
+    "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.main-nav-fixed .mega-menu-container a').filter({ hasText: 'Culture, Music & Dance' }).visible().first()\u001b[22m\n\u001b[2m    - locator resolved to <a target=\"_self\" class=\"text-decoration-none \" href=\"https://apptourlfr-stg.estpl.net/culture-music-dance\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+    "screenshot": "manual_test_cases/odisha_evidence/nav-14-error.png"
+  },
+  {
+    "name": "Odisha Walks",
+    "href": "https://apptourlfr-stg.estpl.net/odisha-walks",
+    "menu": "Experience",
+    "index": 15,
+    "console": [],
+    "network": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8V5JJKN35V&gtm=45je69n1v898099681za200zd898099681xf1&_p=1790599132543&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&cid=369423327.1790598787&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.54%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.54&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115616985~115938465~115938469~118012009~118897920~118897930~120213116~120385422~120469145~120469153&sid=1790598787&sct=1&seg=1&dl=https%3A%2F%2Fapptourlfr-stg.estpl.net%2Fhome&dt=Odisha%20Tourism%3A%20Official%20Website%20to%20Plan%20Your%20Travel%20%26%20Holiday&en=scroll&epn.percent_scrolled=90&_et=4&tfd=6795",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "documents": [],
+    "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.main-nav-fixed .mega-menu-container a').filter({ hasText: 'Odisha Walks' }).visible().first()\u001b[22m\n\u001b[2m    - locator resolved to <a target=\"_self\" class=\"text-decoration-none \" href=\"https://apptourlfr-stg.estpl.net/odisha-walks\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "screenshot": "manual_test_cases/odisha_evidence/nav-15-error.png"
+  }
+]

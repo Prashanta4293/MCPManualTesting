@@ -1,0 +1,974 @@
+- generic [active] [ref=f103e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=f103e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=f103e6]:
+    - generic:
+      - generic:
+        - banner:
+          - navigation [ref=f103e7]:
+            - generic [ref=f103e9]:
+              - link [ref=f103e11] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/web/guest/home
+                - img "Odisha Tourism" [ref=f103e12]
+              - generic [ref=f103e22]:
+                - button "Discover " [ref=f103e24] [cursor=pointer]:
+                  - generic [ref=f103e25]: Discover
+                  - generic [ref=f103e26]: 
+                - button "Experience " [ref=f103e28] [cursor=pointer]:
+                  - generic [ref=f103e29]: Experience
+                  - generic [ref=f103e30]: 
+                - button "Plan Your Trip " [ref=f103e32] [cursor=pointer]:
+                  - generic [ref=f103e33]: Plan Your Trip
+                  - generic [ref=f103e34]: 
+                - link "Book Now" [ref=f103e36] [cursor=pointer]:
+                  - /url: https://www.bookodisha.com/
+              - generic [ref=f103e39]:
+                - button "" [ref=f103e40] [cursor=pointer]
+                - generic [ref=f103e42]:
+                  - button "User" [ref=f103e43] [cursor=pointer]:
+                    - generic [ref=f103e44]: 
+                  - text:  
+                - generic [ref=f103e45]:
+                  - button "Language" [ref=f103e46] [cursor=pointer]:
+                    - generic [ref=f103e47]: 
+                    - generic [ref=f103e48]: EN
+                  - generic:
+                    - button "English ":
+                      - text: English
+                      - generic: 
+                    - button "Hindi ":
+                      - text: Hindi
+                      - generic: 
+                    - button "Odia ":
+                      - text: Odia
+                      - generic: 
+                - button "" [ref=f103e49] [cursor=pointer]
+        - text:           
+        - button "Accessibility Options" [ref=f103e51] [cursor=pointer]:
+          - generic [ref=f103e52]: 
+    - button "" [ref=f103e53] [cursor=pointer]
+    - main [ref=f103e55]:
+      - generic [ref=f103e58]:
+        - img "Odisha at a Glance" [ref=f103e60]
+        - generic [ref=f103e62]:
+          - heading "Currency Converter" [level=1] [ref=f103e63]
+          - generic [ref=f103e64]: Plan Your Trip With Accurate Live Exchange Rates
+        - navigation "Breadcrumb" [ref=f103e74]:
+          - navigation [ref=f103e75]:
+            - link "" [ref=f103e76] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/home
+            - generic [ref=f103e78]: /
+            - generic [ref=f103e79]: Travel Essentials
+            - generic [ref=f103e80]: /
+            - generic [ref=f103e81]: Currency Converter
+      - generic [ref=f103e86]:
+        - generic [ref=f103e88]:
+          - heading "Currency Converter" [level=2] [ref=f103e89]
+          - paragraph [ref=f103e90]: Real-time exchange rates powered by live market data. Convert any currency before your journey.
+        - generic [ref=f103e91]:
+          - generic [ref=f103e93]:
+            - generic [ref=f103e94]:
+              - generic [ref=f103e95]: Quick Amount
+              - generic [ref=f103e96]:
+                - generic [ref=f103e97] [cursor=pointer]: "1"
+                - generic [ref=f103e98] [cursor=pointer]: "10"
+                - generic [ref=f103e99] [cursor=pointer]: "50"
+                - generic [ref=f103e100] [cursor=pointer]: "100"
+                - generic [ref=f103e101] [cursor=pointer]: "500"
+                - generic [ref=f103e102] [cursor=pointer]: 1,000
+                - generic [ref=f103e103] [cursor=pointer]: 5,000
+            - generic [ref=f103e104]:
+              - generic [ref=f103e105]:
+                - generic [ref=f103e106] [cursor=pointer]: Amount
+                - generic [ref=f103e107]:
+                  - generic: $
+                  - spinbutton "Amount" [ref=f103e108]: "1.25"
+              - generic [ref=f103e109]:
+                - generic [ref=f103e110]:
+                  - generic [ref=f103e111] [cursor=pointer]: From
+                  - generic [ref=f103e112]:
+                    - combobox "From" [ref=f103e113]:
+                      - option "USD - US Dollar" [selected]
+                      - option "EUR - Euro"
+                      - option "GBP - British Pound"
+                      - option "INR - Indian Rupee"
+                      - option "AUD - Australian Dollar"
+                      - option "CAD - Canadian Dollar"
+                      - option "JPY - Japanese Yen"
+                      - option "SGD - Singapore Dollar"
+                      - option "AED - Emirati Dirham"
+                      - option "CHF - Swiss Franc"
+                      - option "HKD - Hong Kong Dollar"
+                      - option "MYR - Malaysian Ringgit"
+                      - option "THB - Thai Baht"
+                      - option "1INCH - 1inch"
+                      - option "AAVE - Aave"
+                      - option "ADA - Cardano"
+                      - option "AFN - Afghan Afghani"
+                      - option "AKT - Akash Network"
+                      - option "ALGO - Algorand"
+                      - option "ALL - Albanian Lek"
+                      - option "AMD - Armenian Dram"
+                      - option "AMP - Amp"
+                      - option "ANG - Dutch Guilder"
+                      - option "AOA - Angolan Kwanza"
+                      - option "APE - ApeCoin"
+                      - option "APT - Aptos"
+                      - option "AR - Arweave"
+                      - option "ARB - Arbitrum"
+                      - option "ARS - Argentine Peso"
+                      - option "ATOM - Cosmos"
+                      - option "ATS - Austrian Schilling"
+                      - option "AVAX - Avalanche"
+                      - option "AWG - Aruban or Dutch Guilder"
+                      - option "AXS - Axie Infinity"
+                      - option "AZM - Azerbaijani Manat"
+                      - option "AZN - Azerbaijan Manat"
+                      - option "BAKE - BakeryToken"
+                      - option "BAM - Bosnian Convertible Mark"
+                      - option "BAT - Basic Attention Token"
+                      - option "BBD - Barbadian or Bajan Dollar"
+                      - option "BCH - Bitcoin Cash"
+                      - option "BDT - Bangladeshi Taka"
+                      - option "BEF - Belgian Franc"
+                      - option "BGN - Bulgarian Lev"
+                      - option "BHD - Bahraini Dinar"
+                      - option "BIF - Burundian Franc"
+                      - option "BMD - Bermudian Dollar"
+                      - option "BNB - Binance Coin"
+                      - option "BND - Bruneian Dollar"
+                      - option "BOB - Bolivian Bolíviano"
+                      - option "BRL - Brazilian Real"
+                      - option "BSD - Bahamian Dollar"
+                      - option "BSV - Bitcoin SV"
+                      - option "BSW - Biswap"
+                      - option "BTC - Bitcoin"
+                      - option "BTG - Bitcoin Gold"
+                      - option "BTN - Bhutanese Ngultrum"
+                      - option "BTT - BitTorrent"
+                      - option "BUSD - Binance USD"
+                      - option "BWP - Botswana Pula"
+                      - option "BYN - Belarusian Ruble"
+                      - option "BYR - Belarusian Ruble"
+                      - option "BZD - Belizean Dollar"
+                      - option "CAKE - PancakeSwap"
+                      - option "CDF - Congolese Franc"
+                      - option "CELO - Celo"
+                      - option "CFX - Conflux"
+                      - option "CHZ - Chiliz"
+                      - option "CLP - Chilean Peso"
+                      - option "CNH - Chinese Yuan Renminbi Offshore"
+                      - option "CNY - Chinese Yuan Renminbi"
+                      - option "COMP - Compound"
+                      - option "COP - Colombian Peso"
+                      - option "CRC - Costa Rican Colon"
+                      - option "CRO - Crypto.com Chain"
+                      - option "CRV - Curve DAO Token"
+                      - option "CSPR - Casper"
+                      - option "CUC - Cuban Convertible Peso"
+                      - option "CUP - Cuban Peso"
+                      - option "CVE - Cape Verdean Escudo"
+                      - option "CVX - Convex Finance"
+                      - option "CYP - Cypriot Pound"
+                      - option "CZK - Czech Koruna"
+                      - option "DAI - DAI"
+                      - option "DASH - Digital Cash"
+                      - option "DCR - Decred"
+                      - option "DEM - German Deutsche Mark"
+                      - option "DFI - DfiStarter"
+                      - option "DJF - Djiboutian Franc"
+                      - option "DKK - Danish Krone"
+                      - option "DOGE - Dogecoin"
+                      - option "DOP - Dominican Peso"
+                      - option "DOT - Polkadot"
+                      - option "DYDX - dYdX"
+                      - option "DZD - Algerian Dinar"
+                      - option "EEK - Estonian Kroon"
+                      - option "EGLD - Elrond"
+                      - option "EGP - Egyptian Pound"
+                      - option "ENJ - Enjin Coin"
+                      - option "EOS - EOS"
+                      - option "ERN - Eritrean Nakfa"
+                      - option "ESP - Spanish Peseta"
+                      - option "ETB - Ethiopian Birr"
+                      - option "ETC - Ethereum Classic"
+                      - option "ETH - Ethereum"
+                      - option "EURC -"
+                      - option "FEI - Fei USD"
+                      - option "FIL - Filecoin"
+                      - option "FIM - Finnish Markka"
+                      - option "FJD - Fijian Dollar"
+                      - option "FKP - Falkland Island Pound"
+                      - option "FLOW - Flow"
+                      - option "FLR - FLARE"
+                      - option "FRAX - Frax"
+                      - option "FRF - French Franc"
+                      - option "FTT - FarmaTrust"
+                      - option "GALA - Gala"
+                      - option "GEL - Georgian Lari"
+                      - option "GGP - Guernsey Pound"
+                      - option "GHC - Ghanaian Cedi"
+                      - option "GHS - Ghanaian Cedi"
+                      - option "GIP - Gibraltar Pound"
+                      - option "GMD - Gambian Dalasi"
+                      - option "GMX - Goldmaxcoin"
+                      - option "GNF - Guinean Franc"
+                      - option "GNO - Gnosis"
+                      - option "GRD - Greek Drachma"
+                      - option "GRT - The Graph"
+                      - option "GT - GateToken"
+                      - option "GTQ - Guatemalan Quetzal"
+                      - option "GUSD - Gemini US Dollar"
+                      - option "GYD - Guyanese Dollar"
+                      - option "HBAR - Hedera"
+                      - option "HNL - Honduran Lempira"
+                      - option "HNT - Helium"
+                      - option "HOT - Hydro Protocol"
+                      - option "HRK - Croatian Kuna"
+                      - option "HT - Huobi Token"
+                      - option "HTG - Haitian Gourde"
+                      - option "HUF - Hungarian Forint"
+                      - option "ICP - Internet Computer"
+                      - option "IDR - Indonesian Rupiah"
+                      - option "IEP - Irish Pound"
+                      - option "ILS - Israeli Shekel"
+                      - option "IMP - Isle of Man Pound"
+                      - option "IMX - Immutable X"
+                      - option "INJ - Injective"
+                      - option "IQD - Iraqi Dinar"
+                      - option "IRR - Iranian Rial"
+                      - option "ISK - Icelandic Krona"
+                      - option "ITL - Italian Lira"
+                      - option "JEP - Jersey Pound"
+                      - option "JMD - Jamaican Dollar"
+                      - option "JOD - Jordanian Dinar"
+                      - option "KAS -"
+                      - option "KAVA - Kava"
+                      - option "KCS - Kucoin"
+                      - option "KDA - Kadena"
+                      - option "KES - Kenyan Shilling"
+                      - option "KGS - Kyrgyzstani Som"
+                      - option "KHR - Cambodian Riel"
+                      - option "KLAY - Klaytn"
+                      - option "KMF - Comorian Franc"
+                      - option "KNC - Kyber Network Crystals"
+                      - option "KPW - North Korean Won"
+                      - option "KRW - South Korean Won"
+                      - option "KSM - Kusama"
+                      - option "KWD - Kuwaiti Dinar"
+                      - option "KYD - Caymanian Dollar"
+                      - option "KZT - Kazakhstani Tenge"
+                      - option "LAK - Lao Kip"
+                      - option "LBP - Lebanese Pound"
+                      - option "LDO - Lido DAO Token"
+                      - option "LEO - LEOcoin"
+                      - option "LINK - Chainlink"
+                      - option "LKR - Sri Lankan Rupee"
+                      - option "LRC - Loopring"
+                      - option "LRD - Liberian Dollar"
+                      - option "LSL - Basotho Loti"
+                      - option "LTC - Litecoin"
+                      - option "LTL - Lithuanian Litas"
+                      - option "LUF - Luxembourg Franc"
+                      - option "LUNA - Terra"
+                      - option "LUNC -"
+                      - option "LVL - Latvian Lat"
+                      - option "LYD - Libyan Dinar"
+                      - option "MAD - Moroccan Dirham"
+                      - option "MANA - Mana Coin Decentraland"
+                      - option "MBX - MobieCoin"
+                      - option "MDL - Moldovan Leu"
+                      - option "MGA - Malagasy Ariary"
+                      - option "MGF - Malagasy Franc"
+                      - option "MINA - Mina"
+                      - option "MKD - Macedonian Denar"
+                      - option "MKR - Maker"
+                      - option "MMK - Burmese Kyat"
+                      - option "MNT - Mongolian Tughrik"
+                      - option "MOP - Macau Pataca"
+                      - option "MRO - Mauritanian Ouguiya"
+                      - option "MRU - Mauritanian Ouguiya"
+                      - option "MTL - Maltese Lira"
+                      - option "MUR - Mauritian Rupee"
+                      - option "MVR - Maldivian Rufiyaa"
+                      - option "MWK - Malawian Kwacha"
+                      - option "MXN - Mexican Peso"
+                      - option "MXV -"
+                      - option "MZM - Mozambican Metical"
+                      - option "MZN - Mozambican Metical"
+                      - option "NAD - Namibian Dollar"
+                      - option "NEAR - NEAR Protocol"
+                      - option "NEO - NEO"
+                      - option "NEXO - NEXO"
+                      - option "NFT - NFT"
+                      - option "NGN - Nigerian Naira"
+                      - option "NIO - Nicaraguan Cordoba"
+                      - option "NLG - Dutch Guilder"
+                      - option "NOK - Norwegian Krone"
+                      - option "NPR - Nepalese Rupee"
+                      - option "NZD - New Zealand Dollar"
+                      - option "OKB - Okex"
+                      - option "OMR - Omani Rial"
+                      - option "ONE - Menlo One"
+                      - option "OP - Optimism"
+                      - option "ORDI -"
+                      - option "PAB - Panamanian Balboa"
+                      - option "PAXG - PAX Gold"
+                      - option "PEN - Peruvian Sol"
+                      - option "PEPE -"
+                      - option "PGK - Papua New Guinean Kina"
+                      - option "PHP - Philippine Peso"
+                      - option "PI - Plian"
+                      - option "PKR - Pakistani Rupee"
+                      - option "PLN - Polish Zloty"
+                      - option "POL - Proof Of Liquidity"
+                      - option "PTE - Portuguese Escudo"
+                      - option "PYG - Paraguayan Guarani"
+                      - option "QAR - Qatari Riyal"
+                      - option "QNT - Quant"
+                      - option "QTUM - QTUM"
+                      - option "ROL - Romanian Leu"
+                      - option "RON - Romanian Leu"
+                      - option "RPL - Rocket Pool"
+                      - option "RSD - Serbian Dinar"
+                      - option "RUB - Russian Ruble"
+                      - option "RUNE - THORChain (ERC20)"
+                      - option "RVN - Ravencoin"
+                      - option "RWF - Rwandan Franc"
+                      - option "SAND - The Sandbox"
+                      - option "SAR - Saudi Arabian Riyal"
+                      - option "SBD - Solomon Islander Dollar"
+                      - option "SCR - Seychellois Rupee"
+                      - option "SDD - Sudanese Dinar"
+                      - option "SDG - Sudanese Pound"
+                      - option "SEK - Swedish Krona"
+                      - option "SHIB - Shiba Inu"
+                      - option "SHP - Saint Helenian Pound"
+                      - option "SIT - Slovenian Tolar"
+                      - option "SKK - Slovak Koruna"
+                      - option "SLE - Sierra Leonean Leone"
+                      - option "SLL - Sierra Leonean Leone"
+                      - option "SNX - Synthetix Network"
+                      - option "SOL - Solana"
+                      - option "SOS - Somali Shilling"
+                      - option "SPL - Seborgan Luigino"
+                      - option "SRD - Surinamese Dollar"
+                      - option "SRG - Surinamese Guilder"
+                      - option "SSP - South Sudanese Pound"
+                      - option "STD - Sao Tomean Dobra"
+                      - option "STN - Sao Tomean Dobra"
+                      - option "STX - Stacks"
+                      - option "SUI - Sui"
+                      - option "SVC - Salvadoran Colon"
+                      - option "SYP - Syrian Pound"
+                      - option "SZL - Swazi Lilangeni"
+                      - option "THETA - Theta"
+                      - option "TJS - Tajikistani Somoni"
+                      - option "TMM - Turkmenistani Manat"
+                      - option "TMT - Turkmenistani Manat"
+                      - option "TND - Tunisian Dinar"
+                      - option "TOP - Tongan Pa'anga"
+                      - option "TRL -"
+                      - option "TRX - TRON"
+                      - option "TRY - Turkish Lira"
+                      - option "TTD - Trinidadian Dollar"
+                      - option "TUSD - True USD"
+                      - option "TVD - Tuvaluan Dollar"
+                      - option "TWD - Taiwan New Dollar"
+                      - option "TWT - Trust Wallet Token"
+                      - option "TZS - Tanzanian Shilling"
+                      - option "UAH - Ukrainian Hryvnia"
+                      - option "UGX - Ugandan Shilling"
+                      - option "UNI - Uniswap"
+                      - option "USDC - USDC"
+                      - option "USDD -"
+                      - option "USDP - USDP Stablecoin"
+                      - option "USDT - Tether"
+                      - option "UYU - Uruguayan Peso"
+                      - option "UZS - Uzbekistani Som"
+                      - option "VAL - Vatican City Lira"
+                      - option "VEB - Venezuelan Bolívar"
+                      - option "VED -"
+                      - option "VEF - Venezuelan Bolívar"
+                      - option "VES - Venezuelan Bolívar"
+                      - option "VET - Vechain"
+                      - option "VND - Vietnamese Dong"
+                      - option "VUV - Ni-Vanuatu Vatu"
+                      - option "WAVES - Waves"
+                      - option "WEMIX - WEMIX"
+                      - option "WOO - WOO Network"
+                      - option "WST - Samoan Tala"
+                      - option "XAF - Central African CFA Franc BEAC"
+                      - option "XAG - Silver Ounce"
+                      - option "XAU - Gold Ounce"
+                      - option "XAUT - Tether Gold"
+                      - option "XBT -"
+                      - option "XCD - East Caribbean Dollar"
+                      - option "XCG - Xchange"
+                      - option "XCH - Chia"
+                      - option "XDC - XDC Network"
+                      - option "XDR - IMF Special Drawing Rights"
+                      - option "XEC - Eternal Coin"
+                      - option "XEM - NEM"
+                      - option "XLM - Stellar Lumen"
+                      - option "XMR - Monero"
+                      - option "XOF - CFA Franc"
+                      - option "XPD - Palladium Ounce"
+                      - option "XPF - CFP Franc"
+                      - option "XPT - Platinum Ounce"
+                      - option "XRP - Ripple"
+                      - option "XTZ - Tezos"
+                      - option "YER - Yemeni Rial"
+                      - option "ZAR - South African Rand"
+                      - option "ZEC - ZCash"
+                      - option "ZIL - Zilliqa"
+                      - option "ZMK - Zambian Kwacha"
+                      - option "ZMW - Zambian Kwacha"
+                      - option "ZWD - Zimbabwean Dollar"
+                      - option "ZWG -"
+                      - option "ZWL - Zimbabwean Dollar"
+                    - generic: 
+                - button "" [ref=f103e115] [cursor=pointer]
+                - generic [ref=f103e117]:
+                  - generic [ref=f103e118] [cursor=pointer]: To
+                  - generic [ref=f103e119]:
+                    - combobox "To" [ref=f103e120]:
+                      - option "USD - US Dollar"
+                      - option "EUR - Euro"
+                      - option "GBP - British Pound"
+                      - option "INR - Indian Rupee" [selected]
+                      - option "AUD - Australian Dollar"
+                      - option "CAD - Canadian Dollar"
+                      - option "JPY - Japanese Yen"
+                      - option "SGD - Singapore Dollar"
+                      - option "AED - Emirati Dirham"
+                      - option "CHF - Swiss Franc"
+                      - option "HKD - Hong Kong Dollar"
+                      - option "MYR - Malaysian Ringgit"
+                      - option "THB - Thai Baht"
+                      - option "1INCH - 1inch"
+                      - option "AAVE - Aave"
+                      - option "ADA - Cardano"
+                      - option "AFN - Afghan Afghani"
+                      - option "AKT - Akash Network"
+                      - option "ALGO - Algorand"
+                      - option "ALL - Albanian Lek"
+                      - option "AMD - Armenian Dram"
+                      - option "AMP - Amp"
+                      - option "ANG - Dutch Guilder"
+                      - option "AOA - Angolan Kwanza"
+                      - option "APE - ApeCoin"
+                      - option "APT - Aptos"
+                      - option "AR - Arweave"
+                      - option "ARB - Arbitrum"
+                      - option "ARS - Argentine Peso"
+                      - option "ATOM - Cosmos"
+                      - option "ATS - Austrian Schilling"
+                      - option "AVAX - Avalanche"
+                      - option "AWG - Aruban or Dutch Guilder"
+                      - option "AXS - Axie Infinity"
+                      - option "AZM - Azerbaijani Manat"
+                      - option "AZN - Azerbaijan Manat"
+                      - option "BAKE - BakeryToken"
+                      - option "BAM - Bosnian Convertible Mark"
+                      - option "BAT - Basic Attention Token"
+                      - option "BBD - Barbadian or Bajan Dollar"
+                      - option "BCH - Bitcoin Cash"
+                      - option "BDT - Bangladeshi Taka"
+                      - option "BEF - Belgian Franc"
+                      - option "BGN - Bulgarian Lev"
+                      - option "BHD - Bahraini Dinar"
+                      - option "BIF - Burundian Franc"
+                      - option "BMD - Bermudian Dollar"
+                      - option "BNB - Binance Coin"
+                      - option "BND - Bruneian Dollar"
+                      - option "BOB - Bolivian Bolíviano"
+                      - option "BRL - Brazilian Real"
+                      - option "BSD - Bahamian Dollar"
+                      - option "BSV - Bitcoin SV"
+                      - option "BSW - Biswap"
+                      - option "BTC - Bitcoin"
+                      - option "BTG - Bitcoin Gold"
+                      - option "BTN - Bhutanese Ngultrum"
+                      - option "BTT - BitTorrent"
+                      - option "BUSD - Binance USD"
+                      - option "BWP - Botswana Pula"
+                      - option "BYN - Belarusian Ruble"
+                      - option "BYR - Belarusian Ruble"
+                      - option "BZD - Belizean Dollar"
+                      - option "CAKE - PancakeSwap"
+                      - option "CDF - Congolese Franc"
+                      - option "CELO - Celo"
+                      - option "CFX - Conflux"
+                      - option "CHZ - Chiliz"
+                      - option "CLP - Chilean Peso"
+                      - option "CNH - Chinese Yuan Renminbi Offshore"
+                      - option "CNY - Chinese Yuan Renminbi"
+                      - option "COMP - Compound"
+                      - option "COP - Colombian Peso"
+                      - option "CRC - Costa Rican Colon"
+                      - option "CRO - Crypto.com Chain"
+                      - option "CRV - Curve DAO Token"
+                      - option "CSPR - Casper"
+                      - option "CUC - Cuban Convertible Peso"
+                      - option "CUP - Cuban Peso"
+                      - option "CVE - Cape Verdean Escudo"
+                      - option "CVX - Convex Finance"
+                      - option "CYP - Cypriot Pound"
+                      - option "CZK - Czech Koruna"
+                      - option "DAI - DAI"
+                      - option "DASH - Digital Cash"
+                      - option "DCR - Decred"
+                      - option "DEM - German Deutsche Mark"
+                      - option "DFI - DfiStarter"
+                      - option "DJF - Djiboutian Franc"
+                      - option "DKK - Danish Krone"
+                      - option "DOGE - Dogecoin"
+                      - option "DOP - Dominican Peso"
+                      - option "DOT - Polkadot"
+                      - option "DYDX - dYdX"
+                      - option "DZD - Algerian Dinar"
+                      - option "EEK - Estonian Kroon"
+                      - option "EGLD - Elrond"
+                      - option "EGP - Egyptian Pound"
+                      - option "ENJ - Enjin Coin"
+                      - option "EOS - EOS"
+                      - option "ERN - Eritrean Nakfa"
+                      - option "ESP - Spanish Peseta"
+                      - option "ETB - Ethiopian Birr"
+                      - option "ETC - Ethereum Classic"
+                      - option "ETH - Ethereum"
+                      - option "EURC -"
+                      - option "FEI - Fei USD"
+                      - option "FIL - Filecoin"
+                      - option "FIM - Finnish Markka"
+                      - option "FJD - Fijian Dollar"
+                      - option "FKP - Falkland Island Pound"
+                      - option "FLOW - Flow"
+                      - option "FLR - FLARE"
+                      - option "FRAX - Frax"
+                      - option "FRF - French Franc"
+                      - option "FTT - FarmaTrust"
+                      - option "GALA - Gala"
+                      - option "GEL - Georgian Lari"
+                      - option "GGP - Guernsey Pound"
+                      - option "GHC - Ghanaian Cedi"
+                      - option "GHS - Ghanaian Cedi"
+                      - option "GIP - Gibraltar Pound"
+                      - option "GMD - Gambian Dalasi"
+                      - option "GMX - Goldmaxcoin"
+                      - option "GNF - Guinean Franc"
+                      - option "GNO - Gnosis"
+                      - option "GRD - Greek Drachma"
+                      - option "GRT - The Graph"
+                      - option "GT - GateToken"
+                      - option "GTQ - Guatemalan Quetzal"
+                      - option "GUSD - Gemini US Dollar"
+                      - option "GYD - Guyanese Dollar"
+                      - option "HBAR - Hedera"
+                      - option "HNL - Honduran Lempira"
+                      - option "HNT - Helium"
+                      - option "HOT - Hydro Protocol"
+                      - option "HRK - Croatian Kuna"
+                      - option "HT - Huobi Token"
+                      - option "HTG - Haitian Gourde"
+                      - option "HUF - Hungarian Forint"
+                      - option "ICP - Internet Computer"
+                      - option "IDR - Indonesian Rupiah"
+                      - option "IEP - Irish Pound"
+                      - option "ILS - Israeli Shekel"
+                      - option "IMP - Isle of Man Pound"
+                      - option "IMX - Immutable X"
+                      - option "INJ - Injective"
+                      - option "IQD - Iraqi Dinar"
+                      - option "IRR - Iranian Rial"
+                      - option "ISK - Icelandic Krona"
+                      - option "ITL - Italian Lira"
+                      - option "JEP - Jersey Pound"
+                      - option "JMD - Jamaican Dollar"
+                      - option "JOD - Jordanian Dinar"
+                      - option "KAS -"
+                      - option "KAVA - Kava"
+                      - option "KCS - Kucoin"
+                      - option "KDA - Kadena"
+                      - option "KES - Kenyan Shilling"
+                      - option "KGS - Kyrgyzstani Som"
+                      - option "KHR - Cambodian Riel"
+                      - option "KLAY - Klaytn"
+                      - option "KMF - Comorian Franc"
+                      - option "KNC - Kyber Network Crystals"
+                      - option "KPW - North Korean Won"
+                      - option "KRW - South Korean Won"
+                      - option "KSM - Kusama"
+                      - option "KWD - Kuwaiti Dinar"
+                      - option "KYD - Caymanian Dollar"
+                      - option "KZT - Kazakhstani Tenge"
+                      - option "LAK - Lao Kip"
+                      - option "LBP - Lebanese Pound"
+                      - option "LDO - Lido DAO Token"
+                      - option "LEO - LEOcoin"
+                      - option "LINK - Chainlink"
+                      - option "LKR - Sri Lankan Rupee"
+                      - option "LRC - Loopring"
+                      - option "LRD - Liberian Dollar"
+                      - option "LSL - Basotho Loti"
+                      - option "LTC - Litecoin"
+                      - option "LTL - Lithuanian Litas"
+                      - option "LUF - Luxembourg Franc"
+                      - option "LUNA - Terra"
+                      - option "LUNC -"
+                      - option "LVL - Latvian Lat"
+                      - option "LYD - Libyan Dinar"
+                      - option "MAD - Moroccan Dirham"
+                      - option "MANA - Mana Coin Decentraland"
+                      - option "MBX - MobieCoin"
+                      - option "MDL - Moldovan Leu"
+                      - option "MGA - Malagasy Ariary"
+                      - option "MGF - Malagasy Franc"
+                      - option "MINA - Mina"
+                      - option "MKD - Macedonian Denar"
+                      - option "MKR - Maker"
+                      - option "MMK - Burmese Kyat"
+                      - option "MNT - Mongolian Tughrik"
+                      - option "MOP - Macau Pataca"
+                      - option "MRO - Mauritanian Ouguiya"
+                      - option "MRU - Mauritanian Ouguiya"
+                      - option "MTL - Maltese Lira"
+                      - option "MUR - Mauritian Rupee"
+                      - option "MVR - Maldivian Rufiyaa"
+                      - option "MWK - Malawian Kwacha"
+                      - option "MXN - Mexican Peso"
+                      - option "MXV -"
+                      - option "MZM - Mozambican Metical"
+                      - option "MZN - Mozambican Metical"
+                      - option "NAD - Namibian Dollar"
+                      - option "NEAR - NEAR Protocol"
+                      - option "NEO - NEO"
+                      - option "NEXO - NEXO"
+                      - option "NFT - NFT"
+                      - option "NGN - Nigerian Naira"
+                      - option "NIO - Nicaraguan Cordoba"
+                      - option "NLG - Dutch Guilder"
+                      - option "NOK - Norwegian Krone"
+                      - option "NPR - Nepalese Rupee"
+                      - option "NZD - New Zealand Dollar"
+                      - option "OKB - Okex"
+                      - option "OMR - Omani Rial"
+                      - option "ONE - Menlo One"
+                      - option "OP - Optimism"
+                      - option "ORDI -"
+                      - option "PAB - Panamanian Balboa"
+                      - option "PAXG - PAX Gold"
+                      - option "PEN - Peruvian Sol"
+                      - option "PEPE -"
+                      - option "PGK - Papua New Guinean Kina"
+                      - option "PHP - Philippine Peso"
+                      - option "PI - Plian"
+                      - option "PKR - Pakistani Rupee"
+                      - option "PLN - Polish Zloty"
+                      - option "POL - Proof Of Liquidity"
+                      - option "PTE - Portuguese Escudo"
+                      - option "PYG - Paraguayan Guarani"
+                      - option "QAR - Qatari Riyal"
+                      - option "QNT - Quant"
+                      - option "QTUM - QTUM"
+                      - option "ROL - Romanian Leu"
+                      - option "RON - Romanian Leu"
+                      - option "RPL - Rocket Pool"
+                      - option "RSD - Serbian Dinar"
+                      - option "RUB - Russian Ruble"
+                      - option "RUNE - THORChain (ERC20)"
+                      - option "RVN - Ravencoin"
+                      - option "RWF - Rwandan Franc"
+                      - option "SAND - The Sandbox"
+                      - option "SAR - Saudi Arabian Riyal"
+                      - option "SBD - Solomon Islander Dollar"
+                      - option "SCR - Seychellois Rupee"
+                      - option "SDD - Sudanese Dinar"
+                      - option "SDG - Sudanese Pound"
+                      - option "SEK - Swedish Krona"
+                      - option "SHIB - Shiba Inu"
+                      - option "SHP - Saint Helenian Pound"
+                      - option "SIT - Slovenian Tolar"
+                      - option "SKK - Slovak Koruna"
+                      - option "SLE - Sierra Leonean Leone"
+                      - option "SLL - Sierra Leonean Leone"
+                      - option "SNX - Synthetix Network"
+                      - option "SOL - Solana"
+                      - option "SOS - Somali Shilling"
+                      - option "SPL - Seborgan Luigino"
+                      - option "SRD - Surinamese Dollar"
+                      - option "SRG - Surinamese Guilder"
+                      - option "SSP - South Sudanese Pound"
+                      - option "STD - Sao Tomean Dobra"
+                      - option "STN - Sao Tomean Dobra"
+                      - option "STX - Stacks"
+                      - option "SUI - Sui"
+                      - option "SVC - Salvadoran Colon"
+                      - option "SYP - Syrian Pound"
+                      - option "SZL - Swazi Lilangeni"
+                      - option "THETA - Theta"
+                      - option "TJS - Tajikistani Somoni"
+                      - option "TMM - Turkmenistani Manat"
+                      - option "TMT - Turkmenistani Manat"
+                      - option "TND - Tunisian Dinar"
+                      - option "TOP - Tongan Pa'anga"
+                      - option "TRL -"
+                      - option "TRX - TRON"
+                      - option "TRY - Turkish Lira"
+                      - option "TTD - Trinidadian Dollar"
+                      - option "TUSD - True USD"
+                      - option "TVD - Tuvaluan Dollar"
+                      - option "TWD - Taiwan New Dollar"
+                      - option "TWT - Trust Wallet Token"
+                      - option "TZS - Tanzanian Shilling"
+                      - option "UAH - Ukrainian Hryvnia"
+                      - option "UGX - Ugandan Shilling"
+                      - option "UNI - Uniswap"
+                      - option "USDC - USDC"
+                      - option "USDD -"
+                      - option "USDP - USDP Stablecoin"
+                      - option "USDT - Tether"
+                      - option "UYU - Uruguayan Peso"
+                      - option "UZS - Uzbekistani Som"
+                      - option "VAL - Vatican City Lira"
+                      - option "VEB - Venezuelan Bolívar"
+                      - option "VED -"
+                      - option "VEF - Venezuelan Bolívar"
+                      - option "VES - Venezuelan Bolívar"
+                      - option "VET - Vechain"
+                      - option "VND - Vietnamese Dong"
+                      - option "VUV - Ni-Vanuatu Vatu"
+                      - option "WAVES - Waves"
+                      - option "WEMIX - WEMIX"
+                      - option "WOO - WOO Network"
+                      - option "WST - Samoan Tala"
+                      - option "XAF - Central African CFA Franc BEAC"
+                      - option "XAG - Silver Ounce"
+                      - option "XAU - Gold Ounce"
+                      - option "XAUT - Tether Gold"
+                      - option "XBT -"
+                      - option "XCD - East Caribbean Dollar"
+                      - option "XCG - Xchange"
+                      - option "XCH - Chia"
+                      - option "XDC - XDC Network"
+                      - option "XDR - IMF Special Drawing Rights"
+                      - option "XEC - Eternal Coin"
+                      - option "XEM - NEM"
+                      - option "XLM - Stellar Lumen"
+                      - option "XMR - Monero"
+                      - option "XOF - CFA Franc"
+                      - option "XPD - Palladium Ounce"
+                      - option "XPF - CFP Franc"
+                      - option "XPT - Platinum Ounce"
+                      - option "XRP - Ripple"
+                      - option "XTZ - Tezos"
+                      - option "YER - Yemeni Rial"
+                      - option "ZAR - South African Rand"
+                      - option "ZEC - ZCash"
+                      - option "ZIL - Zilliqa"
+                      - option "ZMK - Zambian Kwacha"
+                      - option "ZMW - Zambian Kwacha"
+                      - option "ZWD - Zimbabwean Dollar"
+                      - option "ZWG -"
+                      - option "ZWL - Zimbabwean Dollar"
+                    - generic: 
+              - button " Convert Now" [ref=f103e121] [cursor=pointer]:
+                - generic [ref=f103e122]: 
+                - generic [ref=f103e123]: Convert Now
+            - generic [ref=f103e310]:
+              - generic [ref=f103e311]: 1.25 USD =
+              - generic [ref=f103e312]: 119.69 INR
+              - generic [ref=f103e313]: 1 INR = 0.01 USD
+              - generic [ref=f103e314]:
+                - generic [ref=f103e319]: 
+                - text: "Rates fetched: 12:08:13 PM"
+            - generic [ref=f103e124]:
+              - generic [ref=f103e125]: 
+              - generic [ref=f103e126]:
+                - strong [ref=f103e127]: "Travel Tip:"
+                - text: Indian Rupee (INR) is the local currency. Exchange money at authorised banks or forex counters for the best rates.
+          - generic [ref=f103e129]:
+            - generic [ref=f103e130]:
+              - generic [ref=f103e131]: 
+              - generic [ref=f103e132]: Live Rates vs INR
+              - generic [ref=f103e133]: LIVE
+            - paragraph [ref=f103e134]: 1 unit of each currency = X Indian Rupees
+            - generic [ref=f103e135]:
+              - generic [ref=f103e136]:
+                - generic [ref=f103e137]:
+                  - generic [ref=f103e138]: USD
+                  - generic [ref=f103e139]: US Dollar
+                - generic [ref=f103e140]: ₹ 95.76
+              - generic [ref=f103e141]:
+                - generic [ref=f103e142]:
+                  - generic [ref=f103e143]: EUR
+                  - generic [ref=f103e144]: Euro
+                - generic [ref=f103e145]: ₹ 109.88
+              - generic [ref=f103e146]:
+                - generic [ref=f103e147]:
+                  - generic [ref=f103e148]: GBP
+                  - generic [ref=f103e149]: British Pound
+                - generic [ref=f103e150]: ₹ 128.15
+              - generic [ref=f103e151]:
+                - generic [ref=f103e152]:
+                  - generic [ref=f103e153]: JPY
+                  - generic [ref=f103e154]: Japanese Yen
+                - generic [ref=f103e155]: ₹ 0.61
+              - generic [ref=f103e156]:
+                - generic [ref=f103e157]:
+                  - generic [ref=f103e158]: AUD
+                  - generic [ref=f103e159]: Australian Dollar
+                - generic [ref=f103e160]: ₹ 68.20
+              - generic [ref=f103e161]:
+                - generic [ref=f103e162]:
+                  - generic [ref=f103e163]: CAD
+                  - generic [ref=f103e164]: Canadian Dollar
+                - generic [ref=f103e165]: ₹ 68.27
+              - generic [ref=f103e166]:
+                - generic [ref=f103e167]:
+                  - generic [ref=f103e168]: SGD
+                  - generic [ref=f103e169]: Singapore Dollar
+                - generic [ref=f103e170]: ₹ 75.07
+              - generic [ref=f103e171]:
+                - generic [ref=f103e172]:
+                  - generic [ref=f103e173]: AED
+                  - generic [ref=f103e174]: UAE Dirham
+                - generic [ref=f103e175]: ₹ 26.07
+            - paragraph [ref=f103e176]:
+              - generic [ref=f103e177]: 
+              - text: Rates are indicative. Actual rates may vary.
+    - generic [ref=f103e178]:
+      - generic [ref=f103e179]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f103e180]:
+        - button "I'm happy with this" [ref=f103e181] [cursor=pointer]
+        - button "Close" [ref=f103e182] [cursor=pointer]:
+          - generic [ref=f103e183]: 
+    - generic:  
+    - contentinfo [ref=f103e186]:
+      - generic [ref=f103e187]:
+        - generic [ref=f103e188]:
+          - img "Logo" [ref=f103e190]
+          - generic [ref=f103e200]:
+            - generic [ref=f103e201]:
+              - generic [ref=f103e202]: Important Links
+              - list [ref=f103e203]:
+                - listitem [ref=f103e204]:
+                  - link "Government of Odisha" [ref=f103e205] [cursor=pointer]:
+                    - /url: https://odisha.gov.in/
+                - listitem [ref=f103e206]:
+                  - link "Department of Tourism, Odisha" [ref=f103e207] [cursor=pointer]:
+                    - /url: https://dot.odisha.gov.in/
+                - listitem [ref=f103e208]:
+                  - link "Odisha Tourism Development Corporation (OTDC)" [ref=f103e209] [cursor=pointer]:
+                    - /url: https://otdc.odisha.gov.in/
+                - listitem [ref=f103e210]:
+                  - link "Book Odisha" [ref=f103e211] [cursor=pointer]:
+                    - /url: https://www.bookodisha.com/
+                - listitem [ref=f103e212]:
+                  - link "Eco Retreat Odisha" [ref=f103e213] [cursor=pointer]:
+                    - /url: https://www.odishaecoretreats.com/
+            - generic [ref=f103e214]:
+              - generic [ref=f103e215]: Quick Links
+              - list [ref=f103e216]:
+                - listitem [ref=f103e217]:
+                  - link "Odisha At A Glance" [ref=f103e218] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/odisha-at-a-glance
+                - listitem [ref=f103e219]:
+                  - link "Iconic Odisha" [ref=f103e220] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/iconic-odisha
+                - listitem [ref=f103e221]:
+                  - link "Explore Coastal Odisha" [ref=f103e222] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/east-odisha
+                - listitem [ref=f103e223]:
+                  - link "Explore Northern Odisha" [ref=f103e224] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/northern-odisha
+                - listitem [ref=f103e225]:
+                  - link "Explore Central Odisha" [ref=f103e226] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/center-odisha
+                - listitem [ref=f103e227]:
+                  - link "Explore Western Odisha" [ref=f103e228] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/western-odisha
+                - listitem [ref=f103e229]:
+                  - link "Explore Southern Odisha" [ref=f103e230] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/southern-odisha
+                - listitem [ref=f103e231]:
+                  - link "Weather & Climate" [ref=f103e232] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/weather-climate
+                - listitem [ref=f103e233]:
+                  - link "Best Time to Visit" [ref=f103e234] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/best-time-to-visit
+                - listitem [ref=f103e235]:
+                  - link "How to Reach Odisha" [ref=f103e236] [cursor=pointer]:
+                    - /url: https://apptourlfr-stg.estpl.net/how-to-reach-odisha
+          - generic [ref=f103e237]:
+            - generic [ref=f103e238]: Newsletter
+            - paragraph [ref=f103e239]: Sign up for exciting news, learn more about our events and get great travel ideas.
+            - button "Subscribe Now" [ref=f103e240] [cursor=pointer]
+            - generic [ref=f103e241]:
+              - generic [ref=f103e242]: Follow us
+              - generic [ref=f103e243]:
+                - link "" [ref=f103e244] [cursor=pointer]:
+                  - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+                - link "" [ref=f103e246] [cursor=pointer]:
+                  - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+                - link "" [ref=f103e248] [cursor=pointer]:
+                  - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+                - link "" [ref=f103e250] [cursor=pointer]:
+                  - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=f103e252]:
+          - generic [ref=f103e261]:
+            - link "Privacy Policy" [ref=f103e262] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/privacy-policy
+            - generic [ref=f103e263]: "|"
+            - link "Disclaimer" [ref=f103e264] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/disclaimer
+            - generic [ref=f103e265]: "|"
+            - link "Site Map" [ref=f103e266] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/site-map
+            - generic [ref=f103e267]: "|"
+            - link "Contact Us" [ref=f103e268] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/contact-us
+          - paragraph [ref=f103e269]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=f103e271]:
+    - generic [ref=f103e272]:
+      - heading " Accessibility" [level=5] [ref=f103e273]:
+        - generic [ref=f103e274]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=f103e275] [cursor=pointer]:
+        - generic [ref=f103e276]: 
+    - generic [ref=f103e277]:
+      - generic [ref=f103e278]:
+        - button " Bigger Text" [ref=f103e279] [cursor=pointer]:
+          - generic [ref=f103e280]: 
+          - generic [ref=f103e281]: BiggerText
+        - button " Smaller Text" [ref=f103e282] [cursor=pointer]:
+          - generic [ref=f103e283]: 
+          - generic [ref=f103e284]: SmallerText
+        - button " Dark / Light" [ref=f103e285] [cursor=pointer]:
+          - generic [ref=f103e286]: 
+          - generic [ref=f103e287]: Dark /Light
+        - button " Invert Colors" [ref=f103e288] [cursor=pointer]:
+          - generic [ref=f103e289]: 
+          - generic [ref=f103e290]: InvertColors
+        - button " Letter Spacing" [ref=f103e291] [cursor=pointer]:
+          - generic [ref=f103e292]: 
+          - generic [ref=f103e293]: LetterSpacing
+        - button " Line Height" [ref=f103e294] [cursor=pointer]:
+          - generic [ref=f103e295]: 
+          - generic [ref=f103e296]: LineHeight
+        - button [ref=f103e297] [cursor=pointer]:
+          - generic [ref=f103e298]: HideImages
+        - button " Highlight Links" [ref=f103e299] [cursor=pointer]:
+          - generic [ref=f103e300]: 
+          - generic [ref=f103e301]: HighlightLinks
+        - button " Big Cursor" [ref=f103e302] [cursor=pointer]:
+          - generic [ref=f103e303]: 
+          - generic [ref=f103e304]: BigCursor
+        - button " Screen Reader" [ref=f103e305] [cursor=pointer]:
+          - generic [ref=f103e306]: 
+          - generic [ref=f103e307]: ScreenReader
+      - button " Reset All" [ref=f103e308] [cursor=pointer]:
+        - generic [ref=f103e309]: 
+        - text: Reset All

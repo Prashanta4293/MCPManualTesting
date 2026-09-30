@@ -1,0 +1,10 @@
+225. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1 => [206] 
+268. [GET] https://api.open-meteo.com/v1/forecast?latitude=20.182&longitude=85.616&current=temperature_2m,weather_code&timezone=auto => [200] OK
+361. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=1&pageSize=6&search=&hotelType=Hotels => [200] 
+371. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=2&pageSize=6&search=&hotelType=Hotels => [200] 
+378. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=3&pageSize=6&search=&hotelType=Hotels => [200] 
+385. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=4&pageSize=6&search=&hotelType=Hotels => [200] 
+392. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=5&pageSize=6&search=&hotelType=Hotels => [200] 
+399. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=6&pageSize=6&search=&hotelType=Hotels => [200] 
+
+Note: 396 static requests not shown, run with "static" option to see them.

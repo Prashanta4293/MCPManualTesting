@@ -1,0 +1,290 @@
+- generic [active] [ref=f102e1] [box=0,-598,1026,1955]:
+  - navigation "Quick Links" [box=0,0,0,0]:
+    - link "Skip to Main Content" [ref=f102e2] [cursor=pointer] [box=-1,-1,16,16]:
+      - /url: "#main-content"
+  - generic [ref=f102e6] [box=0,-598,1026,1955]:
+    - generic [box=0,-598,1026,0]:
+      - generic [box=0,-598,1026,0]:
+        - banner [box=0,-598,1026,0]:
+          - navigation [ref=f102e7] [box=0,0,1026,80]:
+            - generic [ref=f102e9] [box=48,16,930,48]:
+              - link "Odisha Tourism" [ref=f102e11] [cursor=pointer] [box=63,20,132,40]:
+                - /url: https://apptourlfr-stg.estpl.net/web/guest/home
+                - img "Odisha Tourism" [ref=f102e12] [box=63,20,132,40]
+              - generic [ref=f102e22] [box=296,16,435,38]:
+                - button "Discover " [ref=f102e24] [cursor=pointer] [box=296,25,91,39]:
+                  - generic [ref=f102e25] [box=296,25,69,19]: Discover
+                  - generic [ref=f102e26] [box=369,27,17,16]: 
+                - button "Experience " [ref=f102e28] [cursor=pointer] [box=410,25,105,39]:
+                  - generic [ref=f102e29] [box=410,25,84,19]: Experience
+                  - generic [ref=f102e30] [box=498,27,17,16]: 
+                - button "Plan Your Trip " [ref=f102e32] [cursor=pointer] [box=539,16,105,58]:
+                  - generic [ref=f102e33] [box=539,16,84,38]: Plan Your Trip
+                  - generic [ref=f102e34] [box=627,27,17,16]: 
+                - link "Book Now" [ref=f102e36] [cursor=pointer] [box=669,16,62,58]:
+                  - /url: https://www.bookodisha.com/
+              - generic [ref=f102e39] [box=761,21,203,39]:
+                - button "" [ref=f102e40] [cursor=pointer] [box=765,24,28,32]
+                - generic [ref=f102e42] [box=809,24,30,32]:
+                  - button "User" [ref=f102e43] [cursor=pointer] [box=809,24,30,32]:
+                    - generic [ref=f102e44] [box=815,30,18,20]: 
+                  - text:  
+                - generic [ref=f102e45] [box=855,24,56,33]:
+                  - button "Language" [ref=f102e46] [cursor=pointer] [box=855,24,56,33]:
+                    - generic [ref=f102e47] [box=861,30,20,20]: 
+                    - generic [ref=f102e48] [box=887,30,18,21]: EN
+                  - generic [box=803,65,107,138]:
+                    - button "English " [box=804,66,105,46]
+                    - button "Hindi " [box=804,111,105,46]
+                    - button "Odia " [box=804,157,105,45]
+                - button "" [ref=f102e49] [cursor=pointer] [box=927,21,36,39]
+        - text:           
+        - button "Accessibility Options" [ref=f102e51] [cursor=pointer] [box=30,479,40,40]:
+          - generic [ref=f102e52] [box=41,490,19,18]: 
+    - button "" [ref=f102e53] [cursor=pointer] [box=956,489,40,40]
+    - main [ref=f102e55] [box=0,-598,1026,1384]:
+      - generic [ref=f102e58] [box=0,-598,1026,310]:
+        - img "Odisha at a Glance" [ref=f102e60] [box=0,-598,1026,310]
+        - generic [ref=f102e62] [box=0,-646,1026,358]:
+          - heading "Currency Converter" [level=1] [ref=f102e63] [box=0,-513,1026,67]
+          - generic [ref=f102e64] [box=0,-437,1026,16]: Plan Your Trip With Accurate Live Exchange Rates
+        - navigation "Breadcrumb" [ref=f102e74] [box=48,-318,930,22]:
+          - navigation [ref=f102e75] [box=48,-318,930,22]:
+            - link "" [ref=f102e76] [cursor=pointer] [box=48,-315,18,16]:
+              - /url: https://apptourlfr-stg.estpl.net/home
+            - generic [ref=f102e78] [box=74,-318,5,22]: /
+            - generic [ref=f102e79] [box=87,-318,101,22]: Travel Essentials
+            - generic [ref=f102e80] [box=196,-318,5,22]: /
+            - generic [ref=f102e81] [box=209,-318,125,22]: Currency Converter
+      - generic [ref=f102e86] [box=33,-240,960,946]:
+        - generic [ref=f102e88] [box=33,-240,960,98]:
+          - heading "Currency Converter" [level=2] [ref=f102e89] [box=48,-240,930,38]
+          - paragraph [ref=f102e90] [box=253,-194,520,51]: Real-time exchange rates powered by live market data. Convert any currency before your journey.
+        - generic [ref=f102e91] [box=33,-118,960,824]:
+          - generic [ref=f102e93] [box=48,-118,530,789]:
+            - generic [ref=f102e94] [box=89,-77,448,62]:
+              - generic [ref=f102e95] [box=89,-77,448,22]: Quick Amount
+              - generic [ref=f102e96] [box=89,-48,448,33]:
+                - generic [ref=f102e97] [cursor=pointer] [box=89,-48,38,33]: "1"
+                - generic [ref=f102e98] [cursor=pointer] [box=135,-48,46,33]: "10"
+                - generic [ref=f102e99] [cursor=pointer] [box=189,-48,46,33]: "50"
+                - generic [ref=f102e100] [cursor=pointer] [box=243,-48,54,33]: "100"
+                - generic [ref=f102e101] [cursor=pointer] [box=305,-48,54,33]: "500"
+                - generic [ref=f102e102] [cursor=pointer] [box=367,-48,64,33]: 1,000
+                - generic [ref=f102e103] [cursor=pointer] [box=439,-48,64,33]: 5,000
+            - generic [ref=f102e104] [box=89,9,448,294]:
+              - generic [ref=f102e105] [box=89,9,448,101]:
+                - generic [ref=f102e106] [cursor=pointer] [box=89,9,448,22]: Amount
+                - generic [ref=f102e107] [box=89,39,448,71]:
+                  - generic [box=109,60,10,28]: $
+                  - spinbutton "Amount" [ref=f102e108] [box=89,39,448,71]: "100"
+              - generic [ref=f102e109] [box=89,133,448,88]:
+                - generic [ref=f102e110] [box=89,133,184,88]:
+                  - generic [ref=f102e111] [cursor=pointer] [box=89,133,184,22]: From
+                  - generic [ref=f102e112] [box=89,163,184,58]:
+                    - combobox "From" [ref=f102e113] [box=89,163,184,58]
+                    - generic [box=241,184,16,16]: 
+                - button "" [ref=f102e115] [cursor=pointer] [box=289,165,48,48]
+                - generic [ref=f102e117] [box=353,133,184,88]:
+                  - generic [ref=f102e118] [cursor=pointer] [box=353,133,184,22]: To
+                  - generic [ref=f102e119] [box=353,163,184,58]:
+                    - combobox "To" [ref=f102e120] [box=353,163,184,58]
+                    - generic [box=505,184,16,16]: 
+              - button " Convert Now" [ref=f102e121] [cursor=pointer] [box=89,245,448,58]:
+                - generic [ref=f102e122] [box=252,266,16,16]: 
+                - generic [ref=f102e123] [box=276,261,98,26]: Convert Now
+            - generic [ref=f102e310] [box=89,335,448,200]:
+              - generic [ref=f102e311] [box=118,364,390,23]: 100 USD =
+              - generic [ref=f102e312] [box=118,393,390,49]: 9,575.57 INR
+              - generic [ref=f102e313] [box=118,450,390,23]: 1 INR = 0.01 USD
+              - generic [ref=f102e314] [box=118,485,390,20]:
+                - generic [ref=f102e315] [box=229,489,12,12]: 
+                - text: "Rates fetched: 12:01:47 PM"
+            - generic [ref=f102e124] [box=89,558,448,71]:
+              - generic [ref=f102e125] [box=108,576,10,14]: 
+              - generic [ref=f102e126] [box=108,574,382,38]:
+                - strong [ref=f102e127] [box=129,574,64,16]: "Travel Tip:"
+                - text: Indian Rupee (INR) is the local currency. Exchange money at authorised banks or forex counters for the best rates.
+          - generic [ref=f102e129] [box=608,-118,370,800]:
+            - generic [ref=f102e130] [box=641,-85,304,30]:
+              - generic [ref=f102e131] [box=641,-79,18,18]: 
+              - generic [ref=f102e132] [box=667,-85,137,28]: Live Rates vs INR
+              - generic [ref=f102e133] [box=895,-81,46,22]: LIVE
+            - paragraph [ref=f102e134] [box=641,-36,304,22]: 1 unit of each currency = X Indian Rupees
+            - generic [ref=f102e135] [box=641,3,304,579]:
+              - generic [ref=f102e136] [box=641,3,304,72]:
+                - generic [ref=f102e137] [box=641,16,52,44]:
+                  - generic [ref=f102e138] [box=641,16,52,24]: USD
+                  - generic [ref=f102e139] [box=641,41,52,20]: US Dollar
+                - generic [ref=f102e140] [box=895,26,50,24]: ₹ 95.76
+              - generic [ref=f102e141] [box=641,75,304,72]:
+                - generic [ref=f102e142] [box=641,89,30,44]:
+                  - generic [ref=f102e143] [box=641,89,30,24]: EUR
+                  - generic [ref=f102e144] [box=641,113,30,20]: Euro
+                - generic [ref=f102e145] [box=886,99,59,24]: ₹ 109.88
+              - generic [ref=f102e146] [box=641,148,304,72]:
+                - generic [ref=f102e147] [box=641,161,74,44]:
+                  - generic [ref=f102e148] [box=641,161,74,24]: GBP
+                  - generic [ref=f102e149] [box=641,186,74,20]: British Pound
+                - generic [ref=f102e150] [box=886,171,59,24]: ₹ 128.15
+              - generic [ref=f102e151] [box=641,220,304,72]:
+                - generic [ref=f102e152] [box=641,234,73,44]:
+                  - generic [ref=f102e153] [box=641,234,73,24]: JPY
+                  - generic [ref=f102e154] [box=641,258,73,20]: Japanese Yen
+                - generic [ref=f102e155] [box=904,244,41,24]: ₹ 0.61
+              - generic [ref=f102e156] [box=641,293,304,72]:
+                - generic [ref=f102e157] [box=641,306,93,44]:
+                  - generic [ref=f102e158] [box=641,306,93,24]: AUD
+                  - generic [ref=f102e159] [box=641,330,93,20]: Australian Dollar
+                - generic [ref=f102e160] [box=895,316,50,24]: ₹ 68.20
+              - generic [ref=f102e161] [box=641,365,304,72]:
+                - generic [ref=f102e162] [box=641,379,88,44]:
+                  - generic [ref=f102e163] [box=641,379,88,24]: CAD
+                  - generic [ref=f102e164] [box=641,403,88,20]: Canadian Dollar
+                - generic [ref=f102e165] [box=895,389,50,24]: ₹ 68.27
+              - generic [ref=f102e166] [box=641,438,304,72]:
+                - generic [ref=f102e167] [box=641,451,91,44]:
+                  - generic [ref=f102e168] [box=641,451,91,24]: SGD
+                  - generic [ref=f102e169] [box=641,475,91,20]: Singapore Dollar
+                - generic [ref=f102e170] [box=895,461,50,24]: ₹ 75.07
+              - generic [ref=f102e171] [box=641,510,304,71]:
+                - generic [ref=f102e172] [box=641,524,68,44]:
+                  - generic [ref=f102e173] [box=641,524,68,24]: AED
+                  - generic [ref=f102e174] [box=641,548,68,20]: UAE Dirham
+                - generic [ref=f102e175] [box=895,534,50,24]: ₹ 26.07
+            - paragraph [ref=f102e176] [box=641,597,304,51]:
+              - generic [ref=f102e177] [box=641,602,16,16]: 
+              - text: Rates are indicative. Actual rates may vary.
+    - generic [ref=f102e178] [box=0,470,1026,79]:
+      - generic [ref=f102e179] [box=51,487,685,46]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f102e180] [box=766,489,208,43]:
+        - button "I'm happy with this" [ref=f102e181] [cursor=pointer] [box=766,489,169,43]
+        - button "Close" [ref=f102e182] [cursor=pointer] [box=950,496,24,29]:
+          - generic [ref=f102e183] [box=955,501,14,19]: 
+    - generic [box=0,786,1026,0]:  
+    - contentinfo [ref=f102e186] [box=0,786,1026,571]:
+      - generic [ref=f102e187] [box=48,834,930,475]:
+        - generic [ref=f102e188] [box=39,834,948,370]:
+          - img "Logo" [ref=f102e190] [box=63,834,185,56]
+          - generic [ref=f102e200] [box=276,834,474,360]:
+            - generic [ref=f102e201] [box=276,834,237,360]:
+              - generic [ref=f102e202] [box=300,834,189,24]: Important Links
+              - list [ref=f102e203] [box=300,882,189,189]:
+                - listitem [ref=f102e204] [box=300,882,189,22]:
+                  - link "Government of Odisha" [ref=f102e205] [cursor=pointer] [box=300,884,139,17]:
+                    - /url: https://odisha.gov.in/
+                - listitem [ref=f102e206] [box=300,912,189,45]:
+                  - link "Department of Tourism, Odisha" [ref=f102e207] [cursor=pointer] [box=300,914,145,39]:
+                    - /url: https://dot.odisha.gov.in/
+                - listitem [ref=f102e208] [box=300,965,189,45]:
+                  - link "Odisha Tourism Development Corporation (OTDC)" [ref=f102e209] [cursor=pointer] [box=300,967,181,39]:
+                    - /url: https://otdc.odisha.gov.in/
+                - listitem [ref=f102e210] [box=300,1018,189,22]:
+                  - link "Book Odisha" [ref=f102e211] [cursor=pointer] [box=300,1020,78,17]:
+                    - /url: https://www.bookodisha.com/
+                - listitem [ref=f102e212] [box=300,1048,189,22]:
+                  - link "Eco Retreat Odisha" [ref=f102e213] [cursor=pointer] [box=300,1050,118,17]:
+                    - /url: https://www.odishaecoretreats.com/
+            - generic [ref=f102e214] [box=513,834,237,360]:
+              - generic [ref=f102e215] [box=537,834,189,24]: Quick Links
+              - list [ref=f102e216] [box=537,882,189,296]:
+                - listitem [ref=f102e217] [box=537,882,189,22]:
+                  - link "Odisha At A Glance" [ref=f102e218] [cursor=pointer] [box=537,884,119,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/odisha-at-a-glance
+                - listitem [ref=f102e219] [box=537,912,189,22]:
+                  - link "Iconic Odisha" [ref=f102e220] [cursor=pointer] [box=537,914,83,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/iconic-odisha
+                - listitem [ref=f102e221] [box=537,942,189,22]:
+                  - link "Explore Coastal Odisha" [ref=f102e222] [cursor=pointer] [box=537,944,143,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/east-odisha
+                - listitem [ref=f102e223] [box=537,973,189,22]:
+                  - link "Explore Northern Odisha" [ref=f102e224] [cursor=pointer] [box=537,975,154,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/northern-odisha
+                - listitem [ref=f102e225] [box=537,1003,189,22]:
+                  - link "Explore Central Odisha" [ref=f102e226] [cursor=pointer] [box=537,1005,142,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/center-odisha
+                - listitem [ref=f102e227] [box=537,1034,189,22]:
+                  - link "Explore Western Odisha" [ref=f102e228] [cursor=pointer] [box=537,1036,150,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/western-odisha
+                - listitem [ref=f102e229] [box=537,1064,189,22]:
+                  - link "Explore Southern Odisha" [ref=f102e230] [cursor=pointer] [box=537,1066,153,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/southern-odisha
+                - listitem [ref=f102e231] [box=537,1094,189,22]:
+                  - link "Weather & Climate" [ref=f102e232] [cursor=pointer] [box=537,1096,118,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/weather-climate
+                - listitem [ref=f102e233] [box=537,1125,189,22]:
+                  - link "Best Time to Visit" [ref=f102e234] [cursor=pointer] [box=537,1127,107,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/best-time-to-visit
+                - listitem [ref=f102e235] [box=537,1155,189,22]:
+                  - link "How to Reach Odisha" [ref=f102e236] [cursor=pointer] [box=537,1157,132,17]:
+                    - /url: https://apptourlfr-stg.estpl.net/how-to-reach-odisha
+          - generic [ref=f102e237] [box=750,834,237,370]:
+            - generic [ref=f102e238] [box=774,834,189,24]: Newsletter
+            - paragraph [ref=f102e239] [box=774,882,189,67]: Sign up for exciting news, learn more about our events and get great travel ideas.
+            - button "Subscribe Now" [ref=f102e240] [cursor=pointer] [box=774,973,133,38]
+            - generic [ref=f102e241] [box=774,1059,189,70]:
+              - generic [ref=f102e242] [box=774,1059,189,22]: Follow us
+              - generic [ref=f102e243] [box=774,1097,189,32]:
+                - link "" [ref=f102e244] [cursor=pointer] [box=774,1097,32,32]:
+                  - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+                - link "" [ref=f102e246] [cursor=pointer] [box=822,1097,32,32]:
+                  - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+                - link "" [ref=f102e248] [cursor=pointer] [box=870,1097,32,32]:
+                  - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+                - link "" [ref=f102e250] [cursor=pointer] [box=918,1097,32,32]:
+                  - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=f102e252] [box=63,1252,900,57]:
+          - generic [ref=f102e261] [box=63,1277,382,22]:
+            - link "Privacy Policy" [ref=f102e262] [cursor=pointer] [box=63,1277,85,22]:
+              - /url: https://apptourlfr-stg.estpl.net/privacy-policy
+            - generic [ref=f102e263] [box=164,1277,4,22]: "|"
+            - link "Disclaimer" [ref=f102e264] [cursor=pointer] [box=185,1277,65,22]:
+              - /url: https://apptourlfr-stg.estpl.net/disclaimer
+            - generic [ref=f102e265] [box=266,1277,4,22]: "|"
+            - link "Site Map" [ref=f102e266] [cursor=pointer] [box=286,1277,54,22]:
+              - /url: https://apptourlfr-stg.estpl.net/site-map
+            - generic [ref=f102e267] [box=356,1277,4,22]: "|"
+            - link "Contact Us" [ref=f102e268] [cursor=pointer] [box=377,1277,68,22]:
+              - /url: https://apptourlfr-stg.estpl.net/contact-us
+          - paragraph [ref=f102e269] [box=633,1282,330,22]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=f102e271] [box=1066,0,380,549]:
+    - generic [ref=f102e272] [box=1069,0,377,70]:
+      - heading " Accessibility" [level=5] [ref=f102e273] [box=1089,25,121,19]:
+        - generic [ref=f102e274] [box=1089,27,17,16]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=f102e275] [cursor=pointer] [box=1392,18,34,34]:
+        - generic [ref=f102e276] [box=1403,27,12,16]: 
+    - generic [ref=f102e277] [box=1069,70,377,479]:
+      - generic [ref=f102e278] [box=1085,86,345,463]:
+        - button " Bigger Text" [ref=f102e279] [cursor=pointer] [box=1085,86,108,108]:
+          - generic [ref=f102e280] [box=1127,113,23,21]: 
+          - generic [ref=f102e281] [box=1123,140,33,27]: BiggerText
+        - button " Smaller Text" [ref=f102e282] [cursor=pointer] [box=1203,86,108,108]:
+          - generic [ref=f102e283] [box=1250,117,15,14]: 
+          - generic [ref=f102e284] [box=1239,140,38,27]: SmallerText
+        - button " Dark / Light" [ref=f102e285] [cursor=pointer] [box=1322,86,108,108]:
+          - generic [ref=f102e286] [box=1365,113,21,21]: 
+          - generic [ref=f102e287] [box=1360,140,31,27]: Dark /Light
+        - button " Invert Colors" [ref=f102e288] [cursor=pointer] [box=1085,204,108,108]:
+          - generic [ref=f102e289] [box=1129,232,21,21]: 
+          - generic [ref=f102e290] [box=1123,258,33,27]: InvertColors
+        - button " Letter Spacing" [ref=f102e291] [cursor=pointer] [box=1203,204,108,108]:
+          - generic [ref=f102e292] [box=1244,232,26,21]: 
+          - generic [ref=f102e293] [box=1238,258,39,27]: LetterSpacing
+        - button " Line Height" [ref=f102e294] [cursor=pointer] [box=1322,204,108,108]:
+          - generic [ref=f102e295] [box=1367,232,18,21]: 
+          - generic [ref=f102e296] [box=1359,258,34,27]: LineHeight
+        - button [ref=f102e297] [cursor=pointer] [box=1085,323,108,108]:
+          - generic [ref=f102e298] [box=1121,366,36,27]: HideImages
+        - button " Highlight Links" [ref=f102e299] [cursor=pointer] [box=1203,323,108,108]:
+          - generic [ref=f102e300] [box=1244,350,26,21]: 
+          - generic [ref=f102e301] [box=1234,377,46,27]: HighlightLinks
+        - button " Big Cursor" [ref=f102e302] [cursor=pointer] [box=1322,323,108,108]:
+          - generic [ref=f102e303] [box=1369,350,13,21]: 
+          - generic [ref=f102e304] [box=1359,377,34,27]: BigCursor
+        - button " Screen Reader" [ref=f102e305] [cursor=pointer] [box=1085,441,108,108]:
+          - generic [ref=f102e306] [box=1126,468,26,21]: 
+          - generic [ref=f102e307] [box=1121,495,36,27]: ScreenReader
+      - button " Reset All" [ref=f102e308] [cursor=pointer] [box=1085,565,345,46]:
+        - generic [ref=f102e309] [box=1220,581,14,14]: 
+        - text: Reset All

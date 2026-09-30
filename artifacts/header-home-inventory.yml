@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=e6]:
+    - generic:
+      - generic:
+        - banner:
+          - navigation [ref=e7]
+        - text:           
+        - button "Accessibility Options" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+    - button "" [ref=e53] [cursor=pointer]
+    - main [ref=e55]:
+      - generic:
+        - generic:
+          - generic [ref=e57]
+          - text: 
+      - generic [ref=e68]:
+        - generic [ref=e69]: Your browser does not support the video tag.
+        - main [ref=e72]:
+          - heading "Experience Odisha" [level=1] [ref=e73]
+          - generic [ref=e74]
+        - complementary [ref=e83]:
+          - link "" [ref=e84] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+          - link "" [ref=e86] [cursor=pointer]:
+            - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+          - link "" [ref=e88] [cursor=pointer]:
+            - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+          - link "" [ref=e90] [cursor=pointer]:
+            - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=e93]:
+          - generic [ref=e94]
+          - generic [ref=e115]
+        - generic [ref=e229]:
+          - button "" [ref=e230] [cursor=pointer]
+          - button "" [ref=e232] [cursor=pointer]
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - generic [ref=e241]
+          - link "View all Places " [ref=e245] [cursor=pointer]:
+            - /url: /tourist-places
+        - generic [ref=e256]:
+          - button " Sacred Odisha" [ref=e257] [cursor=pointer]
+          - button " Nature & Wildlife" [ref=e260] [cursor=pointer]
+          - button " Beaches & Coastal Experiences" [ref=e263] [cursor=pointer]
+          - button " Waterfalls & Scenic Landscapes" [ref=e266] [cursor=pointer]
+          - button " Art, Craft & Heritage" [ref=e269] [cursor=pointer]
+          - button " Cuisines of Odisha" [ref=e272] [cursor=pointer]
+        - generic [ref=e275]:
+          - generic [ref=e285]
+          - button "Previous slide" [disabled]
+          - button "Next slide" [ref=e346] [cursor=pointer]
+      - text: 
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - generic [ref=e352]
+          - generic [ref=e357] [cursor=pointer]
+        - generic [ref=e367]:
+          - generic [ref=e368]
+          - button "Previous slide" [ref=e577] [cursor=pointer]
+          - button "Next slide" [ref=e579] [cursor=pointer]
+      - generic [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e586]
+          - link "View all Places " [ref=e590] [cursor=pointer]:
+            - /url: /tourist-places
+        - generic [ref=e603]:
+          - button " Insta Spots" [ref=e604] [cursor=pointer]
+          - button " Adventure Mode" [ref=e607] [cursor=pointer]
+          - button " Coastal Escape" [ref=e610] [cursor=pointer]
+          - button " Epic Road Trips" [ref=e613] [cursor=pointer]
+          - button " Into the Wild" [ref=e616] [cursor=pointer]
+          - button " Culture & Celebrations" [ref=e619] [cursor=pointer]
+          - button " Offbeat Finds" [ref=e622] [cursor=pointer]
+        - generic [ref=e625]:
+          - generic [ref=e635]
+          - button "Previous slide" [disabled]
+          - button "Next slide" [ref=e671] [cursor=pointer]
+      - generic [ref=e676]:
+        - generic [ref=e677]:
+          - paragraph [ref=e678]: Map Your Odisha Story
+          - heading "Navigate Odisha" [level=2] [ref=e679]
+          - paragraph [ref=e680]: Your Journey Begins Here
+        - generic [ref=e681]:
+          - generic [ref=e691]
+          - img [ref=e822]
+      - generic [ref=e848]:
+        - generic [ref=e849]:
+          - generic [ref=e850]
+          - link "View all Events " [ref=e854] [cursor=pointer]:
+            - /url: /events
+        - generic [ref=e865]:
+          - generic [ref=e867] [cursor=pointer]
+          - generic [ref=e880]
+      - link "Take a virtual expedition through our Video Gallery →" [ref=e925] [cursor=pointer]:
+        - /url: https://apptourlfr-stg.estpl.net/video-gallery
+        - generic [ref=e926]: Take a virtual expedition through our
+        - heading "Video Gallery →" [level=2] [ref=e927]:
+          - text: Video Gallery
+          - generic [ref=e928]: →
+      - generic [ref=e932]:
+        - generic [ref=e933]:
+          - paragraph [ref=e934]: "Tag Us With #VisitOdisha To Get Featured."
+          - heading "Postcards from Odisha" [level=2] [ref=e935]
+          - paragraph [ref=e936]: Relive the Memories
+        - generic [ref=e946]:
+          - group "1 / 10" [ref=e947]
+          - group "2 / 10" [ref=e953]
+          - group "3 / 10" [ref=e959]
+          - group "4 / 10" [ref=e965]
+          - group "5 / 10" [ref=e971]
+          - group "6 / 10" [ref=e977]
+          - group "7 / 10" [ref=e983]
+          - group "8 / 10" [ref=e989]
+          - group "9 / 10" [ref=e995]
+          - group "10 / 10" [ref=e1001]
+      - generic [ref=e1010]:
+        - generic [ref=e1011]:
+          - generic [ref=e1012]
+          - link "View All Stories " [ref=e1016] [cursor=pointer]:
+            - /url: /blogs-stories
+        - generic [ref=e1018]:
+          - generic [ref=e1029]
+          - button "Previous slide" [ref=e1222] [cursor=pointer]
+          - button "Next slide" [ref=e1224] [cursor=pointer]
+    - generic [ref=e1226]:
+      - generic [ref=e1227]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=e1228]:
+        - button "I'm happy with this" [ref=e1229] [cursor=pointer]
+        - button "Close" [ref=e1230] [cursor=pointer]:
+          - generic [ref=e1231]: 
+    - generic:  
+    - contentinfo [ref=e1234]:
+      - generic [ref=e1235]:
+        - generic [ref=e1236]:
+          - img "Logo" [ref=e1238]
+          - generic [ref=e1248]
+          - generic [ref=e1285]
+        - generic [ref=e1300]:
+          - generic [ref=e1309]
+          - paragraph [ref=e1317]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=e1319]:
+    - generic [ref=e1320]:
+      - heading " Accessibility" [level=5] [ref=e1321]:
+        - generic [ref=e1322]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=e1323] [cursor=pointer]:
+        - generic [ref=e1324]: 
+    - generic [ref=e1325]:
+      - generic [ref=e1326]:
+        - button " Bigger Text" [ref=e1327] [cursor=pointer]:
+          - generic [ref=e1328]: 
+          - generic [ref=e1329]: BiggerText
+        - button " Smaller Text" [ref=e1330] [cursor=pointer]:
+          - generic [ref=e1331]: 
+          - generic [ref=e1332]: SmallerText
+        - button " Dark / Light" [ref=e1333] [cursor=pointer]:
+          - generic [ref=e1334]: 
+          - generic [ref=e1335]: Dark /Light
+        - button " Invert Colors" [ref=e1336] [cursor=pointer]:
+          - generic [ref=e1337]: 
+          - generic [ref=e1338]: InvertColors
+        - button " Letter Spacing" [ref=e1339] [cursor=pointer]:
+          - generic [ref=e1340]: 
+          - generic [ref=e1341]: LetterSpacing
+        - button " Line Height" [ref=e1342] [cursor=pointer]:
+          - generic [ref=e1343]: 
+          - generic [ref=e1344]: LineHeight
+        - button "Hide Images" [ref=e1345] [cursor=pointer]:
+          - generic [ref=e1346]: HideImages
+        - button " Highlight Links" [ref=e1347] [cursor=pointer]:
+          - generic [ref=e1348]: 
+          - generic [ref=e1349]: HighlightLinks
+        - button " Big Cursor" [ref=e1350] [cursor=pointer]:
+          - generic [ref=e1351]: 
+          - generic [ref=e1352]: BigCursor
+        - button " Screen Reader" [ref=e1353] [cursor=pointer]:
+          - generic [ref=e1354]: 
+          - generic [ref=e1355]: ScreenReader
+      - button " Reset All" [ref=e1356] [cursor=pointer]:
+        - generic [ref=e1357]: 
+        - text: Reset All
+  - text:     

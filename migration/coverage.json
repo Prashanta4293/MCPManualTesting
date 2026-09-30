@@ -1,0 +1,10 @@
+{
+  "javascriptCount": 99,
+  "pythonCount": 100,
+  "missingOriginalCases": [],
+  "addedCases": [
+    "VISITOR-LOGIN-001 Positive Visitor login with manual CAPTCHA"
+  ],
+  "backupHashErrors": [],
+  "differenceExplanation": "One added attended positive Visitor login test; all 99 original executable cases retained. Four account-control tests moved from header to visitor_login."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Regenta Inn Sambalpur",
+    "phone": "9692383737",
+    "sourceSheet": "Hotels",
+    "sourceRow": 2,
+    "comparisonId": "HOTEL_001"
+  },
+  {
+    "name": "Ginger Bhubaneshwar",
+    "phone": "0674 6663333",
+    "sourceSheet": "Hotels",
+    "sourceRow": 3,
+    "comparisonId": "HOTEL_002"
+  },
+  {
+    "name": "Krishna's Courtyard Hotel & Convention",
+    "phone": "7064000111",
+    "sourceSheet": "Hotels",
+    "sourceRow": 4,
+    "comparisonId": "HOTEL_003"
+  }
+]

@@ -1,0 +1,24 @@
+- generic [active] [ref=f13e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=f13e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=f13e6]:
+    - generic:
+      - generic
+    - button "" [ref=f13e53] [cursor=pointer]
+    - main [ref=f13e55]:
+      - generic [ref=f13e58]
+      - generic [ref=f13e94]
+    - generic [ref=f13e269]:
+      - generic [ref=f13e270]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f13e271]
+    - generic:  
+    - contentinfo [ref=f13e277]:
+      - generic [ref=f13e278]
+  - dialog "Accessibility Options" [ref=f13e362]:
+    - generic [ref=f13e363]:
+      - heading " Accessibility" [level=5] [ref=f13e364]
+      - button "Close Accessibility Panel" [ref=f13e366] [cursor=pointer]
+    - generic [ref=f13e368]:
+      - generic [ref=f13e369]
+      - button " Reset All" [ref=f13e399] [cursor=pointer]

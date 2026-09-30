@@ -1,0 +1,438 @@
+[    1741ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://dot.odisha.gov.in/themes/swfsix/theme/images/tabing-arrow.png:0
+[    1934ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    1934ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :0
+[    1934ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :0
+[    2202ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://dot.odisha.gov.in/themes/swfsix/theme/js/canlendar.js?tluunm:0
+[    2203ms] [ERROR] Refused to execute script from 'https://dot.odisha.gov.in/themes/swfsix/theme/js/canlendar.js?tluunm' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ https://dot.odisha.gov.in/en/:0
+[    2266ms] [ERROR] Permissions policy violation: compute-pressure is not allowed in this document. @ https://www.youtube.com/s/player/7460dd14/player_embed_es6.vflset/en_US/base.js:5397
+[    2279ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom5-1.xx.fbcdn.net/v/t39.30808-1/678146284_1413979684103823_7349071514940184830_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=110&ccb=1-7&_nc_sid=f907e8&_nc_ohc=qe5_9396l8gQ7kNvwG5_6xw&_nc_oc=AdrStXMgSRm09gHOmyIEUmbkG8PuSLqgeRN5lug1F1zNw1gAe2uINXlyvuTJYuow5gU&_nc_zt=24&_nc_ht=scontent-bom5-1.xx&edm=ADwHzz8EAAAA&_nc_gid=Ig9sHs3Wqvul7kDVAJNkvA&oh=00_AQNmyS1xdcQWUry4xthci6LYWFZIyW0KdmkzM70vTiV40Q&oe=6AC03B0A:0
+[    2841ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ :0
+[    3218ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2e_fD" [Caught in: Module "__elem_a588f507_1_0_kT"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3219ms] [ERROR] ErrorUtils caught an error:
+
+DataStore.get: namespace is required, got undefined
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 725, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: lrxvcx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3222ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_4_c3" [Caught in: Module "__elem_9fc087ed_1_0_Mx"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3222ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_4_c3" [Caught in: Module "__elem_9fc087ed_1_0_Mx"] [Caught in: Requiring module "__elem_9fc087ed_1_0_Mx" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3223ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_6_Rh" [Caught in: Module "__elem_a588f507_1_2_VM"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3224ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_7_cf" [Caught in: Module "__elem_de92090e_1_0_nn"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3224ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_8_62" [Caught in: Module "__elem_072b8e64_1_0_dW"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3225ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_9_bN" [Caught in: Module "__elem_fc9f538f_1_0_XK"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xat0la} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3226ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2_8C" [Caught in: Module "__elem_9fc087ed_1_1_rA"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3227ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2_8C" [Caught in: Module "__elem_9fc087ed_1_1_rA"] [Caught in: Requiring module "__elem_9fc087ed_1_1_rA" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3227ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1_eX" [Caught in: Module "__elem_9fc087ed_1_2_28"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3228ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1_eX" [Caught in: Module "__elem_9fc087ed_1_2_28"] [Caught in: Requiring module "__elem_9fc087ed_1_2_28" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3229ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_0_H4" [Caught in: Module "__elem_9fc087ed_1_3_PJ"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3229ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_0_H4" [Caught in: Module "__elem_9fc087ed_1_3_PJ"] [Caught in: Requiring module "__elem_9fc087ed_1_3_PJ" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3230ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_3_TA" [Caught in: Module "__elem_9fc087ed_1_4_h4"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3231ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_3_TA" [Caught in: Module "__elem_9fc087ed_1_4_h4"] [Caught in: Requiring module "__elem_9fc087ed_1_4_h4" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3232ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_19_fw" [Caught in: Module "__elem_fc9f538f_1_1_KA"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xat0la} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3232ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_d_nv" [Caught in: Module "__elem_a588f507_1_3_FF"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3233ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_e_Sc" [Caught in: Module "__elem_de92090e_1_1_9/"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3234ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_f_OP" [Caught in: Module "__elem_072b8e64_1_1_Qq"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3234ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2b_Jj" [Caught in: Module "__elem_d2e57d83_1_0_4Z"] [Caught in: Module "__inst_522dfeea_1_0_vg"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3235ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1m_Tc" [Caught in: Module "__elem_d2e57d83_1_1_R/"] [Caught in: Module "__inst_522dfeea_1_1_8L"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3236ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_20_3D" [Caught in: Module "__elem_fc9f538f_1_2_Un"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xat0la} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3237ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_l_NG" [Caught in: Module "__elem_a588f507_1_6_b/"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3237ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_m_CK" [Caught in: Module "__elem_de92090e_1_2_TM"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3238ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_n_Wy" [Caught in: Module "__elem_072b8e64_1_2_eN"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3239ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_o_cn" [Caught in: Module "__elem_a588f507_1_7_ec"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3239ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_p_KG" [Caught in: Module "__elem_de92090e_1_3_cE"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3240ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_q_QF" [Caught in: Module "__elem_072b8e64_1_3_XX"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3240ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_r_my" [Caught in: Module "__elem_a588f507_1_8_V+"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3241ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_s_HV" [Caught in: Module "__elem_de92090e_1_4_kK"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3241ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_t_Ak" [Caught in: Module "__elem_072b8e64_1_4_OM"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3242ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1n_Ya" [Caught in: Module "__elem_2106b0cc_1_0_dp"] [Caught in: Module "__inst_b7ee1bfc_1_0_hw"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: 5g04jj} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3242ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_10_WC" [Caught in: Module "__elem_a648e52c_1_0_hi"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3244ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3246ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3247ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_14_Kv" [Caught in: Module "__elem_2223e126_1_0_zz"] [Caught in: Module "__inst_2223e126_1_0_4C"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3248ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_v_Et" [Caught in: Module "__elem_8937e029_1_0_Nq"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3248ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3249ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_0_XS"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3249ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_0_XS"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_553e54ec_1_0_sL"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3250ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_0_XS"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_553e54ec_1_0_sL"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_0_Ow"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3250ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_0_XS"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_553e54ec_1_0_sL"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_0_Ow"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_0_27"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3251ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_13_aP" [Caught in: Module "__elem_3533c634_1_0_R1"] [Caught in: Module "__inst_3533c634_1_0_HR"] [Caught in: Module "__inst_a648e52c_1_0_Wg"] [Caught in: Requiring module "__inst_3533c634_1_0_HR" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_0_h1"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_0_XS"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_553e54ec_1_0_sL"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_0_Ow"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_0_27"] [Caught in: Requiring module "__inst_a648e52c_1_0_Wg" which threw an exception] [Caught in: Module "__inst_70dbca80_1_0_7D"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3252ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1a_Qq" [Caught in: Module "__elem_a648e52c_1_1_qG"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3253ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3254ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3254ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1e_DA" [Caught in: Module "__elem_2223e126_1_1_Hx"] [Caught in: Module "__inst_2223e126_1_1_f3"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3255ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_y_It" [Caught in: Module "__elem_8937e029_1_1_VF"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3256ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3256ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_1_RU"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3257ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_1_RU"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_553e54ec_1_1_Nd"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3257ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_1_RU"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_553e54ec_1_1_Nd"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_1_nf"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3258ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_1_RU"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_553e54ec_1_1_Nd"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_1_nf"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_1_JT"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3258ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1d_ET" [Caught in: Module "__elem_3533c634_1_1_no"] [Caught in: Module "__inst_3533c634_1_1_aM"] [Caught in: Module "__inst_a648e52c_1_1_YP"] [Caught in: Requiring module "__inst_3533c634_1_1_aM" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_1_0Y"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_1_RU"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_553e54ec_1_1_Nd"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_1_nf"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_1_JT"] [Caught in: Requiring module "__inst_a648e52c_1_1_YP" which threw an exception] [Caught in: Module "__inst_70dbca80_1_1_qn"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3270ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2c_Fu" [Caught in: Module "__elem_2106b0cc_1_1_Ot"] [Caught in: Module "__inst_b7ee1bfc_1_1_/H"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: 5g04jj} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3278ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1o_BI" [Caught in: Module "__elem_fc9f538f_1_3_p7"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xat0la} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3279ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_21_Qh" [Caught in: Module "__elem_a648e52c_1_2_Mq"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3280ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3281ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3281ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_25_EI" [Caught in: Module "__elem_2223e126_1_2_xp"] [Caught in: Module "__inst_2223e126_1_2_hR"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3282ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1j_cH" [Caught in: Module "__elem_8937e029_1_2_AE"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3283ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3284ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_2_XF"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3285ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_2_XF"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_553e54ec_1_2_q8"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3286ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_2_XF"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_553e54ec_1_2_q8"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_2_+k"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3286ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_2_XF"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_553e54ec_1_2_q8"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_2_+k"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_2_li"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3287ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1r_aQ" [Caught in: Module "__elem_a648e52c_1_3_Ks"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3288ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3288ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3289ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1v_zS" [Caught in: Module "__elem_2223e126_1_3_Rz"] [Caught in: Module "__inst_2223e126_1_3_fu"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: cajxnu} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3290ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1p_ZQ" [Caught in: Module "__elem_8937e029_1_3_c7"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xiv5hv} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3290ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3291ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_3_Pu"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3292ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_3_Pu"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_553e54ec_1_3_uf"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3292ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_3_Pu"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_553e54ec_1_3_uf"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_3_l9"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3293ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_3_Pu"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_553e54ec_1_3_uf"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_3_l9"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_3_zH"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3293ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_24_zq" [Caught in: Module "__elem_3533c634_1_2_01"] [Caught in: Module "__inst_3533c634_1_2_2B"] [Caught in: Module "__inst_a648e52c_1_2_ry"] [Caught in: Requiring module "__inst_3533c634_1_2_2B" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_2_IA"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_2_XF"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_553e54ec_1_2_q8"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_2_+k"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_2_li"] [Caught in: Requiring module "__inst_a648e52c_1_2_ry" which threw an exception] [Caught in: Module "__inst_70dbca80_1_2_XR"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3294ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_1u_F0" [Caught in: Module "__elem_3533c634_1_3_Wn"] [Caught in: Module "__inst_3533c634_1_3_r9"] [Caught in: Module "__inst_a648e52c_1_3_yM"] [Caught in: Requiring module "__inst_3533c634_1_3_r9" which threw an exception] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_3f1e98e4_1_3_PP"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_0bcc40a7_1_3_Pu"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_553e54ec_1_3_uf"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_98d9a45e_1_3_l9"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_cb5ee3f2_1_3_zH"] [Caught in: Requiring module "__inst_a648e52c_1_3_yM" which threw an exception] [Caught in: Module "__inst_70dbca80_1_3_f4"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: tu43wx} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3295ms] [ERROR] ErrorUtils caught an error:
+
+Could not find element "u_1_2d_U9" [Caught in: Module "__elem_fc9f538f_1_4_v8"]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1790600218, extra: Object, guardList: Array(4), hash: xat0la} @ https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/lio9c5BIn3u.js:83
+[    3453ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom5-1.xx.fbcdn.net/v/t39.30808-1/678146284_1413979684103823_7349071514940184830_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=110&ccb=1-7&_nc_sid=f907e8&_nc_ohc=qe5_9396l8gQ7kNvwG5_6xw&_nc_oc=AdrStXMgSRm09gHOmyIEUmbkG8PuSLqgeRN5lug1F1zNw1gAe2uINXlyvuTJYuow5gU&_nc_zt=24&_nc_ht=scontent-bom5-1.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQO-L4zjeBTtOWlP8Mlx3w4srRIiFN19S2mGc9ZEAHe6tA&oe=6AC03B0A:0
+[    3453ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom2-3.xx.fbcdn.net/v/t51.82787-10/825320760_18339586900257746_6293011924523784520_n.jpg?stp=dst-jpg_s350x350_tt6&_nc_cat=101&ccb=1-7&_nc_sid=3a9e82&_nc_ohc=JjXHuRjpAhcQ7kNvwGa45fU&_nc_oc=AdpJSTPPk2Fz697-Pk3Xfeav11UK5Hju7txiaQMFrdgNh2bdcDaO4CBjFzNAZclVsJ4&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQM2hLZ_vdZRNvu5fp4mcbtIrc3v28mk0h3yHFRxxVj84Q&oe=6AC03F2D:0
+[    3453ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-1/760424526_122105363684427787_5728801893174286663_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=101&ccb=1-7&_nc_sid=fe59b0&_nc_ohc=953I8i8MFI0Q7kNvwGDzmSt&_nc_oc=AdokzKe12uyWML_z0CYmZZJqmm8RZhv7Z6oHEoPMgWXgwk8uBdenzd6nfW0B67Ux1PI&_nc_zt=24&_nc_ht=scontent-bom2-3.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQNab7_MrRt8bizXhldIqZQ3Fk4OCc7_9B0iXJ3cDDKm4g&oe=6AC04866:0
+[    3454ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom2-4.xx.fbcdn.net/v/t39.30808-6/730015290_1470832055085252_4341265886521959758_n.jpg?stp=dst-jpg_p168x128_tt6&_nc_cat=106&ccb=1-7&_nc_sid=4cb600&_nc_ohc=YQ41d8dW7nkQ7kNvwEv_V1i&_nc_oc=Adra2rhHJPM9JMb-NZh1LdbxDqUTu9kT0Fs_rEzpkEmgiLuGbq-udTDmmuZmNxh9PSk&_nc_zt=23&_nc_ht=scontent-bom2-4.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQNzr6qKDMLn1gnpTEblZFy74_A6STq_RuzuOJS0hfkg3w&oe=6AC04DF2:0
+[    3454ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom2-4.xx.fbcdn.net/v/t51.82787-10/753488131_18088139699406475_949119049845852864_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=106&ccb=1-7&_nc_sid=3a9e82&_nc_ohc=WQdOxtyrMqcQ7kNvwEdaMFy&_nc_oc=AdoVp1yO0fntRzqJ1bDASiB-ZQUuNUsReCytH1ezUJ9onoGs1GwVPrNsnORzMuIK7rk&_nc_zt=23&_nc_ht=scontent-bom2-4.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQMvvWpfFbskoDQgIRFc8xOlMrvCirswzktLNdKyQxvC-A&oe=6AC01D52:0
+[    3456ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMMjrq-tMNF1VL3UA-qhwC5_QNIHaQ4GSvG7jAH-ljMsiYp8EwubAHdB1uJew44DPn86NYNFJWf58N-vePPQeCLKQ537lnpRbEIajU.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=i-ZcByeVx8sQ7kNvwHWD2GC&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDQ5NTAyMjQ4NzA1NDcsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjE3NDU2MzU4MzMyMjM1MjMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjExLCJiaXRyYXRlIjo2Nzc3MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMO395ANPSGL7YhEA4pcyqst5DDKqAOmL7wASyA73_mqA&oe=6ABC3B00&bytestart=2128&byteend=20754:0
+[    3456ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQO5yPFsr-UikQhHtVWduSN8FVUeDyyqAzMmiOjCLtKVy6ekeYLxFTPGbGo0Y2yXyjEVuzDdF6Li2d_aMJ_6mUH2haJ6luxqrKJpV6g.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=AMqSyiyST8cQ7kNvwEdWMuG&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjo2NDQ1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOoB6HYvjw_DMvyCXsVvfQq5SyKk7a5-DibdfO2LsV8mw&oe=6ABC44BC&bytestart=0&byteend=823:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQO5yPFsr-UikQhHtVWduSN8FVUeDyyqAzMmiOjCLtKVy6ekeYLxFTPGbGo0Y2yXyjEVuzDdF6Li2d_aMJ_6mUH2haJ6luxqrKJpV6g.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=AMqSyiyST8cQ7kNvwEdWMuG&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjo2NDQ1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOoB6HYvjw_DMvyCXsVvfQq5SyKk7a5-DibdfO2LsV8mw&oe=6ABC44BC&bytestart=824&byteend=1143:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQO5yPFsr-UikQhHtVWduSN8FVUeDyyqAzMmiOjCLtKVy6ekeYLxFTPGbGo0Y2yXyjEVuzDdF6Li2d_aMJ_6mUH2haJ6luxqrKJpV6g.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=AMqSyiyST8cQ7kNvwEdWMuG&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjo2NDQ1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOoB6HYvjw_DMvyCXsVvfQq5SyKk7a5-DibdfO2LsV8mw&oe=6ABC44BC&bytestart=1144&byteend=21161:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQNlLuJGN_tQ8l7G5SjDSVP-IQ3pyf9liflEuD3YIKF4xwAxBQxnPLcXsVJ-DFxx6Hblb-RpZC2ya0C3CsVtx1QSsfmRdMhgRSr7XTU.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=v02_LLV6LOMQ7kNvwHYpRjh&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EzMCIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjoyMDkyNzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNa8UdzpD2GKHdaU-uZiGqWR_VSInETHHOGnE0DjdMtFQ&oe=6AC02AC4&bytestart=0&byteend=826:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQNlLuJGN_tQ8l7G5SjDSVP-IQ3pyf9liflEuD3YIKF4xwAxBQxnPLcXsVJ-DFxx6Hblb-RpZC2ya0C3CsVtx1QSsfmRdMhgRSr7XTU.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=v02_LLV6LOMQ7kNvwHYpRjh&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EzMCIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjoyMDkyNzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNa8UdzpD2GKHdaU-uZiGqWR_VSInETHHOGnE0DjdMtFQ&oe=6AC02AC4&bytestart=827&byteend=978:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQNlLuJGN_tQ8l7G5SjDSVP-IQ3pyf9liflEuD3YIKF4xwAxBQxnPLcXsVJ-DFxx6Hblb-RpZC2ya0C3CsVtx1QSsfmRdMhgRSr7XTU.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=v02_LLV6LOMQ7kNvwHYpRjh&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EzMCIsInZpZGVvX2lkIjoyNDA2NTQ3NzAzNDcwMDEzLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNjUwMjY3MjkyMDcxNDI4LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ2LCJiaXRyYXRlIjoyMDkyNzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNa8UdzpD2GKHdaU-uZiGqWR_VSInETHHOGnE0DjdMtFQ&oe=6AC02AC4&bytestart=979&byteend=136633:0
+[    3457ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8XaUFAcq87pT33bF1vTJBRhEq8Mu-tYF6Dm8QIQ25v7s26J2gRgpP7RWaF3JoMJtoFQb2CoY9cuhlNVeHhgMbZ5bAyWX8ezzYeDQ.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=XaykfAXLyHsQ7kNvwHxlwyQ&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EyMCIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjI4NTc5MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOHFSlttC-yb7RKZ8Fw018mYfYn2M_XrKhNsiXJ-KaFQA&oe=6AC03AE8&bytestart=0&byteend=825:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMMjrq-tMNF1VL3UA-qhwC5_QNIHaQ4GSvG7jAH-ljMsiYp8EwubAHdB1uJew44DPn86NYNFJWf58N-vePPQeCLKQ537lnpRbEIajU.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=i-ZcByeVx8sQ7kNvwHWD2GC&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDQ5NTAyMjQ4NzA1NDcsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjE3NDU2MzU4MzMyMjM1MjMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjExLCJiaXRyYXRlIjo2Nzc3MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMO395ANPSGL7YhEA4pcyqst5DDKqAOmL7wASyA73_mqA&oe=6ABC3B00&bytestart=0&byteend=823:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8XaUFAcq87pT33bF1vTJBRhEq8Mu-tYF6Dm8QIQ25v7s26J2gRgpP7RWaF3JoMJtoFQb2CoY9cuhlNVeHhgMbZ5bAyWX8ezzYeDQ.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=XaykfAXLyHsQ7kNvwHxlwyQ&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EyMCIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjI4NTc5MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOHFSlttC-yb7RKZ8Fw018mYfYn2M_XrKhNsiXJ-KaFQA&oe=6AC03AE8&bytestart=826&byteend=989:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-3.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8XaUFAcq87pT33bF1vTJBRhEq8Mu-tYF6Dm8QIQ25v7s26J2gRgpP7RWaF3JoMJtoFQb2CoY9cuhlNVeHhgMbZ5bAyWX8ezzYeDQ.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=video-bom2-3.xx.fbcdn.net&_nc_ohc=XaykfAXLyHsQ7kNvwHxlwyQ&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EyMCIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjI4NTc5MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOHFSlttC-yb7RKZ8Fw018mYfYn2M_XrKhNsiXJ-KaFQA&oe=6AC03AE8&bytestart=990&byteend=128722:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMMjrq-tMNF1VL3UA-qhwC5_QNIHaQ4GSvG7jAH-ljMsiYp8EwubAHdB1uJew44DPn86NYNFJWf58N-vePPQeCLKQ537lnpRbEIajU.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=i-ZcByeVx8sQ7kNvwHWD2GC&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDQ5NTAyMjQ4NzA1NDcsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjE3NDU2MzU4MzMyMjM1MjMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjExLCJiaXRyYXRlIjo2Nzc3MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMO395ANPSGL7YhEA4pcyqst5DDKqAOmL7wASyA73_mqA&oe=6ABC3B00&bytestart=824&byteend=2127:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-4.xx.fbcdn.net/o1/v/t2/f2/m367/AQMVaEWOy_xcSlmbPc74neCM6c-ffawu4Ol1wL6zSXhjRBxHaKVmVYHLq9D0UNWI7uFOTne0TBwDLerDbUJgQc9A_wyEm1JaJuifXWQ.mp4?_nc_cat=106&_nc_sid=9ca052&_nc_ht=video-bom2-4.xx.fbcdn.net&_nc_ohc=y-Zd4xkbea0Q7kNvwGa60bD&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5LW0zX3EyMCIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6MzYwMjI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOKMMXPoynlo7q5lFPtdweS2So909KBo8PTebxBwJii-g&oe=6AC03E0F&bytestart=0&byteend=825:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-4.xx.fbcdn.net/o1/v/t2/f2/m367/AQMVaEWOy_xcSlmbPc74neCM6c-ffawu4Ol1wL6zSXhjRBxHaKVmVYHLq9D0UNWI7uFOTne0TBwDLerDbUJgQc9A_wyEm1JaJuifXWQ.mp4?_nc_cat=106&_nc_sid=9ca052&_nc_ht=video-bom2-4.xx.fbcdn.net&_nc_ohc=y-Zd4xkbea0Q7kNvwGa60bD&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5LW0zX3EyMCIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6MzYwMjI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOKMMXPoynlo7q5lFPtdweS2So909KBo8PTebxBwJii-g&oe=6AC03E0F&bytestart=826&byteend=905:0
+[    3458ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom2-4.xx.fbcdn.net/o1/v/t2/f2/m367/AQMVaEWOy_xcSlmbPc74neCM6c-ffawu4Ol1wL6zSXhjRBxHaKVmVYHLq9D0UNWI7uFOTne0TBwDLerDbUJgQc9A_wyEm1JaJuifXWQ.mp4?_nc_cat=106&_nc_sid=9ca052&_nc_ht=video-bom2-4.xx.fbcdn.net&_nc_ohc=y-Zd4xkbea0Q7kNvwGa60bD&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5LW0zX3EyMCIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6MzYwMjI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQOKMMXPoynlo7q5lFPtdweS2So909KBo8PTebxBwJii-g&oe=6AC03E0F&bytestart=906&byteend=281660:0
+[    3463ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom5-2.xx.fbcdn.net/v/t51.82787-10/820292154_17969811450159969_6716523724575331399_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=102&ccb=1-7&_nc_sid=3a9e82&_nc_ohc=YYrkluGflbgQ7kNvwGQ3pD-&_nc_oc=Adp_1z74dk2gtZqs92P8v1jW3pg-ZpD0Qvc5LCU8ZRVluGRe6X2iYG-lz2he-qdi9Z8&_nc_zt=23&_nc_ht=scontent-bom5-2.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQMmDIm0lMtiK1eTy0QGmAQJzBMdXF3OPt-p-pBVONg6xQ&oe=6AC03920:0
+[    3465ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom5-2.xx.fbcdn.net/v/t51.82787-10/774295555_18333620227257746_8073707788486407573_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=108&ccb=1-7&_nc_sid=3a9e82&_nc_ohc=b6csyCKSxXYQ7kNvwGzod0N&_nc_oc=Adrk4ZTeYOV8wmzBIQcNmUz6j4UnSRRT3oN1BVgr2rNWCv-l54lI5qNtjicE_5gSALg&_nc_zt=23&_nc_ht=scontent-bom5-2.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQOH4KueVg4wEldtpLde2Ck3p06p4zkwN4ajuukmK8a8pQ&oe=6AC03F2F:0
+[    3485ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMXv9tNQodrLP6gVkTV54-1bwbqPH7drFfwqfXTmpcF7E3_Xv1nkqm3iiteo41WKze48RmvuTS5diM9CKfsEiU2E6F2goP_QrR8r1c.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=UtMM6XEdONgQ7kNvwFzTOfE&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjY3MTU1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMJ93Vpqkd_g8TVo7IiNoYLJQtBHq4JJo7DkoH0EnILWw&oe=6ABC2F07&bytestart=0&byteend=823:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://scontent-bom2-4.xx.fbcdn.net/v/t39.30808-1/336919039_236188032232441_1723640838573984014_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=106&ccb=1-7&_nc_sid=fe59b0&_nc_ohc=CAQMOdO-lIcQ7kNvwESTLDv&_nc_oc=AdofNWmx-9_pQEuYqrcmqVMYmt45DXqsr9vvLlvpcOfwJHACruRL8UF-g-FvSO-J5ck&_nc_zt=24&_nc_ht=scontent-bom2-4.xx&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&oh=00_AQNdgojcisGGE9Y4Yx5V1huBIU_Y5gAZzwyE5PdNC2gTtw&oe=6AC02CDA:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMXv9tNQodrLP6gVkTV54-1bwbqPH7drFfwqfXTmpcF7E3_Xv1nkqm3iiteo41WKze48RmvuTS5diM9CKfsEiU2E6F2goP_QrR8r1c.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=UtMM6XEdONgQ7kNvwFzTOfE&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjY3MTU1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMJ93Vpqkd_g8TVo7IiNoYLJQtBHq4JJo7DkoH0EnILWw&oe=6ABC2F07&bytestart=824&byteend=1179:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQMXv9tNQodrLP6gVkTV54-1bwbqPH7drFfwqfXTmpcF7E3_Xv1nkqm3iiteo41WKze48RmvuTS5diM9CKfsEiU2E6F2goP_QrR8r1c.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=UtMM6XEdONgQ7kNvwFzTOfE&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjo5NDY5MzczNDUxMDU2MTgsIm9pbF91cmxnZW5fYXBwX2lkIjowLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJ4cHZfYXNzZXRfaWQiOjg1MTM5NjgyNDYwNzE2NCwiYXNzZXRfYWdlX2RheXMiOjQ0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsImJpdHJhdGUiOjY3MTU1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQMJ93Vpqkd_g8TVo7IiNoYLJQtBHq4JJo7DkoH0EnILWw&oe=6ABC2F07&bytestart=1180&byteend=17977:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQOZsXESLVQ5rTMmZvRUttsMQ8zPA6e3_my81Ib8Nq3g3-06vv4yvLElGIchwAiaTsL8mi1m728TnKEeZJDCN-PowV5AmjWSFy41KJI.mp4?_nc_cat=109&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=crwKep0uVQwQ7kNvwE7LqlB&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6NjU5MDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNeVluyZhJWwA-LDkF4DsCsLYRHhL62pweOPAxY2SZt6Q&oe=6ABC41FA&bytestart=0&byteend=823:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQOZsXESLVQ5rTMmZvRUttsMQ8zPA6e3_my81Ib8Nq3g3-06vv4yvLElGIchwAiaTsL8mi1m728TnKEeZJDCN-PowV5AmjWSFy41KJI.mp4?_nc_cat=109&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=crwKep0uVQwQ7kNvwE7LqlB&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6NjU5MDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNeVluyZhJWwA-LDkF4DsCsLYRHhL62pweOPAxY2SZt6Q&oe=6ABC41FA&bytestart=824&byteend=951:0
+[    3486ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://video-bom5-1.xx.fbcdn.net/o1/v/t2/f2/m78/AQOZsXESLVQ5rTMmZvRUttsMQ8zPA6e3_my81Ib8Nq3g3-06vv4yvLElGIchwAiaTsL8mi1m728TnKEeZJDCN-PowV5AmjWSFy41KJI.mp4?_nc_cat=109&_nc_sid=9ca052&_nc_ht=video-bom5-1.xx.fbcdn.net&_nc_ohc=crwKep0uVQwQ7kNvwE7LqlB&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjoyMjE3OTkyODQ1NjYxOTgyLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxNDIwODA5MjYzNDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwiYml0cmF0ZSI6NjU5MDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=vRfiqrxK2HP72Hvq-uYLBQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQNeVluyZhJWwA-LDkF4DsCsLYRHhL62pweOPAxY2SZt6Q&oe=6ABC41FA&bytestart=952&byteend=17554:0

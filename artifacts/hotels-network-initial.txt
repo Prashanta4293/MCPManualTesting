@@ -1,0 +1,6 @@
+225. [GET] https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1 => [206] 
+231. [GET] https://loremflickr.com/600/400/travel,nature?random=0.9629691122052787 => [FAILED] net::ERR_BLOCKED_BY_ORB
+268. [GET] https://api.open-meteo.com/v1/forecast?latitude=20.182&longitude=85.616&current=temperature_2m,weather_code&timezone=auto => [200] OK
+361. [GET] https://apptourlfr-stg.estpl.net/o/odisha-hotel-mgmt/home-hotel-applications?page=1&pageSize=6&search=&hotelType=Hotels => [200] 
+
+Note: 366 static requests not shown, run with "static" option to see them.

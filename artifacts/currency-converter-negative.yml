@@ -1,0 +1,212 @@
+- generic [ref=f102e1]:
+  - navigation "Quick Links":
+    - link "Skip to Main Content" [ref=f102e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=f102e6]:
+    - generic:
+      - generic:
+        - banner:
+          - navigation [ref=f102e7]:
+            - generic [ref=f102e9]:
+              - link "Odisha Tourism" [ref=f102e11] [cursor=pointer]:
+                - /url: https://apptourlfr-stg.estpl.net/web/guest/home
+                - img "Odisha Tourism" [ref=f102e12]
+              - generic [ref=f102e22]:
+                - button "Discover " [ref=f102e24] [cursor=pointer]
+                - button "Experience " [ref=f102e28] [cursor=pointer]
+                - button "Plan Your Trip " [ref=f102e32] [cursor=pointer]
+                - link "Book Now" [ref=f102e36] [cursor=pointer]:
+                  - /url: https://www.bookodisha.com/
+              - generic [ref=f102e39]:
+                - button "" [ref=f102e40] [cursor=pointer]
+                - generic [ref=f102e42]
+                - generic [ref=f102e45]
+                - button "" [ref=f102e49] [cursor=pointer]
+        - text:           
+        - button "Accessibility Options" [ref=f102e51] [cursor=pointer]:
+          - generic [ref=f102e52]: 
+    - button "" [ref=f102e53] [cursor=pointer]
+    - main [ref=f102e55]:
+      - generic [ref=f102e58]:
+        - img "Odisha at a Glance" [ref=f102e60]
+        - generic [ref=f102e62]:
+          - heading "Currency Converter" [level=1] [ref=f102e63]
+          - generic [ref=f102e64]: Plan Your Trip With Accurate Live Exchange Rates
+        - navigation "Breadcrumb" [ref=f102e74]:
+          - navigation [ref=f102e75]:
+            - link "" [ref=f102e76] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/home
+            - generic [ref=f102e78]: /
+            - generic [ref=f102e79]: Travel Essentials
+            - generic [ref=f102e80]: /
+            - generic [ref=f102e81]: Currency Converter
+      - generic [ref=f102e86]:
+        - generic [ref=f102e88]:
+          - heading "Currency Converter" [level=2] [ref=f102e89]
+          - paragraph [ref=f102e90]: Real-time exchange rates powered by live market data. Convert any currency before your journey.
+        - generic [ref=f102e91]:
+          - generic [ref=f102e93]:
+            - generic [ref=f102e94]:
+              - generic [ref=f102e95]: Quick Amount
+              - generic [ref=f102e96]:
+                - generic [ref=f102e97] [cursor=pointer]: "1"
+                - generic [ref=f102e98] [cursor=pointer]: "10"
+                - generic [ref=f102e99] [cursor=pointer]: "50"
+                - generic [ref=f102e100] [cursor=pointer]: "100"
+                - generic [ref=f102e101] [cursor=pointer]: "500"
+                - generic [ref=f102e102] [cursor=pointer]: 1,000
+                - generic [ref=f102e103] [cursor=pointer]: 5,000
+            - generic [ref=f102e104]:
+              - generic [ref=f102e105]:
+                - generic [ref=f102e106] [cursor=pointer]: Amount
+                - generic [ref=f102e107]
+              - generic [ref=f102e109]:
+                - generic [ref=f102e110]
+                - button "" [ref=f102e115] [cursor=pointer]
+                - generic [ref=f102e117]
+              - button " Convert Now" [ref=f102e121] [cursor=pointer]:
+                - generic [ref=f102e122]: 
+                - generic [ref=f102e123]: Convert Now
+            - text: 
+            - generic [ref=f102e124]:
+              - generic [ref=f102e125]: 
+              - generic [ref=f102e126]:
+                - strong [ref=f102e127]: "Travel Tip:"
+                - text: Indian Rupee (INR) is the local currency. Exchange money at authorised banks or forex counters for the best rates.
+          - generic [ref=f102e129]:
+            - generic [ref=f102e130]:
+              - generic [ref=f102e131]: 
+              - generic [ref=f102e132]: Live Rates vs INR
+              - generic [ref=f102e133]: LIVE
+            - paragraph [ref=f102e134]: 1 unit of each currency = X Indian Rupees
+            - generic [ref=f102e135]:
+              - generic [ref=f102e136]:
+                - generic [ref=f102e137]
+                - generic [ref=f102e140]: ₹ 95.76
+              - generic [ref=f102e141]:
+                - generic [ref=f102e142]
+                - generic [ref=f102e145]: ₹ 109.88
+              - generic [ref=f102e146]:
+                - generic [ref=f102e147]
+                - generic [ref=f102e150]: ₹ 128.15
+              - generic [ref=f102e151]:
+                - generic [ref=f102e152]
+                - generic [ref=f102e155]: ₹ 0.61
+              - generic [ref=f102e156]:
+                - generic [ref=f102e157]
+                - generic [ref=f102e160]: ₹ 68.20
+              - generic [ref=f102e161]:
+                - generic [ref=f102e162]
+                - generic [ref=f102e165]: ₹ 68.27
+              - generic [ref=f102e166]:
+                - generic [ref=f102e167]
+                - generic [ref=f102e170]: ₹ 75.07
+              - generic [ref=f102e171]:
+                - generic [ref=f102e172]
+                - generic [ref=f102e175]: ₹ 26.07
+            - paragraph [ref=f102e176]:
+              - generic [ref=f102e177]: 
+              - text: Rates are indicative. Actual rates may vary.
+    - generic [ref=f102e178]:
+      - generic [ref=f102e179]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=f102e180]:
+        - button "I'm happy with this" [ref=f102e181] [cursor=pointer]
+        - button "Close" [ref=f102e182] [cursor=pointer]:
+          - generic [ref=f102e183]: 
+    - generic:  
+    - contentinfo [ref=f102e186]:
+      - generic [ref=f102e187]:
+        - generic [ref=f102e188]:
+          - img "Logo" [ref=f102e190]
+          - generic [ref=f102e200]:
+            - generic [ref=f102e201]:
+              - generic [ref=f102e202]: Important Links
+              - list [ref=f102e203]:
+                - listitem [ref=f102e204]
+                - listitem [ref=f102e206]
+                - listitem [ref=f102e208]
+                - listitem [ref=f102e210]
+                - listitem [ref=f102e212]
+            - generic [ref=f102e214]:
+              - generic [ref=f102e215]: Quick Links
+              - list [ref=f102e216]:
+                - listitem [ref=f102e217]
+                - listitem [ref=f102e219]
+                - listitem [ref=f102e221]
+                - listitem [ref=f102e223]
+                - listitem [ref=f102e225]
+                - listitem [ref=f102e227]
+                - listitem [ref=f102e229]
+                - listitem [ref=f102e231]
+                - listitem [ref=f102e233]
+                - listitem [ref=f102e235]
+          - generic [ref=f102e237]:
+            - generic [ref=f102e238]: Newsletter
+            - paragraph [ref=f102e239]: Sign up for exciting news, learn more about our events and get great travel ideas.
+            - button "Subscribe Now" [ref=f102e240] [cursor=pointer]
+            - generic [ref=f102e241]:
+              - generic [ref=f102e242]: Follow us
+              - generic [ref=f102e243]:
+                - link "" [ref=f102e244] [cursor=pointer]:
+                  - /url: https://www.facebook.com/share/1DiX2M24vz/?mibextid=wwXIfr
+                - link "" [ref=f102e246] [cursor=pointer]:
+                  - /url: https://x.com/odisha_tourism?s=11&t=4pIKcmQIe3N0gnvIhlPZjA
+                - link "" [ref=f102e248] [cursor=pointer]:
+                  - /url: https://www.instagram.com/odishatourismofficial?igsh=NHBubHhoMjl0d2lj
+                - link "" [ref=f102e250] [cursor=pointer]:
+                  - /url: https://youtube.com/@odishatourismofficial?si=crfFcAA8h0-EzLgQ
+        - generic [ref=f102e252]:
+          - generic [ref=f102e261]:
+            - link "Privacy Policy" [ref=f102e262] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/privacy-policy
+            - generic [ref=f102e263]: "|"
+            - link "Disclaimer" [ref=f102e264] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/disclaimer
+            - generic [ref=f102e265]: "|"
+            - link "Site Map" [ref=f102e266] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/site-map
+            - generic [ref=f102e267]: "|"
+            - link "Contact Us" [ref=f102e268] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/contact-us
+          - paragraph [ref=f102e269]: © Department of Odisha Tourism. All Rights Reserved.
+  - dialog "Accessibility Options" [ref=f102e271]:
+    - generic [ref=f102e272]:
+      - heading " Accessibility" [level=5] [ref=f102e273]:
+        - generic [ref=f102e274]: 
+        - text: Accessibility
+      - button "Close Accessibility Panel" [ref=f102e275] [cursor=pointer]:
+        - generic [ref=f102e276]: 
+    - generic [ref=f102e277]:
+      - generic [ref=f102e278]:
+        - button " Bigger Text" [ref=f102e279] [cursor=pointer]:
+          - generic [ref=f102e280]: 
+          - generic [ref=f102e281]: BiggerText
+        - button " Smaller Text" [ref=f102e282] [cursor=pointer]:
+          - generic [ref=f102e283]: 
+          - generic [ref=f102e284]: SmallerText
+        - button " Dark / Light" [ref=f102e285] [cursor=pointer]:
+          - generic [ref=f102e286]: 
+          - generic [ref=f102e287]: Dark /Light
+        - button " Invert Colors" [ref=f102e288] [cursor=pointer]:
+          - generic [ref=f102e289]: 
+          - generic [ref=f102e290]: InvertColors
+        - button " Letter Spacing" [ref=f102e291] [cursor=pointer]:
+          - generic [ref=f102e292]: 
+          - generic [ref=f102e293]: LetterSpacing
+        - button " Line Height" [ref=f102e294] [cursor=pointer]:
+          - generic [ref=f102e295]: 
+          - generic [ref=f102e296]: LineHeight
+        - button [ref=f102e297] [cursor=pointer]:
+          - generic [ref=f102e298]: HideImages
+        - button " Highlight Links" [ref=f102e299] [cursor=pointer]:
+          - generic [ref=f102e300]: 
+          - generic [ref=f102e301]: HighlightLinks
+        - button " Big Cursor" [ref=f102e302] [cursor=pointer]:
+          - generic [ref=f102e303]: 
+          - generic [ref=f102e304]: BigCursor
+        - button " Screen Reader" [ref=f102e305] [cursor=pointer]:
+          - generic [ref=f102e306]: 
+          - generic [ref=f102e307]: ScreenReader
+      - button " Reset All" [ref=f102e308] [cursor=pointer]:
+        - generic [ref=f102e309]: 
+        - text: Reset All

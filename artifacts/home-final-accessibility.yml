@@ -1,0 +1,35 @@
+- generic [ref=e1] [box=0,0,1019,7161]:
+  - navigation "Quick Links" [box=0,0,0,0]:
+    - link "Skip to Main Content" [ref=e2] [cursor=pointer] [box=-1,-1,16,16]:
+      - /url: "#main-content"
+  - generic [ref=e6] [box=0,0,1019,7161]:
+    - generic [box=0,0,1019,0]:
+      - generic [box=0,0,1019,0]
+    - button "" [ref=e53] [cursor=pointer] [box=949,489,40,40]
+    - main [ref=e55] [box=0,0,1019,6605]:
+      - generic [box=0,0,1019,0]
+      - generic [ref=e68] [box=0,0,1019,549]
+      - generic [ref=e239] [box=48,597,923,676]
+      - text: 
+      - generic [ref=e350] [box=0,1331,1019,809]
+      - generic [ref=e584] [box=0,2140,1019,816]
+      - generic [ref=e676] [box=48,3004,923,724]
+      - generic [ref=e851] [box=48,3824,923,821]
+      - link "Take a virtual expedition through our Video Gallery →" [ref=e928] [cursor=pointer] [box=60,5072,476,171]:
+        - /url: https://apptourlfr-stg.estpl.net/video-gallery
+      - generic [ref=e935] [box=48,5351,923,472]
+      - generic [ref=e1013] [box=48,5929,923,618]
+    - generic [ref=e1229] [box=0,470,1019,79]:
+      - generic [ref=e1230] [box=51,487,679,46]: This website uses cookies to make your online experience easier and better. By using our website, you consent to our use of cookies.
+      - generic [ref=e1231] [box=760,489,208,42]
+    - generic [box=0,6605,1019,0]:  
+    - contentinfo [ref=e1237] [box=0,6605,1019,556]:
+      - generic [ref=e1238] [box=48,6653,923,460]
+  - dialog "Accessibility Options" [ref=e1322] [box=1059,0,380,549]:
+    - generic [ref=e1323] [box=1062,0,377,70]:
+      - heading " Accessibility" [level=5] [ref=e1324] [box=1082,25,121,19]
+      - button "Close Accessibility Panel" [ref=e1326] [cursor=pointer] [box=1385,18,34,34]
+    - generic [ref=e1328] [box=1062,70,377,479]:
+      - generic [ref=e1329] [box=1078,86,330,443]
+      - button " Reset All" [ref=e1359] [cursor=pointer] [box=1078,545,330,44]
+  - text:     
