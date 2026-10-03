@@ -2,9 +2,35 @@
 
 This project runs Python Playwright's sync API through pytest and pytest-playwright. It targets https://apptourlfr-stg.estpl.net/home. The 99 original executable JavaScript cases are preserved, plus one requested attended positive Visitor login case.
 
-**Migration status:** Python conversion and execution verification are in progress. Active JavaScript sources are retained pending the explicit Phase 3 removal approval. No Python test imports or runs them. Original sources are preserved under `javascript_backup/`; complete mapping and removal manifests are under `migration/`.
+**Migration status:** Python migration and approved cleanup are complete. The post-cleanup Chromium regression recorded 100 cases: 71 passed, 28 failed and one skipped/blocked attended positive login. All 99 original outcomes match the JavaScript baseline. Two failed cases were re-executed to recover missing screenshots; the combined report records this provenance. Original sources remain under `javascript_backup/`; mapping, verification and the approved removal manifest are under `migration/`.
 
 ## Setup
+
+### Visitor Login workbook phase (TC16–TC41)
+
+The selected specification is imported from `test_data/Odisha_Tourism_Web_Portal_Test_Cases_v1.0_2026-06-01.xlsx`, worksheet `Test_Cases`. Existing workbook Actual Result/Status values are excluded. See `manual_test_cases/visitor_login_20261003/selected_cases.md` and `data/visitor_login_data.json` for the selected rows. Historical tests and migration backups are preserved.
+
+```powershell
+.\venv\Scripts\python.exe scripts/import_visitor_login_cases.py
+.\venv\Scripts\python.exe -m pytest tests/test_visitor_login.py::test_workbook_visitor_login --collect-only -q
+.\venv\Scripts\python.exe scripts/run_visitor_login.py
+.\venv\Scripts\python.exe scripts/verify_allure.py
+.\venv\Scripts\python.exe scripts/report.py generate
+.\venv\Scripts\python.exe scripts/report.py open
+```
+
+The scoped runner archives previous generated reports, executes negative cases first, and runs attended cases separately in headed Chromium. It records one fresh result for each selected case, without automatic retries. JSON, Markdown and Excel execution records are generated under `manual_test_cases/visitor_login_20261003/`; browser artifacts are under `test-results/visitor-login/` and `allure-results/`.
+
+TC36, TC39 and TC40 are semi-automated. The suite loads the project-root `.env` using python-dotenv into `VISITOR_EMAIL` and `VISITOR_PASSWORD` (local values take precedence). It never reads `.env.example` or modifies `.env`. Keep `.env` ignored by Git and never print the credential values. Never pass a password as a command-line argument. For an attended run:
+
+```powershell
+.\venv\Scripts\python.exe -m pytest tests/test_visitor_login.py::test_workbook_visitor_login -k TC40 --manual-login --headed -s --reruns 0
+.\venv\Scripts\python.exe -m pytest tests/test_visitor_login.py::test_workbook_visitor_login -k TC39 --manual-login --headed -s --reruns 0
+```
+
+Enter CAPTCHA in the browser, then type `CONFIRM` in the terminal. A filled field or focus change is never treated as confirmation. For agent-assisted execution, `--captcha-confirm-dir test-results/captcha-confirmation` creates a per-case token handshake; the agent writes the matching confirmation only after the tester explicitly confirms in chat. Stale confirmations are rejected. CAPTCHA is never decoded or solved by the suite.
+
+Attended login is never traced or video-recorded. No screenshot is captured while the login form is visible. After authenticated login is verified and the form is hidden, evidence uses a fully masked screenshot and sanitized observations; email and password are never attached. Stable cases use disposable password input and record failure traces/videos. Missing roles and initial CAPTCHA generation failures remain failed assertions; refresh recovery is tested independently.
 
 Use the existing virtual environment:
 
@@ -104,8 +130,8 @@ python manual_test_cases/build_odisha_report.py --output-dir migration/manual-re
 
 These regenerate from saved evidence; they do not claim new browser execution. The output-directory option verifies generation without overwriting the original manual reports. The Python migration's fresh outcomes are recorded separately.
 
-## Removal approval
+## Approved cleanup
 
-See `migration/removal-proposal.md` and `migration/removal-manifest.json` for every proposed source/dependency file. Deletion is a separate, explicitly approved Phase 3 action. Preserve backups, evidence, test data, screenshots, spreadsheets, all reports, the virtual environment and global Allure support. After approved cleanup, recollect and rerun Python regression and regenerate Allure before declaring the migration complete.
+See `migration/removal-proposal.md` and `migration/removal-manifest.json` for every proposed source/dependency file. The user approved Phase 3 removal on 2026-10-01. The listed active JavaScript/package files and local node_modules were removed. Backups, evidence, test data, screenshots, spreadsheets, reports, the virtual environment and global Allure support are retained. Post-cleanup regression results are recorded in migration/verification-summary.md.
 
 References: [Playwright pytest plugin](https://playwright.dev/python/docs/test-runners), [Allure pytest](https://allurereport.org/docs/pytest/).

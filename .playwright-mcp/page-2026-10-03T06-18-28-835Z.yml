@@ -1,0 +1,110 @@
+- generic [ref=f28e3]:
+  - generic [ref=f28e5]:
+    - link "Allure" [ref=f28e7] [cursor=pointer]:
+      - /url: "#"
+    - list [ref=f28e11]:
+      - listitem [ref=f28e12]:
+        - link "Overview" [ref=f28e13] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f28e18]:
+        - link "Categories" [ref=f28e19] [cursor=pointer]:
+          - /url: "#categories"
+      - listitem [ref=f28e24]:
+        - link "Suites" [ref=f28e25] [cursor=pointer]:
+          - /url: "#suites"
+      - listitem [ref=f28e30]:
+        - link "Behaviors" [ref=f28e31] [cursor=pointer]:
+          - /url: "#behaviors"
+      - listitem [ref=f28e36]:
+        - link "Packages" [ref=f28e37] [cursor=pointer]:
+          - /url: "#packages"
+      - listitem [ref=f28e42]:
+        - link "Graphs" [ref=f28e43] [cursor=pointer]:
+          - /url: "#graph"
+      - listitem [ref=f28e48]:
+        - link "Timeline" [ref=f28e49] [cursor=pointer]:
+          - /url: "#timeline"
+    - generic [ref=f28e54]:
+      - button "Dark theme" [ref=f28e56] [cursor=pointer]
+      - button "en Language" [ref=f28e62] [cursor=pointer]:
+        - generic [ref=f28e63]: en
+        - generic [ref=f28e65]: Language
+      - generic [ref=f28e66]: Collapse
+  - generic [ref=f28e73]:
+    - generic [ref=f28e74]:
+      - generic [ref=f28e78]:
+        - generic [ref=f28e79]:
+          - heading "Odisha Tourism Python Allure Report 10/3/2026 11:39:18 - 11:46:09 (6m 51s)" [level=2] [ref=f28e80]:
+            - text: Odisha Tourism Python Allure Report 10/3/2026
+            - generic [ref=f28e81]: 11:39:18 - 11:46:09 (6m 51s)
+          - generic [ref=f28e82]:
+            - generic [ref=f28e83]: "26"
+            - generic [ref=f28e84]: test cases
+        - img [ref=f28e87]:
+          - generic [ref=f28e88]: 82.6%
+      - generic [ref=f28e95]:
+        - heading "Suites 1 item total" [level=2] [ref=f28e96]:
+          - text: Suites
+          - generic [ref=f28e97]: 1 item total
+        - generic [ref=f28e98]:
+          - link "Odisha Tourism 4 19 3" [ref=f28e99] [cursor=pointer]:
+            - /url: "#suites/5939043074c31ded4775aa1d477026ab"
+            - generic [ref=f28e100]: Odisha Tourism
+            - generic [ref=f28e102]:
+              - generic [ref=f28e103]: "4"
+              - generic [ref=f28e104]: "19"
+              - generic [ref=f28e105]: "3"
+          - link "Show all" [ref=f28e106] [cursor=pointer]:
+            - /url: "#suites"
+      - generic [ref=f28e110]:
+        - heading "Environment" [level=2] [ref=f28e111]
+        - generic [ref=f28e112]:
+          - generic [ref=f28e113]:
+            - generic [ref=f28e114]: Application
+            - generic [ref=f28e115]: Odisha Tourism
+          - generic [ref=f28e116]:
+            - generic [ref=f28e117]: Environment
+            - generic [ref=f28e118]: Staging
+          - generic [ref=f28e119]:
+            - generic [ref=f28e120]: Base.URL
+            - link "https://apptourlfr-stg.estpl.net/home" [ref=f28e122] [cursor=pointer]:
+              - /url: https://apptourlfr-stg.estpl.net/home
+          - generic [ref=f28e123]:
+            - generic [ref=f28e124]: Execution.Tool
+            - generic [ref=f28e125]: Python Playwright sync API
+          - generic [ref=f28e126]:
+            - generic [ref=f28e127]: Test.Framework
+            - generic [ref=f28e128]: pytest + pytest-playwright
+          - generic [ref=f28e129] [cursor=pointer]: Show all
+      - generic [ref=f28e133]:
+        - heading "Features by stories 1 item total" [level=2] [ref=f28e134]:
+          - text: Features by stories
+          - generic [ref=f28e135]: 1 item total
+        - generic [ref=f28e136]:
+          - link "Odisha Tourism 1" [ref=f28e137] [cursor=pointer]:
+            - /url: "#behaviors/e8a7f084f7c0f780ac362b0ec831fa3e"
+            - generic [ref=f28e138]: Odisha Tourism
+            - generic [ref=f28e139]: "1"
+          - link "show all" [ref=f28e142] [cursor=pointer]:
+            - /url: "#behaviors"
+    - generic [ref=f28e144]:
+      - generic [ref=f28e147]:
+        - heading "Trend" [level=2] [ref=f28e148]
+        - generic [ref=f28e149]: There is nothing to show
+      - generic [ref=f28e154]:
+        - heading "Categories 1 item total" [level=2] [ref=f28e155]:
+          - text: Categories
+          - generic [ref=f28e156]: 1 item total
+        - generic [ref=f28e157]:
+          - link "Product defects 4" [ref=f28e158] [cursor=pointer]:
+            - /url: "#categories/8fb3a91ba5aaf9de24cc8a92edc82b5d"
+            - generic [ref=f28e159]: Product defects
+            - generic [ref=f28e160]: "4"
+          - link "Show all" [ref=f28e163] [cursor=pointer]:
+            - /url: "#categories"
+      - generic [ref=f28e167]:
+        - heading "Executors" [level=2] [ref=f28e168]
+        - generic [ref=f28e170]:
+          - generic [ref=f28e171]: Prashanta Behera - Local Machine
+          - link "Odisha Tourism Python pytest execution" [ref=f28e174] [cursor=pointer]:
+            - /url: https://apptourlfr-stg.estpl.net/home

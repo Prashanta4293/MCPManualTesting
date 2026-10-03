@@ -99,4 +99,4 @@ tests/test_visitor_login.py::test_visitor_account_controls[ACCOUNT-SignUp Sign U
 tests/test_visitor_login.py::test_visitor_account_controls[ACCOUNT-OfficialLogin Official Login opens]
 tests/test_visitor_login.py::test_positive_visitor_login[VISITOR-LOGIN-001 Positive Visitor login with manual CAPTCHA]
 
-100 tests collected in 0.03s
+100 tests collected in 13.83s

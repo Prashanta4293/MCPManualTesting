@@ -8,3 +8,5 @@ run-history/
 __pycache__/
 .pytest_cache/
 *.pyc
+
+.auth/

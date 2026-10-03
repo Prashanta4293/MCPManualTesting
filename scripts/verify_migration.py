@@ -43,6 +43,14 @@ def main():
     table += f"\n\nOriginal: {len(names)}; Python: {len(python)}. Missing original cases: {len(missing)}. Backup checksum errors: {len(backup_errors)}.\n\nAll existing IDs, test names, source data and expected results are preserved. Positive Visitor login is new. LIMIT-001 and LIMIT-002 remain historical scope exclusions.\n\nBrowser DOM evaluation uses Playwright's browser API; no Python test imports or invokes the JavaScript test runner, .spec.js files, package.json or playwright.config.js.\n"
     (out/'mapping.md').write_text(table,encoding='utf-8')
     sources = [r['source'] for r in inventory['backedUp'] if r['source'].endswith(('.js','.cjs','.mjs')) or r['source'] in ('package.json','package-lock.json')]
+    manifest_path = out/'removal-manifest.json'
+    existing_manifest = json.loads(manifest_path.read_text(encoding='utf-8-sig')) if manifest_path.exists() else {}
+    if existing_manifest.get('deleted'):
+        remaining = [s for s in sources + ['node_modules'] if (ROOT/s).exists()]
+        coverage['remainingRemovedPaths'] = remaining
+        (out/'coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2),encoding='utf-8')
+        print(json.dumps(coverage,ensure_ascii=False,indent=2))
+        return bool(missing or backup_errors or remaining or len(names)!=99 or len(python)!=100)
     removal = list(sources)
     if (ROOT/'node_modules').exists():
         removal += [p.relative_to(ROOT).as_posix() for p in (ROOT/'node_modules').rglob('*') if p.is_file()]

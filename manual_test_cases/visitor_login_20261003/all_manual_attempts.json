@@ -1,0 +1,948 @@
+[
+  {
+    "id": "TC27",
+    "status": "Failed",
+    "actual": {
+      "message": "Please fill out this field.",
+      "missing": true,
+      "focused": false,
+      "error": "Missing username did not show required validation"
+    },
+    "duration_seconds": 5.323,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC27.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      },
+      {
+        "message": "Failed to load resource: the server responded with a status of 400 ()"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/o/user-login/login",
+        "status": 400
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:53:00.616Z",
+    "expected_result": "Validation message should display if left blank",
+    "defect_description": "Missing username did not show required validation"
+  },
+  {
+    "id": "TC27",
+    "status": "Passed",
+    "actual": {
+      "message": "Email address is required."
+    },
+    "duration_seconds": 5.597,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC27.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      },
+      {
+        "message": "Failed to load resource: the server responded with a status of 400 ()"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/o/user-login/login",
+        "status": 400
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:53:34.420Z",
+    "expected_result": "Validation message should display if left blank",
+    "defect_description": null
+  },
+  {
+    "id": "TC32",
+    "status": "Passed",
+    "actual": {
+      "message": "Password is required."
+    },
+    "duration_seconds": 5.479,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC32.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      },
+      {
+        "message": "Failed to load resource: the server responded with a status of 400 ()"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/o/user-login/login",
+        "status": 400
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:53:40.489Z",
+    "expected_result": "Validation message should display",
+    "defect_description": null
+  },
+  {
+    "id": "TC37",
+    "status": "Passed",
+    "actual": {
+      "message": "Incorrect captcha. Please try again."
+    },
+    "duration_seconds": 6.086,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC37.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:53:47.119Z",
+    "expected_result": "Appropriate error message should display",
+    "defect_description": null
+  },
+  {
+    "id": "TC41",
+    "status": "Passed",
+    "actual": {
+      "message": "Email address is required."
+    },
+    "duration_seconds": 5.483,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC41.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      },
+      {
+        "message": "Failed to load resource: the server responded with a status of 400 ()"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/o/user-login/login",
+        "status": 400
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:53:53.135Z",
+    "expected_result": "Required field validation should display",
+    "defect_description": null
+  },
+  {
+    "id": "TC16",
+    "status": "Passed",
+    "actual": {
+      "visible": true,
+      "modal": "true"
+    },
+    "duration_seconds": 5.392,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC16.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:10.812Z",
+    "expected_result": "Login popup should open successfully",
+    "defect_description": null
+  },
+  {
+    "id": "TC17",
+    "status": "Passed",
+    "actual": {
+      "title": "Login"
+    },
+    "duration_seconds": 5.557,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC17.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:16.914Z",
+    "expected_result": "\"Login\" title should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC18",
+    "status": "Passed",
+    "actual": {
+      "welcome": "Welcome Back! Login to continue to your account",
+      "visible": true
+    },
+    "duration_seconds": 5.36,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC18.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:22.818Z",
+    "expected_result": "Welcome message should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC19",
+    "status": "Passed",
+    "actual": {
+      "closed": true
+    },
+    "duration_seconds": 5.72,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC19.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:29.149Z",
+    "expected_result": "Login popup should close successfully",
+    "defect_description": null
+  },
+  {
+    "id": "TC20",
+    "status": "Passed",
+    "actual": {
+      "role": "Visitor",
+      "usernameVisible": true
+    },
+    "duration_seconds": 5.665,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC20.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:35.386Z",
+    "expected_result": "Visitor tab should be selected successfully",
+    "defect_description": null
+  },
+  {
+    "id": "TC21",
+    "status": "Failed",
+    "actual": {
+      "visibleButtons": [
+        "",
+        "Visitor",
+        "\n                        \n                    ",
+        "",
+        "Login"
+      ],
+      "hotelierVisible": false,
+      "error": "Hotelier tab is absent; cannot select the workbook role"
+    },
+    "duration_seconds": 4.906,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC21.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:55:59.481Z",
+    "expected_result": "Hotelier tab should be selectable",
+    "defect_description": "Hotelier tab is absent; cannot select the workbook role"
+  },
+  {
+    "id": "TC22",
+    "status": "Failed",
+    "actual": {
+      "visibleButtons": [
+        "",
+        "Visitor",
+        "\n                        \n                    ",
+        "",
+        "Login"
+      ],
+      "travelAgentVisible": false,
+      "error": "Travel Agent tab is absent; cannot select the workbook role"
+    },
+    "duration_seconds": 5.528,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC22.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:05.555Z",
+    "expected_result": "Travel Agent tab should be selectable",
+    "defect_description": "Travel Agent tab is absent; cannot select the workbook role"
+  },
+  {
+    "id": "TC23",
+    "status": "Failed",
+    "actual": {
+      "switches": [
+        {
+          "role": "Visitor",
+          "formVisible": true
+        }
+      ],
+      "error": "Hotelier tab absent; required switching unavailable"
+    },
+    "duration_seconds": 4.814,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC23.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:10.930Z",
+    "expected_result": "Relevant login form should load correctly",
+    "defect_description": "Hotelier tab absent; required switching unavailable"
+  },
+  {
+    "id": "TC24",
+    "status": "Passed",
+    "actual": {
+      "visible": true,
+      "enabled": true,
+      "box": {
+        "x": 487.875,
+        "y": 235.046875,
+        "width": 407.625,
+        "height": 34.796875
+      },
+      "dialog": {
+        "x": 415.5,
+        "y": 39.171875,
+        "width": 520,
+        "height": 498.65625
+      },
+      "placeholder": "Email ID / Mobile Number"
+    },
+    "duration_seconds": 5.368,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC24.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:16.830Z",
+    "expected_result": "Input field should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC25",
+    "status": "Passed",
+    "actual": {
+      "value": "test@odishatourism.gov.in",
+      "valid": true
+    },
+    "duration_seconds": 4.898,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC25.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:22.265Z",
+    "expected_result": "Valid email should be accepted",
+    "defect_description": null
+  },
+  {
+    "id": "TC26",
+    "status": "Passed",
+    "actual": {
+      "value": "9876543210",
+      "valid": true
+    },
+    "duration_seconds": 4.704,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC26.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:35.649Z",
+    "expected_result": "Valid mobile number should be accepted",
+    "defect_description": null
+  },
+  {
+    "id": "TC28",
+    "status": "Passed",
+    "actual": {
+      "visible": true,
+      "enabled": true,
+      "box": {
+        "x": 486.546875,
+        "y": 294.84375,
+        "width": 380.953125,
+        "height": 34.796875
+      },
+      "dialog": {
+        "x": 415.5,
+        "y": 39.171875,
+        "width": 520,
+        "height": 498.65625
+      }
+    },
+    "duration_seconds": 5.131,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC28.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:41.319Z",
+    "expected_result": "Password field should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC29",
+    "status": "Passed",
+    "actual": {
+      "nonempty": true
+    },
+    "duration_seconds": 4.66,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC29.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:46.520Z",
+    "expected_result": "User should be able to enter password",
+    "defect_description": null
+  },
+  {
+    "id": "TC30",
+    "status": "Passed",
+    "actual": {
+      "type": "password"
+    },
+    "duration_seconds": 4.59,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC30.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:51.654Z",
+    "expected_result": "Password should be hidden by default",
+    "defect_description": null
+  },
+  {
+    "id": "TC31",
+    "status": "Passed",
+    "actual": {
+      "before": "password",
+      "shown": "text",
+      "hidden": "password"
+    },
+    "duration_seconds": 5.574,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC31.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:56:57.771Z",
+    "expected_result": "Password should be visible/hidden on toggle",
+    "defect_description": null
+  },
+  {
+    "id": "TC33",
+    "status": "Passed",
+    "actual": {
+      "visible": true,
+      "enabled": true,
+      "placeholder": "Enter Captcha"
+    },
+    "duration_seconds": 5.997,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC33.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:57:28.024Z",
+    "expected_result": "Captcha field should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC34",
+    "status": "Failed",
+    "actual": {
+      "visible": false,
+      "box": {
+        "x": 731.6875,
+        "y": 376.53125,
+        "width": 5,
+        "height": 0
+      },
+      "rendering": {
+        "tag": "SPAN",
+        "hasContent": false
+      },
+      "error": "CAPTCHA not generated"
+    },
+    "duration_seconds": 5.583,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC34.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:57:34.194Z",
+    "expected_result": "Captcha should generate successfully",
+    "defect_description": "CAPTCHA not generated"
+  },
+  {
+    "id": "TC35",
+    "status": "Failed",
+    "actual": {
+      "error": "locator.screenshot: Timeout 29979.565000000177ms exceeded.\nCall log:\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    51 × waiting for element to be stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying scroll into view action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    "duration_seconds": 35.984,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC35.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/video-gallery",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:58:10.751Z",
+    "expected_result": "New captcha should generate",
+    "defect_description": "locator.screenshot: Timeout 29979.565000000177ms exceeded.\nCall log:\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    51 × waiting for element to be stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying scroll into view action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  },
+  {
+    "id": "TC38",
+    "status": "Passed",
+    "actual": {
+      "visible": true,
+      "enabled": true,
+      "text": "Login",
+      "box": {
+        "x": 455.5,
+        "y": 414.4375,
+        "width": 116.1875,
+        "height": 40.796875
+      }
+    },
+    "duration_seconds": 5.719,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC38.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:58:17.083Z",
+    "expected_result": "Login button should display correctly",
+    "defect_description": null
+  },
+  {
+    "id": "TC36",
+    "status": "Blocked",
+    "actual": {
+      "reason": "VISITOR_EMAIL and VISITOR_PASSWORD unavailable; requires headed browser, human CAPTCHA and explicit confirmation. No authentication submission executed."
+    },
+    "duration_seconds": 0,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": null,
+    "console_errors": [],
+    "failed_network_requests": [],
+    "execution": "MCP-assisted manual prerequisite check",
+    "expected_result": "User should proceed successfully",
+    "defect_description": null
+  },
+  {
+    "id": "TC39",
+    "status": "Blocked",
+    "actual": {
+      "reason": "VISITOR_EMAIL and VISITOR_PASSWORD unavailable; requires headed browser, human CAPTCHA and explicit confirmation. No authentication submission executed."
+    },
+    "duration_seconds": 0,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": null,
+    "console_errors": [],
+    "failed_network_requests": [],
+    "execution": "MCP-assisted manual prerequisite check",
+    "expected_result": "User should login successfully",
+    "defect_description": null
+  },
+  {
+    "id": "TC40",
+    "status": "Blocked",
+    "actual": {
+      "reason": "VISITOR_EMAIL and VISITOR_PASSWORD unavailable; requires headed browser, human CAPTCHA and explicit confirmation. No authentication submission executed."
+    },
+    "duration_seconds": 0,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": null,
+    "console_errors": [],
+    "failed_network_requests": [],
+    "execution": "MCP-assisted manual prerequisite check",
+    "expected_result": "Error message should display",
+    "defect_description": null
+  },
+  {
+    "id": "TC34",
+    "status": "Failed",
+    "actual": {
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#otlxCaptchaDisplay') to be visible\u001b[22m\n\u001b[2m    23 × locator resolved to hidden <span id=\"otlxCaptchaDisplay\" class=\"otlx-captcha-text\"></span>\u001b[22m\n"
+    },
+    "duration_seconds": 16.161,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC34.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:59:30.206Z",
+    "expected_result": "Captcha should generate successfully",
+    "defect_description": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#otlxCaptchaDisplay') to be visible\u001b[22m\n\u001b[2m    23 × locator resolved to hidden <span id=\"otlxCaptchaDisplay\" class=\"otlx-captcha-text\"></span>\u001b[22m\n"
+  },
+  {
+    "id": "TC35",
+    "status": "Failed",
+    "actual": {
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#otlxCaptchaDisplay') to be visible\u001b[22m\n\u001b[2m    23 × locator resolved to hidden <span id=\"otlxCaptchaDisplay\" class=\"otlx-captcha-text\"></span>\u001b[22m\n"
+    },
+    "duration_seconds": 16.261,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC35.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/video-gallery",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T05:59:47.022Z",
+    "expected_result": "New captcha should generate",
+    "defect_description": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#otlxCaptchaDisplay') to be visible\u001b[22m\n\u001b[2m    23 × locator resolved to hidden <span id=\"otlxCaptchaDisplay\" class=\"otlx-captcha-text\"></span>\u001b[22m\n"
+  },
+  {
+    "id": "TC35",
+    "status": "Passed",
+    "actual": {
+      "initialVisible": false,
+      "visualChanged": true,
+      "visible": true
+    },
+    "duration_seconds": 7.253,
+    "tested_url": "https://apptourlfr-stg.estpl.net/home",
+    "screenshot": "C:/Users/prashanta.behera/Documents/MCPManualTesting/manual_test_cases/visitor_login_20261003/TC35.png",
+    "console_errors": [
+      {
+        "message": "Cannot read properties of null (reading 'classList')"
+      }
+    ],
+    "failed_network_requests": [
+      {
+        "url": "https://apptourlfr-stg.estpl.net/documents/d/guest/hero-1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://loremflickr.com/600/400/travel,nature",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "execution": "MCP-assisted manual",
+    "timestamp": "2026-10-03T06:00:15.956Z",
+    "expected_result": "New captcha should generate",
+    "defect_description": null
+  }
+]

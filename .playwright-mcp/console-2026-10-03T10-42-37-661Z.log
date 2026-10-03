@@ -1,0 +1,3 @@
+[    1786ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://apptourlfr-stg.estpl.net/visitor-landing:0
+[    2641ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/visitor-landing:0
+[    2711ms] [WARNING] Component with id "infoItemActionComponent" is being registered twice. This can lead to unexpected behaviour in the "Liferay.component" and "Liferay.componentReady" APIs, as well as in the "*:registered" events. @ https://apptourlfr-stg.estpl.net/o/frontend-js-web/Liferay.js?&mac=1LoGM4zXssqQXnyqXT2JGgy0444=&browserId=chrome&languageId=en_US&minifierType=js:1

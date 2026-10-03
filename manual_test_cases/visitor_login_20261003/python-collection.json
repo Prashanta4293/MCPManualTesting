@@ -1,0 +1,6 @@
+[
+  {
+    "nodeid": "tests/test_visitor_login.py::test_workbook_visitor_login[TC39 Verify login with valid credentials]",
+    "name": "TC39 Verify login with valid credentials"
+  }
+]

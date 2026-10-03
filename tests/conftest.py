@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 from pathlib import Path
@@ -41,7 +42,8 @@ def pytest_collection_modifyitems(config, items):
 def pytest_collection_finish(session):
     if session.config.option.collectonly and not hasattr(session.config, 'workerinput'):
         records = [{'nodeid':item.nodeid,'name':dict(item.user_properties).get('case_name',item.nodeid)} for item in session.items]
-        out = ROOT / 'migration'
+        workbook_scope = any(getattr(item, 'callspec', None) and item.callspec.params.get('case', {}).get('source') == 'Test_Cases' for item in session.items)
+        out = ROOT / ('manual_test_cases/visitor_login_20261003' if workbook_scope else 'migration')
         out.mkdir(exist_ok=True)
         (out/'python-collection.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
 
@@ -101,6 +103,9 @@ class Audit:
 @pytest.fixture(autouse=True)
 def audit(request):
     case = request.node.callspec.params['case']
+    if case.get('source') == 'Test_Cases':
+        yield request.getfixturevalue('visitor_audit')
+        return
     positive = bool(request.node.get_closest_marker('positive'))
     result = Audit(sensitive=positive)
     request.node._audit = result
@@ -170,8 +175,23 @@ def context(request, audit):
                         # Mask the entire authenticated page, including any profile identity.
                         p.screenshot(path=str(target), full_page=True, mask=[p.locator('body')] if positive else [], timeout=10000)
                         allure.attach.file(str(target), f'Failure screenshot page {i+1}', allure.attachment_type.PNG)
-                    except Exception:
-                        allure.attach('Screenshot capture unavailable; sensitive details suppressed.', 'Screenshot limitation', allure.attachment_type.TEXT)
+                    except Exception as error:
+                        if positive:
+                            allure.attach('Screenshot capture unavailable; sensitive details suppressed.', 'Screenshot limitation', allure.attachment_type.TEXT)
+                        else:
+                            allure.attach(redact(str(error)), 'Full-page screenshot limitation', allure.attachment_type.TEXT)
+                            # Chromium viewport capture avoids font/layout waits on broken pages.
+                            session = None
+                            try:
+                                session = ctx.new_cdp_session(p)
+                                capture = session.send('Page.captureScreenshot', {'format':'png', 'captureBeyondViewport':False})
+                                target.write_bytes(base64.b64decode(capture['data']))
+                                allure.attach.file(str(target), f'Failure viewport screenshot page {i+1}', allure.attachment_type.PNG)
+                            except Exception as fallback_error:
+                                allure.attach(redact(str(fallback_error)), 'Screenshot limitation', allure.attachment_type.TEXT)
+                            finally:
+                                if session:
+                                    session.detach()
                 if p.video:
                     videos.append(p.video)
             if tracing:

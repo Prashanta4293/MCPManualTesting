@@ -1,0 +1,144 @@
+[    3651ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[   28490ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  159884ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  162228ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  162407ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://apptourlfr-stg.estpl.net/o/user-login/login:0
+[  193724ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  196032ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  196228ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://apptourlfr-stg.estpl.net/o/user-login/login:0
+[  199719ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  202102ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  202298ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://apptourlfr-stg.estpl.net/o/user-login/login:0
+[  206096ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  208581ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  212364ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  214769ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  214932ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://apptourlfr-stg.estpl.net/o/user-login/login:0
+[  290089ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  292457ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  296335ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  298757ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  302228ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  304546ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  308266ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  310765ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  314689ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  317047ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  338942ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  341251ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  344809ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  347180ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  350677ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  352794ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  356557ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  358746ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  361854ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  364145ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  375369ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  377563ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  381074ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  383231ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  386325ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  388430ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  391444ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  393581ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  396871ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  399367ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  427083ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  429777ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  433427ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  435929ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  439970ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  442495ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  476150ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  478672ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  539422ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  541855ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  556046ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  558640ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
+[  593709ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://apptourlfr-stg.estpl.net/home:0
+[  596357ms] TypeError: Cannot read properties of null (reading 'classList')
+    at otSwitchToLogin (https://apptourlfr-stg.estpl.net/home:4258:28)
+    at window.otShowLogin (https://apptourlfr-stg.estpl.net/home:4094:123)
+    at HTMLButtonElement.<anonymous> (https://apptourlfr-stg.estpl.net/home:4380:70)
