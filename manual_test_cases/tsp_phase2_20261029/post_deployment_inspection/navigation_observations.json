@@ -1,0 +1,37 @@
+[
+  {
+    "requested_section": "Applicant Details",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "Office Details",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "HR & Certification",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "Transport Details",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "Documents",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "Declaration",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  },
+  {
+    "requested_section": "Preview & Submit",
+    "actual_section": "Application Type",
+    "completion": "0%"
+  }
+]

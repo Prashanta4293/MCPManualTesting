@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-29",
+  "start_url": "https://apptourlfr-stg.estpl.net/en/home",
+  "tested_url": "https://apptourlfr-stg.estpl.net/en/tsp-registration-form",
+  "sections": [
+    {
+      "order": 1,
+      "name": "Application Type",
+      "status": "Fail",
+      "progress": "Active, Step 1 of 8; 0%",
+      "actual": "Partial inspection complete; accessibility findings; validation/persistence not completed.",
+      "fields": [
+        {
+          "label": "Application Category",
+          "control": "Two selection cards",
+          "options": [
+            "Experienced TSP",
+            "Start-Up / Green Shoot TSP"
+          ],
+          "mandatory_indicator": "No explicit asterisk observed"
+        },
+        {
+          "label": "Select TSP Type *",
+          "control": "Single-select dropdown",
+          "options": [
+            "Tour Operator",
+            "Tourist Transport Operator",
+            "Travel Agency / Tour Operator",
+            "Adventure Tourism Operator",
+            "Wildlife Tourism Operator",
+            "Eco Tourism Operator",
+            "Heritage & Cultural Tourism Operator",
+            "Cruise & Boat Tourism Operator",
+            "Medical Tourism Operator",
+            "MICE Operator",
+            "Tourism Units Defined in OTP-2022 / Amendment 2026"
+          ],
+          "mandatory_indicator": "Visible asterisk; no native/ARIA required state"
+        }
+      ],
+      "evidence": "section-1.png"
+    },
+    {
+      "order": 2,
+      "name": "Applicant Details",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 3,
+      "name": "Office Details",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 4,
+      "name": "HR & Certification",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 5,
+      "name": "Transport Details",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 6,
+      "name": "Documents",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 7,
+      "name": "Declaration",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    },
+    {
+      "order": 8,
+      "name": "Preview & Submit",
+      "status": "Blocked",
+      "progress": "Pending; unavailable",
+      "actual": "Clicked section navigation in displayed order; stayed on Application Type. No save, bypass, or hidden-section manipulation performed.",
+      "fields": [],
+      "evidence": "navigation_observations.json"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Fresh TSP login after deployment",
+      "status": "Pass",
+      "actual": "One Login click after explicit human CAPTCHA confirmation; authenticated /en/tsp-dashboard verified."
+    },
+    {
+      "check": "Apply Form access",
+      "status": "Pass",
+      "actual": "/en/tsp-registration-form shows Step 1 of 8, completion 0%."
+    },
+    {
+      "check": "Category selection",
+      "status": "Pass",
+      "actual": "Experienced TSP and Start-Up / Green Shoot TSP each selectable; Selected indication moves to chosen card. No added fields observed on switching."
+    },
+    {
+      "check": "TSP dropdown selection",
+      "status": "Pass",
+      "actual": "Tour Operator selected successfully; 11 non-placeholder options observed."
+    },
+    {
+      "check": "Dropdown accessible label and required state",
+      "status": "Fail",
+      "actual": "Visible Select TSP Type * label, but select has no associated label, id, aria-label, required or aria-required. Backend required validation not tested."
+    },
+    {
+      "check": "Unavailable step accessibility",
+      "status": "Fail",
+      "actual": "Steps 2?8 have disabled CSS class but disabled=false, no aria-disabled and tabIndex=0. Clicking each retains Step 1 with no visible explanation."
+    },
+    {
+      "check": "Desktop layout",
+      "status": "Pass",
+      "actual": "Reviewed section screenshot at 1366x900; labels and controls readable without horizontal overflow. No mobile claim."
+    },
+    {
+      "check": "Required-field validation and boundary testing",
+      "status": "Not Tested",
+      "actual": "No text fields visible. Save & Continue not clicked because saving is prohibited."
+    },
+    {
+      "check": "Back/forward data persistence",
+      "status": "Blocked",
+      "actual": "No non-saving route to another section. Selection remained on Step 1 after attempted section links; this does not establish cross-section persistence."
+    }
+  ],
+  "diagnostics": {
+    "console_errors": [],
+    "failed_network_requests": [],
+    "scope": "Only observed category selection, dropdown selection and first attempted step navigation; not a whole-session clean-health claim."
+  },
+  "restrictions_observed": "No drafts, uploads, application submissions, workflow actions, pytest, automation development or report generation. Existing shared configuration/tests/.env unchanged.",
+  "unsaved_ui_state": "Start-Up / Green Shoot TSP; Tour Operator. No save action performed."
+}

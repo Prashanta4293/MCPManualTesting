@@ -1,0 +1,33 @@
+{
+  "target_url": "https://apptourlfr-stg.estpl.net/en/home",
+  "phase": "2A and partial 2B",
+  "checks": [
+    {
+      "check": "MCP availability",
+      "status": "Pass",
+      "actual": "Browser navigation and read-only inspection tools returned successfully."
+    },
+    {
+      "check": "Exact UAT home",
+      "status": "Pass",
+      "actual": "https://apptourlfr-stg.estpl.net/en/home loaded with Odisha Tourism home title. No environment switch."
+    },
+    {
+      "check": "Profile popup and TSP selection",
+      "status": "Pass",
+      "actual": "User icon opened the login popup. Visible roles: Visitor, Hotelier, TSP. TSP selected; internal role value Travel Agent."
+    },
+    {
+      "check": "Secure TSP authentication",
+      "status": "Blocked",
+      "actual": "No TSP-specific credentials configured in project-root .env or process environment. Existing private helper is Visitor-specific. No credentials entered, CAPTCHA solved, or login submitted."
+    },
+    {
+      "check": "Apply Form and eight sections",
+      "status": "Blocked",
+      "actual": "Authentication prerequisite unmet. Section names/order and all fields, validation, navigation, persistence and layout checks remain Not Tested. No names inferred."
+    }
+  ],
+  "login_attempts": 0,
+  "automation_developed": false
+}

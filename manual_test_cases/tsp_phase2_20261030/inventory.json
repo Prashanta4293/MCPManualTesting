@@ -1,0 +1,114 @@
+{
+  "executionDate": "2026-10-30",
+  "mode": "MCP-assisted manual; no pytest or automation development",
+  "entryUrl": "https://apptourlfr-stg.estpl.net/en/home",
+  "testedUrl": "https://apptourlfr-stg.estpl.net/en/tsp-registration-form",
+  "authorization": "User explicitly allowed saving test draft data; no uploads or final submission.",
+  "login": {
+    "status": "Pass",
+    "loginClicks": 1,
+    "verification": "Signed-in session, /en/tsp-dashboard, login hidden, no error page. Initial post-click observation interrupted by navigation; verification retried without another login click."
+  },
+  "sections": [
+    {
+      "name": "Application Type",
+      "status": "Pass",
+      "scope": "Tested category/type selection and empty required validation only.",
+      "actual": "Empty Save & Continue showed Please select Application Category / Please select Type of TSP. Start-Up / Green Shoot TSP and Tour Operator advanced to Applicant Details.",
+      "evidence": "step1-validation.png; section-1.png"
+    },
+    {
+      "name": "Applicant Details",
+      "status": "Fail",
+      "scope": "Partial field/validation/navigation inspection; accessibility defect.",
+      "actual": "Empty required errors displayed. Invalid mobile, email and PAN rejected. Others reveals Specify Constitution. Unchecking same-address reveals separate address fields. Test data accepted. Applicant name persisted after Back; unsaved website persisted across step links without saving and was restored to blank.",
+      "constraints": "Name maxlength150; address200; block/ward/village100; mobile10; email100; PAN10; GST15; incorporation21. Establishment date min1900-01-01 max2026-10-30. Attributes inspected; exhaustive boundary execution not performed.",
+      "evidence": "step2-validation.png; step2-invalid-format.png; section-2.png"
+    },
+    {
+      "name": "Office Details",
+      "status": "Pass",
+      "scope": "Tested service validation and conditional office fields; other numeric boundaries not executed.",
+      "actual": "At least one service required. Office Yes reveals address, area, ownership. Empty office address and area rejected. Other adds Other Ownership. Tour Packages and Office No allowed progression.",
+      "constraints": "Experience maxlength2, capital10, turnover15; observed attributes only.",
+      "evidence": "step3-validation.png; section-3.png"
+    },
+    {
+      "name": "HR & Certification",
+      "status": "Pass",
+      "scope": "Required staff and conditional certification checks; uploads not tested.",
+      "actual": "Empty Add Staff rejects missing name/designation; empty staff list blocks progression. IITTM Yes reveals certificate uploader. Added UAT Test Staff / UAT Test Tour Manager with No certification and no files. Staff retained after Back and forward.",
+      "observation": "At initial successful add, prior add-at-least-one-staff message remained in immediate DOM text; disappeared after navigation. Potential stale validation message, not reproduced as a persistent defect.",
+      "evidence": "step4-validation.png; step4-staff.png; section-4.png"
+    },
+    {
+      "name": "Transport Details",
+      "status": "Pass",
+      "scope": "Conditional fields and empty Add Vehicle validation only; no vehicle saved.",
+      "actual": "Yes exposes type, registration, capacity, ownership. Empty add rejected all four. Ownership options Owned/Leased/Hired/Other. No allowed progression to Documents.",
+      "constraints": "Capacity input number, min1. Boundary input not executed.",
+      "evidence": "step5-validation.png; section-5.png"
+    },
+    {
+      "name": "Documents",
+      "status": "Pass",
+      "scope": "Checklist and required-document navigation gate only. Upload behavior NOT TESTED.",
+      "actual": "0 of 11 applicable files, 0% upload progress. Save & Continue disabled with title Upload all required documents to continue. Native disabled button prevented attempted click; no forced click or bypass. Links to Declaration/Preview leave Documents active.",
+      "constraints": "Displayed general max5MB PDF/JPG/PNG; Any Other Supporting Document PDF max1MB. No accept attribute set on file inputs; actual file validation untested.",
+      "evidence": "step6-required-documents.png; section-6.png"
+    },
+    {
+      "name": "Declaration",
+      "status": "Blocked",
+      "actual": "Visible section link does not advance from Documents. Required uploads prohibited; contents not inspected.",
+      "evidence": "observations.json documentGate/navigation"
+    },
+    {
+      "name": "Preview & Submit",
+      "status": "Blocked",
+      "actual": "Visible section link does not advance from Documents. Required uploads prohibited; contents not inspected; no submission.",
+      "evidence": "observations.json documentGate/navigation"
+    }
+  ],
+  "defects": [
+    {
+      "id": "TSP-20261030-01",
+      "severity": "Medium",
+      "status": "Confirmed",
+      "description": "Applicant controls lack associated HTML labels and aria-label; starred fields lack native required and aria-required semantics. Visible labels/asterisks exist; application validation works for tested required fields. Full accessible-name computation and screen-reader testing not performed.",
+      "evidence": "observations.json navigation.accessibility; section-2.png"
+    },
+    {
+      "id": "TSP-20261030-02",
+      "severity": "Medium",
+      "status": "Confirmed",
+      "description": "Unavailable Declaration and Preview step buttons use disabled CSS only; disabled=false and aria-disabled absent. Normal clicks remain on current section without explanation.",
+      "evidence": "observations.json documentGate.steps/navigation"
+    }
+  ],
+  "sectionCounts": {
+    "total": 8,
+    "passWithinTestedScope": 5,
+    "fail": 1,
+    "blocked": 2,
+    "notTestedSections": 0
+  },
+  "limitations": [
+    "Partial exploratory coverage, not full validation of each section.",
+    "Uploads, file-size/type enforcement, declaration, preview, final submission and workflow not executed.",
+    "No server-side persistence across reload or a new session verified. Save & Continue used; UI navigation observed, no API payload inspection.",
+    "Console errors and failed network requests not instrumented in this resumed inspection; no claim of a clean browser log.",
+    "Desktop horizontal overflow checked; no mobile or full keyboard/screen-reader audit.",
+    "Returning from Transport via Documents step link did not advance once; Save & Continue reopened Documents. Recorded as navigation observation, not a confirmed defect."
+  ],
+  "finalState": {
+    "section": "Documents",
+    "completion": "63%",
+    "draftActionsUsed": true,
+    "uploads": 0,
+    "applicationSubmitted": false,
+    "testStaffCount": 1,
+    "syntheticApplicant": "UAT TEST ONLY - TSP Inspection 20261030"
+  },
+  "filesChanged": "Only new manual evidence/inventory files under manual_test_cases/tsp_phase2_20261030. Existing tests, shared configuration, .env and dependencies unchanged."
+}

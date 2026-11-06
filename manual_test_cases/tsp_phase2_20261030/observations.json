@@ -1,0 +1,849 @@
+{
+  "step2": {
+    "step": "Applicant Details",
+    "emptyValidation": "Part A - Applicant Details - Provide the basic details of the applicant / tourism service provider.\nBASIC INFORMATION\nName of TSP / Applicant / Firm *\n\nName of TSP / Applicant / Firm is required.\n\nConstitution of Enterprise *\n- Select -\nProprietorship\nPartnership\nLLP\nCompany\nOthers\n\nConstitution is required.\n\nRegistered Office Address\nAddress Line 1 *\n\nAddress line 1 is required.\n\nDistrict *\n- Select District -\nAngul\nBalasore\nBargarh\nBhadrak\nBolangir\nBoudh\nCuttack\nDeogarh\nDhenkanal\nGajapati\nGanjam\nJagatsinghpur\nJajpur\nJharsuguda\nKalahandi\nKandhamal\nKendrapara\nKeonjhar\nKhurda\nKoraput\nMalkangiri\nMayurbhanj\nNabarangpur\nNayagarh\nNuapada\nPuri\nRayagada\nSambalpur\nSubarnapur\nSundargarh\n\nRegistered district is required.\n\nBlock/ULB *\n\nBlock / ULB is required.\n\nGP/Ward *\n\nGP / Ward is required.\n\nVillage *\n\nVillage is required.\n\nCommunication Address\nSame as Registered Office\nSame as Registered Office Address\nCONTACT DETAILS\nMobile Number *\n\nMobile number is required.\n\nE-mail ID *\n\nE-mail ID is required.\n\nWebsite\nIDENTIFICATION DETAILS\nPAN Number *\n\nValid PAN is required.\n\nGSTIN\n\n15-character GST Identification Number (if applicable)\n\nCertificate of Incorporation / Udyam / Startup Recognition Number\n\n21-character CIN, Udyam number or Startup India (DIPP) number\n\nDate of Establishment *\n\nDate of establishment is required.",
+    "conditionalContent": "Part A - Applicant Details - Provide the basic details of the applicant / tourism service provider.\nBASIC INFORMATION\nName of TSP / Applicant / Firm *\n\nName of TSP / Applicant / Firm is required.\n\nConstitution of Enterprise *\n- Select -\nProprietorship\nPartnership\nLLP\nCompany\nOthers\n\nConstitution is required.\n\nSpecify Constitution *\nRegistered Office Address\nAddress Line 1 *\n\nAddress line 1 is required.\n\nDistrict *\n- Select District -\nAngul\nBalasore\nBargarh\nBhadrak\nBolangir\nBoudh\nCuttack\nDeogarh\nDhenkanal\nGajapati\nGanjam\nJagatsinghpur\nJajpur\nJharsuguda\nKalahandi\nKandhamal\nKendrapara\nKeonjhar\nKhurda\nKoraput\nMalkangiri\nMayurbhanj\nNabarangpur\nNayagarh\nNuapada\nPuri\nRayagada\nSambalpur\nSubarnapur\nSundargarh\n\nRegistered district is required.\n\nBlock/ULB *\n\nBlock / ULB is required.\n\nGP/Ward *\n\nGP / Ward is required.\n\nVillage *\n\nVillage is required.\n\nCommunication Address\nSame as Registered Office\nAddress Line 1 *\nDistrict *\n- Select District -\nAngul\nBalasore\nBargarh\nBhadrak\nBolangir\nBoudh\nCuttack\nDeogarh\nDhenkanal\nGajapati\nGanjam\nJagatsinghpur\nJajpur\nJharsuguda\nKalahandi\nKandhamal\nKendrapara\nKeonjhar\nKhurda\nKoraput\nMalkangiri\nMayurbhanj\nNabarangpur\nNayagarh\nNuapada\nPuri\nRayagada\nSambalpur\nSubarnapur\nSundargarh\nBlock/ULB *\nGP/Ward *\nVillage *\nCONTACT DETAILS\nMobile Number *\n\nMobile number is required.\n\nE-mail ID *\n\nE-mail ID is required.\n\nWebsite\nIDENTIFICATION DETAILS\nPAN Number *\n\nValid PAN is required.\n\nGSTIN\n\n15-character GST Identification Number (if applicable)\n\nCertificate of Incorporation / Udyam / Startup Recognition Number\n\n21-character CIN, Udyam number or Startup India (DIPP) number\n\nDate of Establishment *\n\nDate of establishment is required.",
+    "inputs": [
+      {
+        "type": "text",
+        "placeholder": "Full legal name of the firm or applicant",
+        "maxLength": 150
+      },
+      {
+        "type": "text",
+        "placeholder": "Specify constitution type",
+        "maxLength": -1
+      },
+      {
+        "type": "text",
+        "placeholder": "Flat / House No., Street, Locality",
+        "maxLength": 200
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Block / ULB",
+        "maxLength": 100
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Gram Panchayat / Ward",
+        "maxLength": 100
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Village",
+        "maxLength": 100
+      },
+      {
+        "type": "checkbox",
+        "placeholder": "",
+        "maxLength": -1
+      },
+      {
+        "type": "text",
+        "placeholder": "Flat / House No., Street, Locality",
+        "maxLength": 200
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Block / ULB",
+        "maxLength": 100
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Gram Panchayat / Ward",
+        "maxLength": 100
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Village",
+        "maxLength": 100
+      },
+      {
+        "type": "tel",
+        "placeholder": "10-digit mobile number",
+        "maxLength": 10
+      },
+      {
+        "type": "email",
+        "placeholder": "contact@example.com",
+        "maxLength": 100
+      },
+      {
+        "type": "url",
+        "placeholder": "https://www.example.com",
+        "maxLength": -1
+      },
+      {
+        "type": "text",
+        "placeholder": "AAAPL0000A",
+        "maxLength": 10
+      },
+      {
+        "type": "text",
+        "placeholder": "21AAAPL0000A1Z5",
+        "maxLength": 15
+      },
+      {
+        "type": "text",
+        "placeholder": "e.g. U63040OR2015PTC012345",
+        "maxLength": 21
+      },
+      {
+        "type": "date",
+        "placeholder": "",
+        "maxLength": -1
+      }
+    ]
+  },
+  "step2invalid": {
+    "step": "Applicant Details",
+    "validation": "Part A - Applicant Details - Provide the basic details of the applicant / tourism service provider.\nBASIC INFORMATION\nName of TSP / Applicant / Firm *\nConstitution of Enterprise *\n- Select -\nProprietorship\nPartnership\nLLP\nCompany\nOthers\nRegistered Office Address\nAddress Line 1 *\nDistrict *\n- Select District -\nAngul\nBalasore\nBargarh\nBhadrak\nBolangir\nBoudh\nCuttack\nDeogarh\nDhenkanal\nGajapati\nGanjam\nJagatsinghpur\nJajpur\nJharsuguda\nKalahandi\nKandhamal\nKendrapara\nKeonjhar\nKhurda\nKoraput\nMalkangiri\nMayurbhanj\nNabarangpur\nNayagarh\nNuapada\nPuri\nRayagada\nSambalpur\nSubarnapur\nSundargarh\nBlock/ULB *\nGP/Ward *\nVillage *\nCommunication Address\nSame as Registered Office\nSame as Registered Office Address\nCONTACT DETAILS\nMobile Number *\n\nEnter a valid 10-digit mobile number starting with 6, 7, 8 or 9.\n\nE-mail ID *\n\nEnter a valid e-mail address (e.g. name@example.com).\n\nWebsite\nIDENTIFICATION DETAILS\nPAN Number *\n\nValid PAN is required.\n\nGSTIN\n\n15-character GST Identification Number (if applicable)\n\nCertificate of Incorporation / Udyam / Startup Recognition Number\n\n21-character CIN, Udyam number or Startup India (DIPP) number\n\nDate of Establishment *"
+  },
+  "step3": {
+    "step": "Office Details",
+    "content": "OPERATIONAL INFORMATION\nYears of Operational Experience\nPaid-Up Capital (₹)\n₹\nAnnual Turnover - preceding FY (₹)\n₹\nAREA OF OPERATIONS\nSelect the geographic area of operation.\nState\nNational\nInternational\nNATURE OF TOURISM SERVICES OFFERED *\nSelect all services offered by your organisation.\nTour Packages\nHotel / Accommodation Booking\nTransport & Transfers\nAdventure Activities\nWildlife Tourism\nHeritage & Cultural Tours\nEco Tourism\nCruise & Boat Tourism\nMedical Tourism\nMICE (Meetings, Incentives, Conferences & Exhibitions)\nOther Services\nOFFICE SPACE DETAILS\nOffice Space Available? *\nYes\nNo",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. 5",
+        "min": "",
+        "max": "",
+        "maxLength": 2
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Amount in rupees",
+        "min": "",
+        "max": "",
+        "maxLength": 10
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Amount in rupees",
+        "min": "",
+        "max": "",
+        "maxLength": 15
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      }
+    ]
+  },
+  "step3validation": {
+    "applicantPersisted": true,
+    "emptyValidation": "OPERATIONAL INFORMATION\nYears of Operational Experience\nPaid-Up Capital (₹)\n₹\nAnnual Turnover - preceding FY (₹)\n₹\nAREA OF OPERATIONS\nSelect the geographic area of operation.\nState\nNational\nInternational\nNATURE OF TOURISM SERVICES OFFERED *\nSelect all services offered by your organisation.\nTour Packages\nHotel / Accommodation Booking\nTransport & Transfers\nAdventure Activities\nWildlife Tourism\nHeritage & Cultural Tours\nEco Tourism\nCruise & Boat Tourism\nMedical Tourism\nMICE (Meetings, Incentives, Conferences & Exhibitions)\nOther Services\n\nPlease select at least one service.\n\nOFFICE SPACE DETAILS\nOffice Space Available? *\nYes\nNo",
+    "officeYesContent": "OPERATIONAL INFORMATION\nYears of Operational Experience\nPaid-Up Capital (₹)\n₹\nAnnual Turnover - preceding FY (₹)\n₹\nAREA OF OPERATIONS\nSelect the geographic area of operation.\nState\nNational\nInternational\nNATURE OF TOURISM SERVICES OFFERED *\nSelect all services offered by your organisation.\nTour Packages\nHotel / Accommodation Booking\nTransport & Transfers\nAdventure Activities\nWildlife Tourism\nHeritage & Cultural Tours\nEco Tourism\nCruise & Boat Tourism\nMedical Tourism\nMICE (Meetings, Incentives, Conferences & Exhibitions)\nOther Services\n\nPlease select at least one service.\n\nOFFICE SPACE DETAILS\nOffice Space Available? *\nYes\nNo\nOffice Address *\nArea of Office Space (Sq. Ft.) *\nOwnership Status *\n- Select -\nOwned\nLeased\nRented\nTie up with Recognised TSP\nOther",
+    "fields": [
+      {
+        "type": "text",
+        "placeholder": "e.g. 5"
+      },
+      {
+        "type": "text",
+        "placeholder": "Amount in rupees"
+      },
+      {
+        "type": "text",
+        "placeholder": "Amount in rupees"
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "checkbox",
+        "placeholder": ""
+      },
+      {
+        "type": "radio",
+        "placeholder": ""
+      },
+      {
+        "type": "radio",
+        "placeholder": ""
+      },
+      {
+        "type": "text",
+        "placeholder": "e.g. 500"
+      },
+      {
+        "type": "select-one",
+        "options": [
+          "- Select -",
+          "Owned",
+          "Leased",
+          "Rented",
+          "Tie up with Recognised TSP",
+          "Other"
+        ]
+      }
+    ]
+  },
+  "step4": {
+    "officeConditionalValidation": "OPERATIONAL INFORMATION\nYears of Operational Experience\nPaid-Up Capital (₹)\n₹\nAnnual Turnover - preceding FY (₹)\n₹\nAREA OF OPERATIONS\nSelect the geographic area of operation.\nState\nNational\nInternational\nNATURE OF TOURISM SERVICES OFFERED *\nSelect all services offered by your organisation.\nTour Packages\nHotel / Accommodation Booking\nTransport & Transfers\nAdventure Activities\nWildlife Tourism\nHeritage & Cultural Tours\nEco Tourism\nCruise & Boat Tourism\nMedical Tourism\nMICE (Meetings, Incentives, Conferences & Exhibitions)\nOther Services\nOFFICE SPACE DETAILS\nOffice Space Available? *\nYes\nNo\nOffice Address *\n\nOffice address is required.\n\nArea of Office Space (Sq. Ft.) *\n\nArea of office space is required.\n\nOwnership Status *\n- Select -\nOwned\nLeased\nRented\nTie up with Recognised TSP\nOther\nOther Ownership *",
+    "step": "HR & Certification",
+    "content": "Part B - Human Resource Details - Provide details of staff employed in tourism operations.\nADD STAFF DETAILS\nFill in staff name, qualification, designation, and certification details.\nStaff Name *\nQualification\nDesignation *\nQualification Certificate (Latest)\n\nDrag & drop here or Browse Files\n\nIITTM TSP Certification\nIs IITTM Certified?\nYes\nNo\nAdd Staff Member\nSTAFF DETAILS\nList of staff members and their qualification / certification documents.\n\nNo staff members added yet",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Full name of staff",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. B.Sc. Computer Science",
+        "min": "",
+        "max": "",
+        "maxLength": 100
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. Tour Manager",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "placeholder": "",
+        "min": "",
+        "max": "",
+        "maxLength": -1
+      }
+    ]
+  },
+  "step5attempt": {
+    "staffValidation": "Part B - Human Resource Details - Provide details of staff employed in tourism operations.\nADD STAFF DETAILS\nFill in staff name, qualification, designation, and certification details.\nStaff Name *\n\nName is required.\n\nQualification\nDesignation *\n\nDesignation is required.\n\nQualification Certificate (Latest)\n\nDrag & drop here or Browse Files\n\nIITTM TSP Certification\nIs IITTM Certified?\nYes\nNo\nAdd Staff Member\nSTAFF DETAILS\nList of staff members and their qualification / certification documents.\n\nNo staff members added yet",
+    "certificationYes": "Part B - Human Resource Details - Provide details of staff employed in tourism operations.\nADD STAFF DETAILS\nFill in staff name, qualification, designation, and certification details.\nStaff Name *\n\nName is required.\n\nQualification\nDesignation *\n\nDesignation is required.\n\nQualification Certificate (Latest)\n\nDrag & drop here or Browse Files\n\nIITTM TSP Certification\nIs IITTM Certified?\nYes\nNo\nUpload IITTM Certificate Document\n\nDrag & drop here or Browse Files\n\nAdd Staff Member\nSTAFF DETAILS\nList of staff members and their qualification / certification documents.\n\nNo staff members added yet",
+    "step": "HR & Certification",
+    "content": "Part B - Human Resource Details - Provide details of staff employed in tourism operations.\n\nPlease add at least one staff member (Staff Name and Designation are required).\n\nADD STAFF DETAILS\nFill in staff name, qualification, designation, and certification details.\nStaff Name *\nQualification\nDesignation *\nQualification Certificate (Latest)\n\nDrag & drop here or Browse Files\n\nIITTM TSP Certification\nIs IITTM Certified?\nYes\nNo\nAdd Staff Member\nSTAFF DETAILS\nList of staff members and their qualification / certification documents.\n\nNo staff members added yet",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Full name of staff",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. B.Sc. Computer Science",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. Tour Manager",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "placeholder": "",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "placeholder": "",
+        "accept": ""
+      }
+    ]
+  },
+  "step5": {
+    "staffAdded": "Part B - Human Resource Details - Provide details of staff employed in tourism operations.\n\nPlease add at least one staff member (Staff Name and Designation are required).\n\nADD STAFF DETAILS\nFill in staff name, qualification, designation, and certification details.\nStaff Name *\nQualification\nDesignation *\nQualification Certificate (Latest)\n\nDrag & drop here or Browse Files\n\nIITTM TSP Certification\nIs IITTM Certified?\nYes\nNo\nAdd Staff Member\nSTAFF DETAILS\nList of staff members and their qualification / certification documents.\nSL. NO.\tSTAFF NAME\tQUALIFICATION\tDESIGNATION\tQUALIFICATION CERTIFICATE (LATEST)\tIITTM TSP CERTIFICATION\tIITTM DOCUMENT\tACTIONS\n1\tUAT Test Staff\t-\tUAT Test Tour Manager\tNot Attached\tNo\tN/A\t\nEdit\nDelete",
+    "step": "Transport Details",
+    "content": "Part C - Tourist Transport Details\n\nThis section is applicable to Tourist Transport Operators only. If you are not a Tourist Transport Operator, select \"No\" to skip this section.\n\nTOURIST TRANSPORT OPERATOR\nAre you applying as a Tourist Transport Operator? *\nYes\nNo",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "maxLength": -1,
+        "min": "",
+        "max": "",
+        "accept": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "maxLength": -1,
+        "min": "",
+        "max": "",
+        "accept": ""
+      }
+    ]
+  },
+  "step5yes": {
+    "staffPersisted": true,
+    "step": "Transport Details",
+    "content": "Part C - Tourist Transport Details\n\nThis section is applicable to Tourist Transport Operators only. If you are not a Tourist Transport Operator, select \"No\" to skip this section.\n\nTOURIST TRANSPORT OPERATOR\nAre you applying as a Tourist Transport Operator? *\nYes\nNo\nADD VEHICLE / BOAT\nEnter details of the vehicle or boat.\nType of Vehicle / Boat *\nRegistration Number *\nCapacity *\nOwnership *\n- Select -\nOwned\nLeased\nHired\nOther\nAdd Vehicle\nVEHICLE / BOAT DETAILS\n0 vehicles / boats registered\n\nNo vehicles / boats added yet.",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "placeholder": "",
+        "min": "",
+        "max": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "e.g. Tourist Bus",
+        "min": "",
+        "max": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "OD-01-AB-1234",
+        "min": "",
+        "max": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "placeholder": "e.g. 12",
+        "min": "1",
+        "max": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "options": [
+          "- Select -",
+          "Owned",
+          "Leased",
+          "Hired",
+          "Other"
+        ]
+      }
+    ]
+  },
+  "step6": {
+    "vehicleValidation": "Part C - Tourist Transport Details\n\nThis section is applicable to Tourist Transport Operators only. If you are not a Tourist Transport Operator, select \"No\" to skip this section.\n\nTOURIST TRANSPORT OPERATOR\nAre you applying as a Tourist Transport Operator? *\nYes\nNo\nADD VEHICLE / BOAT\nEnter details of the vehicle or boat.\nType of Vehicle / Boat *\n\nType of vehicle / boat is required.\n\nRegistration Number *\n\nRegistration number is required.\n\nCapacity *\n\nCapacity is required.\n\nOwnership *\n- Select -\nOwned\nLeased\nHired\nOther\n\nOwnership is required.\n\nAdd Vehicle\nVEHICLE / BOAT DETAILS\n0 vehicles / boats registered\n\nNo vehicles / boats added yet.",
+    "ownershipOther": "Part C - Tourist Transport Details\n\nThis section is applicable to Tourist Transport Operators only. If you are not a Tourist Transport Operator, select \"No\" to skip this section.\n\nTOURIST TRANSPORT OPERATOR\nAre you applying as a Tourist Transport Operator? *\nYes\nNo\nADD VEHICLE / BOAT\nEnter details of the vehicle or boat.\nType of Vehicle / Boat *\n\nType of vehicle / boat is required.\n\nRegistration Number *\n\nRegistration number is required.\n\nCapacity *\n\nCapacity is required.\n\nOwnership *\n- Select -\nOwned\nLeased\nHired\nOther\n\nOwnership is required.\n\nAdd Vehicle\nVEHICLE / BOAT DETAILS\n0 vehicles / boats registered\n\nNo vehicles / boats added yet.",
+    "step": "Documents",
+    "content": "Part D - Document Checklist - Upload all required documents. Max 5 MB per file (PDF / JPG / PNG).\n0%\nDocument Upload Progress\n0 of 11 applicable documents uploaded\n0 Uploaded\n11 Pending\n0 N/A\nDOCUMENT CHECKLIST\n01\n\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\n\nRequired\nPending Upload\nView\nUpload\n02\n\nMemorandum of Association & Article of Association\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n03\n\nPAN Card\n\nRequired\nPending Upload\nView\nUpload\n04\n\nGST Registration Certificate\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n05\n\nAudited Balance Sheet / CA Certificate indicating Turnover\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n06\n\nCA Certified Net Worth Certificate\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n07\n\nIncome Tax Return of Current Assessment Year\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n08\n\nPrinted / Digital Brochure of the Agency\n\nRequired\nPending Upload\nView\nUpload\n09\n\nTraining Form / Certification Documents (if Any)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n10\n\nVehicle Details / Documents (for Tourist Transport Operators)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n11\n\nAny Other Supporting Document\n\n(Only PDF, Max 1 MB)\nOptional\nPending Upload\nView\nUpload\nNot Applicable",
+    "uploads": [
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      },
+      {
+        "accept": "",
+        "multiple": false
+      }
+    ]
+  },
+  "documentGate": {
+    "step": "Documents",
+    "progress": "Application Completion: 63%",
+    "nextDisabled": true,
+    "nextTitle": "Upload all required documents to continue.",
+    "steps": [
+      {
+        "name": "Application Type",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "Applicant Details",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "Office Details",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "HR & Certification",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "Transport Details",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "6\nDocuments",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step "
+      },
+      {
+        "name": "7\nDeclaration",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step disabled"
+      },
+      {
+        "name": "8\nPreview & Submit",
+        "disabled": false,
+        "ariaDisabled": null,
+        "class": "stepper-step disabled"
+      }
+    ],
+    "labels": [
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      },
+      {
+        "type": "file",
+        "associatedLabels": 1,
+        "ariaLabel": null
+      }
+    ]
+  },
+  "navigation": {
+    "laterNavigation": [
+      {
+        "requested": "Declaration",
+        "actual": "Documents"
+      },
+      {
+        "requested": "Preview & Submit",
+        "actual": "Documents"
+      }
+    ],
+    "unsavedWebsiteRetainedAcrossSections": true,
+    "accessibility": [
+      {
+        "type": "text",
+        "placeholder": "Full legal name of the firm or applicant",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "select-one",
+        "placeholder": null,
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "Flat / House No., Street, Locality",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "select-one",
+        "placeholder": null,
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Block / ULB",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Gram Panchayat / Ward",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "Enter Village",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "tel",
+        "placeholder": "10-digit mobile number",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "email",
+        "placeholder": "contact@example.com",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "url",
+        "placeholder": "https://www.example.com",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "AAAPL0000A",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "21AAAPL0000A1Z5",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "text",
+        "placeholder": "e.g. U63040OR2015PTC012345",
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      },
+      {
+        "type": "date",
+        "placeholder": null,
+        "labels": 0,
+        "ariaLabel": null,
+        "required": false,
+        "ariaRequired": null
+      }
+    ]
+  },
+  "sectionChecks": [
+    {
+      "section": "Application Type",
+      "actual": "Application Type",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    },
+    {
+      "section": "Applicant Details",
+      "actual": "Applicant Details",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    },
+    {
+      "section": "Office Details",
+      "actual": "Office Details",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    },
+    {
+      "section": "HR & Certification",
+      "actual": "HR & Certification",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    },
+    {
+      "section": "Transport Details",
+      "actual": "Transport Details",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    },
+    {
+      "section": "Documents",
+      "actual": "Transport Details",
+      "progress": "Application Completion: 63%",
+      "horizontalOverflow": false
+    }
+  ],
+  "documentsReturn": {
+    "before": "Transport Details",
+    "after": "Documents",
+    "progress": "Application Completion: 63%"
+  }
+}

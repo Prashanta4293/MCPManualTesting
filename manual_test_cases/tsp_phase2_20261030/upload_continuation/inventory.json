@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-30",
+  "url": "https://apptourlfr-stg.estpl.net/en/tsp-registration-form",
+  "authorization": "User authorized uploads from test_data/PDF files. Draft saving previously approved. Final submission remains prohibited.",
+  "status": "Manual upload and preview inspection completed within scope",
+  "uploads": [
+    {
+      "row": 1,
+      "document": "Certificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed",
+      "file": "test1.pdf",
+      "bytes": 797652,
+      "status": "Uploaded"
+    },
+    {
+      "row": 3,
+      "document": "PAN Card",
+      "file": "test2.pdf",
+      "bytes": 506327,
+      "status": "Uploaded"
+    },
+    {
+      "row": 4,
+      "document": "GST Registration Certificate",
+      "file": "test2.pdf",
+      "bytes": 506327,
+      "status": "Uploaded"
+    },
+    {
+      "row": 8,
+      "document": "Printed / Digital Brochure of the Agency",
+      "file": "test3.pdf",
+      "bytes": 671504,
+      "status": "Uploaded"
+    },
+    {
+      "row": 10,
+      "document": "Vehicle Details / Documents",
+      "file": "test3.pdf",
+      "bytes": 671504,
+      "status": "Uploaded"
+    }
+  ],
+  "notes": [
+    "Files are user-designated test fixtures, not verified documentary evidence of the synthetic applicant.",
+    "Initial file-input positional indexing shifted when upload controls re-rendered, so test2/test3 were also attached to GST and Vehicle rows. Required PAN and Brochure rows were then selected by stable row handler attributes. The two additional uploads remain in the draft; this is an execution mapping issue, not an application defect.",
+    "File signatures and sizes checked; PDF content authenticity not inspected.",
+    "Save & Continue in the earlier inspection did not establish the draft identifier required for uploading. Explicit Save Draft was necessary and triggered the queued uploads."
+  ],
+  "checks": [
+    {
+      "id": "TSP-UP-01",
+      "status": "Pass",
+      "expected": "Authorized PDFs upload after draft exists",
+      "actual": "Five rows show Uploaded; upload progress45%,5/11; required uploads unlock next step",
+      "evidence": "documents-uploaded.png"
+    },
+    {
+      "id": "TSP-UP-02",
+      "status": "Not Tested",
+      "expected": "Oversized supporting PDF rejected with clear validation",
+      "actual": "Sample_Test_1.1MB.pdf was selected for row11; row remained Pending Upload. No validation message captured. Rejection feedback could not be conclusively verified; not marked Pass.",
+      "evidence": "observations.json uploadBoundary/uploadComplete"
+    },
+    {
+      "id": "TSP-DECL-01",
+      "status": "Pass",
+      "expected": "Unchecked declaration blocks progression",
+      "actual": "Please accept the declaration displayed; section stayed Declaration",
+      "evidence": "declaration-validation.png"
+    },
+    {
+      "id": "TSP-DECL-02",
+      "status": "Pass",
+      "expected": "Checked declaration permits preview and remains checked on Back",
+      "actual": "Preview reached; checkbox retained when navigating back",
+      "evidence": "observations.json previewChecks"
+    },
+    {
+      "id": "TSP-PREV-01",
+      "status": "Pass",
+      "expected": "Preview shows previously entered test data and upload status",
+      "actual": "All seven summaries visible including synthetic applicant, one staff member, five uploads and accepted declaration",
+      "evidence": "preview.png"
+    },
+    {
+      "id": "TSP-PREV-02",
+      "status": "Pass",
+      "expected": "All seven Edit buttons open corresponding sections",
+      "actual": "Executed each Edit button; all seven destinations matched, returned to preview each time",
+      "evidence": "observations.json editLinks"
+    },
+    {
+      "id": "TSP-SUBMIT-01",
+      "status": "Not Tested",
+      "expected": "Final submission excluded by instruction",
+      "actual": "Final confirmation remains unchecked; Submit Application never clicked",
+      "evidence": "observations.json editLinks"
+    }
+  ],
+  "newConfirmedDefects": [],
+  "priorDefects": "Prior applicant accessibility and unavailable-step semantics findings remain recorded in parent inventory.",
+  "diagnostics": "Only initial queued-file selection call instrumented: 0 console errors,0 failed requests,0 HTTP>=400. Actual draft save/uploads and later navigation not instrumented; no full-session clean claim.",
+  "finalState": {
+    "section": "Preview & Submit",
+    "applicationProgress": "88%",
+    "uploadProgress": "45%",
+    "uploadedRows": 5,
+    "finalConfirmationChecked": false,
+    "submitted": false
+  },
+  "filesChanged": "Only manual inventory/evidence continuation; no tests, fixtures, dependencies, .env or shared configuration changed."
+}

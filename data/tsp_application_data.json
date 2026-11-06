@@ -1,0 +1,55 @@
+{
+  "home_url": "https://apptourlfr-stg.estpl.net/en/home",
+  "category": "Experienced TSP",
+  "tsp_type": "Tourist Transport Operator",
+  "applicant": {
+    "name": "UAT TEST ONLY - TSP Full Fields",
+    "constitution": "Others",
+    "constitution_other": "UAT test enterprise",
+    "registered_address": "UAT Test Office, Test Street",
+    "registered_district": "Khurda",
+    "registered_block": "UAT Test Block",
+    "registered_ward": "UAT Test Ward",
+    "registered_village": "UAT Test Village",
+    "communication_address": "UAT Communication Office, Test Road",
+    "communication_district": "Puri",
+    "communication_block": "UAT Communication Block",
+    "communication_ward": "UAT Communication Ward",
+    "communication_village": "UAT Communication Village",
+    "mobile": "9999999999",
+    "email": "tsp-automation@example.invalid",
+    "website": "https://example.invalid/tsp",
+    "pan": "AAAPL0000A",
+    "gstin": "21AAAPL0000A1Z5",
+    "incorporation": "U63040OR2015PTC012345",
+    "established": "2015-01-01"
+  },
+  "office": {
+    "experience": "10", "capital": "1000000", "turnover": "2500000",
+    "areas": ["State", "National", "International"],
+    "other_service": "UAT accessible tourism assistance",
+    "address": "UAT Test Operational Office, Test Road, Khurda",
+    "area": "1200", "ownership": "Other",
+    "other_ownership": "UAT test shared office agreement"
+  },
+  "staff": {
+    "name": "UAT Test Staff", "qualification": "Bachelor of Tourism Studies",
+    "designation": "UAT Test Tour Manager",
+    "qualification_file": "test_data/PDF files/test4.pdf",
+    "iittm_file": "test_data/PDF files/test5.pdf"
+  },
+  "vehicle": {"type": "Tourist Bus", "registration": "OD-01-AB-1234", "capacity": "12", "ownership": "Owned"},
+  "documents": {
+    "1": "test_data/PDF files/test1.pdf",
+    "2": "test_data/PDF files/test2.pdf",
+    "3": "test_data/PDF files/test2.pdf",
+    "4": "test_data/PDF files/test2.pdf",
+    "5": "test_data/PDF files/test3.pdf",
+    "6": "test_data/PDF files/test4.pdf",
+    "7": "test_data/PDF files/test5.pdf",
+    "8": "test_data/PDF files/test3.pdf",
+    "9": "test_data/PDF files/test4.pdf",
+    "10": "test_data/PDF files/test3.pdf",
+    "11": "test_data/PDF files/test2.pdf"
+  }
+}

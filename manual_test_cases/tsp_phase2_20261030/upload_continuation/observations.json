@@ -1,0 +1,114 @@
+{
+  "uploadBoundary": {
+    "dialogs": [],
+    "content": "Part D - Document Checklist - Upload all required documents. Max 5 MB per file (PDF / JPG / PNG).\n0%\nDocument Upload Progress\n0 of 11 applicable documents uploaded\n0 Uploaded\n11 Pending\n0 N/A\nDOCUMENT CHECKLIST\n01\n\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\n\nRequired\nPending Upload\nView\nUpload\n02\n\nMemorandum of Association & Article of Association\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n03\n\nPAN Card\n\nRequired\nPending Upload\nView\nUpload\n04\n\nGST Registration Certificate\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n05\n\nAudited Balance Sheet / CA Certificate indicating Turnover\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n06\n\nCA Certified Net Worth Certificate\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n07\n\nIncome Tax Return of Current Assessment Year\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n08\n\nPrinted / Digital Brochure of the Agency\n\nRequired\nPending Upload\nView\nUpload\n09\n\nTraining Form / Certification Documents (if Any)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n10\n\nVehicle Details / Documents (for Tourist Transport Operators)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n11\n\nAny Other Supporting Document\n\n(Only PDF, Max 1 MB)\nOptional\nPending Upload\nView\nUpload\nNot Applicable"
+  },
+  "boundaryMessage": {
+    "messages": []
+  },
+  "requiredUploads": {
+    "attempts": [
+      {
+        "index": 0,
+        "file": "test1.pdf"
+      },
+      {
+        "index": 2,
+        "file": "test2.pdf"
+      },
+      {
+        "index": 7,
+        "file": "test3.pdf"
+      }
+    ],
+    "content": "Part D - Document Checklist - Upload all required documents. Max 5 MB per file (PDF / JPG / PNG).\n0%\nDocument Upload Progress\n0 of 11 applicable documents uploaded\n0 Uploaded\n11 Pending\n0 N/A\nDOCUMENT CHECKLIST\n01\n\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\n\nRequired\nSave Draft To Upload\ntest1.pdf\nPlease save the draft first using the \"Save Draft\" button. This file will then upload, or click Retry Upload.\nView\nRetry Upload\nRemove\n02\n\nMemorandum of Association & Article of Association\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n03\n\nPAN Card\n\nRequired\nPending Upload\nView\nUpload\n04\n\nGST Registration Certificate\n\nAs Applicable\nSave Draft To Upload\ntest2.pdf\nPlease save the draft first using the \"Save Draft\" button. This file will then upload, or click Retry Upload.\nView\nRetry Upload\nRemove\n05\n\nAudited Balance Sheet / CA Certificate indicating Turnover\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n06\n\nCA Certified Net Worth Certificate\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n07\n\nIncome Tax Return of Current Assessment Year\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n08\n\nPrinted / Digital Brochure of the Agency\n\nRequired\nPending Upload\nView\nUpload\n09\n\nTraining Form / Certification Documents (if Any)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n10\n\nVehicle Details / Documents (for Tourist Transport Operators)\n\nAs Applicable\nSave Draft To Upload\ntest3.pdf\nPlease save the draft first using the \"Save Draft\" button. This file will then upload, or click Retry Upload.\nView\nRetry Upload\nRemove\n11\n\nAny Other Supporting Document\n\n(Only PDF, Max 1 MB)\nOptional\nPending Upload\nView\nUpload\nNot Applicable",
+    "nextDisabled": true,
+    "diagnostics": {
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": []
+    }
+  },
+  "saveForUpload": {
+    "step": "Documents",
+    "content": "STEP 6 OF 8\nDocuments\nPart D - Document Checklist - Upload all required documents. Max 5 MB per file (PDF / JPG / PNG).\n36%\nDocument Upload Progress\n4 of 11 applicable documents uploaded\n4 Uploaded\n7 Pending\n0 N/A\nDOCUMENT CHECKLIST\n01\n\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\n\nRequired\n- Uploaded\ntest1.pdf\nView\nRemove\n02\n\nMemorandum of Association & Article of Association\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n03\n\nPAN Card\n\nRequired\n- Uploaded\ntest2.pdf\nView\nRemove\n04\n\nGST Registration Certificate\n\nAs Applicable\n- Uploaded\ntest2.pdf\nView\nRemove\n05\n\nAudited Balance Sheet / CA Certificate indicating Turnover\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n06\n\nCA Certified Net Worth Certificate\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n07\n\nIncome Tax Return of Current Assessment Year\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n08\n\nPrinted / Digital Brochure of the Agency\n\nRequired\n- Uploaded\ntest3.pdf\nView\nRemove\n09\n\nTraining Form / Certification Documents (if Any)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n10\n\nVehicle Details / Documents (for Tourist Transport Operators)\n\nAs Applicable\nUploading...\ntest3.pdf\nUploading 99%\nView\nCancel\n11\n\nAny Other Supporting Document\n\n(Only PDF, Max 1 MB)\nOptional\nPending Upload\nView\nUpload\nNot Applicable\nBack\nSaving...\nSave & Continue",
+    "dialogs": [
+      "\n  \n    Accessibility\n    \n      \n    \n  \n  \n    \n      \n        \n        BiggerText\n        \n      \n      \n        \n        SmallerText\n        \n      \n      \n        \n        Dark /Light\n      \n      \n        \n        InvertColors\n      \n      \n        \n        LetterSpacing\n        \n      \n      \n        \n        LineHeight\n        \n      \n      \n        \n        HideImages\n      \n      \n        \n        HighlightLinks\n      \n      \n        \n        BigCursor\n      \n      \n        \n        ScreenReader\n      \n    \n    \n       Reset All\n    \n  \n"
+    ]
+  },
+  "uploadComplete": {
+    "sizeMessages": [],
+    "nextDisabled": false,
+    "draftText": "Save Draft",
+    "content": "Part D - Document Checklist - Upload all required documents. Max 5 MB per file (PDF / JPG / PNG).\n45%\nDocument Upload Progress\n5 of 11 applicable documents uploaded\n5 Uploaded\n6 Pending\n0 N/A\nDOCUMENT CHECKLIST\n01\n\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\n\nRequired\n- Uploaded\ntest1.pdf\nView\nRemove\n02\n\nMemorandum of Association & Article of Association\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n03\n\nPAN Card\n\nRequired\n- Uploaded\ntest2.pdf\nView\nRemove\n04\n\nGST Registration Certificate\n\nAs Applicable\n- Uploaded\ntest2.pdf\nView\nRemove\n05\n\nAudited Balance Sheet / CA Certificate indicating Turnover\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n06\n\nCA Certified Net Worth Certificate\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n07\n\nIncome Tax Return of Current Assessment Year\n\nOptional\nPending Upload\nView\nUpload\nNot Applicable\n08\n\nPrinted / Digital Brochure of the Agency\n\nRequired\n- Uploaded\ntest3.pdf\nView\nRemove\n09\n\nTraining Form / Certification Documents (if Any)\n\nAs Applicable\nPending Upload\nView\nUpload\nNot Applicable\n10\n\nVehicle Details / Documents (for Tourist Transport Operators)\n\nAs Applicable\n- Uploaded\ntest3.pdf\nView\nRemove\n11\n\nAny Other Supporting Document\n\n(Only PDF, Max 1 MB)\nOptional\nPending Upload\nView\nUpload\nNot Applicable"
+  },
+  "declaration": {
+    "step": "Declaration",
+    "content": "STEP 7 OF 8\nDeclaration\n\nDECLARATION BY THE APPLICANT\n\nWe hereby solemnly declare that:\n\n1. The information furnished in this application form and the supporting documents submitted herewith is true, correct, and complete to the best of our knowledge and belief. No relevant information has been concealed or misrepresented.\n\n2. We understand that any false statement, misrepresentation, or suppression of material facts shall render this application liable to outright rejection, or shall result in cancellation of the recognition already granted, without prejudice to any other action that the Department of Tourism, Government of Odisha, may deem fit to initiate.\n\n3. We undertake to comply with all provisions of the Tourism Policy 2023 and the Tourism Service Provider (TSP) Guidelines 2026 issued by the Department of Tourism, Government of Odisha, and any amendments, circulars, or orders issued thereunder.\n\n4. We undertake to maintain the quality, standards, professional conduct, and integrity of tourism services as prescribed by the Department of Tourism, Government of Odisha, at all times.\n\n5. We agree to submit to periodic inspections, surprise checks, and audits as directed by the Department of Tourism, and undertake to cooperate fully with officers duly authorised to inspect the premises, records, and operations.\n\n6. We undertake not to engage in any activity that is illegal, unethical, or in any manner detrimental to the tourism industry or prejudicial to the reputation and image of Odisha as a tourist destination.\n\n7. We acknowledge that the recognition granted under the TSP Guidelines 2026 is subject to renewal and continued compliance with the prescribed norms and conditions, and that non-compliance may result in suspension or cancellation of recognition at the sole discretion of the competent authority.\n\n8. We have read and understood the TSP Guidelines 2026 and agree to be bound by the same unconditionally.\n\nI/We agree to the above declaration and certify that the information provided in this application is true and correct to the best of my/our knowledge and belief. *\nBack\nSave Draft\nSave & Continue",
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "placeholder": "",
+        "required": false,
+        "min": "",
+        "max": "",
+        "disabled": false
+      }
+    ]
+  },
+  "preview": {
+    "validation": "DECLARATION BY THE APPLICANT\n\nWe hereby solemnly declare that:\n\n1. The information furnished in this application form and the supporting documents submitted herewith is true, correct, and complete to the best of our knowledge and belief. No relevant information has been concealed or misrepresented.\n\n2. We understand that any false statement, misrepresentation, or suppression of material facts shall render this application liable to outright rejection, or shall result in cancellation of the recognition already granted, without prejudice to any other action that the Department of Tourism, Government of Odisha, may deem fit to initiate.\n\n3. We undertake to comply with all provisions of the Tourism Policy 2023 and the Tourism Service Provider (TSP) Guidelines 2026 issued by the Department of Tourism, Government of Odisha, and any amendments, circulars, or orders issued thereunder.\n\n4. We undertake to maintain the quality, standards, professional conduct, and integrity of tourism services as prescribed by the Department of Tourism, Government of Odisha, at all times.\n\n5. We agree to submit to periodic inspections, surprise checks, and audits as directed by the Department of Tourism, and undertake to cooperate fully with officers duly authorised to inspect the premises, records, and operations.\n\n6. We undertake not to engage in any activity that is illegal, unethical, or in any manner detrimental to the tourism industry or prejudicial to the reputation and image of Odisha as a tourist destination.\n\n7. We acknowledge that the recognition granted under the TSP Guidelines 2026 is subject to renewal and continued compliance with the prescribed norms and conditions, and that non-compliance may result in suspension or cancellation of recognition at the sole discretion of the competent authority.\n\n8. We have read and understood the TSP Guidelines 2026 and agree to be bound by the same unconditionally.\n\nI/We agree to the above declaration and certify that the information provided in this application is true and correct to the best of my/our knowledge and belief. *\n\nPlease accept the declaration.",
+    "step": "Preview & Submit",
+    "content": "STEP 8 OF 8\nPreview & Submit\nReview Application - Use the Edit button on each section to make corrections. Once submitted, changes can only be made if the application is returned.\n1\nAPPLICATION DETAILS\nEdit\nCategory\nStart-Up / Green Shoot TSP\nType of TSP\nTour Operator\n2\nAPPLICANT DETAILS\nEdit\nFirm / Applicant Name\nUAT TEST ONLY - TSP Inspection 20261030\nConstitution\nProprietorship\nRegistered Address\nUAT Test Office, Test Street\nVillage: UAT Test Village, GP/Ward: UAT Test Ward\nBlock/ULB: UAT Test Block, District: Khurda\nCommunication Address\nSame as registered address\nMobile\n9999999999\nE-mail\ntsp-uat-20261030@example.invalid\nWebsite\n-\nPAN\nAAAPL0000A\nGSTIN\n-\nIncorporation / Udyam / Startup No.\nNot provided\nDate of Establishment\n01 October 2026\n3\nBUSINESS & OFFICE DETAILS\nEdit\nYears of Experience\nNot provided\nPaid-Up Capital\nNot provided\nAnnual Turnover\nNot provided\nArea of Operations\n-\nServices Offered\nTour Packages\nOffice Space Available\nNo\n4\nHR & CERTIFICATION\nEdit\nTotal Staff\n1 member\nSL. NO.\tNAME\tQUALIFICATION\tDESIGNATION\tQUAL. CERTIFICATE\tIITTM CERTIFIED\tIITTM DOC\n1\tUAT Test Staff\t-\tUAT Test Tour Manager\t-\tNo\tN/A\n5\nTOURIST TRANSPORT DETAILS\nEdit\nTransport Operator\nNo\n6\nDOCUMENTS\nEdit\nCertificate of Incorporation / Udyam / Startup Registration Certificate / Partnership Deed\nUploaded\nMemorandum of Association & Article of Association\nPending\nPAN Card\nUploaded\nGST Registration Certificate\nUploaded\nAudited Balance Sheet / CA Certificate indicating Turnover\nPending\nCA Certified Net Worth Certificate\nPending\nIncome Tax Return of Current Assessment Year\nPending\nPrinted / Digital Brochure of the Agency\nUploaded\nTraining Form / Certification Documents (if Any)\nPending\nVehicle Details / Documents (for Tourist Transport Operators)\nUploaded\nAny Other Supporting Document\nPending\n7\nDECLARATION\nEdit\nDeclaration\nAccepted\nI confirm that I have reviewed all information and documents in this application and they are correct to the best of my knowledge. *\nBack\nSave Draft\nSubmit Application"
+  },
+  "previewChecks": {
+    "edits": [],
+    "finalCheckboxChecked": false,
+    "declarationRetained": true,
+    "step": "Preview & Submit",
+    "progress": "Application Completion: 88%",
+    "horizontalOverflow": false
+  },
+  "editLinks": {
+    "results": [
+      {
+        "editIndex": 1,
+        "destination": "Application Type",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 2,
+        "destination": "Applicant Details",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 3,
+        "destination": "Office Details",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 4,
+        "destination": "HR & Certification",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 5,
+        "destination": "Transport Details",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 6,
+        "destination": "Documents",
+        "returnedToPreview": true
+      },
+      {
+        "editIndex": 7,
+        "destination": "Declaration",
+        "returnedToPreview": true
+      }
+    ],
+    "finalCheckboxChecked": false,
+    "step": "Preview & Submit"
+  }
+}

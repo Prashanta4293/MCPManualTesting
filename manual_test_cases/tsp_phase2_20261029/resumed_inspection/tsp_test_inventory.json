@@ -1,0 +1,106 @@
+{
+  "mandatory_start_url": "https://apptourlfr-stg.estpl.net/en/home",
+  "tested_url": "https://apptourlfr-stg.estpl.net/en/tsp-registration-form",
+  "login": "Pass: one click after explicit human CAPTCHA confirmation in the fresh session; authenticated dashboard verified",
+  "apply_form_access": "Blocked",
+  "sections": [
+    {
+      "order": 1,
+      "section": "Application Type",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 2,
+      "section": "Applicant Details",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 3,
+      "section": "Office Details",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 4,
+      "section": "HR & Certification",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 5,
+      "section": "Transport Details",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 6,
+      "section": "Documents",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 7,
+      "section": "Declaration",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    },
+    {
+      "order": 8,
+      "section": "Preview & Submit",
+      "status": "Blocked",
+      "actual_result": "Existing application is under process; application UI blocks a new application until rejection or renewal eligibility. No workflow changes authorized.",
+      "section_name_source": "Previously observed visible eight-step navigation in this conversation; not newly accessible during resumed inspection",
+      "fields": "Not Tested",
+      "validation": "Not Tested",
+      "navigation_and_persistence": "Not Tested",
+      "layout": "Not Tested",
+      "evidence": "application-access-blocked.png"
+    }
+  ],
+  "data_changes": "None performed by assistant; no drafts, uploads, application submissions or approval/rejection actions",
+  "diagnostics": "No current console/network capture was installed before navigation; diagnostics not claimed as clean. Visible business-state restriction confirmed."
+}

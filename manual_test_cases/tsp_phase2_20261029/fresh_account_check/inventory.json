@@ -1,0 +1,64 @@
+{
+  "start_url": "https://apptourlfr-stg.estpl.net/en/home",
+  "tested_url": "https://apptourlfr-stg.estpl.net/en/tsp-registration-form",
+  "fresh_browser_context": true,
+  "credentials": "Reloaded privately from project-root .env; account change not independently established",
+  "login_status": "Pass",
+  "login_clicks": 1,
+  "captcha": "Entered manually; explicit confirmation received before login",
+  "access_status": "Blocked",
+  "actual_result": "Application already under process. New application permitted only after rejection or at renewal. Form hidden. This is expected under the user-confirmed one-application-per-user rule, not a defect.",
+  "sections": [
+    {
+      "order": 1,
+      "name": "Application Type",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 2,
+      "name": "Applicant Details",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 3,
+      "name": "Office Details",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 4,
+      "name": "HR & Certification",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 5,
+      "name": "Transport Details",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 6,
+      "name": "Documents",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 7,
+      "name": "Declaration",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    },
+    {
+      "order": 8,
+      "name": "Preview & Submit",
+      "status": "Blocked",
+      "field_validation_navigation_persistence": "Not Tested"
+    }
+  ],
+  "evidence": "access-blocked.png",
+  "diagnostics": "No console/network cleanliness claim; business-state restriction observed directly.",
+  "data_changes": "No drafts, uploads, application submissions or workflow actions."
+}

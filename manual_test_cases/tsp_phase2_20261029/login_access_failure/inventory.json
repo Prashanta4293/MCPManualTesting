@@ -1,0 +1,12 @@
+{
+  "login_status": "Fail",
+  "application_inspection": "Blocked",
+  "login_clicks": 1,
+  "captcha": "Manual entry explicitly confirmed",
+  "tested_url": "https://apptourlfr-stg.estpl.net/en/tsp-dashboard",
+  "actual_result": "Redirected to TSP dashboard URL, but visible heading Destination Unknown; Liferay signed-in state false after a 15-second wait. No visible login-field error.",
+  "root_cause": "Not established; do not infer incorrect password, CAPTCHA, account role or server configuration from this evidence alone.",
+  "sections": "All eight Blocked / Not Tested",
+  "evidence": "destination-unknown.png",
+  "data_changes": "None; no repeated login, drafts, uploads or submissions"
+}
