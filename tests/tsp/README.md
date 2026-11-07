@@ -1,26 +1,69 @@
-## Sequential source-preflight run - 6 November 2026
+## Eight-section sequential implementation - static review only
 
-The single entry point is `test_tsp_mcp_application.py::TestTSPApplicationFlow::test_tsp_sequential_flow`.
-The 69-record scenario mapping is `data/tsp_sequential_scenarios.json`.
-The previous 13 individual MCP entry points are replaced; passive assertions remain helpers.
-The separate positive test, page object and fixtures are unchanged in this phase.
+Entry point: `test_tsp_mcp_application.py::TestTSPApplicationFlow::test_tsp_sequential_flow`.
+Section/scenario helpers: `tests/tsp/sequential_flow_support.py`.
+Mapping: `data/tsp_sequential_scenarios.json` (69 stable records, including aliases).
 
-This is NOT yet an executable eight-section UI flow. The Application Type source
-preflight stops before browser/login/Apply: validation/save/reset handlers and
-persistence behavior are unknown. Later scenarios are NOT EXECUTED. There is no
-runtime switch to override the gate. Save Draft, uploads, retries and Final Submit
-are not enabled. Before enabling each section, establish its side effects and
-explicit authorization, safe cleanup/reset, exact assertions and manual CAPTCHA.
+All eight section methods now have ordered negative checks and guarded positive
+completion. Existing positive POM methods are composed, not modified. Applicant
+fill-only setup is separated from navigation to support one-invalid-field checks.
+Unsupported cases are explicitly reported with their existing reason; a missing
+business rule or status selector is never fabricated. A BLOCKED before-action
+contract can allow continued inspection. A failure or uncertain state stops the flow.
 
-Run only the exact node, with --confcutdir=tests/tsp -o addopts= -s --headed
---tsp-attended --reruns 0, no xdist, and a new --alluredir. Set
-TSP_SEQUENTIAL_RESULT_PATH to a new JSON file under artifacts. The execution ledger
-records scenario statuses; pytest/Allure represent the preflight safe stop as skipped.
-No screenshot is generated. Readiness classifications are not execution results.
+**Not runtime ready:** VERIFIED_CONTRACTS is deliberately empty. It can be changed
+only after reviewed source/UI evidence and explicit authorization, not via runtime
+environment flags. Current fresh-account status is unverified. The test asks for
+FRESH VERIFIED before requesting Playwright or opening any browser. Without it,
+it stops. Even confirmation alone cannot bypass the initialization contract gate.
+No complete eight-section success is claimed.
 
-Older positive/diagnostic documentation below is historical. Its unconditional
-Save Draft and visual screenshot descriptions are stale: current positive source
-has explicit upload blockers and generates only a black privacy placeholder.
+Implemented negative/passive helpers cover APP-001 (alias014),018,021,023,003,013,
+026,031,037,008 (alias043),010 (aliases051/052),060. Remaining IDs are explicit
+blocked requirements, not silent skips or stub passes. Exact empty/reset contracts
+and business validity remain prerequisites even where assertion code exists.
+Positive checkpoints POS-002..009 invoke guarded current POM functionality;
+certificate/document uploads retain their existing hard blocker. Save Draft is
+never introduced as a fallback and Final Submit is never activated.
+
+### Attended execution command (prepared, NOT run in this implementation phase)
+
+```powershell
+$env:PYTEST_ADDOPTS = ''
+.\venv\Scripts\python.exe -m pytest --confcutdir=tests/tsp tests/tsp/test_tsp_mcp_application.py::TestTSPApplicationFlow::test_tsp_sequential_flow -o addopts= -p no:cacheprovider -s --headed --tsp-attended --reruns 0 -n 0 --tb=short --alluredir=allure-results/tsp-sequential-REPLACE_WITH_UNIQUE_RUN_ID
+```
+
+One headed Chromium context is created only after preflight. A dynamically chosen
+loopback CDP endpoint is printed and saved to the new run directory. MCP must attach
+to that endpoint and verify it is the SAME browser before `MCP ATTACHED` confirmation.
+For example, the MCP Playwright code tool can use its browser type's
+`connectOverCDP(endpoint)` and inspect the resulting browser's context/page; do not
+use MCP's separate default tab for UAT. Do not close the shared browser through MCP.
+This bridge is implemented but NOT runtime verified; if attachment cannot be
+established, stop rather than proceed with a second application session.
+
+Existing login keeps CAPTCHA manual with terminal CONFIRM. Each section pauses
+for read-only MCP inspection and `MCP INSPECTED`. Navigation requires a reviewed
+contract and a section-specific `PROCEED SECTION` approval; no assumption that
+Save & Continue is non-persistent. Existing upload/state blockers remain in force.
+
+Runtime artifacts use a new timestamp/UUID directory under artifacts. Every
+scenario has expected/actual/status/reason in Allure and the JSON ledger. UI counts
+are tracked, not hard-coded. Aliases share a canonical result. Workbook updates
+occur only during a future execution; current-run cells match the ledger and
+previous outcomes are retained in remarks. Locked workbook leaves the ledger
+authoritative and reports synchronization as blocked. Reporting errors prevent an
+overall PASS. Safety gates appear as skipped Allure steps, never successful UI
+executions. The ledger is finalized after bounded browser cleanup. Failure evidence
+contains traceback frame chains and exception types, with messages, source lines,
+locals and private paths suppressed; this is not an unredacted traceback.
+No screenshots are captured: safe masking is not established. No black placeholder
+is presented as visual proof. Console/runtime/network evidence uses counts only.
+Bounded browser hold defaults to60seconds (maximum300); both closes are attempted.
+No retries, parallel execution, Visitor tests or shared fixture changes.
+
+The old positive/diagnostic material below is historical; current guarded source
+has precedence over stale descriptions of unconditional saves or visual screenshots.
 
 ---
 

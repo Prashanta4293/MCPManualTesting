@@ -39,9 +39,8 @@ def test_tsp_all_fields_without_submission(tsp_session, tsp_data):
         pass  # Optional reporting must not prevent the workflow from starting.
     outcome = 'INCOMPLETE'
     try:
-        form.confirm_fresh_account()
         form.login_attended()
-        form.open_fresh_application()
+        form.open_application()
         form.fill_all_sections()
         form.verify_preview()
         form.attach_safe_evidence('Preview privacy placeholder', required=True)

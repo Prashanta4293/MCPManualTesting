@@ -1,34 +1,26 @@
-"""Single sequential TSP entry point; currently stops at the source-evidence gate.
+"""One sequential TSP test, with eight section helpers and fail-closed action gates.
 
-No UI validation trigger has a verified write contract. The executed gate records
-BLOCKED; later scenarios remain NOT EXECUTED. This is not an implemented/passed
-full E2E. No workbook readiness flag can authorize a UI action.
+Static implementation is not execution evidence. Fresh-account preflight is manual;
+missing application handler/persistence contracts block before browser setup.
 """
 import json
+import math
 import os
+import socket
 import sys
-from pathlib import Path
 from datetime import datetime, timezone
+from pathlib import Path
+from uuid import uuid4
 
 import allure
 import pytest
-from playwright.sync_api import expect
+from dotenv import load_dotenv
 
-ROOT = Path(__file__).resolve().parents[2]
-INVENTORY = ROOT / 'data/tsp_sequential_scenarios.json'
-ENTRY_BLOCKER = (
-    'Application Type preflight BLOCKED: application initialization and #nextBtn '
-    'Save & Continue handler/API write ordering are not established. This may '
-    'create/update application selections, progress or a draft. No safe reset or '
-    'non-persistent validation trigger is verified. Stop before browser/login/Apply; '
-    'do not click Save & Continue or Save Draft. Source evidence and explicit '
-    'progression authorization are required.'
+from sequential_flow_support import (
+    FlowBlocked, ScenarioLedger, SequentialSections, confirm, require_contract,
 )
 
-
-def _blocked(reason):
-    # Fixed public messages only; used by retained passive helpers.
-    pytest.skip('BLOCKED: ' + reason)
+ROOT = Path(__file__).resolve().parents[2]
 
 
 @pytest.mark.tsp_application
@@ -38,107 +30,121 @@ def _blocked(reason):
 @allure.epic('Odisha Tourism')
 @allure.feature('Sequential TSP application')
 class TestTSPApplicationFlow:
-    @allure.title('TSP-SEQ-001 Sequential negative and positive section flow')
-    @allure.description('One ordered flow with source-evidence gates. No application '
-                        'operation is enabled until its side effects and scenario '
-                        'expectations are verified. Final submission is prohibited.')
+    @allure.title('TSP-SEQ-001 Eight-section sequential negative and positive flow')
     def test_tsp_sequential_flow(self, request):
-        # Intentionally no tsp_session/tsp_data fixture argument: the entry safety
-        # gate runs before any browser, credential loading or application setup.
-        inventory = json.loads(INVENTORY.read_text(encoding='utf-8'))
-        assert len(inventory['sections']) == 8
-        assert len({r['id'] for r in inventory['records']}) == len(inventory['records'])
-        self.results = [dict(r, status='NOT EXECUTED', actual='Not executed: sequential entry gate not cleared.',
-                             evidence='No UI evidence; no screenshot captured.')
-                        for r in inventory['records']]
-        self.stopping_point = 'Execution configuration preflight'
+        inventory = json.loads((ROOT / 'data/tsp_sequential_scenarios.json').read_text(encoding='utf-8'))
+        stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '-' + uuid4().hex[:8]
+        run_dir = ROOT / 'artifacts' / ('tsp-sequential-' + stamp)
+        run_dir.mkdir(parents=True, exist_ok=False)
+        ledger = ScenarioLedger(inventory, run_dir)
+        browser = context = page = None
         try:
             if os.getenv('PYTEST_XDIST_WORKER') or getattr(request.config.option, 'numprocesses', 0):
-                pytest.skip('BLOCKED: sequential attended flow prohibits parallel execution.')
+                raise FlowBlocked('Parallel execution is prohibited.')
             if getattr(request.config.option, 'reruns', 0):
-                pytest.skip('BLOCKED: sequential flow prohibits automatic retries.')
+                raise FlowBlocked('Automatic retries are prohibited.')
             if not request.config.getoption('--tsp-attended') or request.config.getoption('capture') != 'no':
-                pytest.skip('BLOCKED: attended flow requires --tsp-attended and -s.')
-            for section in inventory['sections']:
-                self.run_section(section)
-            # No false pass if future edits accidentally remove all section gates.
-            raise AssertionError('Sequential UI completion is not implemented or verified.')
+                raise FlowBlocked('Use --tsp-attended and -s for the attended flow.')
+            if os.getenv('DEBUG') or os.getenv('PWDEBUG'):
+                raise FlowBlocked('Disable debug logging before private login.')
+            confirm('An authorized administrator/read-only backend check must confirm '
+                    'the locally configured account has no application or draft in any status. '
+                    'If this is NOT verified, do not confirm.', 'FRESH VERIFIED')
+            # Opening Apply can initialize state. No browser needed to enforce this
+            # currently unverified source contract; no automatic override is offered.
+            require_contract('fresh-application-initialization')
+            data = request.getfixturevalue('tsp_data')
+            load_dotenv(ROOT / '.env', override=True)
+            if not all(os.getenv(k, '').strip() for k in ('TSP_EMAIL', 'TSP_PASSWORD')):
+                raise FlowBlocked('Required private TSP credential configuration missing.')
+            # Same Chromium browser for pytest and MCP, loopback CDP only. No shared
+            # fixture modification; credentials/traces/videos/screenshots never logged.
+            with socket.socket() as reservation:
+                reservation.bind(('127.0.0.1', 0))
+                port = reservation.getsockname()[1]
+            playwright = request.getfixturevalue('playwright')
+            browser = playwright.chromium.launch(headless=False, args=[
+                '--remote-debugging-address=127.0.0.1', '--remote-debugging-port=' + str(port)])
+            ledger.browser_started = True
+            context = browser.new_context(viewport={'width': 1366, 'height': 900})
+            page = context.new_page()
+            page.set_default_timeout(15000)
+            page.set_default_navigation_timeout(60000)
+            def count(key):
+                ledger.diagnostics[key] += 1
+            page.on('console', lambda msg: count('console_errors') if msg.type == 'error' else None)
+            page.on('pageerror', lambda _: count('runtime_errors'))
+            page.on('requestfailed', lambda _: count('failed_requests'))
+            endpoint = 'http://127.0.0.1:' + str(port)
+            (run_dir / 'mcp-endpoint.json').write_text(json.dumps({'endpoint': endpoint}), encoding='utf-8')
+            print('Headed pytest browser CDP endpoint: ' + endpoint, flush=True)
+            confirm('Attach MCP read-only to THIS endpoint and verify the same context/page. '
+                    'Do not open another UAT session or close the shared browser.', 'MCP ATTACHED')
+            flow = SequentialSections(page, data, ledger)
+            flow.form.fresh_account_confirmed = True
+            flow.form.login_attended()  # Existing CAPTCHA + terminal CONFIRM unchanged.
+            # Fresh-only helper refuses detected drafts, identity parameters and populated type.
+            flow.form.open_fresh_application()
+            flow.run()
+            if any(r['status'] == 'BLOCKED' for r in ledger.rows.values()):
+                raise FlowBlocked('Positive progression finished but blocked scenarios remain; no complete-suite success claimed.')
+            if any(r['status'] != 'PASS' for r in ledger.rows.values()):
+                raise FlowBlocked('Not all mapped scenarios were verified; no complete-suite success claimed.')
+            ledger.execution_status = 'PASS'
+        except FlowBlocked as exc:
+            ledger.execution_status = 'BLOCKED'
+            ledger.stop += ': ' + str(exc)
+            if not ledger.browser_started:
+                ledger.set('TSP-APP-001', 'BLOCKED', str(exc))
+            pytest.skip('BLOCKED: ' + str(exc))
         except pytest.skip.Exception:
+            ledger.execution_status = 'BLOCKED'
+            ledger.stop += ': attended/page-object safety stop'
             raise
-        except Exception:
-            raise AssertionError('Sequential flow failed; private details suppressed.') from None
+        except Exception as exc:
+            ledger.execution_status = 'FAIL'
+            ledger.capture_failure(exc, 'Sequential workflow')
+            ledger.stop += ': unexpected failure; private details suppressed; state uncertain'
+            raise AssertionError('Sequential TSP flow failed; private details suppressed. Do not retry persisted actions.') from None
         finally:
-            self.record_results()
-
-    def run_section(self, section):
-        """Order negative checks before positive completion; fail closed on missing contract."""
-        self.stopping_point = section + ' / before validation or navigation'
-        if section == 'Application Type':
-            with allure.step('TSP-APP-001: inspect required-selection execution prerequisites'):
-                for row in self.results:
-                    if row['canonical_id'] == 'TSP-APP-001':
-                        row['status'] = 'BLOCKED'
-                        row['actual'] = ENTRY_BLOCKER
-                        row['evidence'] = 'Source preflight only; neither required-field message was exercised.'
-                allure.attach(ENTRY_BLOCKER, 'Sanitized source-preflight blocker', allure.attachment_type.TEXT)
-                pytest.skip('BLOCKED: ' + ENTRY_BLOCKER)
-        # Defense in depth: no implicit fill_all_sections(), next_section(), upload,
-        # retry or save calls. Reaching a later section cannot authorize its actions.
-        pytest.skip('BLOCKED: section entry, validation/reset and persistence contract unverified.')
-
-    def record_results(self):
-        pending = sys.exc_info()[0] is not None
-        payload = {
-            'test': 'TestTSPApplicationFlow::test_tsp_sequential_flow',
-            'recorded_at_utc': datetime.now(timezone.utc).isoformat(),
-            'stopping_point': self.stopping_point,
-            'browser_started': False,
-            'ui_scenarios_executed': 0,
-            'note': 'Source-preflight execution only. Aliases are not additional test executions. '
-                    'Readiness is distinct from actual scenario status.',
-            'scenarios': self.results,
-        }
-        try:
-            body = json.dumps(payload, indent=2)
-            output = Path(os.environ['TSP_SEQUENTIAL_RESULT_PATH']).resolve()
-            assert output.is_relative_to((ROOT / 'artifacts').resolve())
-            output.parent.mkdir(parents=True, exist_ok=True)
-            # Never overwrite an earlier run's ledger.
-            with output.open('x', encoding='utf-8') as stream:
-                stream.write(body + '\n')
-            allure.attach(body, 'Scenario-level execution ledger (sanitized)', allure.attachment_type.JSON)
-        except Exception:
-            if not pending:
-                raise AssertionError('Sequential evidence recording failed; private details suppressed.') from None
-
-
-    def check_applicant_conditional_fields(self, form):
-        constitution = form.content.locator('select').first
-        same_address = form.content.locator('input[type=checkbox]')
-        if constitution.count() != 1 or same_address.count() != 1:
-            _blocked('Existing applicant control mapping is ambiguous.')
-        selected = constitution.evaluate('(e) => e.selectedOptions[0]?.textContent.trim() || ""')
-        if not constitution.input_value().strip():
-            _blocked('A constitution selection is required for this read-only conditional check.')
-        other = form.content.get_by_placeholder('Specify constitution type', exact=True)
-        if selected in ('Other', 'Others'):
-            expect(other).to_be_visible(timeout=5000)
-        else:
-            expect(other).not_to_be_visible(timeout=5000)
-        separate = not same_address.is_checked()
-        for placeholder in ('Flat / House No., Street, Locality', 'Enter Block / ULB', 'Enter Gram Panchayat / Ward', 'Enter Village'):
-            fields = form.content.get_by_placeholder(placeholder, exact=True)
-            expect(fields.first).to_be_visible(timeout=5000)
-            if separate:
-                expect(fields).to_have_count(2, timeout=5000)
-                expect(fields.nth(1)).to_be_visible(timeout=5000)
-            else:
-                expect(fields.nth(1)).not_to_be_visible(timeout=5000)
-
-    def check_form_accessibility(self, form):
-        name = form.content.get_by_placeholder('Full legal name of the firm or applicant', exact=True)
-        expect(name).to_have_count(1, timeout=5000)
-        expect(name).to_be_visible(timeout=5000)
-        semantics = name.evaluate("e => ({\n            labelled: !!(e.getAttribute('aria-label') || '').trim()\n                || [...(e.labels || [])].some(l => !!l.textContent.trim())\n                || (e.getAttribute('aria-labelledby') || '').split(/\\s+/).filter(Boolean)\n                    .some(id => !!document.getElementById(id)?.textContent.trim()),\n            required: e.required || e.getAttribute('aria-required') === 'true'\n        })")
-        assert semantics['labelled'], 'Applicant-name programmatic label is missing.'
-        assert semantics['required'], 'Applicant-name required semantics are missing.'
+            pending = sys.exc_info()[0] is not None
+            if pending and ledger.execution_status == 'NOT EXECUTED':
+                ledger.execution_status = 'INTERRUPTED'
+            try:
+                cleanup_failed = False
+                try:
+                    if page is not None and not page.is_closed():
+                        try:
+                            seconds = float(os.getenv('TSP_BROWSER_HOLD_SECONDS', '60'))
+                            if not math.isfinite(seconds) or seconds < 0:
+                                seconds = 60
+                        except ValueError:
+                            seconds = 60
+                        page.wait_for_timeout(min(seconds, 300) * 1000)
+                except Exception:
+                    cleanup_failed = True
+                finally:
+                    try:
+                        if context is not None:
+                            context.close()
+                    except Exception:
+                        cleanup_failed = True
+                    finally:
+                        try:
+                            if browser is not None:
+                                browser.close()
+                        except Exception:
+                            cleanup_failed = True
+            finally:
+                preserving_exception = pending or sys.exc_info()[0] is not None
+                if cleanup_failed:
+                    ledger.reporting_errors.append('Browser cleanup incomplete; private details suppressed.')
+                    if not pending:
+                        ledger.execution_status = 'FAIL'
+                try:
+                    ledger.finish()
+                except Exception:
+                    if not preserving_exception:
+                        raise AssertionError('Sequential reporting failed; private details suppressed.') from None
+                if not preserving_exception and (cleanup_failed or ledger.reporting_errors):
+                    raise AssertionError('Sequential reporting or cleanup failed; private details suppressed.') from None

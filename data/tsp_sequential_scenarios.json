@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "Sequential design mapping; classification is not execution status. No READY UI operations established.",
+  "scope": "Eight-section ordered orchestration plus evidenced scenario helpers. No UI action contract is currently verified. Source implementation is not execution evidence.",
   "sections": [
     "Application Type",
     "Applicant Details",
@@ -22,7 +22,10 @@
       "classification": "BLOCKED",
       "reason": "Aggregate E2E blocked by section entry/prerequisite gates; not an extra execution.",
       "source": "tests/tsp/test_tsp_application.py:21::test_tsp_all_fields_without_submission",
-      "positive_method": null
+      "positive_method": null,
+      "section_helper": null,
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-001",
@@ -34,7 +37,10 @@
       "classification": "BLOCKED",
       "reason": "Apply initialization and #nextBtn Save & Continue validation/save handlers unavailable; application/draft write ordering unknown. Stop before Apply, field changes or #nextBtn. No approved non-persistent validation trigger.",
       "source": "tests/tsp/test_tsp_mcp_application.py:106::test_application_type_required",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": "application_type / empty",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-002",
@@ -46,7 +52,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "tests/tsp/test_tsp_mcp_application.py:113::test_applicant_validation",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-003",
@@ -58,7 +67,10 @@
       "classification": "READY WITH CONDITIONS",
       "reason": "Passive UI assertions only after safely reaching the section; no field edits or setup allowed. Current entry gate is unresolved.",
       "source": "tests/tsp/test_tsp_mcp_application.py:120::test_applicant_conditional_fields",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "applicant_conditional_fields",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-004",
@@ -70,7 +82,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified.",
       "source": "tests/tsp/test_tsp_mcp_application.py:150::test_office_validation_and_selection",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-005",
@@ -82,7 +97,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "tests/tsp/test_tsp_mcp_application.py:157::test_staff_required_fields",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-006",
@@ -94,7 +112,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "tests/tsp/test_tsp_mcp_application.py:165::test_staff_qualification_iittm_no",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-007",
@@ -106,7 +127,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable.",
       "source": "tests/tsp/test_tsp_mcp_application.py:172::test_vehicle_validation",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-008",
@@ -118,7 +142,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "tests/tsp/test_tsp_mcp_application.py:179::test_documents_required_gate",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": "document_gate",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-009",
@@ -130,7 +157,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "tests/tsp/test_tsp_mcp_application.py:199::test_document_upload_validation",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-010",
@@ -142,7 +172,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "tests/tsp/test_tsp_mcp_application.py:206::test_declaration_validation",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": "declaration / unchecked",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-011",
@@ -154,7 +187,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "tests/tsp/test_tsp_mcp_application.py:213::test_preview_and_edit_navigation",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-012",
@@ -166,7 +202,10 @@
       "classification": "BLOCKED",
       "reason": "Resumed draft is excluded from the authorized fresh sequential cycle.",
       "source": "tests/tsp/test_tsp_mcp_application.py:221::test_resume_draft_without_duplicates",
-      "positive_method": null
+      "positive_method": null,
+      "section_helper": null,
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-013",
@@ -178,7 +217,10 @@
       "classification": "READY WITH CONDITIONS",
       "reason": "Passive UI assertions only after safely reaching the section; no field edits or setup allowed. Current entry gate is unresolved.",
       "source": "tests/tsp/test_tsp_mcp_application.py:228::test_form_accessibility",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "applicant_accessibility",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-014",
@@ -190,7 +232,10 @@
       "classification": "BLOCKED",
       "reason": "Apply initialization and #nextBtn Save & Continue validation/save handlers unavailable; application/draft write ordering unknown. Stop before Apply, field changes or #nextBtn. No approved non-persistent validation trigger.",
       "source": "pages/tsp_application_page.py:366::application_type (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261029/post_deployment_inspection/inventory.json:14-38,118-151; frontend handlers not located",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": "application_type / empty",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-015",
@@ -202,7 +247,10 @@
       "classification": "BLOCKED",
       "reason": "Apply initialization and #nextBtn Save & Continue validation/save handlers unavailable; application/draft write ordering unknown. Stop before Apply, field changes or #nextBtn. No approved non-persistent validation trigger.",
       "source": "pages/tsp_application_page.py:366::application_type (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261029/post_deployment_inspection/inventory.json:14-38,118-151; frontend handlers not located",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-016",
@@ -214,7 +262,10 @@
       "classification": "BLOCKED",
       "reason": "Apply initialization and #nextBtn Save & Continue validation/save handlers unavailable; application/draft write ordering unknown. Stop before Apply, field changes or #nextBtn. No approved non-persistent validation trigger.",
       "source": "pages/tsp_application_page.py:366::application_type (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261029/post_deployment_inspection/inventory.json:14-38,118-151; frontend handlers not located",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-017",
@@ -226,7 +277,10 @@
       "classification": "READY WITH CONDITIONS",
       "reason": "Passive UI assertions only after safely reaching the section; no field edits or setup allowed. Current entry gate is unresolved.",
       "source": "pages/tsp_application_page.py:366::application_type (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261029/post_deployment_inspection/inventory.json:14-38,118-151; frontend handlers not located",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-018",
@@ -238,7 +292,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "applicant_details / all_empty",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-019",
@@ -250,7 +307,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-020",
@@ -262,7 +322,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-021",
@@ -274,7 +337,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "field_negative",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-022",
@@ -286,7 +352,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-023",
@@ -298,7 +367,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "field_negative",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-024",
@@ -310,7 +382,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-025",
@@ -322,7 +397,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-026",
@@ -334,7 +412,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified.",
       "source": "pages/tsp_application_page.py:399::office (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": "office_empty_required",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-027",
@@ -346,7 +427,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:399::office (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-028",
@@ -358,7 +442,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified.",
       "source": "pages/tsp_application_page.py:399::office (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-029",
@@ -370,7 +457,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:399::office (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-030",
@@ -382,7 +472,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:399::office (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-031",
@@ -394,7 +487,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": "hr_certification / empty_staff",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-032",
@@ -406,7 +502,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-033",
@@ -418,7 +517,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-034",
@@ -430,7 +532,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; supplied HR screenshot missing-IITTM error, not handler source",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-035",
@@ -442,7 +547,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-036",
@@ -454,7 +562,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:468::staff (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-037",
@@ -466,7 +577,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": "transport_details / empty_vehicle",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-038",
@@ -478,7 +592,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-039",
@@ -490,7 +607,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-040",
@@ -502,7 +622,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-041",
@@ -514,7 +637,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-042",
@@ -526,7 +652,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:672::transport (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-043",
@@ -538,7 +667,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; tests/tsp/test_tsp_mcp_application.py::test_documents_required_gate: pending/error exclusion gap, not reusable as-is",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": "document_gate",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-044",
@@ -550,7 +682,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-045",
@@ -562,7 +697,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-046",
@@ -574,7 +712,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-047",
@@ -586,7 +727,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-048",
@@ -598,7 +742,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-049",
@@ -610,7 +757,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-050",
@@ -622,7 +772,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; tests/tsp/test_tsp_mcp_application.py::test_documents_required_gate: pending/error exclusion gap, not reusable as-is",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-051",
@@ -634,7 +787,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "pages/tsp_application_page.py:862::declaration (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": "declaration / unchecked",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-052",
@@ -646,7 +802,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "pages/tsp_application_page.py:862::declaration (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": "declaration / unchecked",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-APP-053",
@@ -658,7 +817,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "pages/tsp_application_page.py:862::declaration (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-054",
@@ -670,7 +832,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "pages/tsp_application_page.py:862::declaration (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-055",
@@ -682,7 +847,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-056",
@@ -694,7 +862,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited. Business requirement not established; no invented rejection assertion.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-057",
@@ -706,7 +877,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-058",
@@ -718,7 +892,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-059",
@@ -730,7 +907,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": null,
+      "implementation_note": "Explicit reasoned blocker/inventory coverage; no invented UI operation."
     },
     {
       "id": "TSP-APP-060",
@@ -742,7 +922,10 @@
       "classification": "READY WITH CONDITIONS",
       "reason": "Passive UI assertions only after safely reaching the section; no field edits or setup allowed. Current entry gate is unresolved.",
       "source": "pages/tsp_application_page.py:868::verify_preview (reference only; mutating positive method not safe setup); manual_test_cases/tsp_phase2_20261030/inventory.json; observations.json in same directory; manual_test_cases/tsp_phase2_20261030/upload_continuation/inventory.json and observations.json",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": "preview / passive_control",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-002",
@@ -754,7 +937,10 @@
       "classification": "BLOCKED",
       "reason": "Apply initialization and #nextBtn Save & Continue validation/save handlers unavailable; application/draft write ordering unknown. Stop before Apply, field changes or #nextBtn. No approved non-persistent validation trigger.",
       "source": "pages/tsp_application_page.py:366::application_type; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "application_type"
+      "positive_method": "application_type",
+      "section_helper": "application_type",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-003",
@@ -766,7 +952,10 @@
       "classification": "BLOCKED",
       "reason": "Safe preceding progression, field-change/reset autosave and validation-before-write behavior unverified; several text/conditional rules incomplete.",
       "source": "pages/tsp_application_page.py:373::applicant; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "applicant"
+      "positive_method": "applicant",
+      "section_helper": "applicant_details",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-004",
@@ -778,7 +967,10 @@
       "classification": "BLOCKED",
       "reason": "Save & Continue persistence and safe reset unknown; separate contact fields and some conditional/selection rules unverified.",
       "source": "pages/tsp_application_page.py:399::office; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "office"
+      "positive_method": "office",
+      "section_helper": "office_details",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-005",
@@ -790,7 +982,10 @@
       "classification": "BLOCKED",
       "reason": "Add/Edit may persist staff; safe reset, complete certificate status and duplicate-safe upload behavior unverified. No staff/attachment action authorized by this gate.",
       "source": "pages/tsp_application_page.py:468::staff; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "staff"
+      "positive_method": "staff",
+      "section_helper": "hr_certification",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-006",
@@ -802,7 +997,10 @@
       "classification": "BLOCKED",
       "reason": "Add Vehicle may persist; safe reset and exact format/duplicate business rules unavailable.",
       "source": "pages/tsp_application_page.py:672::transport; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "transport"
+      "positive_method": "transport",
+      "section_helper": "transport_details",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-007",
@@ -814,7 +1012,10 @@
       "classification": "BLOCKED",
       "reason": "Upload/write/retry semantics and complete row states unverified. Current POM intentionally blocks uploads; Save Draft requires separate checkpoint approval.",
       "source": "pages/tsp_application_page.py:695::documents; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "documents"
+      "positive_method": "documents",
+      "section_helper": "documents",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-008",
@@ -826,7 +1027,10 @@
       "classification": "BLOCKED",
       "reason": "Requires verified document prerequisites and validation/save handler; changing acceptance and progression may persist.",
       "source": "pages/tsp_application_page.py:862::declaration; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "declaration"
+      "positive_method": "declaration",
+      "section_helper": "declaration",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     },
     {
       "id": "TSP-POS-009",
@@ -838,7 +1042,10 @@
       "classification": "BLOCKED",
       "reason": "Cannot safely reach preview; Edit/back navigation persistence and complete section-scoped assertions unverified. Final Submit prohibited.",
       "source": "pages/tsp_application_page.py:868::verify_preview; tests/tsp/test_tsp_application.py:21",
-      "positive_method": "verify_preview"
+      "positive_method": "verify_preview",
+      "section_helper": "preview",
+      "scenario_helper": "positive (guarded existing POM operation)",
+      "implementation_note": "UI helper implemented; unresolved action contracts still block dispatch."
     }
   ]
 }

@@ -1,54 +1,6 @@
 [
   {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_application_type_required",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_application_type_required"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_applicant_validation",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_applicant_validation"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_applicant_conditional_fields",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_applicant_conditional_fields"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_office_validation_and_selection",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_office_validation_and_selection"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_staff_required_fields",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_staff_required_fields"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_staff_qualification_iittm_no",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_staff_qualification_iittm_no"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_vehicle_validation",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_vehicle_validation"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_documents_required_gate",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_documents_required_gate"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_document_upload_validation",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_document_upload_validation"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_declaration_validation",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_declaration_validation"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_preview_and_edit_navigation",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_preview_and_edit_navigation"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_resume_draft_without_duplicates",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_resume_draft_without_duplicates"
-  },
-  {
-    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_form_accessibility",
-    "name": "tests/tsp/test_tsp_mcp_application.py::TestTspMCPApplication::test_form_accessibility"
+    "nodeid": "tests/tsp/test_tsp_application.py::test_tsp_all_fields_without_submission",
+    "name": "tests/tsp/test_tsp_application.py::test_tsp_all_fields_without_submission"
   }
 ]
