@@ -1108,9 +1108,6 @@ class TspApplicationPage:
         self.next_section('Transport Details')
 
 
-
-    
-
     
     def transport(self):
         self.at('Transport Details')
@@ -1131,47 +1128,111 @@ class TspApplicationPage:
         )
 
         # ==================================================
-        # EXISTING DRAFT: VERIFY ONLY
-        # ==================================================
+    # EXISTING DRAFT: VERIFY ONLY
+    # ==================================================
 
         if self.resumed_existing_draft:
 
-            if yes.is_checked():
-                pass
-            elif no.is_checked():
+            try:
+                yes_selected = yes.is_checked()
+                no_selected = no.is_checked()
+            except Exception:
                 self.block(
-                    'Existing draft has Transport set to No. '
-                    'Vehicle record cannot be verified.'
-                )
-            else:
-                self.block(
-                    'Existing draft Transport selection is not verified.'
-                )
-
-            if rows.count() != 1:
-                self.block(
-                    'Existing draft must contain exactly one vehicle record. '
+                    'Existing Transport selection could not be verified. '
                     'No vehicle was modified.'
                 )
 
-            if matching.count() != 1:
-                self.block(
-                    'Configured vehicle registration was not found '
-                    'in the existing draft. No vehicle was modified.'
+            if yes_selected and not no_selected:
+
+                def normalize(value):
+                    return re.sub(
+                        r'[^A-Z0-9]',
+                        '',
+                        str(value).upper()
+                    )
+
+                expected_registration = normalize(d['registration'])
+                matching_rows = []
+
+                for row in rows.all():
+                    cell_values = [
+                        normalize(value)
+                        for value in row.locator('td').all_text_contents()
+                    ]
+
+                    if expected_registration in cell_values:
+                        matching_rows.append(row)
+
+                if len(matching_rows) != 1:
+                    self.block(
+                        'Transport is Yes, but the configured vehicle '
+                        'registration did not match exactly one table row. '
+                        'No vehicle was modified.'
+                    )
+
+                vehicle_row = matching_rows[0]
+
+                actual_values = [
+                    value.strip()
+                    for value in vehicle_row.locator('td').all_text_contents()
+                ]
+
+                normalized_values = [
+                    normalize(value) for value in actual_values
+                ]
+
+                # Verify vehicle type, registration and ownership.
+                for key in ('type', 'registration', 'ownership'):
+
+                    expected_value = normalize(d[key])
+
+                    if expected_value not in normalized_values:
+                        self.block(
+                            'Existing Transport vehicle verification failed for: '
+                            + key +
+                            '. No vehicle was modified.'
+                        )
+
+            # Verify capacity using the actual CAPACITY column (index 3).
+                capacity_cell = vehicle_row.locator('td').nth(3)
+
+                expected_capacity = re.search(
+                    r'\d+(?:\.\d+)?',
+                    str(d['capacity'])
                 )
 
-            for key in ('type', 'registration', 'capacity', 'ownership'):
-                expect(
-                    matching.get_by_role(
-                        'cell',
-                        name=d[key],
-                        exact=True
+                actual_capacity = re.search(
+                    r'\d+(?:\.\d+)?',
+                    capacity_cell.inner_text().strip()
+                )
+
+                if (
+                    expected_capacity is None
+                    or actual_capacity is None
+                    or float(expected_capacity.group())
+                    != float(actual_capacity.group())
+                ):
+                    self.block(
+                        'Existing Transport vehicle capacity does not match '
+                        'the configured value. No vehicle was modified.'
                     )
-                ).to_have_count(1)
+
+            elif no_selected and not yes_selected:
+
+                if rows.count() != 0:
+                    self.block(
+                        'Transport is No, but vehicle records exist in the '
+                        'existing draft. No vehicle was modified.'
+                    )
+
+            else:
+                self.block(
+                    'Existing Transport Yes/No selection is missing or '
+                    'ambiguous. No vehicle was modified.'
+                )
 
             self.next_section('Documents')
             return
-
         # ==================================================
         # FRESH APPLICATION
         # ==================================================
@@ -1236,20 +1297,25 @@ class TspApplicationPage:
         self.next_section('Documents')
 
 
+    
     def documents(self):
         self.at('Documents')
 
+        # ==================================================
+        # EXISTING DRAFT: VERIFY ONLY
+        # FRESH APPLICATION: CHECKPOINT + UPLOAD
+        # ==================================================
 
-        # Unsupported upload semantics stop before any save/upload. Once verified,
-        # the explicit checkpoint saves only on a visible requirement and approval.
-        self.require_verified_upload_contract()
-        self.positive_document_checkpoint()
+        if not self.resumed_existing_draft:
+            self.require_verified_upload_contract()
+            self.positive_document_checkpoint()
 
         for number, relative in self.data['documents'].items():
             filename = Path(relative).name
 
-            with self.private_step(f'Populate document checklist entry {number}'):
-
+            with self.private_step(
+                f'Populate document checklist entry {number}'
+            ):
 
                 row = self.content.locator('.doc-item').filter(
                     has=self.page.locator(
@@ -1259,27 +1325,51 @@ class TspApplicationPage:
 
                 expect(row).to_have_count(1)
 
-
                 lines = {
                     line.strip()
                     for line in row.inner_text().splitlines()
                 }
 
-                # Check whether the document is already uploaded.
-                if lines.intersection({'Uploaded', '- Uploaded'}):
+                uploaded = bool(
+                    lines.intersection({'Uploaded', '- Uploaded'})
+                )
 
-                    uploaded_names = [
-                        line for line in lines
-                        if self.document_filename_matches(filename, line)
-                    ]
+                uploaded_names = [
+                    line for line in lines
+                    if self.document_filename_matches(filename, line)
+                ]
+
+                # ==================================================
+                # EXISTING DRAFT: READ-ONLY VERIFICATION
+                # ==================================================
+
+                if self.resumed_existing_draft:
+
+                    if not uploaded:
+                        self.block(
+                            'Existing draft document is not uploaded: '
+                            + filename +
+                            '. No upload or replacement was attempted.'
+                        )
 
                     if not uploaded_names:
                         self.block(
-                            'Existing document identity could not be verified; no replacement permitted.'
+                            'Existing document identity could not be verified: '
+                            + filename +
+                            '. No replacement permitted.'
                         )
 
+                    expect(row).not_to_contain_text('Pending Upload')
 
-                else:
+                    # Do not upload, retry, replace or save existing documents.
+                    continue
+
+                # ==================================================
+                # FRESH APPLICATION: UPLOAD IF REQUIRED
+                # ==================================================
+
+                if not uploaded:
+
                     upload = row.locator(
                         f'input[onchange="handleDocUpload({number}, this)"]'
                     )
@@ -1293,12 +1383,8 @@ class TspApplicationPage:
                             'Configured document fixture is unavailable.'
                         )
 
-
                     upload.set_input_files(str(file_path))
 
-
-
-                    # A retry control alone does not establish duplicate-safe delivery.
                     retry_button = row.get_by_role(
                         'button',
                         name='Retry Upload',
@@ -1306,7 +1392,10 @@ class TspApplicationPage:
                     )
 
                     if retry_button.is_visible():
-                        self.block('Upload retry blocked: prior attempt outcome and idempotency unverified.')
+                        self.block(
+                            'Upload retry blocked: prior attempt outcome '
+                            'and idempotency unverified.'
+                        )
 
                 # Verify upload status and filename.
                 deadline = time.monotonic() + 90
@@ -1332,7 +1421,9 @@ class TspApplicationPage:
 
                         if (
                             uploaded_names
-                            and lines.intersection({'Uploaded', '- Uploaded'})
+                            and lines.intersection(
+                                {'Uploaded', '- Uploaded'}
+                            )
                         ):
                             uploaded_filename = uploaded_names[0]
                             break
@@ -1345,37 +1436,18 @@ class TspApplicationPage:
                         'No dependent action was performed.'
                     )
 
-
                 expect(row).not_to_contain_text('Pending Upload')
 
+        # ==================================================
+        # FINAL DOCUMENT CHECK
+        # ==================================================
 
         expect(self.content).to_contain_text(
             '11 of 11 applicable documents uploaded'
         )
 
-
         self.next_section('Declaration')
 
-
-
-    # def documents(self):
-    #     self.at('Documents')
-    #     for number, relative in self.data['documents'].items():
-    #         with self.private_step(f'Populate document checklist entry {number}'):
-    #             # Stable document identity, never positional file inputs: uploads remove inputs.
-    #             row = self.content.locator('.doc-item').filter(
-    #                 has=self.page.locator(f'button[onclick="viewDoc({number})"]'))
-    #             expect(row).to_have_count(1)
-    #             if {line.strip() for line in row.inner_text().splitlines()}.intersection({'Uploaded', '- Uploaded'}):
-    #                 expect(row).to_contain_text(Path(relative).name)
-    #             else:
-    #                 upload = row.locator(f'input[onchange="handleDocUpload({number}, this)"]')
-    #                 expect(upload).to_have_count(1)
-    #                 upload.set_input_files(str(ROOT / relative))
-    #             self.wait_for_upload(Path(relative).name, row=row)
-    #             expect(row).not_to_contain_text('Pending Upload')
-    #     expect(self.content).to_contain_text('11 of 11 applicable documents uploaded')
-    #     self.next_section('Declaration')
 
     def declaration(self):
         self.at('Declaration')

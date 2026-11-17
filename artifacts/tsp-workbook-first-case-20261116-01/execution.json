@@ -1,0 +1,21 @@
+{
+  "case_id": "TSPD-003",
+  "status": "BLOCKED",
+  "pytest_status": "skipped",
+  "ui_execution": "NOT RUN",
+  "credential_configuration": {
+    "TSP_EMAIL": true,
+    "TSP_PASSWORD": true
+  },
+  "account_freshness": "Not verified during this preflight; configuration does not establish backend state.",
+  "reason": "Prepared independent read-only section state and case-specific DOM/locator evidence are missing. Existing section methods mutate or navigate and cannot be used as setup.",
+  "expected_result": "User should be navigated to a TSP registration/application form screen (equivalent in role to the Hotelier's property registration form); 'Apply' item becomes highlighted/active in sidebar.",
+  "actual_result": "Case invoked once; existing classification gate skipped before browser setup, login or page-object construction. No application UI observed.",
+  "allure_result": "allure-results\\tsp-workbook-first-case-20261116-01\\50a13e3c-3400-42b6-aa48-ba0c603beb23-result.json",
+  "screenshots": "None: browser was not opened.",
+  "workbook_status": "NOT RUN",
+  "workbook_update": "Unchanged because no UI execution occurred.",
+  "retries": 0,
+  "parallel_execution": false,
+  "application_actions": 0
+}

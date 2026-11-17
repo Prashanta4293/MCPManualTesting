@@ -1,0 +1,11 @@
+{
+  "case_id": "TSPD-003",
+  "status": "FAIL",
+  "login_verified": false,
+  "apply_clicked": false,
+  "freshness_verified": false,
+  "initialization_authorized": false,
+  "actual": "Attended setup or landing verification failed; private details suppressed. No automatic retry.",
+  "expected": "User should be navigated to a TSP registration/application form screen (equivalent in role to the Hotelier's property registration form); 'Apply' item becomes highlighted/active in sidebar.",
+  "application_state": "No form action dispatched. Backend state not independently measured."
+}

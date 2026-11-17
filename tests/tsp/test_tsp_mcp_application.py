@@ -1,7 +1,10 @@
-"""One sequential TSP test, with eight section helpers and fail-closed action gates.
+"""Workbook-derived tests, grouped by eight sections, with explicit blockers.
 
-Static implementation is not execution evidence. Fresh-account preflight is manual;
-missing application handler/persistence contracts block before browser setup.
+The prior sequential implementation is retained below but excluded from collection:
+its old TSP-APP/TSP-POS IDs no longer belong to the authoritative workbook.
+No source-review status constitutes execution evidence or mutation authorization.
+Workbook classes delegate browser access through workbook_case_support to
+TspMcpApplicationPage; case-specific assertions and metadata stay in support.
 """
 import json
 import math
@@ -30,6 +33,7 @@ ROOT = Path(__file__).resolve().parents[2]
 @allure.epic('Odisha Tourism')
 @allure.feature('Sequential TSP application')
 class TestTSPApplicationFlow:
+    __test__ = False  # Retain prior code; do not collect obsolete scenario IDs.
     @allure.title('TSP-SEQ-001 Eight-section sequential negative and positive flow')
     def test_tsp_sequential_flow(self, request):
         inventory = json.loads((ROOT / 'data/tsp_sequential_scenarios.json').read_text(encoding='utf-8'))
@@ -148,3 +152,79 @@ class TestTSPApplicationFlow:
                         raise AssertionError('Sequential reporting failed; private details suppressed.') from None
                 if not preserving_exception and (cleanup_failed or ledger.reporting_errors):
                     raise AssertionError('Sequential reporting or cleanup failed; private details suppressed.') from None
+
+
+# Only these workbook-backed classes are collected. Legacy orchestration stays dormant.
+from workbook_case_support import run_case, section_ids
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookApplicationType:
+    @pytest.mark.parametrize('case_id', section_ids('Application Type'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookApplicantDetails:
+    @pytest.mark.parametrize('case_id', section_ids('Applicant Details'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookOfficeDetails:
+    @pytest.mark.parametrize('case_id', section_ids('Office Details'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookHRCertification:
+    @pytest.mark.parametrize('case_id', section_ids('HR & Certification'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookTransportDetails:
+    @pytest.mark.parametrize('case_id', section_ids('Transport Details'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookDocuments:
+    @pytest.mark.parametrize('case_id', section_ids('Documents'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookDeclaration:
+    @pytest.mark.parametrize('case_id', section_ids('Declaration'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
+
+
+@pytest.mark.tsp_application
+@pytest.mark.regression
+@pytest.mark.flaky(reruns=0)
+class TestWorkbookPreviewSubmit:
+    @pytest.mark.parametrize('case_id', section_ids('Preview & Submit'), ids=str)
+    def test_case(self, request, case_id):
+        run_case(request, case_id)
