@@ -77,6 +77,89 @@ class TspMcpApplicationPage:
                 raise AssertionError('TSP MCP login failed at ' + self.login_stage +
                                      '; private details suppressed.') from None
 
+    def login_verified_attended(self) -> None:
+        """Attended login using a dedicated Verified TSP test account."""
+        with allure.step('Verified TSP attended login with manual CAPTCHA'):
+            try:
+                self.login_stage = 'Load UAT home page'
+                self.page.goto(
+                    self.ORIGIN + '/en/home',
+                    wait_until='domcontentloaded'
+                )
+
+                self.login_stage = 'Open profile login popup'
+                self.page.locator('#otUserIconBtn').click()
+
+                self.login_stage = 'Select TSP user type'
+                self.page.get_by_role('button', name='TSP', exact=True).click()
+
+                self.login_stage = 'Enter verified TSP email'
+                email = self.page.locator('#otLoginEmail')
+                email.evaluate(
+                    "e => e.style.setProperty('-webkit-text-security','disc','important')"
+                )
+                email.fill(os.environ['TSP_VERIFIED_USERNAME'])
+
+                self.login_stage = 'Enter verified TSP password'
+                self.page.locator('#otLoginPassword').fill(
+                    os.environ['TSP_VERIFIED_PASSWORD']
+                )
+
+                self.login_stage = 'Focus manual CAPTCHA'
+                self.page.locator('#otLoginCaptchaInput').focus()
+
+                print(
+                    'Enter CAPTCHA in the visible browser. '
+                    'Type CONFIRM here to click Login once.',
+                    flush=True
+                )
+
+                try:
+                    confirmation = input().strip()
+                except (EOFError, OSError):
+                    confirmation = ''
+
+                if confirmation != 'CONFIRM':
+                    pytest.skip(
+                        'Explicit CAPTCHA confirmation not received; no login submitted.'
+                    )
+
+                self.login_stage = 'Verify CAPTCHA entered'
+                assert self.page.locator(
+                    '#otLoginCaptchaInput'
+                ).evaluate('(e) => e.value.trim().length > 0')
+
+                self.login_stage = 'Click Login once'
+                self.page.locator('#otLoginSubmit').click()
+
+                self.login_stage = 'Verify authenticated dashboard'
+                expect(self.page).to_have_url(
+                    re.compile(
+                        r'^' + re.escape(self.ORIGIN) +
+                        r'/en/tsp-dashboard(?:[?#].*)?$'
+                    ),
+                    timeout=30000
+                )
+
+                self.page.wait_for_function(
+                    '() => window.Liferay?.ThemeDisplay?.isSignedIn?.() === true'
+                )
+
+                expect(
+                    self.page.locator('#otLoginSubmit')
+                ).not_to_be_visible()
+
+                self.authenticated = True
+                self.login_stage = 'Verified TSP authenticated dashboard'
+
+            except pytest.skip.Exception:
+                raise
+            except Exception:
+                raise AssertionError(
+                    'Verified TSP login failed at ' + self.login_stage +
+                    '; private details suppressed.'
+                ) from None
+
     def verify_authenticated_landing(self) -> None:
         """Existing login postconditions, inspected without navigation."""
         expect(self.page).to_have_url(re.compile(

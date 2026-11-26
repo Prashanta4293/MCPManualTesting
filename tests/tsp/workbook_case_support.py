@@ -368,6 +368,169 @@ def attended_banner_apply_case(request, case):
 
 
 
+
+def attended_verified_banner_case(request, case):
+    """TSPD-012: Verify banner action for an already-verified TSP."""
+
+    if (
+        not request.config.getoption('--tsp-attended')
+        or request.config.getoption('capture') != 'no'
+    ):
+        pytest.skip('Use --tsp-attended and -s.')
+
+    if os.getenv('DEBUG') or os.getenv('PWDEBUG'):
+        pytest.skip('Disable debug logging before private login.')
+
+    load_dotenv(ROOT / '.env', override=True)
+
+    # Validate dedicated Verified TSP credentials.
+    if not all(
+        os.getenv(key, '').strip()
+        for key in (
+            'TSP_VERIFIED_USERNAME',
+            'TSP_VERIFIED_PASSWORD'
+        )
+    ):
+        pytest.skip('Verified TSP credentials are missing.')
+
+    stamp = (
+        datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+        + '-'
+        + uuid4().hex[:8]
+    )
+
+    folder = ROOT / 'artifacts' / ('tspd-012-' + stamp)
+    folder.mkdir(parents=True, exist_ok=False)
+
+    record = {
+        'case_id': 'TSPD-012',
+        'status': 'NOT RUN',
+        'login_verified': False,
+        'approved_status_verified': False,
+        'banner_visible': False,
+        'banner_disabled': False,
+        'actual': 'Test not completed.',
+        'expected': case['source']['Expected result']
+    }
+
+    browser = context = page = None
+
+    try:
+        driver = request.getfixturevalue('playwright')
+
+        browser = driver.chromium.launch(headless=False)
+
+        context = browser.new_context(
+            viewport={'width': 1366, 'height': 900}
+        )
+
+        context.set_default_timeout(15000)
+        context.set_default_navigation_timeout(60000)
+
+        page = context.new_page()
+
+        # Register the manually created page for failure screenshots.
+        def cleanup_browser():
+            if context is not None:
+                context.close()
+
+            if browser is not None:
+                browser.close()
+
+        register_page = request.getfixturevalue(
+            'allure_failure_screenshots'
+        )
+
+        register_page(
+            page,
+            cleanup=cleanup_browser
+        )
+
+        # Login using the dedicated Verified TSP account.
+        form = TspMcpApplicationPage(page)
+        form.login_verified_attended()
+
+        # Verify authenticated dashboard landing.
+        form.verify_authenticated_landing()
+        record['login_verified'] = True
+
+        # Verify Approved Status is Verified.
+        verified_status = page.get_by_text(
+            'Verified',
+            exact=True
+        )
+
+        expect(verified_status.first).to_be_visible()
+        record['approved_status_verified'] = True
+
+        # Apply for Recognition is an anchor, not a button.
+        banner = page.locator('a[data-tsp="applyBtn"]')
+
+        expect(banner).to_be_visible()
+        record['banner_visible'] = True
+
+        # Verify disabled CSS class.
+        expect(banner).to_have_class(
+            'btn btn-primary-custom rounded-pill px-4 disabled'
+        )
+
+        # Verify accessibility disabled state.
+        expect(banner).to_have_attribute(
+            'aria-disabled',
+            'true'
+        )
+
+        record['banner_disabled'] = True
+
+        # Observation-only test. Never click the link.
+        record['status'] = 'PASS'
+        record['actual'] = (
+            'Login successful. Approved Status displays Verified. '
+            'Apply for Recognition link is visible and disabled '
+            'using disabled CSS class and aria-disabled=true. '
+            'Link was not clicked.'
+        )
+
+    except pytest.skip.Exception:
+        raise
+
+    except Exception:
+        record['status'] = 'FAIL'
+        record['actual'] = (
+            'TSPD-012 failed during login or dashboard verification. '
+            'Private details suppressed. No automatic retry.'
+        )
+
+        raise AssertionError(
+            'TSPD-012 failed; private details suppressed.'
+        ) from None
+
+    finally:
+        try:
+            body = json.dumps(record, indent=2)
+
+            (folder / 'execution.json').write_text(
+                body,
+                encoding='utf-8'
+            )
+
+            allure.attach(
+                body,
+                'TSPD-012 execution evidence',
+                allure.attachment_type.JSON
+            )
+
+        finally:
+            # Browser cleanup is handled by the shared fixture.
+            # Keep the page open until failure screenshot capture.
+            pass
+
+
+
+
+
+
+
 def run_case(request, case_id):
     case = CASES[case_id]
     # Do not attach full source data: it contains historical applicant examples.

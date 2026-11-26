@@ -1,4 +1,5 @@
 from workbook_case_support import (
+    attended_verified_banner_case,
     run_case,
     section_ids,
     attended_apply_case,
@@ -271,9 +272,11 @@ class TestWorkbookApplicationType:
             attended_apply_case(request, CASES[case_id])
         elif case_id == 'TSPD-011':
             attended_banner_apply_case(request, CASES[case_id])
+        elif case_id == 'TSPD-012':
+            attended_verified_banner_case(request, CASES[case_id])    
         else:
             run_case(request, case_id)
-
+        
 
 
 @pytest.mark.tsp_application

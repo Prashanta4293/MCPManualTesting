@@ -1,0 +1,10 @@
+{
+  "case_id": "TSPD-012",
+  "status": "FAIL",
+  "login_verified": true,
+  "approved_status_verified": false,
+  "banner_visible": false,
+  "banner_enabled": false,
+  "actual": "TSPD-012 failed during login or dashboard verification. Private details suppressed. No automatic retry.",
+  "expected": "When the TSP's Approved Status is `Verified`, the `Apply for Recognition` button should remain visible but disabled. The user should not be able to click the button or initiate another recognition application."
+}

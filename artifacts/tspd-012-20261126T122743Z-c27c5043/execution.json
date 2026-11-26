@@ -1,0 +1,10 @@
+{
+  "case_id": "TSPD-012",
+  "status": "PASS",
+  "login_verified": true,
+  "approved_status_verified": true,
+  "banner_visible": true,
+  "banner_disabled": true,
+  "actual": "Login successful. Approved Status displays Verified. Apply for Recognition link is visible and disabled using disabled CSS class and aria-disabled=true. Link was not clicked.",
+  "expected": "When the TSP's Approved Status is `Verified`, the `Apply for Recognition` button should remain visible but disabled. The user should not be able to click the button or initiate another recognition application."
+}

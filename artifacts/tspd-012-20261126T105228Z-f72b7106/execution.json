@@ -1,0 +1,10 @@
+{
+  "case_id": "TSPD-012",
+  "status": "FAIL",
+  "login_verified": true,
+  "approved_status_verified": false,
+  "banner_visible": false,
+  "banner_enabled": false,
+  "actual": "TSPD-012 failed during login or dashboard verification. Private details suppressed. No automatic retry.",
+  "expected": "Confirm with product/requirements whether this button should remain available for an already-verified TSP (e.g. to apply for an additional license/category or renewal) or whether it should change label/behavior (e.g. to 'Renew Certification' or 'Apply for Additional License') once a TSP is already certified, since showing a generic 'Apply for Certification' CTA to an already-verified provider may be confusing."
+}
