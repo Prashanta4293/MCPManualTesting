@@ -1,6 +1,6 @@
 {
   "workbook": "manual_test_cases/TSP_Application_Test_Cases.xlsx",
-  "workbook_sha256": "cb6e20988c5ca1ac9fc90cb40004ae3a130808f313c6e0034b82f4c7590991db",
+  "workbook_sha256": "42108009ef2c897f9e4be453bc9a1b4872adacc476787dcec64beee449855a34",
   "source_sheets": [
     "TSP Test Cases"
   ],
@@ -34,8 +34,11 @@
       "validator": null,
       "implementation": "BLOCKED_NO_UI_IMPLEMENTATION",
       "execution_status": "NOT RUN",
-      "test_data_reference": "TSP Test Cases!K2",
-      "expected_result_reference": "TSP Test Cases!L2"
+      "test_data_reference": "TSP Test Cases!D2",
+      "expected_result_reference": "TSP Test Cases!F2",
+      "scenario_reference": "TSP Test Cases!C2",
+      "preconditions_reference": "TSP Test Cases!D2",
+      "test_steps_reference": "TSP Test Cases!E2"
     },
     {
       "id": "TSPD-011",
@@ -64,8 +67,11 @@
       "validator": null,
       "implementation": "BLOCKED_NO_UI_IMPLEMENTATION",
       "execution_status": "NOT RUN",
-      "test_data_reference": "TSP Test Cases!K3",
-      "expected_result_reference": "TSP Test Cases!L3"
+      "test_data_reference": "TSP Test Cases!D3",
+      "expected_result_reference": "TSP Test Cases!F3",
+      "scenario_reference": "TSP Test Cases!C3",
+      "preconditions_reference": "TSP Test Cases!D3",
+      "test_steps_reference": "TSP Test Cases!E3"
     },
     {
       "id": "TSPD-012",

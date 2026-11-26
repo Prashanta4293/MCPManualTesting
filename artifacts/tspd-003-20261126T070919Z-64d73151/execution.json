@@ -1,0 +1,9 @@
+{
+  "case_id": "TSPD-003",
+  "status": "PASS",
+  "login_verified": true,
+  "apply_clicked": true,
+  "application_opened": true,
+  "actual": "Login successful. Apply clicked once. TSP Application Type screen opened successfully.",
+  "expected": "User should be navigated to a TSP registration/application form screen (equivalent in role to the Hotelier's property registration form); 'Apply' item becomes highlighted/active in sidebar."
+}

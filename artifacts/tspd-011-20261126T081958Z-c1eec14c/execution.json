@@ -1,0 +1,11 @@
+{
+  "case_id": "TSPD-011",
+  "status": "PASS",
+  "login_verified": true,
+  "home_clicked": true,
+  "banner_visible": true,
+  "banner_clicked": true,
+  "application_opened": true,
+  "actual": "Login successful. Home clicked once. Apply for Recognition banner clicked once. TSP Application Type screen opened successfully.",
+  "expected": "User should be navigated to the same TSP application form reached via the sidebar 'Apply' link (see TSPD-003)."
+}

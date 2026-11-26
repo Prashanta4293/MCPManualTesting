@@ -1,6 +1,10 @@
 [
   {
-    "nodeid": "tests/tsp/test_tsp_application.py::test_tsp_all_fields_without_submission",
-    "name": "tests/tsp/test_tsp_application.py::test_tsp_all_fields_without_submission"
+    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestWorkbookApplicationType::test_case[TSPD-003]",
+    "name": "tests/tsp/test_tsp_mcp_application.py::TestWorkbookApplicationType::test_case[TSPD-003]"
+  },
+  {
+    "nodeid": "tests/tsp/test_tsp_mcp_application.py::TestWorkbookApplicationType::test_case[TSPD-011]",
+    "name": "tests/tsp/test_tsp_mcp_application.py::TestWorkbookApplicationType::test_case[TSPD-011]"
   }
 ]
